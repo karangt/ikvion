@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://karangt.github.io',
-  base: '/ikvion',
+  base: '/ikvion/',
   vite: {
     plugins: [tailwindcss()]
   }

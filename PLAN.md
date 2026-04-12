@@ -275,8 +275,14 @@ ikvion/
 ## Open Questions
 
 1. **Product images** — Are high-res individual product photos available, or should we extract/crop from the brochure PDF?
+    [Karan] Yes, extract from the pdf
 2. **About page content** — Is there additional company story/history text beyond what's in the brochure?
+    [Karan] No
 3. **Domain** — Is `ikvion.com` already owned and ready to point to the deployment?
+    [Karan] Yes
 4. **Analytics** — Should Google Analytics or similar be set up?
+    [Karan] Yes
 5. **Languages** — English only, or multilingual support needed?
+    [Karan] English is fine for now
 6. **WhatsApp integration** — Should there be a floating WhatsApp button for inquiries (common for Indian exporters)?
+    [Karan] Maybe later
