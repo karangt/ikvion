@@ -1,43 +1,94 @@
-# Astro Starter Kit: Minimal
+# Ikvion — Orthopedic Soft Goods & Rehabilitation Aids
 
-```sh
-npm create astro@latest -- --template minimal
+Static marketing website for **Ikvion Group of Companies**, an exporter of orthopedic soft goods and rehabilitation aids based in Pune, Maharashtra, India.
+
+**Live site:** [www.ikvion.com](https://www.ikvion.com)
+
+---
+
+## Tech Stack
+
+| Layer | Choice |
+|---|---|
+| Framework | [Astro](https://astro.build) |
+| Styling | [Tailwind CSS](https://tailwindcss.com) |
+| Hosting | GitHub Pages (via GitHub Actions) |
+| Contact Form | [Web3Forms](https://web3forms.com) |
+
+## Project Structure
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
+ikvion/
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/
+│   │   ├── Header.astro
+│   │   └── Footer.astro
+│   ├── layouts/
+│   │   └── BaseLayout.astro
+│   ├── pages/
+│   │   ├── index.astro           # Home
+│   │   ├── about.astro           # About
+│   │   ├── contact/
+│   │   │   └── index.astro       # Contact form (Web3Forms)
+│   │   └── products/
+│   │       ├── index.astro       # All categories overview
+│   │       └── [category].astro  # Dynamic category pages
+│   └── content/
+│       └── products/             # JSON data — one file per category (11 total)
+├── public/
+│   ├── robots.txt
+│   └── images/
+│       └── products/             # 60 product images organized by category/SKU
+├── astro.config.mjs
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Pages
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| Route | Description |
+|---|---|
+| `/` | Home — hero, category grid, certifications, stats |
+| `/about` | Company story, mission, certifications |
+| `/products` | All 11 product categories |
+| `/products/[category]` | Individual category pages with product cards |
+| `/contact` | Contact form and company details |
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Product Categories
 
-## 🧞 Commands
+Neck Aids · Shoulder Aids · Forearm & Wrist Aids · Finger Aids · Chest, Rib & Back Aids · Abdomen & Pelvic Aids · Knee & Calf Aids · Ankle Aids · Foot Aids · Traction Kit & Comfort Aids · Walking Aids
 
-All commands are run from the root of the project, from a terminal:
+60 products across 11 categories.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Development
 
-## 👀 Want to learn more?
+```sh
+npm install
+npm run dev        # Start dev server at localhost:4321
+npm run build      # Build to ./dist/
+npm run preview    # Preview production build locally
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Deployment
+
+The site deploys automatically to GitHub Pages on every push to `main` via GitHub Actions.
+
+> **Note:** The Astro config uses `base: '/ikvion/'` for GitHub Pages compatibility. Once the custom domain (`ikvion.com`) is pointed to GitHub Pages, remove the `base` option from `astro.config.mjs` so canonical URLs and the sitemap resolve correctly.
+
+## Configuration
+
+A few values need to be set before the site is fully operational:
+
+- **Web3Forms access key** — Replace `YOUR_ACCESS_KEY_HERE` in `src/pages/contact/index.astro` with the key from [web3forms.com](https://web3forms.com) (use `info@ikvion.com`).
+- **Google Analytics** — Replace `G-XXXXXXXXXX` in `src/layouts/BaseLayout.astro` with the real GA4 Measurement ID.
+- **Google Maps** — Embed pending on the contact page.
+
+## SEO
+
+- Sitemap auto-generated at `/sitemap-index.xml` via `@astrojs/sitemap`
+- `robots.txt` at `/robots.txt`
+- Canonical URLs, Open Graph, Twitter Card, and JSON-LD structured data on all pages
+- Organization, Product, ItemList, and LocalBusiness schemas
+
+## License
+
+All rights reserved. © Ikvion Group of Companies.
