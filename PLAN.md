@@ -260,18 +260,35 @@ ikvion/
 - [ ] Responsive design audit (mobile, tablet, desktop)
 - [x] Product images extracted from brochure PDF (60 images across 11 categories)
 - [x] GA4 placeholder snippet added to BaseLayout (commented out — needs real Measurement ID)
-- [ ] SEO meta tags, Open Graph, structured data
+- [x] SEO meta tags, Open Graph, structured data
 - [ ] Performance audit (Lighthouse)
 - [x] Set up GitHub Actions workflow for GitHub Pages deployment
 - [x] Enable GitHub Pages in repo settings (Pages → Source: GitHub Actions)
+
+### Phase 6 — SEO ✅
+- [x] `canonical` URL on every page (points to `https://www.ikvion.com/…`)
+- [x] Open Graph tags — `og:url`, `og:site_name`, `og:locale` added to BaseLayout
+- [x] Twitter Card meta tags on every page
+- [x] `meta name="author"` and `meta name="robots"` on every page
+- [x] Organization JSON-LD schema injected site-wide via BaseLayout
+- [x] ItemList + Product JSON-LD on all 11 product category pages
+- [x] LocalBusiness JSON-LD on contact page
+- [x] Home page title fixed: "Ikvion | Orthopedic Soft Goods & Rehabilitation Aids Exporter — Pune, India"
+- [x] Descriptions expanded with product keywords across home, category, and contact pages
+- [x] `@astrojs/sitemap` installed — `sitemap-index.xml` auto-generated at build (15 pages)
+- [x] `public/robots.txt` created — `Allow: /`, points crawlers to sitemap
+- [x] Canonical `site` set to `https://www.ikvion.com` in `astro.config.mjs`
 
 ### Pending / Next Steps
 - [ ] Activate Web3Forms — get free access key at web3forms.com (enter info@ikvion.com) and replace `YOUR_ACCESS_KEY_HERE` in `src/pages/contact/index.astro`
 - [ ] Add Google Analytics — replace `G-XXXXXXXXXX` in BaseLayout.astro with real GA4 Measurement ID
 - [ ] Google Maps embed on contact page
 - [ ] DNS — point `ikvion.com` to GitHub Pages deployment
+  - After DNS: change `base: '/ikvion/'` → `base: '/'` in `astro.config.mjs` so canonical/sitemap URLs drop the `/ikvion/` prefix
+- [ ] Submit sitemap to Google Search Console (`https://www.ikvion.com/sitemap-index.xml`)
+- [ ] Add OG image (`public/og-image.png`, 1200×630) and wire `og:image` in BaseLayout
 - [ ] Responsive design audit
-- [ ] SEO / Open Graph / Lighthouse audit
+- [ ] Performance audit (Lighthouse)
 
 ---
 
@@ -283,3 +300,4 @@ ikvion/
 - **Analytics** — GA4 placeholder in `BaseLayout.astro`; activate by replacing `G-XXXXXXXXXX`
 - **Languages** — English only for now
 - **WhatsApp button** — Deferred (maybe later)
+- **SEO canonical URLs** — Currently include `/ikvion/` prefix (e.g. `https://www.ikvion.com/ikvion/products/`) because `base: '/ikvion/'` is needed for GitHub Pages. Remove `base` when custom domain goes live.

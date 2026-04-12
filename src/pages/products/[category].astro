@@ -28,9 +28,37 @@ export async function getStaticPaths() {
 }
 
 const { data } = Astro.props;
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${data.title} — Ikvion`,
+  description: data.description,
+  itemListElement: data.products.map((product: { sku: string; name: string; sizes: string }, index: number) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    item: {
+      '@type': 'Product',
+      name: product.name,
+      sku: product.sku,
+      description: `${product.name} — Available in sizes: ${product.sizes}`,
+      brand: { '@type': 'Brand', name: 'Ikvion' },
+      offers: {
+        '@type': 'Offer',
+        availability: 'https://schema.org/InStock',
+        priceCurrency: 'USD',
+        seller: { '@type': 'Organization', name: 'Ikvion Group of Companies' },
+      },
+    },
+  })),
+};
 ---
 
-<BaseLayout title={data.title} description={data.description}>
+<BaseLayout
+  title={`${data.title} — Orthopedic Aids`}
+  description={`${data.description} Manufactured by Ikvion, Pune — ISO 9001:2008 & WHO GMP certified exporter.`}
+>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
 
   <!-- Page Header -->
   <div style="background-color: #1B2A4A;" class="py-12 px-4 sm:px-6 lg:px-8">

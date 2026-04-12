@@ -6,14 +6,50 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title?: string;
   description?: string;
+  /** Override the full <title> tag content (skips the "| Ikvion" suffix). */
+  fullTitle?: string;
 }
 
 const {
   title = 'Ikvion Group of Companies',
-  description = 'Ikvion — Orthopedic Soft Goods & Rehabilitation Aids. Supporting Better Mobility.',
+  description = 'Ikvion Group of Companies — ISO-certified manufacturer and exporter of orthopedic soft goods and rehabilitation aids from Pune, India. 60+ products across 11 categories, trusted by healthcare providers in 20+ countries.',
+  fullTitle,
 } = Astro.props;
 
 const base = import.meta.env.BASE_URL;
+const pageTitle = fullTitle ?? `${title} | Ikvion`;
+const canonicalURL = Astro.url.href;
+
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Ikvion Group of Companies',
+  url: 'https://www.ikvion.com',
+  logo: 'https://www.ikvion.com/favicon.svg',
+  email: 'info@ikvion.com',
+  description: 'Manufacturer and exporter of orthopedic soft goods and rehabilitation aids from Pune, India.',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Pune',
+    addressRegion: 'Maharashtra',
+    addressCountry: 'IN',
+  },
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      telephone: '+91-8097197772',
+      contactType: 'sales',
+      areaServed: 'Worldwide',
+    },
+    {
+      '@type': 'ContactPoint',
+      telephone: '+91-9225523334',
+      contactType: 'customer support',
+      areaServed: 'Worldwide',
+    },
+  ],
+  hasCredential: ['ISO 9001:2008', 'WHO GMP', 'CE Marking', 'MSME'],
+};
 ---
 
 <!doctype html>
@@ -22,12 +58,23 @@ const base = import.meta.env.BASE_URL;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="author" content="Ikvion Group of Companies" />
+    <meta name="robots" content="index, follow" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonicalURL} />
 
     <!-- Open Graph -->
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content="Ikvion Group of Companies" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +82,13 @@ const base = import.meta.env.BASE_URL;
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
 
     <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
-    <title>{title} | Ikvion</title>
+    <title>{pageTitle}</title>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+
+    <!-- Per-page structured data injected here -->
+    <slot name="head" />
 
     <!-- Google Analytics — replace G-XXXXXXXXXX with your Measurement ID -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
