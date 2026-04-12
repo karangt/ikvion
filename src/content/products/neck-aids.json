@@ -1,11 +1,75 @@
 {
   "slug": "neck-aids",
   "title": "Neck Aids",
-  "description": "Cervical support braces and collars for neck injury, post-surgery recovery, and pain management.",
+  "description": "Cervical collars and neck supports for post-operative care, whiplash management, and cervical spondylosis.",
   "products": [
-    { "sku": "IK-NA-01", "name": "Cervical Collar with Support", "sizes": "S, M, L, XL" },
-    { "sku": "IK-NA-02", "name": "Philadelphia Collar", "sizes": "S, M, L, XL" },
-    { "sku": "IK-NA-03", "name": "Hard Cervical Collar", "sizes": "S, M, L, XL" },
-    { "sku": "IK-NA-04", "name": "Soft Cervical Collar", "sizes": "S, M, L, XL" }
+    {
+      "sku": "IK-NA-01",
+      "name": "Cervical Collar with Support",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Firm yet comfortable foam construction with adjustable velcro closure",
+        "Breathable fabric cover that reduces heat build-up",
+        "Contoured chin and neck support for anatomical fit",
+        "Washable outer cover for hygiene maintenance"
+      ],
+      "benefits": [
+        "Limits cervical spine movement to promote healing",
+        "Reduces neck muscle strain and fatigue during recovery",
+        "Suitable for post-operative immobilisation and cervical spondylosis",
+        "Lightweight design allows all-day comfortable wear"
+      ]
+    },
+    {
+      "sku": "IK-NA-02",
+      "name": "Philadelphia Collar",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Rigid anterior and posterior polyethylene shells with foam lining",
+        "Ventilation cutouts to maintain airflow and patient comfort",
+        "Adjustable chin height to accommodate different neck lengths",
+        "Hook-and-loop fasteners for easy donning and doffing"
+      ],
+      "benefits": [
+        "Provides firm cervical immobilisation for trauma and post-surgical cases",
+        "Prevents unwanted cervical rotation and flexion",
+        "Commonly used in emergency and hospital settings for spinal precaution",
+        "Durable construction suitable for extended clinical use"
+      ]
+    },
+    {
+      "sku": "IK-NA-03",
+      "name": "Hard Cervical Collar",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Rigid thermoplastic shell for maximum cervical control",
+        "Padded inner liner for patient comfort",
+        "Adjustable height mechanism to fit various neck profiles",
+        "Easy-clean outer surface"
+      ],
+      "benefits": [
+        "Delivers maximum cervical immobilisation for fractures and dislocations",
+        "Reduces risk of secondary spinal injury during transport and rehabilitation",
+        "Supports post-surgical fusion sites to ensure proper healing",
+        "Widely used in orthopaedic and neurosurgical aftercare"
+      ]
+    },
+    {
+      "sku": "IK-NA-04",
+      "name": "Soft Cervical Collar",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Soft polyurethane foam core with smooth fabric cover",
+        "Lightweight and discreet for everyday use",
+        "Velcro closure for easy size adjustment",
+        "Machine-washable cover"
+      ],
+      "benefits": [
+        "Gently restricts neck movement to relieve muscle spasm and soreness",
+        "Provides warmth and proprioceptive support for chronic neck stiffness",
+        "Ideal for managing mild whiplash and cervical muscle strain",
+        "Comfortable enough for prolonged wear throughout the day"
+      ]
+    }
   ]
 }

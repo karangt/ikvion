@@ -1,12 +1,92 @@
 {
   "slug": "forearm-wrist-aids",
   "title": "Forearm & Wrist Aids",
-  "description": "Elbow supports, wrist splints, and braces for forearm and wrist conditions including tennis elbow and carpal tunnel.",
+  "description": "Elbow supports, wrist splints, and wrist braces for tennis elbow, carpal tunnel, post-fracture, and overuse injury management.",
   "products": [
-    { "sku": "IK-FW-01", "name": "Elbow Support", "sizes": "S, M, L" },
-    { "sku": "IK-FW-02", "name": "Tennis Elbow Support", "sizes": "Universal" },
-    { "sku": "IK-FW-03", "name": "Wrist Splint", "sizes": "Universal" },
-    { "sku": "IK-FW-04", "name": "Wrist Brace", "sizes": "Universal" },
-    { "sku": "IK-FW-05", "name": "Wrist Brace with Thumb", "sizes": "Universal" }
+    {
+      "sku": "IK-FW-01",
+      "name": "Elbow Support",
+      "sizes": "S, M, L",
+      "features": [
+        "Neoprene sleeve with targeted compression zone over the elbow",
+        "Non-slip inner silicone lining keeps support in position",
+        "Thin-profile fits under clothing without bulk",
+        "Breathable fabric for extended daytime wear"
+      ],
+      "benefits": [
+        "Provides warmth and compression to reduce elbow joint pain and swelling",
+        "Supports the elbow after contusions, sprains, and minor ligament injuries",
+        "Retains therapeutic heat to relax the surrounding musculature",
+        "Suitable for daily wear during work and light physical activity"
+      ]
+    },
+    {
+      "sku": "IK-FW-02",
+      "name": "Tennis Elbow Support",
+      "sizes": "Universal",
+      "features": [
+        "Targeted pressure pad directly over the common extensor origin",
+        "Adjustable velcro strap allows fine-tuning of compression level",
+        "Breathable neoprene band minimises skin irritation",
+        "Low-profile design does not restrict wrist or elbow movement"
+      ],
+      "benefits": [
+        "Disperses tensile forces away from the inflamed lateral epicondyle",
+        "Reduces forearm extensor muscle activity to relieve pain during gripping",
+        "Effective for both tennis elbow and golfer's elbow",
+        "Allows continued activity while the tendon heals"
+      ]
+    },
+    {
+      "sku": "IK-FW-03",
+      "name": "Wrist Splint",
+      "sizes": "Universal",
+      "features": [
+        "Removable palmar aluminium stay maintains the wrist in neutral position",
+        "Perforated fabric for ventilation and moisture management",
+        "Adjustable velcro straps accommodate swelling and different wrist sizes",
+        "Thumb hole keeps the splint correctly positioned"
+      ],
+      "benefits": [
+        "Immobilises the wrist to relieve pain from carpal tunnel syndrome and tendinitis",
+        "Prevents inadvertent wrist flexion and extension that aggravates symptoms",
+        "Can be worn overnight to manage nocturnal paraesthesia in carpal tunnel syndrome",
+        "Used post-fracture to maintain alignment during conservative management"
+      ]
+    },
+    {
+      "sku": "IK-FW-04",
+      "name": "Wrist Brace",
+      "sizes": "Universal",
+      "features": [
+        "Semi-rigid structure with flexible stays for controlled wrist support",
+        "Wraparound design with multiple velcro closures for a custom fit",
+        "Breathable material suitable for extended daytime wear",
+        "Allows finger movement while restricting excessive wrist motion"
+      ],
+      "benefits": [
+        "Stabilises the wrist joint during rehabilitation from sprains and strains",
+        "Reduces the risk of re-injury during return to work or sport",
+        "Limits painful wrist deviation without fully immobilising the hand",
+        "Suitable for occupational use in repetitive-motion jobs"
+      ]
+    },
+    {
+      "sku": "IK-FW-05",
+      "name": "Wrist Brace with Thumb",
+      "sizes": "Universal",
+      "features": [
+        "Integrated thumb spica extension immobilises the thumb CMC joint",
+        "Removable stays allow customisable rigidity",
+        "Open finger design preserves grip function",
+        "Dual-layer fabric for comfort and durability"
+      ],
+      "benefits": [
+        "Supports De Quervain's tenosynovitis and gamekeeper's thumb injuries",
+        "Restricts thumb and wrist movement simultaneously to protect healing structures",
+        "Reduces pain during pinch and grip activities",
+        "Suitable for post-cast removal rehabilitation and chronic thumb instability"
+      ]
+    }
   ]
 }

@@ -1,13 +1,109 @@
 {
   "slug": "ankle-aids",
   "title": "Ankle Aids",
-  "description": "Ankle supports, braces, foot drop splints, cast shoes, and dynamic response braces for ankle and foot conditions.",
+  "description": "Ankle supports, braces, foot drop splints, cast shoes, and DRB for ankle sprains, ligament injuries, and post-fracture rehabilitation.",
   "products": [
-    { "sku": "IK-AA-01", "name": "Ankle Support", "sizes": "S, M, L, XL" },
-    { "sku": "IK-AA-02", "name": "Anklet With Binder", "sizes": "S, M, L, XL" },
-    { "sku": "IK-AA-03", "name": "Ankle Brace", "sizes": "Universal" },
-    { "sku": "IK-AA-04", "name": "Foot Drop Splint", "sizes": "S, M, L" },
-    { "sku": "IK-AA-05", "name": "Cast Shoes", "sizes": "S, M, L, XL" },
-    { "sku": "IK-AA-06", "name": "DRB", "sizes": "Universal" }
+    {
+      "sku": "IK-AA-01",
+      "name": "Ankle Support",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Elasticated neoprene sleeve for uniform ankle compression",
+        "Figure-of-eight stirrup straps add mediolateral stability",
+        "Low-profile design fits inside standard footwear",
+        "Non-slip inner surface keeps the support correctly positioned"
+      ],
+      "benefits": [
+        "Reduces ankle swelling and pain after ligament sprains",
+        "Provides proprioceptive feedback to improve balance and reduce re-sprain risk",
+        "Suitable for return to sport and daily activity after ankle injury",
+        "Retains warmth to relax ankle musculature and ease chronic stiffness"
+      ]
+    },
+    {
+      "sku": "IK-AA-02",
+      "name": "Anklet With Binder",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Elasticated anklet combined with a wrap-around figure-of-eight binder",
+        "Provides both circumferential and cross-joint compression",
+        "Adjustable binder allows varying levels of support",
+        "Breathable construction suitable for extended daily wear"
+      ],
+      "benefits": [
+        "Delivers enhanced ankle stability for moderate sprains and chronic instability",
+        "Reduces swelling more effectively than a standard compression sleeve alone",
+        "Supports the ankle during rehabilitation exercises",
+        "Easy to apply and remove for patients with limited hand strength"
+      ]
+    },
+    {
+      "sku": "IK-AA-03",
+      "name": "Ankle Brace",
+      "sizes": "Universal",
+      "features": [
+        "Rigid stirrup side panels with cushioned bladder lining",
+        "Adjustable lace-up or velcro closure for a customised fit",
+        "Fits inside most lace-up footwear for use during activity",
+        "Contoured shell prevents inversion and eversion beyond safe ranges"
+      ],
+      "benefits": [
+        "Provides strong mediolateral ankle stability for moderate-to-severe sprains",
+        "Protects against ankle inversion injuries during sport and uneven-ground walking",
+        "Allows dorsiflexion and plantarflexion for functional walking",
+        "Reduces fear of re-injury, supporting confident return to activity"
+      ]
+    },
+    {
+      "sku": "IK-AA-04",
+      "name": "Foot Drop Splint",
+      "sizes": "S, M, L",
+      "features": [
+        "Lightweight thermoplastic posterior shell holds the ankle at 90°",
+        "Padded inner lining prevents pressure sores over bony prominences",
+        "Velcro straps secure the splint to the calf and foot",
+        "Low-profile heel allows use inside wide-fitting footwear"
+      ],
+      "benefits": [
+        "Maintains the foot in neutral dorsiflexion to prevent foot drop during walking",
+        "Prevents equinus contracture in patients with peroneal nerve palsy or stroke",
+        "Enables safer ambulation by reducing trip and fall risk",
+        "Used in neurological rehabilitation to support gait re-training"
+      ]
+    },
+    {
+      "sku": "IK-AA-05",
+      "name": "Cast Shoes",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Rigid rocker sole protects the cast or boot during weight-bearing",
+        "Velcro instep strap accommodates the bulky circumference of a plaster cast",
+        "Non-slip sole surface improves grip on indoor and outdoor surfaces",
+        "Lightweight construction does not add significant weight to the limb"
+      ],
+      "benefits": [
+        "Protects plaster casts and post-operative dressings from wear and soiling",
+        "Allows weight-bearing ambulation during lower limb fracture recovery",
+        "Reduces cast breakdown at the heel and sole from walking",
+        "Improves patient independence and mobility during the casting period"
+      ]
+    },
+    {
+      "sku": "IK-AA-06",
+      "name": "DRB",
+      "sizes": "Universal",
+      "features": [
+        "Dynamic response design absorbs ground reaction forces",
+        "Adjustable dorsiflexion assist mechanism supports toe clearance during swing",
+        "Rigid uprights provide mediolateral ankle control",
+        "Compatible with standard footwear"
+      ],
+      "benefits": [
+        "Assists dynamic ankle function in patients with lower limb weakness",
+        "Reduces compensatory gait patterns that cause hip and knee pain",
+        "Supports safe ambulation during neurological and orthopaedic rehabilitation",
+        "Improves walking efficiency and reduces energy expenditure for the patient"
+      ]
+    }
   ]
 }

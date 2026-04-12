@@ -1,11 +1,75 @@
 {
   "slug": "abdomen-pelvic-aids",
   "title": "Abdomen & Pelvic Aids",
-  "description": "Abdominal belts, maternity supports, pelvic belts, and hernia belts for core and pelvic support.",
+  "description": "Abdominal belts, maternity supports, pelvic belts, and hernia belts for core support, post-surgical recovery, and pelvic stability.",
   "products": [
-    { "sku": "IK-AP-01", "name": "Abdomen Belt", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-AP-02", "name": "Maternity Belt", "sizes": "Universal" },
-    { "sku": "IK-AP-03", "name": "Pelvic Belt", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-AP-04", "name": "Hernia Belt", "sizes": "S, M, L, XL" }
+    {
+      "sku": "IK-AP-01",
+      "name": "Abdomen Belt",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Wide elastic panel provides firm abdominal compression",
+        "Hook-and-loop closure allows adjustable tension throughout the day",
+        "Breathable fabric reduces skin irritation during prolonged wear",
+        "Low-profile design sits flat under clothing"
+      ],
+      "benefits": [
+        "Supports the abdominal wall after surgery to reduce incisional tension",
+        "Minimises post-operative pain during movement, coughing, and ambulation",
+        "Helps manage abdominal muscle weakness and mild hernia discomfort",
+        "Reduces post-surgical swelling by maintaining gentle compression"
+      ]
+    },
+    {
+      "sku": "IK-AP-02",
+      "name": "Maternity Belt",
+      "sizes": "Universal",
+      "features": [
+        "Ergonomic design supports the growing uterus from below",
+        "Breathable stretch fabric accommodates changing body shape throughout pregnancy",
+        "Adjustable velcro panel for a personalised fit across trimesters",
+        "Soft seamless construction prevents dig-in points at the abdomen"
+      ],
+      "benefits": [
+        "Relieves lower back and pelvic girdle pain during pregnancy",
+        "Reduces downward pressure on the pelvic floor from the growing baby",
+        "Supports round ligaments to ease associated pelvic discomfort",
+        "Enables pregnant women to remain active with greater comfort"
+      ]
+    },
+    {
+      "sku": "IK-AP-03",
+      "name": "Pelvic Belt",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Narrow targeted belt applies compression directly over the sacroiliac joints",
+        "Non-stretch centre panel focuses force at the posterior pelvis",
+        "Adjustable elastic side wings for a stable, secure fit",
+        "Can be worn over or under clothing"
+      ],
+      "benefits": [
+        "Stabilises the sacroiliac joint to relieve SI joint dysfunction and pelvic girdle pain",
+        "Reduces symphysis pubis dysfunction discomfort during walking and stair climbing",
+        "Supports the pelvis post-partum as ligaments regain their pre-pregnancy tension",
+        "Used in conservative management of pelvic fractures and instability"
+      ]
+    },
+    {
+      "sku": "IK-AP-04",
+      "name": "Hernia Belt",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Targeted pressure pad positioned directly over the hernia site",
+        "Firm elastic waistband distributes compression evenly",
+        "Anatomically shaped to conform to the groin or abdominal region",
+        "Adjustable strap ensures the pad stays correctly positioned"
+      ],
+      "benefits": [
+        "Prevents hernia protrusion during standing, walking, and physical activity",
+        "Reduces discomfort associated with inguinal and umbilical hernias",
+        "Supports patients awaiting hernia repair surgery",
+        "Provides post-operative compression to the repair site during early healing"
+      ]
+    }
   ]
 }

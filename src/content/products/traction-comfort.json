@@ -1,13 +1,109 @@
 {
   "slug": "traction-comfort",
   "title": "Traction Kit & Comfort Aids",
-  "description": "Skin traction kits, leg and ankle traction braces, cervical pillows, and comfort cushions for patient care.",
+  "description": "Skin traction kits, leg and ankle traction braces, cervical pillows, and comfort cushions for patient care and pressure relief.",
   "products": [
-    { "sku": "IK-TK-01", "name": "Skin Traction Kit", "sizes": "Universal" },
-    { "sku": "IK-TK-02", "name": "Leg Traction Brace", "sizes": "S, M, L, XL" },
-    { "sku": "IK-TK-03", "name": "Ankle Traction", "sizes": "Universal" },
-    { "sku": "IK-CA-01", "name": "Cervical Pillow", "sizes": "Universal" },
-    { "sku": "IK-CA-02", "name": "Coccyx Seat Cushion", "sizes": "Universal" },
-    { "sku": "IK-CA-03", "name": "Back Rest Cushion", "sizes": "Universal" }
+    {
+      "sku": "IK-TK-01",
+      "name": "Skin Traction Kit",
+      "sizes": "Universal",
+      "features": [
+        "Complete kit includes foam-backed adhesive traction strips, spreader bar, and traction cord",
+        "Hypoallergenic adhesive minimises skin reaction during extended application",
+        "Spreader bar prevents pressure on the malleoli",
+        "Suitable for paediatric and adult lower limb traction"
+      ],
+      "benefits": [
+        "Applies longitudinal traction to the lower limb for fracture management and pre-operative positioning",
+        "Reduces muscle spasm and pain in femoral and tibial fractures before surgical fixation",
+        "Used in paediatric orthopaedics for developmental hip conditions",
+        "Allows nursing staff to manage traction without specialist equipment"
+      ]
+    },
+    {
+      "sku": "IK-TK-02",
+      "name": "Leg Traction Brace",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Adjustable frame with integrated traction mechanism for the lower limb",
+        "Foam-padded thigh and calf contact zones for patient comfort",
+        "Ratchet tensioning system allows precise force application",
+        "Lightweight aluminium construction for use in bed or during transport"
+      ],
+      "benefits": [
+        "Maintains traction on the leg for fracture alignment and muscle spasm relief",
+        "Reduces the need for skeletal traction in suitable fracture patterns",
+        "Allows nursing care to continue without disrupting traction force",
+        "Suitable for use during inter-hospital patient transfer"
+      ]
+    },
+    {
+      "sku": "IK-TK-03",
+      "name": "Ankle Traction",
+      "sizes": "Universal",
+      "features": [
+        "Ankle harness with padded malleolar protection and traction attachment point",
+        "Adjustable straps distribute traction force evenly around the ankle",
+        "Compatible with standard traction frames and bed setups",
+        "Durable construction suitable for sustained clinical use"
+      ],
+      "benefits": [
+        "Applies controlled traction to the ankle for subtalar joint mobilisation",
+        "Used in manual therapy and physiotherapy for ankle joint distraction",
+        "Reduces compressive joint forces to relieve ankle osteoarthritis pain",
+        "Supports rehabilitation protocols requiring joint distraction techniques"
+      ]
+    },
+    {
+      "sku": "IK-CA-01",
+      "name": "Cervical Pillow",
+      "sizes": "Universal",
+      "features": [
+        "Contoured memory foam or fibre-fill core supports the natural cervical curve",
+        "Butterfly-shaped design cradles the head in both supine and side-lying positions",
+        "Removable washable pillow cover for hygiene maintenance",
+        "Medium-firm density balances support and comfort"
+      ],
+      "benefits": [
+        "Maintains the cervical spine in a neutral position during sleep",
+        "Reduces morning neck stiffness and headaches from poor sleep posture",
+        "Prescribed for cervical spondylosis, disc herniation, and post-whiplash management",
+        "Helps prevent neck muscle strain in patients who work long hours at a desk"
+      ]
+    },
+    {
+      "sku": "IK-CA-02",
+      "name": "Coccyx Seat Cushion",
+      "sizes": "Universal",
+      "features": [
+        "U-shaped cutout eliminates direct pressure on the coccyx",
+        "Memory foam or gel-infused fill distributes sitting load across the ischial tuberosities",
+        "Non-slip base keeps the cushion stable on all seating surfaces",
+        "Removable zipped cover for easy washing"
+      ],
+      "benefits": [
+        "Relieves coccydynia pain during prolonged sitting",
+        "Reduces pressure on the tailbone after coccyx fracture or bruising",
+        "Suitable for post-partum patients with coccygeal pain following childbirth",
+        "Improves sitting comfort for patients with haemorrhoids and post-surgical perianal wounds"
+      ]
+    },
+    {
+      "sku": "IK-CA-03",
+      "name": "Back Rest Cushion",
+      "sizes": "Universal",
+      "features": [
+        "Lumbar roll or wedge design supports the natural lumbar lordosis",
+        "Firm supportive foam retains its shape through extended daily use",
+        "Adjustable strap attaches to most office chairs, car seats, and wheelchairs",
+        "Compact design for use at home, in the office, and during travel"
+      ],
+      "benefits": [
+        "Maintains correct lumbar posture during prolonged sitting to prevent low back pain",
+        "Reduces lumbar disc pressure by restoring the natural inward curve of the lower spine",
+        "Relieves chronic low back pain triggered by poor seating ergonomics",
+        "Suitable for patients recovering from lumbar surgery who must sit for extended periods"
+      ]
+    }
   ]
 }

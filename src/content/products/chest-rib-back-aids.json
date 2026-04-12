@@ -1,13 +1,109 @@
 {
   "slug": "chest-rib-back-aids",
   "title": "Chest, Rib & Back Aids",
-  "description": "Lumbar belts, rib braces, chest binders, and dorso lumbar supports for back pain and rib injuries.",
+  "description": "Lumbar belts, rib braces, chest binders, and dorso lumbar supports for back pain, rib injuries, and post-operative spinal care.",
   "products": [
-    { "sku": "IK-CR-01", "name": "Ash Brace", "sizes": "Universal" },
-    { "sku": "IK-CR-02", "name": "Rib Belt", "sizes": "S, M, L, XL, XXL, Universal, Child" },
-    { "sku": "IK-CR-03", "name": "Chest Binder", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-BA-01", "name": "Contoured L S Belt", "sizes": "S, M, L, XL, XXL, XXXL" },
-    { "sku": "IK-BA-02", "name": "Lumbar Sacral Belt", "sizes": "S, M, L, XL, XXL, XXXL" },
-    { "sku": "IK-BA-03", "name": "Dorso Lumbar Brace", "sizes": "Universal, Spl" }
+    {
+      "sku": "IK-CR-01",
+      "name": "Ash Brace",
+      "sizes": "Universal",
+      "features": [
+        "Rigid anterior chest panel with adjustable posterior straps",
+        "Foam-padded contact surfaces for patient comfort",
+        "Universal fit accommodates a wide chest circumference range",
+        "Lightweight construction for minimal patient burden"
+      ],
+      "benefits": [
+        "Stabilises the thoracic cage after rib fractures and sternum injuries",
+        "Reduces movement of fractured rib segments to control pain during breathing",
+        "Supports the chest wall post-thoracic surgery",
+        "Helps patients breathe more confidently by limiting painful chest excursion"
+      ]
+    },
+    {
+      "sku": "IK-CR-02",
+      "name": "Rib Belt",
+      "sizes": "S, M, L, XL, XXL, Universal, Child",
+      "features": [
+        "Wide elastic band with targeted compression over the injured rib zone",
+        "Hook-and-loop closure for adjustable compression level",
+        "Breathable elastic fabric reduces heat and discomfort",
+        "Available in adult, universal, and paediatric sizes"
+      ],
+      "benefits": [
+        "Compresses the rib cage to limit painful expansion during breathing and coughing",
+        "Supports fractured or bruised ribs during conservative management",
+        "Reduces pain with movement, allowing patients to breathe more freely",
+        "Compact and discreet — can be worn under clothing"
+      ]
+    },
+    {
+      "sku": "IK-CR-03",
+      "name": "Chest Binder",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Full-length elastic panel covers the entire thoracic region",
+        "Firm compression fabric supports healing chest wall tissues",
+        "Wide velcro closure for easy adjustment over varying body contours",
+        "Smooth inner surface minimises skin friction"
+      ],
+      "benefits": [
+        "Provides firm chest wall compression after surgeries such as open-heart procedures",
+        "Reduces post-operative swelling and wound site movement",
+        "Supports breast tissue after mastectomy or chest reconstruction",
+        "Offers psychological comfort and confidence during early post-surgical recovery"
+      ]
+    },
+    {
+      "sku": "IK-BA-01",
+      "name": "Contoured L S Belt",
+      "sizes": "S, M, L, XL, XXL, XXXL",
+      "features": [
+        "Anatomically contoured lumbar panel with built-in rigid stays",
+        "Wide abdominal apron distributes support load across the lower back",
+        "Elastic side panels for a secure fit during movement",
+        "Removable stays allow customisable rigidity levels"
+      ],
+      "benefits": [
+        "Supports the lumbosacral junction to relieve chronic low back pain",
+        "Reduces intervertebral disc pressure during daily activities",
+        "Helps manage lumbar muscle strain, spondylosis, and disc prolapse symptoms",
+        "Encourages correct lumbar posture to prevent pain recurrence"
+      ]
+    },
+    {
+      "sku": "IK-BA-02",
+      "name": "Lumbar Sacral Belt",
+      "sizes": "S, M, L, XL, XXL, XXXL",
+      "features": [
+        "Extended coverage from the lower thoracic to the sacrum",
+        "Multiple rigid posterior stays for comprehensive spinal support",
+        "Breathable elastic fabric with moisture-wicking properties",
+        "Double-pull tensioning system for precise compression adjustment"
+      ],
+      "benefits": [
+        "Stabilises the lumbar and sacral spine after vertebral fractures and fusions",
+        "Reduces painful spinal movement during rehabilitation and daily tasks",
+        "Supports the lower back in occupational settings with prolonged standing or lifting",
+        "Helps manage sacroiliac joint dysfunction and lumbar instability"
+      ]
+    },
+    {
+      "sku": "IK-BA-03",
+      "name": "Dorso Lumbar Brace",
+      "sizes": "Universal, Spl",
+      "features": [
+        "Thoraco-lumbar coverage with anterior sternal pad and posterior rigid frame",
+        "Adjustable shoulder straps retract the shoulders into correct alignment",
+        "Modular design allows fitting for different torso lengths",
+        "Padded contact surfaces at all bony prominences"
+      ],
+      "benefits": [
+        "Immobilises the thoracic and lumbar spine post-vertebral fracture or surgery",
+        "Corrects thoracic kyphosis by extending the spine and retracting the shoulders",
+        "Reduces pain during weight-bearing after vertebral compression fractures",
+        "Prescribed for osteoporotic fractures and post-spinal fusion support"
+      ]
+    }
   ]
 }

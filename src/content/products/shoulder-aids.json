@@ -1,14 +1,126 @@
 {
   "slug": "shoulder-aids",
   "title": "Shoulder Aids",
-  "description": "Arm slings, shoulder supports, and immobilizers for shoulder injuries and post-operative care.",
+  "description": "Arm slings, shoulder immobilisers, and clavicle braces for fracture management, post-operative care, and shoulder rehabilitation.",
   "products": [
-    { "sku": "IK-SA-01", "name": "Arm Sling", "sizes": "S, M, L, XL, XXL, Child" },
-    { "sku": "IK-SA-02", "name": "Arm Sling Tropical", "sizes": "S, M, L, XL, XXL, Child" },
-    { "sku": "IK-SA-03", "name": "Arm Sling Strap", "sizes": "Universal" },
-    { "sku": "IK-SA-04", "name": "Shoulder Support", "sizes": "Universal" },
-    { "sku": "IK-SA-05", "name": "Shoulder Immobilizer", "sizes": "Universal, Spl., Child" },
-    { "sku": "IK-SA-06", "name": "Elastic Shoulder Immobilizer", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-SA-07", "name": "Clavical Brace Stockinette", "sizes": "S, M, L, XL, XXL" }
+    {
+      "sku": "IK-SA-01",
+      "name": "Arm Sling",
+      "sizes": "S, M, L, XL, XXL, Child",
+      "features": [
+        "Durable cotton-poly blend fabric with padded neck strap",
+        "Adjustable length to position forearm at 90° elbow flexion",
+        "Wide body panel distributes weight evenly across the shoulder",
+        "Available in adult and paediatric sizes"
+      ],
+      "benefits": [
+        "Offloads the weight of the arm to reduce shoulder and elbow strain",
+        "Promotes healing after fractures, dislocations, and soft tissue injuries",
+        "Keeps the arm protected and elevated to minimise swelling",
+        "Easy to apply with one hand, suitable for use at home"
+      ]
+    },
+    {
+      "sku": "IK-SA-02",
+      "name": "Arm Sling Tropical",
+      "sizes": "S, M, L, XL, XXL, Child",
+      "features": [
+        "Open-weave breathable mesh fabric ideal for warm climates",
+        "Padded, ventilated neck strap prevents skin irritation",
+        "Adjustable forearm cradle with reinforced stitching",
+        "Lightweight construction minimises heat retention"
+      ],
+      "benefits": [
+        "Keeps the arm cool and comfortable in humid or hot environments",
+        "Reduces perspiration and skin maceration under the sling",
+        "Suitable for post-fracture and post-surgical immobilisation in summer conditions",
+        "Ideal for patients in tropical regions who wear slings for extended periods"
+      ]
+    },
+    {
+      "sku": "IK-SA-03",
+      "name": "Arm Sling Strap",
+      "sizes": "Universal",
+      "features": [
+        "Simple over-the-shoulder strap design for quick application",
+        "Padded contact zones to prevent pressure marks",
+        "Universal fit accommodates most adult arm sizes",
+        "Adjustable buckle for precise arm height control"
+      ],
+      "benefits": [
+        "Provides basic arm support for minor sprains and post-injury care",
+        "Quick and easy alternative to traditional cradle slings",
+        "Reduces downward traction on the shoulder joint",
+        "Suitable for short-term immobilisation during daily activities"
+      ]
+    },
+    {
+      "sku": "IK-SA-04",
+      "name": "Shoulder Support",
+      "sizes": "Universal",
+      "features": [
+        "Elastic neoprene construction provides uniform compression",
+        "Contoured shoulder cup for anatomical fit",
+        "Cross-chest and underarm straps for secure positioning",
+        "Can be worn discreetly under clothing"
+      ],
+      "benefits": [
+        "Compresses and supports the glenohumeral joint to reduce pain",
+        "Helps manage rotator cuff injuries, impingement, and joint instability",
+        "Retains body heat to relax tight shoulder muscles",
+        "Allows functional shoulder movement while limiting painful arcs"
+      ]
+    },
+    {
+      "sku": "IK-SA-05",
+      "name": "Shoulder Immobilizer",
+      "sizes": "Universal, Spl., Child",
+      "features": [
+        "Combines arm sling with body brace to restrict shoulder abduction",
+        "Foam-padded straps prevent pressure points at axilla and waist",
+        "Waist belt secures the arm close to the body",
+        "Paediatric and adult sizes available"
+      ],
+      "benefits": [
+        "Immobilises the shoulder after dislocation, fracture, or rotator cuff repair",
+        "Prevents accidental abduction that could disrupt surgical repair",
+        "Reduces post-operative pain by eliminating involuntary arm movement",
+        "Used routinely in shoulder surgery aftercare protocols"
+      ]
+    },
+    {
+      "sku": "IK-SA-06",
+      "name": "Elastic Shoulder Immobilizer",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Elastic fabric body brace with integrated arm pouch",
+        "Stretch construction adapts to varied body shapes",
+        "Breathable material minimises moisture build-up",
+        "Hook-and-loop closure for simple single-hand application"
+      ],
+      "benefits": [
+        "Provides comfortable shoulder immobilisation post-dislocation or surgery",
+        "Elastic design accommodates post-operative swelling",
+        "Suitable for use during sleep to prevent inadvertent shoulder movement",
+        "Lightweight and less bulky than rigid shoulder immobilisers"
+      ]
+    },
+    {
+      "sku": "IK-SA-07",
+      "name": "Clavical Brace Stockinette",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Figure-of-eight design corrects clavicle alignment",
+        "Stockinette padding prevents axillary skin irritation",
+        "Adjustable posterior tension for customised correction force",
+        "Breathable cotton-mix construction"
+      ],
+      "benefits": [
+        "Reduces clavicle fracture displacement to encourage anatomical healing",
+        "Retracts the shoulders to correct rounded posture following clavicle injury",
+        "Minimises pain by stabilising fracture fragments during early healing",
+        "Standard of care for conservative management of mid-shaft clavicle fractures"
+      ]
+    }
   ]
 }

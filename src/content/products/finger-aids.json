@@ -1,12 +1,92 @@
 {
   "slug": "finger-aids",
   "title": "Finger Aids",
-  "description": "Finger splints, cots, and thumb supports for finger fractures, mallet finger, and joint protection.",
+  "description": "Finger splints, cots, and thumb supports for mallet finger, fractures, finger joint protection, and post-surgical rehabilitation.",
   "products": [
-    { "sku": "IK-FA-01", "name": "Finger Cot", "sizes": "S, M, L" },
-    { "sku": "IK-FA-02", "name": "Frog Splint", "sizes": "S, M, L" },
-    { "sku": "IK-FA-03", "name": "Finger Mallet", "sizes": "S, M, L" },
-    { "sku": "IK-FA-04", "name": "Splint Finger", "sizes": "S, M, L" },
-    { "sku": "IK-FA-05", "name": "Thumb Spica Splint", "sizes": "Universal" }
+    {
+      "sku": "IK-FA-01",
+      "name": "Finger Cot",
+      "sizes": "S, M, L",
+      "features": [
+        "Soft silicone or fabric sleeve that encloses the finger",
+        "Seamless construction prevents pressure marks",
+        "Available in three sizes to fit different finger diameters",
+        "Reusable and easy to clean"
+      ],
+      "benefits": [
+        "Protects injured or post-operative fingers from further trauma",
+        "Provides gentle compression to minimise localised swelling",
+        "Keeps dressings secure without restricting adjacent finger movement",
+        "Suitable for use during daily activities and light work"
+      ]
+    },
+    {
+      "sku": "IK-FA-02",
+      "name": "Frog Splint",
+      "sizes": "S, M, L",
+      "features": [
+        "Dorsal aluminium stay with foam padding holds the PIP joint in extension",
+        "Perforated design allows skin to breathe",
+        "Velcro strap secures the splint without excessive pressure",
+        "Low profile sits flat against the finger"
+      ],
+      "benefits": [
+        "Maintains PIP joint extension for boutonniere deformity management",
+        "Prevents further volar plate stretching during healing",
+        "Allows DIP joint movement to prevent stiffness",
+        "Commonly prescribed by hand therapists for finger joint injuries"
+      ]
+    },
+    {
+      "sku": "IK-FA-03",
+      "name": "Finger Mallet",
+      "sizes": "S, M, L",
+      "features": [
+        "Rigid dorsal shell holds the DIP joint in full extension",
+        "Contoured to prevent skin maceration under the splint",
+        "Vented surface for airflow to the fingertip",
+        "Secure velcro strap with easy one-hand application"
+      ],
+      "benefits": [
+        "Immobilises the DIP joint to allow mallet finger tendon repair",
+        "Prevents DIP joint flexion that would rupture the healing extensor tendon",
+        "Enables full PIP joint movement so adjacent joints remain mobile",
+        "Essential for conservative management of mallet finger injuries"
+      ]
+    },
+    {
+      "sku": "IK-FA-04",
+      "name": "Splint Finger",
+      "sizes": "S, M, L",
+      "features": [
+        "Aluminium stay with foam lining provides rigid support",
+        "Can be shaped to the required angle for joint positioning",
+        "Velcro strap secures without constricting blood flow",
+        "Lightweight and slim for discreet wear"
+      ],
+      "benefits": [
+        "Immobilises finger fractures in the correct healing position",
+        "Used post-surgery to protect repaired tendons or ligaments",
+        "Prevents unwanted joint motion that could delay recovery",
+        "Suitable for both acute injury management and longer-term rehabilitation"
+      ]
+    },
+    {
+      "sku": "IK-FA-05",
+      "name": "Thumb Spica Splint",
+      "sizes": "Universal",
+      "features": [
+        "Rigid thumb post immobilises the CMC and MCP joints",
+        "Padded inner surface prevents pressure sores at bony prominences",
+        "Wrist strap anchors the splint securely to the forearm",
+        "Open finger design keeps the remaining fingers free"
+      ],
+      "benefits": [
+        "Immobilises the thumb for gamekeeper's thumb, De Quervain's, and CMC arthritis",
+        "Reduces pain during pinch and grip by offloading the thumb joint",
+        "Protects the thumb after UCL repair or ligament reconstruction",
+        "Preserves hand function by keeping the index and remaining fingers mobile"
+      ]
+    }
   ]
 }

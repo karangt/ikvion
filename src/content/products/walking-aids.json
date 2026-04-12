@@ -1,11 +1,75 @@
 {
   "slug": "walking-aids",
   "title": "Walking Aids",
-  "description": "Walking sticks, walkers, and folding walkers to support mobility and independence in rehabilitation.",
+  "description": "Walking sticks, quad canes, walkers, and folding walkers to support safe mobility and independence during rehabilitation.",
   "products": [
-    { "sku": "IK-WA-01", "name": "Walking Stick Single Leg", "sizes": "Adjustable" },
-    { "sku": "IK-WA-02", "name": "Walking Stick Four Leg", "sizes": "Adjustable" },
-    { "sku": "IK-WA-03", "name": "Walker", "sizes": "Universal" },
-    { "sku": "IK-WA-04", "name": "Walker Folding", "sizes": "Universal" }
+    {
+      "sku": "IK-WA-01",
+      "name": "Walking Stick Single Leg",
+      "sizes": "Adjustable",
+      "features": [
+        "Lightweight aluminium shaft with push-button height adjustment",
+        "Ergonomic contoured handle reduces hand and wrist fatigue",
+        "Rubber ferrule tip provides grip on a variety of floor surfaces",
+        "Folds or collapses for convenient storage and transport"
+      ],
+      "benefits": [
+        "Provides a stable third point of contact for patients with mild balance impairment",
+        "Reduces load on the affected lower limb during post-injury or post-surgical walking",
+        "Promotes safe ambulation in elderly patients at risk of falls",
+        "Lightweight aluminium design minimises upper limb effort during use"
+      ]
+    },
+    {
+      "sku": "IK-WA-02",
+      "name": "Walking Stick Four Leg",
+      "sizes": "Adjustable",
+      "features": [
+        "Quad-base with four rubber-tipped contact points for a wide, stable footprint",
+        "Adjustable shaft height to suit patients of varying stature",
+        "Offset handle positions the user's weight optimally over the base",
+        "Robust aluminium construction withstands daily clinical and home use"
+      ],
+      "benefits": [
+        "Offers significantly greater lateral stability than a single-tip cane",
+        "Reduces fall risk for patients with hemiplegia, significant weakness, or severe balance deficits",
+        "Supports weight-bearing patients who need more than a standard stick can provide",
+        "Can stand unsupported, keeping it within reach without bending to pick it up"
+      ]
+    },
+    {
+      "sku": "IK-WA-03",
+      "name": "Walker",
+      "sizes": "Universal",
+      "features": [
+        "Lightweight aluminium frame with four rubber-tipped legs",
+        "Width and height adjustable to accommodate different body dimensions",
+        "Open front design facilitates a natural step-through gait pattern",
+        "No wheels — pick-up-and-place use for maximum stability"
+      ],
+      "benefits": [
+        "Provides comprehensive upper body support for patients with significant lower limb weakness",
+        "Reduces fall risk during early post-operative ambulation after hip and knee replacement",
+        "Distributes weight through the arms to offload painful or healing lower limbs",
+        "Simple pick-up design gives patients confidence on uneven indoor surfaces"
+      ]
+    },
+    {
+      "sku": "IK-WA-04",
+      "name": "Walker Folding",
+      "sizes": "Universal",
+      "features": [
+        "Folds flat with a single-action folding mechanism for compact storage",
+        "Same robust aluminium frame and adjustable height as the standard walker",
+        "Rubber-tipped legs maintain grip and floor protection",
+        "Carrying strap or bag attachments available for transport convenience"
+      ],
+      "benefits": [
+        "All the stability benefits of a standard walker with the added convenience of folding flat",
+        "Ideal for patients who travel, use public transport, or have limited storage space",
+        "Easy to take in a car boot, store in a cupboard, or carry between rooms",
+        "Encourages patient compliance with prescribed walking aid use by removing storage barriers"
+      ]
+    }
   ]
 }

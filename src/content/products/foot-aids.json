@@ -1,11 +1,75 @@
 {
   "slug": "foot-aids",
   "title": "Foot Aids",
-  "description": "Silicon gel insoles, heel cushions, arch supports, and toe separators for foot comfort and correction.",
+  "description": "Silicone gel insoles, heel cushions, arch supports, and toe separators for plantar fasciitis, heel pain, flat foot, and forefoot comfort.",
   "products": [
-    { "sku": "IK-FT-01", "name": "Silicon Gel Insole", "sizes": "S, M, L" },
-    { "sku": "IK-FT-02", "name": "Silicon Gel Heel Cushion", "sizes": "Universal" },
-    { "sku": "IK-FT-03", "name": "Arch Support", "sizes": "S, M, L" },
-    { "sku": "IK-FT-04", "name": "Toe Separator", "sizes": "Universal" }
+    {
+      "sku": "IK-FT-01",
+      "name": "Silicon Gel Insole",
+      "sizes": "S, M, L",
+      "features": [
+        "Medical-grade silicone gel absorbs shock with every step",
+        "Full-length coverage from heel to toe for comprehensive cushioning",
+        "Contoured arch zone provides gentle longitudinal arch support",
+        "Anti-odour surface treatment keeps footwear fresh"
+      ],
+      "benefits": [
+        "Reduces impact forces transmitted to the heel, knee, and lower back",
+        "Relieves plantar fasciitis pain and general foot fatigue",
+        "Suitable for occupations requiring prolonged standing on hard floors",
+        "Improves comfort in dress and casual footwear without requiring shoe modification"
+      ]
+    },
+    {
+      "sku": "IK-FT-02",
+      "name": "Silicon Gel Heel Cushion",
+      "sizes": "Universal",
+      "features": [
+        "Targeted silicone gel pad covering only the heel region",
+        "Central deep-heel cup cradles and centres the calcaneus",
+        "Self-adhesive base keeps the cushion in position inside the shoe",
+        "Durable gel maintains cushioning properties through extended use"
+      ],
+      "benefits": [
+        "Directly cushions the heel to relieve plantar heel pain and calcaneal spurs",
+        "Reduces impact on the heel during running and walking",
+        "Suitable for fat pad atrophy where natural heel cushioning is reduced",
+        "Compact design fits in most closed-toe footwear without displacing the foot"
+      ]
+    },
+    {
+      "sku": "IK-FT-03",
+      "name": "Arch Support",
+      "sizes": "S, M, L",
+      "features": [
+        "Semi-rigid shell supports the medial longitudinal arch",
+        "Cushioned top cover provides a comfortable contact surface",
+        "Designed to correct mild-to-moderate flat foot and overpronation",
+        "Trim-to-fit edges allow customisation for different shoe shapes"
+      ],
+      "benefits": [
+        "Corrects overpronation to reduce stress on the plantar fascia and Achilles tendon",
+        "Relieves medial arch pain associated with flat foot and posterior tibial tendon dysfunction",
+        "Reduces fatigue-related leg and lower back pain from poor foot mechanics",
+        "Suitable for daily use in sports shoes, work boots, and everyday footwear"
+      ]
+    },
+    {
+      "sku": "IK-FT-04",
+      "name": "Toe Separator",
+      "sizes": "Universal",
+      "features": [
+        "Soft silicone spacers gently hold adjacent toes apart",
+        "Flexible material conforms to the natural shape of the toe web space",
+        "Washable and reusable for hygienic daily use",
+        "Minimal profile fits inside most footwear without discomfort"
+      ],
+      "benefits": [
+        "Realigns overlapping or drifting toes to reduce bunion and hallux valgus discomfort",
+        "Prevents skin friction and blistering between closely approximated toes",
+        "Manages hammer toe, soft corn, and interdigital callus formation",
+        "Provides gentle passive correction of toe alignment during daily wear"
+      ]
+    }
   ]
 }

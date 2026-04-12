@@ -12,7 +12,7 @@ const navLinks = [
 
 <header class="bg-white shadow-sm sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
+    <div class="flex items-center justify-between h-16 gap-4">
 
       <!-- Logo -->
       <a href={`${base}`} class="flex items-center gap-2 shrink-0">
@@ -21,8 +21,25 @@ const navLinks = [
         </span>
       </a>
 
+      <!-- Search bar (desktop) -->
+      <div class="hidden md:flex flex-1 max-w-sm relative" id="search-wrapper">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Search products…"
+          autocomplete="off"
+          class="w-full text-sm border border-gray-200 rounded-lg px-4 py-2 pr-9 focus:outline-none focus:border-[#4ABFBF] transition-colors"
+        />
+        <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+        </svg>
+        <!-- Dropdown -->
+        <div id="search-dropdown" class="hidden absolute top-full left-0 right-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 max-h-72 overflow-y-auto z-50">
+        </div>
+      </div>
+
       <!-- Desktop nav -->
-      <nav class="hidden md:flex items-center gap-8">
+      <nav class="hidden md:flex items-center gap-8 shrink-0">
         {navLinks.map(link => (
           <a
             href={link.href}
@@ -43,19 +60,42 @@ const navLinks = [
         </a>
       </nav>
 
-      <!-- Mobile hamburger -->
-      <button
-        id="menu-toggle"
-        class="md:hidden p-2 rounded-lg text-[#1B2A4A] hover:bg-gray-100"
-        aria-label="Toggle menu"
-      >
-        <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-        <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
+      <!-- Mobile: search icon + hamburger -->
+      <div class="md:hidden flex items-center gap-2">
+        <button id="mobile-search-toggle" class="p-2 rounded-lg text-[#1B2A4A] hover:bg-gray-100" aria-label="Search">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+          </svg>
+        </button>
+        <button
+          id="menu-toggle"
+          class="p-2 rounded-lg text-[#1B2A4A] hover:bg-gray-100"
+          aria-label="Toggle menu"
+        >
+          <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile search bar -->
+  <div id="mobile-search-bar" class="hidden md:hidden px-4 pb-3 border-t border-gray-100 pt-3 relative">
+    <input
+      id="mobile-search-input"
+      type="text"
+      placeholder="Search products…"
+      autocomplete="off"
+      class="w-full text-sm border border-gray-200 rounded-lg px-4 py-2 pr-9 focus:outline-none focus:border-[#4ABFBF] transition-colors"
+    />
+    <svg class="absolute right-7 top-1/2 -translate-y-0.5 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+    </svg>
+    <div id="mobile-search-dropdown" class="hidden absolute left-4 right-4 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 max-h-72 overflow-y-auto z-50">
     </div>
   </div>
 
@@ -81,14 +121,129 @@ const navLinks = [
 </header>
 
 <script>
+  // Mobile menu toggle
   const toggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
   const iconOpen = document.getElementById('icon-open');
   const iconClose = document.getElementById('icon-close');
-
   toggle?.addEventListener('click', () => {
     menu?.classList.toggle('hidden');
     iconOpen?.classList.toggle('hidden');
     iconClose?.classList.toggle('hidden');
+  });
+
+  // Mobile search toggle
+  const mobileSearchToggle = document.getElementById('mobile-search-toggle');
+  const mobileSearchBar = document.getElementById('mobile-search-bar');
+  mobileSearchToggle?.addEventListener('click', () => {
+    mobileSearchBar?.classList.toggle('hidden');
+    document.getElementById('mobile-search-input')?.focus();
+  });
+
+  // Product search index — all products with their category slugs
+  const products = [
+    { name: 'Cervical Collar with Support', sku: 'IK-NA-01', category: 'neck-aids', categoryLabel: 'Neck Aids' },
+    { name: 'Philadelphia Collar', sku: 'IK-NA-02', category: 'neck-aids', categoryLabel: 'Neck Aids' },
+    { name: 'Hard Cervical Collar', sku: 'IK-NA-03', category: 'neck-aids', categoryLabel: 'Neck Aids' },
+    { name: 'Soft Cervical Collar', sku: 'IK-NA-04', category: 'neck-aids', categoryLabel: 'Neck Aids' },
+    { name: 'Arm Sling', sku: 'IK-SA-01', category: 'shoulder-aids', categoryLabel: 'Shoulder Aids' },
+    { name: 'Arm Sling Tropical', sku: 'IK-SA-02', category: 'shoulder-aids', categoryLabel: 'Shoulder Aids' },
+    { name: 'Arm Sling Strap', sku: 'IK-SA-03', category: 'shoulder-aids', categoryLabel: 'Shoulder Aids' },
+    { name: 'Shoulder Support', sku: 'IK-SA-04', category: 'shoulder-aids', categoryLabel: 'Shoulder Aids' },
+    { name: 'Shoulder Immobilizer', sku: 'IK-SA-05', category: 'shoulder-aids', categoryLabel: 'Shoulder Aids' },
+    { name: 'Elastic Shoulder Immobilizer', sku: 'IK-SA-06', category: 'shoulder-aids', categoryLabel: 'Shoulder Aids' },
+    { name: 'Clavical Brace Stockinette', sku: 'IK-SA-07', category: 'shoulder-aids', categoryLabel: 'Shoulder Aids' },
+    { name: 'Elbow Support', sku: 'IK-FW-01', category: 'forearm-wrist-aids', categoryLabel: 'Forearm & Wrist Aids' },
+    { name: 'Tennis Elbow Support', sku: 'IK-FW-02', category: 'forearm-wrist-aids', categoryLabel: 'Forearm & Wrist Aids' },
+    { name: 'Wrist Splint', sku: 'IK-FW-03', category: 'forearm-wrist-aids', categoryLabel: 'Forearm & Wrist Aids' },
+    { name: 'Wrist Brace', sku: 'IK-FW-04', category: 'forearm-wrist-aids', categoryLabel: 'Forearm & Wrist Aids' },
+    { name: 'Wrist Brace with Thumb', sku: 'IK-FW-05', category: 'forearm-wrist-aids', categoryLabel: 'Forearm & Wrist Aids' },
+    { name: 'Finger Cot', sku: 'IK-FA-01', category: 'finger-aids', categoryLabel: 'Finger Aids' },
+    { name: 'Frog Splint', sku: 'IK-FA-02', category: 'finger-aids', categoryLabel: 'Finger Aids' },
+    { name: 'Finger Mallet', sku: 'IK-FA-03', category: 'finger-aids', categoryLabel: 'Finger Aids' },
+    { name: 'Splint Finger', sku: 'IK-FA-04', category: 'finger-aids', categoryLabel: 'Finger Aids' },
+    { name: 'Thumb Spica Splint', sku: 'IK-FA-05', category: 'finger-aids', categoryLabel: 'Finger Aids' },
+    { name: 'Ash Brace', sku: 'IK-CR-01', category: 'chest-rib-back-aids', categoryLabel: 'Chest, Rib & Back Aids' },
+    { name: 'Rib Belt', sku: 'IK-CR-02', category: 'chest-rib-back-aids', categoryLabel: 'Chest, Rib & Back Aids' },
+    { name: 'Chest Binder', sku: 'IK-CR-03', category: 'chest-rib-back-aids', categoryLabel: 'Chest, Rib & Back Aids' },
+    { name: 'Contoured LS Belt', sku: 'IK-BA-01', category: 'chest-rib-back-aids', categoryLabel: 'Chest, Rib & Back Aids' },
+    { name: 'Lumbar Sacral Belt', sku: 'IK-BA-02', category: 'chest-rib-back-aids', categoryLabel: 'Chest, Rib & Back Aids' },
+    { name: 'Dorso Lumbar Brace', sku: 'IK-BA-03', category: 'chest-rib-back-aids', categoryLabel: 'Chest, Rib & Back Aids' },
+    { name: 'Abdomen Belt', sku: 'IK-AP-01', category: 'abdomen-pelvic-aids', categoryLabel: 'Abdomen & Pelvic Aids' },
+    { name: 'Maternity Belt', sku: 'IK-AP-02', category: 'abdomen-pelvic-aids', categoryLabel: 'Abdomen & Pelvic Aids' },
+    { name: 'Pelvic Belt', sku: 'IK-AP-03', category: 'abdomen-pelvic-aids', categoryLabel: 'Abdomen & Pelvic Aids' },
+    { name: 'Hernia Belt', sku: 'IK-AP-04', category: 'abdomen-pelvic-aids', categoryLabel: 'Abdomen & Pelvic Aids' },
+    { name: 'Knee Cap', sku: 'IK-KC-01', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Hinge Knee Cap', sku: 'IK-KC-02', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Polycentric Hinge Knee Cap', sku: 'IK-KC-03', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Elastic Knee Support', sku: 'IK-KC-04', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Knee Cap with Open Patella', sku: 'IK-KC-05', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'ROM Knee Brace', sku: 'IK-KC-06', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Knee Immobilizer', sku: 'IK-KC-07', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Varicose Stocking Below Knee', sku: 'IK-KC-08', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Varicose Stocking Above Knee', sku: 'IK-KC-09', category: 'knee-calf-aids', categoryLabel: 'Knee & Calf Aids' },
+    { name: 'Ankle Support', sku: 'IK-AA-01', category: 'ankle-aids', categoryLabel: 'Ankle Aids' },
+    { name: 'Anklet With Binder', sku: 'IK-AA-02', category: 'ankle-aids', categoryLabel: 'Ankle Aids' },
+    { name: 'Ankle Brace', sku: 'IK-AA-03', category: 'ankle-aids', categoryLabel: 'Ankle Aids' },
+    { name: 'Foot Drop Splint', sku: 'IK-AA-04', category: 'ankle-aids', categoryLabel: 'Ankle Aids' },
+    { name: 'Cast Shoes', sku: 'IK-AA-05', category: 'ankle-aids', categoryLabel: 'Ankle Aids' },
+    { name: 'DRB', sku: 'IK-AA-06', category: 'ankle-aids', categoryLabel: 'Ankle Aids' },
+    { name: 'Silicon Gel Insole', sku: 'IK-FT-01', category: 'foot-aids', categoryLabel: 'Foot Aids' },
+    { name: 'Silicon Gel Heel Cushion', sku: 'IK-FT-02', category: 'foot-aids', categoryLabel: 'Foot Aids' },
+    { name: 'Arch Support', sku: 'IK-FT-03', category: 'foot-aids', categoryLabel: 'Foot Aids' },
+    { name: 'Toe Separator', sku: 'IK-FT-04', category: 'foot-aids', categoryLabel: 'Foot Aids' },
+    { name: 'Skin Traction Kit', sku: 'IK-TK-01', category: 'traction-comfort', categoryLabel: 'Traction Kit & Comfort Aids' },
+    { name: 'Leg Traction Brace', sku: 'IK-TK-02', category: 'traction-comfort', categoryLabel: 'Traction Kit & Comfort Aids' },
+    { name: 'Ankle Traction', sku: 'IK-TK-03', category: 'traction-comfort', categoryLabel: 'Traction Kit & Comfort Aids' },
+    { name: 'Cervical Pillow', sku: 'IK-CA-01', category: 'traction-comfort', categoryLabel: 'Traction Kit & Comfort Aids' },
+    { name: 'Coccyx Seat Cushion', sku: 'IK-CA-02', category: 'traction-comfort', categoryLabel: 'Traction Kit & Comfort Aids' },
+    { name: 'Back Rest Cushion', sku: 'IK-CA-03', category: 'traction-comfort', categoryLabel: 'Traction Kit & Comfort Aids' },
+    { name: 'Walking Stick Single Leg', sku: 'IK-WA-01', category: 'walking-aids', categoryLabel: 'Walking Aids' },
+    { name: 'Walking Stick Four Leg', sku: 'IK-WA-02', category: 'walking-aids', categoryLabel: 'Walking Aids' },
+    { name: 'Walker', sku: 'IK-WA-03', category: 'walking-aids', categoryLabel: 'Walking Aids' },
+    { name: 'Walker Folding', sku: 'IK-WA-04', category: 'walking-aids', categoryLabel: 'Walking Aids' },
+  ];
+
+  const base = document.querySelector('meta[name="base-url"]')?.getAttribute('content') || '/ikvion/';
+
+  function renderResults(query: string, dropdown: HTMLElement) {
+    const q = query.toLowerCase().trim();
+    if (!q) { dropdown.classList.add('hidden'); return; }
+    const matches = products.filter(p =>
+      p.name.toLowerCase().includes(q) || p.sku.toLowerCase().includes(q) || p.categoryLabel.toLowerCase().includes(q)
+    ).slice(0, 8);
+    if (!matches.length) {
+      dropdown.innerHTML = `<div class="px-4 py-3 text-sm text-gray-500">No products found</div>`;
+    } else {
+      dropdown.innerHTML = matches.map(p => `
+        <a href="${base}products/${p.category}/" class="flex items-start gap-3 px-4 py-3 hover:bg-[#F5F0EB] transition-colors border-b border-gray-50 last:border-0">
+          <div>
+            <div class="text-sm font-medium text-[#1B2A4A]">${p.name}</div>
+            <div class="text-xs text-gray-400">${p.categoryLabel} · ${p.sku}</div>
+          </div>
+        </a>
+      `).join('');
+    }
+    dropdown.classList.remove('hidden');
+  }
+
+  // Desktop search
+  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const searchDropdown = document.getElementById('search-dropdown') as HTMLElement;
+  searchInput?.addEventListener('input', () => renderResults(searchInput.value, searchDropdown));
+  document.addEventListener('click', e => {
+    if (!document.getElementById('search-wrapper')?.contains(e.target as Node)) {
+      searchDropdown?.classList.add('hidden');
+    }
+  });
+
+  // Mobile search
+  const mobileSearchInput = document.getElementById('mobile-search-input') as HTMLInputElement;
+  const mobileDropdown = document.getElementById('mobile-search-dropdown') as HTMLElement;
+  mobileSearchInput?.addEventListener('input', () => renderResults(mobileSearchInput.value, mobileDropdown));
+  document.addEventListener('click', e => {
+    if (!document.getElementById('mobile-search-bar')?.contains(e.target as Node)) {
+      mobileDropdown?.classList.add('hidden');
+    }
   });
 </script>

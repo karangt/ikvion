@@ -1,16 +1,160 @@
 {
   "slug": "knee-calf-aids",
   "title": "Knee & Calf Aids",
-  "description": "Knee caps, hinged braces, ROM braces, knee immobilizers, and varicose stockings for knee and calf care.",
+  "description": "Knee caps, hinged braces, ROM braces, knee immobilisers, and varicose stockings for comprehensive knee and calf care.",
   "products": [
-    { "sku": "IK-KC-01", "name": "Knee Cap", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-KC-02", "name": "Hinge Knee Cap", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-KC-03", "name": "Polycentric Hinge Knee Cap", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-KC-04", "name": "Elastic Knee Support", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-KC-05", "name": "Knee Cap with Open Patella", "sizes": "S, M, L, XL, XXL" },
-    { "sku": "IK-KC-06", "name": "ROM Knee Brace", "sizes": "Universal" },
-    { "sku": "IK-KC-07", "name": "Knee Immobilizer", "sizes": "S, M, L, XL, XXL, XXXL (14/19/22 inch)" },
-    { "sku": "IK-KC-08", "name": "Varicose Stocking Below Knee", "sizes": "S, M, L, XL" },
-    { "sku": "IK-KC-09", "name": "Varicose Stocking Above Knee", "sizes": "S, M, L, XL" }
+    {
+      "sku": "IK-KC-01",
+      "name": "Knee Cap",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Elasticated neoprene sleeve with 360° compression",
+        "Anatomically shaped for a close, non-slip fit",
+        "Smooth inner surface prevents skin abrasion",
+        "Slim profile wears comfortably under trousers or sports clothing"
+      ],
+      "benefits": [
+        "Compresses and warms the knee joint to reduce pain and stiffness",
+        "Supports the knee during mild ligament strains and early osteoarthritis",
+        "Improves proprioceptive feedback to enhance joint stability",
+        "Suitable for daily wear and light sporting activity"
+      ]
+    },
+    {
+      "sku": "IK-KC-02",
+      "name": "Hinge Knee Cap",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Neoprene sleeve with bilateral polycentric hinges",
+        "Open-patella design reduces pressure on the kneecap",
+        "Hinges guide the knee through a controlled range of motion",
+        "Anti-migration straps above and below the knee prevent slipping"
+      ],
+      "benefits": [
+        "Provides mediolateral joint stability for ligament injuries and instability",
+        "Reduces pain during weight-bearing in moderate osteoarthritis",
+        "Controls knee movement during rehabilitation post-ligament sprain",
+        "Suitable for return-to-activity after knee injury"
+      ]
+    },
+    {
+      "sku": "IK-KC-03",
+      "name": "Polycentric Hinge Knee Cap",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Dual-axis polycentric hinges replicate the natural knee joint motion",
+        "Rigid frame with padded straps for firm support",
+        "Adjustable hinge stops to limit or control range of motion",
+        "Breathable neoprene shell with moisture-wicking lining"
+      ],
+      "benefits": [
+        "Delivers superior joint control for moderate-to-severe ligament instability",
+        "Protects the knee post-ACL, PCL, or collateral ligament repair",
+        "Polycentric hinge reduces shear forces at the joint during walking",
+        "Prescribed in post-surgical rehabilitation protocols for faster, safer return to activity"
+      ]
+    },
+    {
+      "sku": "IK-KC-04",
+      "name": "Elastic Knee Support",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Graduated compression elastic knit construction",
+        "Seamless tube design for uniform pressure distribution",
+        "Thin profile allows use inside most footwear",
+        "Easy to pull on without fasteners or straps"
+      ],
+      "benefits": [
+        "Reduces mild knee swelling and joint effusion through compression",
+        "Provides gentle proprioceptive support during daily activities",
+        "Suitable for chronic knee pain, mild tendinopathy, and general joint protection",
+        "Comfortable for long hours of wear in occupational and everyday settings"
+      ]
+    },
+    {
+      "sku": "IK-KC-05",
+      "name": "Knee Cap with Open Patella",
+      "sizes": "S, M, L, XL, XXL",
+      "features": [
+        "Circular aperture offloads direct pressure from the patella",
+        "Silicone patellar ring guides the kneecap into the correct tracking groove",
+        "Neoprene body retains warmth and delivers lateral compression",
+        "Anti-slip inner surface keeps the brace in position during activity"
+      ],
+      "benefits": [
+        "Relieves anterior knee pain from patellofemoral syndrome and patellar tendinopathy",
+        "Corrects patellar maltracking to reduce pain during stair climbing and squatting",
+        "Protects the knee after patellar dislocation during rehabilitation",
+        "Suitable for patients with chondromalacia patella seeking non-surgical symptom relief"
+      ]
+    },
+    {
+      "sku": "IK-KC-06",
+      "name": "ROM Knee Brace",
+      "sizes": "Universal",
+      "features": [
+        "Adjustable range-of-motion hinges with marked degree settings",
+        "Rigid lightweight frame with breathable padded straps",
+        "Extension and flexion stops independently adjustable",
+        "Universal sizing fits most adult knee circumferences"
+      ],
+      "benefits": [
+        "Controls range of motion precisely during post-operative rehabilitation",
+        "Protects surgical repairs by preventing unwanted joint positions",
+        "Allows incremental increases in movement as healing progresses",
+        "Standard prescription brace following knee ligament reconstruction and meniscal repair"
+      ]
+    },
+    {
+      "sku": "IK-KC-07",
+      "name": "Knee Immobilizer",
+      "sizes": "S, M, L, XL, XXL, XXXL (14/19/22 inch)",
+      "features": [
+        "Full-length rigid posterior shell with multiple velcro closures",
+        "Foam padding at the popliteal fossa and bony prominences",
+        "Available in three length options to match thigh-to-calf measurements",
+        "Ventilated design reduces heat build-up during immobilisation"
+      ],
+      "benefits": [
+        "Completely immobilises the knee for fractures, dislocations, and acute ligament tears",
+        "Maintains the knee in extension during transport and early post-injury management",
+        "Used post-operatively when full knee immobilisation is prescribed",
+        "Reduces pain by preventing any inadvertent knee movement"
+      ]
+    },
+    {
+      "sku": "IK-KC-08",
+      "name": "Varicose Stocking Below Knee",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Graduated compression highest at the ankle, decreasing towards the knee",
+        "Medical-grade elastic knit fabric maintains compression over extended wear",
+        "Reinforced heel and toe zones for durability",
+        "Smooth exterior suitable for wear with formal and casual footwear"
+      ],
+      "benefits": [
+        "Improves venous return from the lower leg to reduce varicose vein symptoms",
+        "Reduces ankle and calf swelling from venous insufficiency and prolonged standing",
+        "Prevents deep vein thrombosis during long-haul travel or bed rest",
+        "Supports post-sclerotherapy and post-varicose vein surgery recovery"
+      ]
+    },
+    {
+      "sku": "IK-KC-09",
+      "name": "Varicose Stocking Above Knee",
+      "sizes": "S, M, L, XL",
+      "features": [
+        "Full-leg graduated compression from foot to thigh",
+        "Silicone stay-up band at the thigh prevents rolling or slipping",
+        "Breathable, moisture-wicking fabric for all-day comfort",
+        "Reinforced foot panel for durability"
+      ],
+      "benefits": [
+        "Manages thigh-level varicosities and extensive venous insufficiency",
+        "Reduces whole-leg oedema and heaviness caused by poor venous circulation",
+        "Prescribed post-deep vein thrombosis to prevent post-thrombotic syndrome",
+        "Suitable for patients with lymphoedema requiring full lower limb compression"
+      ]
+    }
   ]
 }
