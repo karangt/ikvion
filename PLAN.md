@@ -19,8 +19,8 @@
 | Framework    | **Astro**                 | Zero JS by default, fast static builds, markdown-driven content |
 | Styling      | **Tailwind CSS**          | Utility-first, rapid prototyping, small bundle    |
 | Deployment   | **GitHub Pages**          | Free hosting, automatic deploys via GitHub Actions |
-| Contact Form | **Formspree / Web3Forms** | No backend needed, free tier sufficient           |
-| Images       | Optimized via Astro Image | Automatic WebP/AVIF conversion, lazy loading      |
+| Contact Form | **Formspree**             | No backend needed, free tier sufficient           |
+| Images       | Static PNGs in `public/`  | Native `loading="lazy"`, extracted from brochure PDF |
 
 ---
 
@@ -194,41 +194,34 @@ One page per category, showing a grid of products with image, name, SKU, and siz
 ikvion/
 ├── src/
 │   ├── components/
-│   │   ├── Header.astro          # Nav with logo, links
-│   │   ├── Footer.astro          # Contact info, certifications, copyright
-│   │   ├── Hero.astro            # Reusable hero banner
-│   │   ├── ProductCard.astro     # Single product card (image, name, SKU, sizes)
-│   │   ├── CategoryCard.astro    # Category thumbnail card for overview pages
-│   │   ├── CertificationBar.astro
-│   │   ├── ContactForm.astro
-│   │   └── MobileNav.astro       # Hamburger menu for mobile
+│   │   ├── Header.astro          # Nav with logo, links, mobile hamburger
+│   │   └── Footer.astro          # Contact info, certifications, copyright
 │   ├── layouts/
-│   │   └── BaseLayout.astro      # HTML shell, meta tags, header/footer
+│   │   └── BaseLayout.astro      # HTML shell, meta tags, GA4 placeholder, header/footer
 │   ├── pages/
 │   │   ├── index.astro           # Home
 │   │   ├── about.astro           # About
-│   │   ├── contact.astro         # Contact
+│   │   ├── contact.astro         # Contact (Formspree endpoint: xkgrqdlz)
 │   │   └── products/
 │   │       ├── index.astro       # All categories overview
-│   │       └── [category].astro  # Dynamic category pages
+│   │       └── [category].astro  # Dynamic category pages (driven by JSON)
 │   ├── content/
-│   │   └── products/             # Product data as JSON/YAML per category
+│   │   └── products/             # One JSON file per category (11 files)
 │   │       ├── neck-aids.json
 │   │       ├── shoulder-aids.json
 │   │       └── ...
 │   └── styles/
 │       └── global.css            # Tailwind base + custom styles
 ├── public/
-│   ├── images/
-│   │   ├── logo.png
-│   │   ├── certifications/       # ISO, MSME, WHO GMP, CE badges
-│   │   └── products/             # Product photos organized by category
-│   │       ├── neck-aids/
-│   │       ├── shoulder-aids/
-│   │       └── ...
-│   └── favicon.ico
-├── astro.config.mjs
-├── tailwind.config.mjs
+│   ├── favicon.ico
+│   ├── favicon.svg
+│   └── images/
+│       ├── certifications/       # ISO, MSME, WHO GMP, CE badges (empty — pending)
+│       └── products/             # 60 PNGs extracted from brochure, named by SKU
+│           ├── neck-aids/        # IK-NA-01.png … IK-NA-04.png
+│           ├── shoulder-aids/    # IK-SA-01.png … IK-SA-07.png
+│           └── ...               # (all 11 category folders)
+├── astro.config.mjs              # Tailwind v4 via vite plugin; base: '/ikvion/'
 ├── package.json
 └── PLAN.md
 ```
@@ -255,34 +248,38 @@ ikvion/
 - [x] Create product data files (JSON) for all 11 categories (60 products total)
 - [x] Build Products overview page (`/products`) with category cards
 - [x] Build dynamic category page (`/products/[category]`) with product grid
-- [x] Product cards — name, SKU, available sizes (image placeholders ready)
+- [x] Product cards — name, SKU, available sizes
+- [x] Extract all 60 product images from brochure PDF, organized by category/SKU
 
 ### Phase 4 — About & Contact ✅
 - [x] About page with company info, mission, certifications, values
 - [x] Contact page with form (Formspree integration)
 - [ ] Google Maps embed (pending)
 
-### Phase 5 — Polish & Deploy
+### Phase 5 — Polish & Deploy ✅ (mostly)
 - [ ] Responsive design audit (mobile, tablet, desktop)
-- [ ] Product images (once provided)
+- [x] Product images extracted from brochure PDF (60 images across 11 categories)
+- [x] GA4 placeholder snippet added to BaseLayout (commented out — needs real Measurement ID)
 - [ ] SEO meta tags, Open Graph, structured data
 - [ ] Performance audit (Lighthouse)
 - [x] Set up GitHub Actions workflow for GitHub Pages deployment
-- [ ] Enable GitHub Pages in repo settings (Pages → Source: GitHub Actions)
+- [x] Enable GitHub Pages in repo settings (Pages → Source: GitHub Actions)
+
+### Pending / Next Steps
+- [ ] Activate Formspree — sign up at formspree.io and activate endpoint `xkgrqdlz`
+- [ ] Add Google Analytics — replace `G-XXXXXXXXXX` in BaseLayout.astro with real GA4 Measurement ID
+- [ ] Google Maps embed on contact page
+- [ ] DNS — point `ikvion.com` to GitHub Pages deployment
+- [ ] Responsive design audit
+- [ ] SEO / Open Graph / Lighthouse audit
 
 ---
 
-## Open Questions
+## Decisions & Notes
 
-1. **Product images** — Are high-res individual product photos available, or should we extract/crop from the brochure PDF?
-    [Karan] Yes, extract from the pdf
-2. **About page content** — Is there additional company story/history text beyond what's in the brochure?
-    [Karan] No
-3. **Domain** — Is `ikvion.com` already owned and ready to point to the deployment?
-    [Karan] Yes
-4. **Analytics** — Should Google Analytics or similar be set up?
-    [Karan] Yes
-5. **Languages** — English only, or multilingual support needed?
-    [Karan] English is fine for now
-6. **WhatsApp integration** — Should there be a floating WhatsApp button for inquiries (common for Indian exporters)?
-    [Karan] Maybe later
+- **Product images** — Extracted from `brochure.pdf` using `pdfimages`; 60 PNGs named by SKU in `public/images/products/[category]/`
+- **About page content** — Brochure content only, no additional copy
+- **Domain** — `ikvion.com` is owned and ready to point to GitHub Pages
+- **Analytics** — GA4 placeholder in `BaseLayout.astro`; activate by replacing `G-XXXXXXXXXX`
+- **Languages** — English only for now
+- **WhatsApp button** — Deferred (maybe later)
