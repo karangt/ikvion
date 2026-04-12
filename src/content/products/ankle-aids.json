@@ -1,0 +1,13 @@
+{
+  "slug": "ankle-aids",
+  "title": "Ankle Aids",
+  "description": "Ankle supports, braces, foot drop splints, cast shoes, and dynamic response braces for ankle and foot conditions.",
+  "products": [
+    { "sku": "IK-AA-01", "name": "Ankle Support", "sizes": "S, M, L, XL" },
+    { "sku": "IK-AA-02", "name": "Anklet With Binder", "sizes": "S, M, L, XL" },
+    { "sku": "IK-AA-03", "name": "Ankle Brace", "sizes": "Universal" },
+    { "sku": "IK-AA-04", "name": "Foot Drop Splint", "sizes": "S, M, L" },
+    { "sku": "IK-AA-05", "name": "Cast Shoes", "sizes": "S, M, L, XL" },
+    { "sku": "IK-AA-06", "name": "DRB", "sizes": "Universal" }
+  ]
+}

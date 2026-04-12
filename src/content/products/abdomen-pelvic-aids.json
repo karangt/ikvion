@@ -1,0 +1,11 @@
+{
+  "slug": "abdomen-pelvic-aids",
+  "title": "Abdomen & Pelvic Aids",
+  "description": "Abdominal belts, maternity supports, pelvic belts, and hernia belts for core and pelvic support.",
+  "products": [
+    { "sku": "IK-AP-01", "name": "Abdomen Belt", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-AP-02", "name": "Maternity Belt", "sizes": "Universal" },
+    { "sku": "IK-AP-03", "name": "Pelvic Belt", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-AP-04", "name": "Hernia Belt", "sizes": "S, M, L, XL" }
+  ]
+}

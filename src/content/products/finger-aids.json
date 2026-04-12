@@ -1,0 +1,12 @@
+{
+  "slug": "finger-aids",
+  "title": "Finger Aids",
+  "description": "Finger splints, cots, and thumb supports for finger fractures, mallet finger, and joint protection.",
+  "products": [
+    { "sku": "IK-FA-01", "name": "Finger Cot", "sizes": "S, M, L" },
+    { "sku": "IK-FA-02", "name": "Frog Splint", "sizes": "S, M, L" },
+    { "sku": "IK-FA-03", "name": "Finger Mallet", "sizes": "S, M, L" },
+    { "sku": "IK-FA-04", "name": "Splint Finger", "sizes": "S, M, L" },
+    { "sku": "IK-FA-05", "name": "Thumb Spica Splint", "sizes": "Universal" }
+  ]
+}

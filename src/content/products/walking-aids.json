@@ -1,0 +1,11 @@
+{
+  "slug": "walking-aids",
+  "title": "Walking Aids",
+  "description": "Walking sticks, walkers, and folding walkers to support mobility and independence in rehabilitation.",
+  "products": [
+    { "sku": "IK-WA-01", "name": "Walking Stick Single Leg", "sizes": "Adjustable" },
+    { "sku": "IK-WA-02", "name": "Walking Stick Four Leg", "sizes": "Adjustable" },
+    { "sku": "IK-WA-03", "name": "Walker", "sizes": "Universal" },
+    { "sku": "IK-WA-04", "name": "Walker Folding", "sizes": "Universal" }
+  ]
+}

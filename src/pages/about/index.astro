@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const certifications = [
+  { name: 'ISO 9001:2008', desc: 'International quality management standard ensuring consistent product quality.' },
+  { name: 'MSME Registered', desc: 'Recognised by the Government of India as a Micro, Small & Medium Enterprise.' },
+  { name: 'WHO GMP Certified', desc: 'Compliant with World Health Organization Good Manufacturing Practices.' },
+  { name: 'CE Marked', desc: 'Products meet EU safety, health, and environmental protection requirements.' },
+];
+---
+
+<BaseLayout title="About Us" description="Learn about Ikvion Group of Companies — a leading exporter of orthopedic soft goods and rehabilitation aids from Pune, India.">
+
+  <!-- Header -->
+  <div style="background-color: #1B2A4A;" class="py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <nav class="text-sm text-gray-400 mb-3">
+        <a href={`${base}`} class="hover:text-[#4ABFBF]">Home</a>
+        <span class="mx-2">/</span>
+        <span class="text-white">About Us</span>
+      </nav>
+      <h1 class="text-3xl md:text-4xl font-bold text-white" style="font-family: 'Playfair Display', serif;">
+        About Ikvion
+      </h1>
+      <p class="text-gray-300 mt-2">Supporting Better Mobility, Worldwide</p>
+    </div>
+  </div>
+
+  <!-- Mission -->
+  <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-6" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+          Our Mission
+        </h2>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          Ikvion Group of Companies is a leading manufacturer and exporter of Orthopedic Soft Goods and Rehabilitation Aids, headquartered in Pune, Maharashtra, India.
+        </p>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          We are committed to improving patient outcomes by delivering high-quality orthopedic products that meet the most stringent international standards. Our product portfolio spans 11 categories and over 60 products — from cervical collars and arm slings to walking aids and traction kits.
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          With certifications including ISO 9001:2008, WHO GMP, and CE marking, Ikvion is trusted by hospitals, clinics, and distributors across the globe.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        {[
+          { value: '60+', label: 'Products' },
+          { value: '11', label: 'Categories' },
+          { value: '20+', label: 'Countries Served' },
+          { value: '4', label: 'Certifications' },
+        ].map(stat => (
+          <div class="rounded-xl p-6 text-center" style="background-color: #F5F0EB;">
+            <div class="text-3xl font-bold mb-1" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+              {stat.value}
+            </div>
+            <div class="text-sm text-gray-500">{stat.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="py-16 px-4 sm:px-6 lg:px-8" style="background-color: #F5F0EB;">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-4" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+          Certifications & Compliance
+        </h2>
+        <p class="text-gray-600 max-w-xl mx-auto">
+          Our products are manufactured to meet the highest international quality and safety standards.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {certifications.map(cert => (
+          <div class="bg-white rounded-xl p-6 text-center shadow-sm">
+            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #4ABFBF;">
+              <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <h3 class="font-semibold mb-2" style="color: #1B2A4A;">{cert.name}</h3>
+            <p class="text-sm text-gray-500">{cert.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-4" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+          Our Values
+        </h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {[
+          { title: 'Quality First', desc: 'Every product undergoes rigorous quality checks before leaving our facility.' },
+          { title: 'Patient Centred', desc: 'Designed with the patient in mind — for comfort, efficacy, and long-term use.' },
+          { title: 'Reliable Partner', desc: 'We support our global partners with prompt delivery, documentation, and after-sales service.' },
+        ].map(val => (
+          <div class="border-l-4 pl-6" style="border-color: #4ABFBF;">
+            <h3 class="font-semibold text-lg mb-2" style="color: #1B2A4A;">{val.title}</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">{val.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background-color: #C9A08A;" class="py-12 px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-2xl font-bold text-white mb-4" style="font-family: 'Playfair Display', serif;">
+      Ready to partner with Ikvion?
+    </h2>
+    <a
+      href={`${base}contact/`}
+      class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
+      style="background-color: #1B2A4A;"
+    >
+      Contact Us
+    </a>
+  </section>
+
+</BaseLayout>

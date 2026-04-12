@@ -1,0 +1,200 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Contact Us" description="Get in touch with Ikvion Group of Companies for product enquiries, pricing, and export information.">
+
+  <!-- Header -->
+  <div style="background-color: #1B2A4A;" class="py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <nav class="text-sm text-gray-400 mb-3">
+        <a href={`${base}`} class="hover:text-[#4ABFBF]">Home</a>
+        <span class="mx-2">/</span>
+        <span class="text-white">Contact</span>
+      </nav>
+      <h1 class="text-3xl md:text-4xl font-bold text-white" style="font-family: 'Playfair Display', serif;">
+        Contact Us
+      </h1>
+      <p class="text-gray-300 mt-2">We'd love to hear from you. Send us an enquiry.</p>
+    </div>
+  </div>
+
+  <section class="py-16 px-4 sm:px-6 lg:px-8" style="background-color: #F5F0EB;">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+      <!-- Contact Details -->
+      <div class="lg:col-span-1 space-y-6">
+        <div class="bg-white rounded-xl p-6 shadow-sm">
+          <h2 class="text-xl font-semibold mb-5" style="color: #1B2A4A;">Get In Touch</h2>
+          <ul class="space-y-4">
+            <li class="flex gap-3 items-start">
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5" style="background-color: #4ABFBF;">
+                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-medium text-gray-400 uppercase mb-0.5">Address</p>
+                <p class="text-sm text-gray-700">Ikvion Group of Companies<br />Pune, Maharashtra, India</p>
+              </div>
+            </li>
+            <li class="flex gap-3 items-start">
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5" style="background-color: #4ABFBF;">
+                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-medium text-gray-400 uppercase mb-0.5">Phone</p>
+                <a href="tel:+918097197772" class="text-sm text-gray-700 hover:text-[#4ABFBF] transition-colors">+91 8097197772</a><br />
+                <a href="tel:+919225523334" class="text-sm text-gray-700 hover:text-[#4ABFBF] transition-colors">+91 9225523334</a>
+              </div>
+            </li>
+            <li class="flex gap-3 items-start">
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5" style="background-color: #4ABFBF;">
+                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-medium text-gray-400 uppercase mb-0.5">Email</p>
+                <a href="mailto:info@ikvion.com" class="text-sm text-gray-700 hover:text-[#4ABFBF] transition-colors">info@ikvion.com</a>
+              </div>
+            </li>
+            <li class="flex gap-3 items-start">
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5" style="background-color: #4ABFBF;">
+                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-medium text-gray-400 uppercase mb-0.5">Website</p>
+                <a href="https://www.ikvion.com" target="_blank" rel="noopener" class="text-sm text-gray-700 hover:text-[#4ABFBF] transition-colors">www.ikvion.com</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Certifications -->
+        <div class="bg-white rounded-xl p-6 shadow-sm">
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3">Certifications</h3>
+          <div class="flex flex-wrap gap-2">
+            {['ISO 9001:2008', 'MSME', 'WHO GMP', 'CE'].map(cert => (
+              <span class="text-xs px-2 py-1 rounded-full text-white font-medium" style="background-color: #1B2A4A;">
+                {cert}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="lg:col-span-2">
+        <div class="bg-white rounded-xl p-8 shadow-sm">
+          <h2 class="text-xl font-semibold mb-6" style="color: #1B2A4A;">Send an Enquiry</h2>
+          <form
+            action="https://formspree.io/f/xkgrqdlz"
+            method="POST"
+            class="space-y-5"
+          >
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div>
+                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="John Smith"
+                  class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:border-transparent"
+                  style="--tw-ring-color: #4ABFBF;"
+                  onfocus="this.style.boxShadow='0 0 0 2px #4ABFBF40'; this.style.borderColor='#4ABFBF';"
+                  onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+                />
+              </div>
+              <div>
+                <label for="company" class="block text-sm font-medium text-gray-700 mb-1">Company / Organisation</label>
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  placeholder="ABC Medical Supplies"
+                  class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+                  onfocus="this.style.boxShadow='0 0 0 2px #4ABFBF40'; this.style.borderColor='#4ABFBF';"
+                  onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+                />
+              </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="john@example.com"
+                  class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+                  onfocus="this.style.boxShadow='0 0 0 2px #4ABFBF40'; this.style.borderColor='#4ABFBF';"
+                  onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+                />
+              </div>
+              <div>
+                <label for="country" class="block text-sm font-medium text-gray-700 mb-1">Country</label>
+                <input
+                  type="text"
+                  id="country"
+                  name="country"
+                  placeholder="United States"
+                  class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+                  onfocus="this.style.boxShadow='0 0 0 2px #4ABFBF40'; this.style.borderColor='#4ABFBF';"
+                  onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Product enquiry / Pricing / Export documentation"
+                class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+                onfocus="this.style.boxShadow='0 0 0 2px #4ABFBF40'; this.style.borderColor='#4ABFBF';"
+                onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+              />
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                rows={5}
+                placeholder="Please describe your requirements — product names, quantities, destination country, etc."
+                class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none resize-none"
+                onfocus="this.style.boxShadow='0 0 0 2px #4ABFBF40'; this.style.borderColor='#4ABFBF';"
+                onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full py-3 px-6 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
+              style="background-color: #1B2A4A;"
+            >
+              Send Enquiry
+            </button>
+            <p class="text-xs text-gray-400 text-center">
+              We typically respond within 1–2 business days.
+            </p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</BaseLayout>

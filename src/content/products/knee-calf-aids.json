@@ -1,0 +1,16 @@
+{
+  "slug": "knee-calf-aids",
+  "title": "Knee & Calf Aids",
+  "description": "Knee caps, hinged braces, ROM braces, knee immobilizers, and varicose stockings for knee and calf care.",
+  "products": [
+    { "sku": "IK-KC-01", "name": "Knee Cap", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-KC-02", "name": "Hinge Knee Cap", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-KC-03", "name": "Polycentric Hinge Knee Cap", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-KC-04", "name": "Elastic Knee Support", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-KC-05", "name": "Knee Cap with Open Patella", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-KC-06", "name": "ROM Knee Brace", "sizes": "Universal" },
+    { "sku": "IK-KC-07", "name": "Knee Immobilizer", "sizes": "S, M, L, XL, XXL, XXXL (14/19/22 inch)" },
+    { "sku": "IK-KC-08", "name": "Varicose Stocking Below Knee", "sizes": "S, M, L, XL" },
+    { "sku": "IK-KC-09", "name": "Varicose Stocking Above Knee", "sizes": "S, M, L, XL" }
+  ]
+}

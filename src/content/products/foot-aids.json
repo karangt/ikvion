@@ -1,0 +1,11 @@
+{
+  "slug": "foot-aids",
+  "title": "Foot Aids",
+  "description": "Silicon gel insoles, heel cushions, arch supports, and toe separators for foot comfort and correction.",
+  "products": [
+    { "sku": "IK-FT-01", "name": "Silicon Gel Insole", "sizes": "S, M, L" },
+    { "sku": "IK-FT-02", "name": "Silicon Gel Heel Cushion", "sizes": "Universal" },
+    { "sku": "IK-FT-03", "name": "Arch Support", "sizes": "S, M, L" },
+    { "sku": "IK-FT-04", "name": "Toe Separator", "sizes": "Universal" }
+  ]
+}

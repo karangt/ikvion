@@ -1,0 +1,11 @@
+{
+  "slug": "neck-aids",
+  "title": "Neck Aids",
+  "description": "Cervical support braces and collars for neck injury, post-surgery recovery, and pain management.",
+  "products": [
+    { "sku": "IK-NA-01", "name": "Cervical Collar with Support", "sizes": "S, M, L, XL" },
+    { "sku": "IK-NA-02", "name": "Philadelphia Collar", "sizes": "S, M, L, XL" },
+    { "sku": "IK-NA-03", "name": "Hard Cervical Collar", "sizes": "S, M, L, XL" },
+    { "sku": "IK-NA-04", "name": "Soft Cervical Collar", "sizes": "S, M, L, XL" }
+  ]
+}

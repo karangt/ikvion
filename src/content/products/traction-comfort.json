@@ -1,0 +1,13 @@
+{
+  "slug": "traction-comfort",
+  "title": "Traction Kit & Comfort Aids",
+  "description": "Skin traction kits, leg and ankle traction braces, cervical pillows, and comfort cushions for patient care.",
+  "products": [
+    { "sku": "IK-TK-01", "name": "Skin Traction Kit", "sizes": "Universal" },
+    { "sku": "IK-TK-02", "name": "Leg Traction Brace", "sizes": "S, M, L, XL" },
+    { "sku": "IK-TK-03", "name": "Ankle Traction", "sizes": "Universal" },
+    { "sku": "IK-CA-01", "name": "Cervical Pillow", "sizes": "Universal" },
+    { "sku": "IK-CA-02", "name": "Coccyx Seat Cushion", "sizes": "Universal" },
+    { "sku": "IK-CA-03", "name": "Back Rest Cushion", "sizes": "Universal" }
+  ]
+}

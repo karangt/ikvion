@@ -1,0 +1,13 @@
+{
+  "slug": "chest-rib-back-aids",
+  "title": "Chest, Rib & Back Aids",
+  "description": "Lumbar belts, rib braces, chest binders, and dorso lumbar supports for back pain and rib injuries.",
+  "products": [
+    { "sku": "IK-CR-01", "name": "Ash Brace", "sizes": "Universal" },
+    { "sku": "IK-CR-02", "name": "Rib Belt", "sizes": "S, M, L, XL, XXL, Universal, Child" },
+    { "sku": "IK-CR-03", "name": "Chest Binder", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-BA-01", "name": "Contoured L S Belt", "sizes": "S, M, L, XL, XXL, XXXL" },
+    { "sku": "IK-BA-02", "name": "Lumbar Sacral Belt", "sizes": "S, M, L, XL, XXL, XXXL" },
+    { "sku": "IK-BA-03", "name": "Dorso Lumbar Brace", "sizes": "Universal, Spl" }
+  ]
+}

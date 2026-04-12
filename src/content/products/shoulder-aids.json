@@ -1,0 +1,14 @@
+{
+  "slug": "shoulder-aids",
+  "title": "Shoulder Aids",
+  "description": "Arm slings, shoulder supports, and immobilizers for shoulder injuries and post-operative care.",
+  "products": [
+    { "sku": "IK-SA-01", "name": "Arm Sling", "sizes": "S, M, L, XL, XXL, Child" },
+    { "sku": "IK-SA-02", "name": "Arm Sling Tropical", "sizes": "S, M, L, XL, XXL, Child" },
+    { "sku": "IK-SA-03", "name": "Arm Sling Strap", "sizes": "Universal" },
+    { "sku": "IK-SA-04", "name": "Shoulder Support", "sizes": "Universal" },
+    { "sku": "IK-SA-05", "name": "Shoulder Immobilizer", "sizes": "Universal, Spl., Child" },
+    { "sku": "IK-SA-06", "name": "Elastic Shoulder Immobilizer", "sizes": "S, M, L, XL, XXL" },
+    { "sku": "IK-SA-07", "name": "Clavical Brace Stockinette", "sizes": "S, M, L, XL, XXL" }
+  ]
+}

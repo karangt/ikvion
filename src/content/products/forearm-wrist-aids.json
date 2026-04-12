@@ -1,0 +1,12 @@
+{
+  "slug": "forearm-wrist-aids",
+  "title": "Forearm & Wrist Aids",
+  "description": "Elbow supports, wrist splints, and braces for forearm and wrist conditions including tennis elbow and carpal tunnel.",
+  "products": [
+    { "sku": "IK-FW-01", "name": "Elbow Support", "sizes": "S, M, L" },
+    { "sku": "IK-FW-02", "name": "Tennis Elbow Support", "sizes": "Universal" },
+    { "sku": "IK-FW-03", "name": "Wrist Splint", "sizes": "Universal" },
+    { "sku": "IK-FW-04", "name": "Wrist Brace", "sizes": "Universal" },
+    { "sku": "IK-FW-05", "name": "Wrist Brace with Thumb", "sizes": "Universal" }
+  ]
+}

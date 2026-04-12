@@ -237,35 +237,38 @@ ikvion/
 
 ## Implementation Phases
 
-### Phase 1 — Scaffold & Layout
-- [ ] Initialize Astro project with Tailwind CSS
-- [ ] Set up BaseLayout with meta tags, favicon, fonts
-- [ ] Build Header component (logo, nav links, mobile hamburger)
-- [ ] Build Footer component (contact info, certification badges, copyright)
+### Phase 1 — Scaffold & Layout ✅
+- [x] Initialize Astro project with Tailwind CSS
+- [x] Set up BaseLayout with meta tags, favicon, fonts
+- [x] Build Header component (logo, nav links, mobile hamburger)
+- [x] Build Footer component (contact info, certification badges, copyright)
 
-### Phase 2 — Home Page
-- [ ] Hero section with tagline and CTA buttons
-- [ ] Product categories grid (11 category cards with placeholder images)
-- [ ] Certifications bar
-- [ ] Export CTA banner
+### Phase 2 — Home Page ✅
+- [x] Hero section with tagline and CTA buttons
+- [x] Product categories grid (11 category cards)
+- [x] Certifications bar
+- [x] Stats section (60+ products, 11 categories, 20+ countries, 4 certs)
+- [x] Why Choose Ikvion section
+- [x] Export CTA banner
 
-### Phase 3 — Product Pages
-- [ ] Create product data files (JSON) for all 11 categories (60 products total)
-- [ ] Build Products overview page (`/products`) with category cards
-- [ ] Build dynamic category page (`/products/[category]`) with product grid
-- [ ] ProductCard component — image, name, SKU, available sizes
+### Phase 3 — Product Pages ✅
+- [x] Create product data files (JSON) for all 11 categories (60 products total)
+- [x] Build Products overview page (`/products`) with category cards
+- [x] Build dynamic category page (`/products/[category]`) with product grid
+- [x] Product cards — name, SKU, available sizes (image placeholders ready)
 
-### Phase 4 — About & Contact
-- [ ] About page with company info, mission, certifications
-- [ ] Contact page with form (Formspree/Web3Forms integration)
-- [ ] Google Maps embed
+### Phase 4 — About & Contact ✅
+- [x] About page with company info, mission, certifications, values
+- [x] Contact page with form (Formspree integration)
+- [ ] Google Maps embed (pending)
 
 ### Phase 5 — Polish & Deploy
 - [ ] Responsive design audit (mobile, tablet, desktop)
-- [ ] Image optimization (WebP, lazy loading, proper sizing)
+- [ ] Product images (once provided)
 - [ ] SEO meta tags, Open Graph, structured data
 - [ ] Performance audit (Lighthouse)
-- [ ] Set up GitHub Actions workflow for GitHub Pages deployment
+- [x] Set up GitHub Actions workflow for GitHub Pages deployment
+- [ ] Enable GitHub Pages in repo settings (Pages → Source: GitHub Actions)
 
 ---
 

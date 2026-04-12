@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const categories = [
+  { slug: 'neck-aids',           title: 'Neck Aids',                   desc: 'Cervical collars and support braces',              icon: '🦴', count: 4  },
+  { slug: 'shoulder-aids',       title: 'Shoulder Aids',               desc: 'Arm slings, immobilizers, supports',               icon: '💪', count: 7  },
+  { slug: 'forearm-wrist-aids',  title: 'Forearm & Wrist Aids',        desc: 'Elbow supports, wrist splints and braces',         icon: '🤝', count: 5  },
+  { slug: 'finger-aids',         title: 'Finger Aids',                 desc: 'Finger splints, cots, thumb supports',             icon: '👆', count: 5  },
+  { slug: 'chest-rib-back-aids', title: 'Chest, Rib & Back Aids',      desc: 'Lumbar belts, rib braces, chest binders',         icon: '🫀', count: 6  },
+  { slug: 'abdomen-pelvic-aids', title: 'Abdomen & Pelvic Aids',       desc: 'Abdominal belts, maternity and hernia supports',  icon: '🩺', count: 4  },
+  { slug: 'knee-calf-aids',      title: 'Knee & Calf Aids',            desc: 'Knee caps, ROM braces, varicose stockings',       icon: '🦵', count: 9  },
+  { slug: 'ankle-aids',          title: 'Ankle Aids',                  desc: 'Ankle supports, foot drop splints, cast shoes',   icon: '🦶', count: 6  },
+  { slug: 'foot-aids',           title: 'Foot Aids',                   desc: 'Gel insoles, heel cushions, arch supports',       icon: '👣', count: 4  },
+  { slug: 'traction-comfort',    title: 'Traction Kit & Comfort Aids', desc: 'Traction kits, cervical pillows, cushions',       icon: '🛏️', count: 6  },
+  { slug: 'walking-aids',        title: 'Walking Aids',                desc: 'Walking sticks, walkers, folding walkers',        icon: '🚶', count: 4  },
+];
+---
+
+<BaseLayout title="Products" description="Browse Ikvion's full range of orthopedic soft goods and rehabilitation aids across 11 categories.">
+
+  <!-- Page Header -->
+  <div style="background-color: #1B2A4A;" class="py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <nav class="text-sm text-gray-400 mb-3">
+        <a href={`${base}`} class="hover:text-[#4ABFBF]">Home</a>
+        <span class="mx-2">/</span>
+        <span class="text-white">Products</span>
+      </nav>
+      <h1 class="text-3xl md:text-4xl font-bold text-white" style="font-family: 'Playfair Display', serif;">
+        Product Catalogue
+      </h1>
+      <p class="text-gray-300 mt-2">60+ products across 11 categories</p>
+    </div>
+  </div>
+
+  <!-- Categories Grid -->
+  <section class="py-12 px-4 sm:px-6 lg:px-8" style="background-color: #F5F0EB;">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {categories.map(cat => (
+          <a
+            href={`${base}products/${cat.slug}/`}
+            class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5"
+          >
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-4">
+                <span class="text-4xl">{cat.icon}</span>
+                <span class="text-xs font-medium px-2 py-1 rounded-full text-white" style="background-color: #4ABFBF;">
+                  {cat.count} products
+                </span>
+              </div>
+              <h2 class="text-lg font-semibold mb-1 group-hover:text-[#4ABFBF] transition-colors" style="color: #1B2A4A;">
+                {cat.title}
+              </h2>
+              <p class="text-sm text-gray-500 mb-4">{cat.desc}</p>
+              <span class="inline-flex items-center gap-1 text-sm font-medium text-[#4ABFBF]">
+                View products
+                <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-white py-12 px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-2xl font-bold mb-3" style="color: #1B2A4A;">Need a custom quote or full catalogue?</h2>
+    <p class="text-gray-600 mb-6">Contact us for pricing, MOQ details, and export documentation.</p>
+    <a
+      href={`${base}contact/`}
+      class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
+      style="background-color: #1B2A4A;"
+    >
+      Get in Touch
+    </a>
+  </section>
+
+</BaseLayout>
