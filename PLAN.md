@@ -18,7 +18,7 @@
 | ------------ | ------------------------- | ------------------------------------------------ |
 | Framework    | **Astro**                 | Zero JS by default, fast static builds, markdown-driven content |
 | Styling      | **Tailwind CSS**          | Utility-first, rapid prototyping, small bundle    |
-| Deployment   | **Vercel / Netlify**      | Free tier, automatic builds from git              |
+| Deployment   | **GitHub Pages**          | Free hosting, automatic deploys via GitHub Actions |
 | Contact Form | **Formspree / Web3Forms** | No backend needed, free tier sufficient           |
 | Images       | Optimized via Astro Image | Automatic WebP/AVIF conversion, lazy loading      |
 
@@ -265,7 +265,7 @@ ikvion/
 - [ ] Image optimization (WebP, lazy loading, proper sizing)
 - [ ] SEO meta tags, Open Graph, structured data
 - [ ] Performance audit (Lighthouse)
-- [ ] Deploy to Vercel/Netlify
+- [ ] Set up GitHub Actions workflow for GitHub Pages deployment
 
 ---
 
