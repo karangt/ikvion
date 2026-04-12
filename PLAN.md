@@ -19,7 +19,7 @@
 | Framework    | **Astro**                 | Zero JS by default, fast static builds, markdown-driven content |
 | Styling      | **Tailwind CSS**          | Utility-first, rapid prototyping, small bundle    |
 | Deployment   | **GitHub Pages**          | Free hosting, automatic deploys via GitHub Actions |
-| Contact Form | **Formspree**             | No backend needed, free tier sufficient           |
+| Contact Form | **Web3Forms**             | No backend needed, unlimited free submissions     |
 | Images       | Static PNGs in `public/`  | Native `loading="lazy"`, extracted from brochure PDF |
 
 ---
@@ -266,7 +266,7 @@ ikvion/
 - [x] Enable GitHub Pages in repo settings (Pages → Source: GitHub Actions)
 
 ### Pending / Next Steps
-- [ ] Activate Formspree — sign up at formspree.io and activate endpoint `xkgrqdlz`
+- [ ] Activate Web3Forms — get free access key at web3forms.com (enter info@ikvion.com) and replace `YOUR_ACCESS_KEY_HERE` in `src/pages/contact/index.astro`
 - [ ] Add Google Analytics — replace `G-XXXXXXXXXX` in BaseLayout.astro with real GA4 Measurement ID
 - [ ] Google Maps embed on contact page
 - [ ] DNS — point `ikvion.com` to GitHub Pages deployment

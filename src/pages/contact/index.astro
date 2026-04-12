@@ -96,10 +96,16 @@ const base = import.meta.env.BASE_URL;
         <div class="bg-white rounded-xl p-8 shadow-sm">
           <h2 class="text-xl font-semibold mb-6" style="color: #1B2A4A;">Send an Enquiry</h2>
           <form
-            action="https://formspree.io/f/xkgrqdlz"
+            action="https://api.web3forms.com/submit"
             method="POST"
             class="space-y-5"
           >
+            <!-- Web3Forms: get your free access key at web3forms.com -->
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+            <input type="hidden" name="subject" value="New Enquiry from Ikvion Website" />
+            <input type="hidden" name="from_name" value="Ikvion Website" />
+            <!-- Honeypot spam protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display:none" />
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
