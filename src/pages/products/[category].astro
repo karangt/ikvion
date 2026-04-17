@@ -32,8 +32,8 @@ const { data } = Astro.props;
 // Force 3-column grid for specific categories
 const forceThreeCols = ['chest-rib-back-aids', 'traction-comfort', 'forearm-wrist-aids'].includes(data.slug);
 
-// SKUs where the product sits at the bottom of the image frame
-const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-01', 'IK-AA-02', 'IK-AA-03']);
+// Non-face images where product is in the lower half of the frame
+const bottomPositionSkus = new Set(['IK-AA-01', 'IK-AA-02', 'IK-AA-03']);
 
 const itemListSchema = {
   '@context': 'https://schema.org',
