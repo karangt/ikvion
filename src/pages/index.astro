@@ -29,21 +29,21 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
 >
 
   <!-- Hero -->
-  <section style="background-color: #1B2A4A;" class="relative overflow-hidden">
+  <section style="background-color: #0F1F54;" class="relative overflow-hidden">
     <div class="absolute inset-0 opacity-10">
       <svg viewBox="0 0 800 600" class="w-full h-full" preserveAspectRatio="xMidYMid slice">
-        <circle cx="700" cy="100" r="300" fill="#4ABFBF" />
-        <circle cx="100" cy="500" r="200" fill="#C9A08A" />
+        <circle cx="700" cy="100" r="300" fill="#0D9488" />
+        <circle cx="100" cy="500" r="200" fill="#D7AA9F" />
       </svg>
     </div>
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
       <div class="max-w-2xl">
-        <p class="text-sm font-semibold uppercase tracking-widest mb-4" style="color: #4ABFBF;">
+        <p class="text-sm font-semibold uppercase tracking-widest mb-4" style="color: #0D9488;">
           Ikvion Group of Companies
         </p>
         <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-6" style="font-family: 'Playfair Display', serif;">
           Supporting<br />
-          <span style="color: #C9A08A;">Better Mobility</span>
+          <span style="color: #D7AA9F;">Better Mobility</span>
         </h1>
         <p class="text-lg text-gray-300 mb-8 leading-relaxed">
           Premium Orthopedic Soft Goods &amp; Rehabilitation Aids — manufactured and exported from Pune, India. Trusted by healthcare providers worldwide.
@@ -51,8 +51,8 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
         <div class="flex flex-wrap gap-4">
           <a
             href={`${base}products/`}
-            class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-[#1B2A4A] hover:opacity-90 transition-opacity"
-            style="background-color: #4ABFBF;"
+            class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-[#0F1F54] hover:opacity-90 transition-opacity"
+            style="background-color: #0D9488;"
           >
             View Products
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,7 +81,7 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
   </section>
 
   <!-- Certifications bar -->
-  <div style="background-color: #C9A08A;">
+  <div style="background-color: #D7AA9F;">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
       <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-2">
         {certifications.map(cert => (
@@ -107,7 +107,7 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
           { value: '4', label: 'Certifications' },
         ].map(stat => (
           <div>
-            <div class="text-4xl font-bold mb-1" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+            <div class="text-4xl font-bold mb-1" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
               {stat.value}
             </div>
             <div class="text-sm text-gray-500">{stat.label}</div>
@@ -118,10 +118,10 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
   </section>
 
   <!-- Product Categories -->
-  <section class="py-16 px-4 sm:px-6 lg:px-8" style="background-color: #F5F0EB;">
+  <section class="py-16 px-4 sm:px-6 lg:px-8" style="background-color: #FFFFFF;">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
           Product Categories
         </h2>
         <p class="text-gray-600 max-w-xl mx-auto">
@@ -132,12 +132,12 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
         {categories.map(cat => (
           <a
             href={`${base}products/${cat.slug}/`}
-            class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 border border-transparent hover:border-[#4ABFBF]/30"
+            class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 border border-transparent hover:border-[#0D9488]/30"
           >
-            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-3 text-[#4ABFBF]" style="background-color: rgba(74,191,191,0.1);">
+            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-3 text-[#0D9488]" style="background-color: rgba(13,148,136,0.1);">
               <Fragment set:html={cat.icon} />
             </div>
-            <h3 class="font-semibold text-[#1B2A4A] mb-1 group-hover:text-[#4ABFBF] transition-colors">
+            <h3 class="font-semibold text-[#0F1F54] mb-1 group-hover:text-[#0D9488] transition-colors">
               {cat.title}
             </h3>
             <p class="text-sm text-gray-500">{cat.count} products</p>
@@ -148,7 +148,7 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
         <a
           href={`${base}products/`}
           class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-opacity hover:opacity-90"
-          style="background-color: #1B2A4A;"
+          style="background-color: #0F1F54;"
         >
           View All Products
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -163,7 +163,7 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
   <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
           Why Choose Ikvion?
         </h2>
       </div>
@@ -185,11 +185,11 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
             desc: 'Over 60 products across 11 categories — a one-stop solution for all orthopedic soft goods needs.'
           },
         ].map(item => (
-          <div class="text-center p-6 rounded-xl" style="background-color: #F5F0EB;">
-            <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 text-[#4ABFBF]" style="background-color: rgba(74,191,191,0.1);">
+          <div class="text-center p-6 rounded-xl" style="background-color: #FFFFFF;">
+            <div class="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 text-[#0D9488]" style="background-color: rgba(13,148,136,0.1);">
               <Fragment set:html={item.icon} />
             </div>
-            <h3 class="text-lg font-semibold mb-2" style="color: #1B2A4A;">{item.title}</h3>
+            <h3 class="text-lg font-semibold mb-2" style="color: #0F1F54;">{item.title}</h3>
             <p class="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
           </div>
         ))}
@@ -198,7 +198,7 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
   </section>
 
   <!-- CTA Banner -->
-  <section style="background-color: #4ABFBF;" class="py-16 px-4 sm:px-6 lg:px-8">
+  <section style="background-color: #0D9488;" class="py-16 px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl font-bold text-white mb-4" style="font-family: 'Playfair Display', serif;">
         Looking for a Reliable Export Partner?
@@ -209,7 +209,7 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
       <a
         href={`${base}contact/`}
         class="inline-flex items-center gap-2 px-8 py-4 rounded-lg font-semibold transition-opacity hover:opacity-90"
-        style="background-color: #1B2A4A; color: white;"
+        style="background-color: #0F1F54; color: white;"
       >
         Contact Us Today
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

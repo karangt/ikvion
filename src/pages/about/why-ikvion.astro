@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+
+const reasons = [
+  {
+    icon: `<path d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"`,
+    title: 'Certified Quality',
+    desc: 'ISO 9001:2008, WHO GMP Certified, CE Marked, and MSME Registered — every product is manufactured to the highest international standards.'
+  },
+  {
+    icon: `<path d="M3 7h18"/><path d="M3 7l9 13 9-13"/>`,
+    title: 'Wide Product Range',
+    desc: 'Over 60 products across 11 orthopedic categories — from cervical collars and knee braces to walking aids and traction kits. A true one-stop partner.'
+  },
+  {
+    icon: `<circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>`,
+    title: 'Global Export Expertise',
+    desc: 'Trusted by healthcare providers in 20+ countries. We handle all export documentation, customs compliance, and logistics coordination.'
+  },
+  {
+    icon: `<path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>`,
+    title: 'Complimentary Samples',
+    desc: 'Evaluate before you commit. We offer product samples to qualified distributors and healthcare buyers so you can verify quality firsthand.'
+  },
+  {
+    icon: `<path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>`,
+    title: 'Dedicated Account Managers',
+    desc: 'Every partner gets a dedicated point of contact for enquiries, orders, and after-sales support — ensuring a smooth and personal experience.'
+  },
+  {
+    icon: `<rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>`,
+    title: 'Fast & Reliable Delivery',
+    desc: 'Coordinated shipping with all necessary documentation — commercial invoice, packing list, COO, and more — for hassle-free import clearance.'
+  },
+  {
+    icon: `<path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>`,
+    title: 'Patient-Centred Design',
+    desc: 'All products are designed with patient comfort and clinical efficacy in mind — breathable materials, ergonomic fits, and adjustable supports.'
+  },
+  {
+    icon: `<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>`,
+    title: 'Exceptional After-Sales Service',
+    desc: 'Our relationship doesn\'t end at delivery. We provide ongoing product support, replacements for defective items, and responsive communication.'
+  },
+  {
+    icon: `<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/>`,
+    title: 'Custom Branding & OEM',
+    desc: 'We support private label and OEM requirements — your branding on our quality products. Custom packaging with waterproof, pallet-ready solutions.'
+  },
+  {
+    icon: `<path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>`,
+    title: 'Comprehensive Product Training',
+    desc: 'We educate your team on product usage, clinical applications, and fitting guidelines — so your staff can confidently support end users.'
+  },
+  {
+    icon: `<circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>`,
+    title: 'Transparent & Open',
+    desc: 'We welcome facility visits and factory tours. See our manufacturing process, quality checks, and packaging firsthand — total transparency.'
+  },
+  {
+    icon: `<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>`,
+    title: 'Eco-Friendly Practices',
+    desc: 'Responsible manufacturing with sustainable sourcing and waste reduction practices — quality products with minimal environmental impact.'
+  },
+];
+---
+
+<BaseLayout title="Why Ikvion" description="Discover why healthcare providers and distributors in 20+ countries choose Ikvion for orthopedic soft goods and rehabilitation aids.">
+
+  <!-- Header -->
+  <div style="background-color: #0F1F54;" class="py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <nav class="text-sm text-gray-400 mb-3">
+        <a href={`${base}`} class="hover:text-[#0D9488]">Home</a>
+        <span class="mx-2">/</span>
+        <a href={`${base}about/`} class="hover:text-[#0D9488]">About</a>
+        <span class="mx-2">/</span>
+        <span class="text-white">Why Ikvion</span>
+      </nav>
+      <h1 class="text-3xl md:text-4xl font-bold text-white" style="font-family: 'Playfair Display', serif;">
+        Why Choose Ikvion?
+      </h1>
+      <p class="text-gray-300 mt-2 max-w-2xl">12 reasons why healthcare providers and distributors worldwide trust us as their orthopedic goods partner.</p>
+    </div>
+  </div>
+
+  <!-- Reasons Grid -->
+  <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {reasons.map((item, i) => (
+          <div class="flex gap-4 p-6 rounded-xl border border-gray-100 hover:border-[#0D9488]/30 hover:shadow-md transition-all">
+            <div class="shrink-0 w-11 h-11 rounded-lg flex items-center justify-center" style="background-color: rgba(13,148,136,0.1); color: #0D9488;">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <Fragment set:html={item.icon} />
+              </svg>
+            </div>
+            <div>
+              <div class="text-xs font-semibold text-[#0D9488] mb-1">0{i + 1}</div>
+              <h3 class="font-semibold mb-1" style="color: #0F1F54; font-family: 'Playfair Display', serif;">{item.title}</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background-color: #0D9488;" class="py-14 px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-white mb-3" style="font-family: 'Playfair Display', serif;">
+      Ready to partner with Ikvion?
+    </h2>
+    <p class="text-white/80 mb-7">Get in touch for product catalogues, samples, and pricing.</p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href={`${base}contact/`} class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-[#0D9488] bg-white hover:opacity-90 transition-opacity">
+        Contact Us
+      </a>
+      <a href={`${base}about/dealership/`} class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/40 hover:border-white transition-colors">
+        Apply for Dealership
+      </a>
+    </div>
+  </section>
+
+</BaseLayout>

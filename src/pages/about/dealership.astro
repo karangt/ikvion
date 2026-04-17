@@ -1,0 +1,154 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+
+const benefits = [
+  { title: 'Exclusive Territory Rights', desc: 'Secure exclusive rights to distribute Ikvion products in your region — protecting your market and investment.' },
+  { title: 'Competitive Margins', desc: 'Profit-driven pricing structure designed to ensure strong margins and sustainable business growth for our partners.' },
+  { title: 'No Advance Deposit', desc: 'Start your dealership without a large upfront commitment. We believe in building trust before demanding it.' },
+  { title: 'Marketing Support', desc: 'Tailored marketing materials, product catalogues, brochures, and digital assets to help you grow your local market.' },
+  { title: 'Dedicated Account Manager', desc: 'A single point of contact for all your needs — orders, support, queries, and escalations handled personally.' },
+  { title: 'Fast Order Fulfillment', desc: 'Expedited processing and coordinated logistics so your customers receive products promptly every time.' },
+  { title: 'Product Training', desc: 'Comprehensive training on product usage, clinical applications, and fitting — equipping your team to sell confidently.' },
+  { title: 'Early Access to New Products', desc: 'Be the first in your market to offer our latest innovations and product line expansions before general availability.' },
+  { title: 'Custom Branding Options', desc: 'OEM and private label support available for qualified partners — your brand, our quality.' },
+  { title: 'Annual Discount Opportunities', desc: 'Volume-based annual discounts and incentive programmes rewarding loyal, high-performing partners.' },
+  { title: 'After-Sales Support', desc: 'Ongoing technical and product support post-sale, including warranty handling and replacement processing.' },
+  { title: 'Certified Products', desc: 'Sell with confidence — all Ikvion products are ISO 9001:2008, WHO GMP, and CE certified.' },
+];
+
+const steps = [
+  { step: '01', title: 'Submit Application', desc: 'Fill in the dealership enquiry form below with your business details, region of interest, and distribution capacity.' },
+  { step: '02', title: 'Review & Approval', desc: 'Our team evaluates your application and conducts a brief discussion to understand your market and goals.' },
+  { step: '03', title: 'Onboarding & Training', desc: 'Once approved, you receive your dealership agreement, product training, and first order support from your account manager.' },
+];
+---
+
+<BaseLayout title="Dealership" description="Become an Ikvion authorised dealer. Join our growing network of orthopedic goods distributors across India and worldwide.">
+
+  <!-- Header -->
+  <div style="background-color: #0F1F54;" class="py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <nav class="text-sm text-gray-400 mb-3">
+        <a href={`${base}`} class="hover:text-[#0D9488]">Home</a>
+        <span class="mx-2">/</span>
+        <a href={`${base}about/`} class="hover:text-[#0D9488]">About</a>
+        <span class="mx-2">/</span>
+        <span class="text-white">Dealership</span>
+      </nav>
+      <h1 class="text-3xl md:text-4xl font-bold text-white" style="font-family: 'Playfair Display', serif;">
+        Become an Ikvion Dealer
+      </h1>
+      <p class="text-gray-300 mt-2 max-w-2xl">Partner with a certified exporter trusted in 20+ countries. Exclusive territory rights, strong margins, and full support.</p>
+    </div>
+  </div>
+
+  <!-- Benefits -->
+  <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-3" style="color: #0F1F54; font-family: 'Playfair Display', serif;">Benefits of Partnering with Us</h2>
+        <p class="text-gray-600 max-w-xl mx-auto">Everything you need to build a successful orthopedic distribution business.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {benefits.map(b => (
+          <div class="p-5 rounded-xl border border-gray-100 hover:border-[#0D9488]/40 hover:shadow-sm transition-all">
+            <div class="w-2 h-2 rounded-full mb-3" style="background-color: #0D9488;"></div>
+            <h3 class="font-semibold mb-1.5 text-sm" style="color: #0F1F54;">{b.title}</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">{b.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Apply -->
+  <section class="py-16 px-4 sm:px-6 lg:px-8" style="background-color: #F8FFFE;">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-3" style="color: #0F1F54; font-family: 'Playfair Display', serif;">How to Apply</h2>
+        <p class="text-gray-600">Three simple steps to becoming an authorised Ikvion dealer.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {steps.map(s => (
+          <div class="text-center">
+            <div class="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-lg" style="background-color: #0F1F54;">
+              {s.step}
+            </div>
+            <h3 class="font-semibold mb-2" style="color: #0F1F54; font-family: 'Playfair Display', serif;">{s.title}</h3>
+            <p class="text-sm text-gray-600 leading-relaxed">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Enquiry Form -->
+  <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-2xl mx-auto">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold mb-3" style="color: #0F1F54; font-family: 'Playfair Display', serif;">Dealership Enquiry</h2>
+        <p class="text-gray-600">Fill in the form and our team will get back to you within 1–2 business days.</p>
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST" class="space-y-5 bg-white rounded-2xl border border-gray-100 shadow-sm p-8">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+        <input type="hidden" name="subject" value="New Dealership Enquiry — Ikvion" />
+        <input type="hidden" name="from_name" value="Ikvion Dealership Form" />
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none" />
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+            <input type="text" name="name" required placeholder="John Smith"
+              class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+              onfocus="this.style.borderColor='#0D9488'" onblur="this.style.borderColor='#e5e7eb'" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Company Name *</label>
+            <input type="text" name="company" required placeholder="ABC Medical Supplies"
+              class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+              onfocus="this.style.borderColor='#0D9488'" onblur="this.style.borderColor='#e5e7eb'" />
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
+            <input type="email" name="email" required placeholder="john@example.com"
+              class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+              onfocus="this.style.borderColor='#0D9488'" onblur="this.style.borderColor='#e5e7eb'" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Phone / WhatsApp *</label>
+            <input type="tel" name="phone" required placeholder="+1 234 567 8900"
+              class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+              onfocus="this.style.borderColor='#0D9488'" onblur="this.style.borderColor='#e5e7eb'" />
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Country *</label>
+            <input type="text" name="country" required placeholder="United States"
+              class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+              onfocus="this.style.borderColor='#0D9488'" onblur="this.style.borderColor='#e5e7eb'" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Region / State</label>
+            <input type="text" name="region" placeholder="California"
+              class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+              onfocus="this.style.borderColor='#0D9488'" onblur="this.style.borderColor='#e5e7eb'" />
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+          <textarea name="message" rows={4} placeholder="Tell us about your business, distribution network, and the product categories you're interested in…"
+            class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none resize-none"
+            onfocus="this.style.borderColor='#0D9488'" onblur="this.style.borderColor='#e5e7eb'"></textarea>
+        </div>
+        <button type="submit" class="w-full py-3 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity" style="background-color: #0F1F54;">
+          Submit Dealership Enquiry
+        </button>
+      </form>
+    </div>
+  </section>
+
+</BaseLayout>

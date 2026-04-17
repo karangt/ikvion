@@ -24,10 +24,10 @@ const categories = [
 <BaseLayout title="Products" description="Browse Ikvion's full range of orthopedic soft goods and rehabilitation aids across 11 categories.">
 
   <!-- Page Header -->
-  <div style="background-color: #1B2A4A;" class="py-12 px-4 sm:px-6 lg:px-8">
+  <div style="background-color: #0F1F54;" class="py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <nav class="text-sm text-gray-400 mb-3">
-        <a href={`${base}`} class="hover:text-[#4ABFBF]">Home</a>
+        <a href={`${base}`} class="hover:text-[#0D9488]">Home</a>
         <span class="mx-2">/</span>
         <span class="text-white">Products</span>
       </nav>
@@ -39,7 +39,7 @@ const categories = [
   </div>
 
   <!-- Categories Grid -->
-  <section class="py-12 px-4 sm:px-6 lg:px-8" style="background-color: #F5F0EB;">
+  <section class="py-12 px-4 sm:px-6 lg:px-8" style="background-color: #FFFFFF;">
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {categories.map(cat => (
@@ -49,18 +49,18 @@ const categories = [
           >
             <div class="p-6">
               <div class="flex items-start justify-between mb-4">
-                <div class="w-12 h-12 rounded-lg flex items-center justify-center text-[#4ABFBF]" style="background-color: rgba(74,191,191,0.1);">
+                <div class="w-12 h-12 rounded-lg flex items-center justify-center text-[#0D9488]" style="background-color: rgba(13,148,136,0.1);">
                   <Fragment set:html={cat.icon} />
                 </div>
-                <span class="text-xs font-medium px-2 py-1 rounded-full text-white" style="background-color: #4ABFBF;">
+                <span class="text-xs font-medium px-2 py-1 rounded-full text-white" style="background-color: #0D9488;">
                   {cat.count} products
                 </span>
               </div>
-              <h2 class="text-lg font-semibold mb-1 group-hover:text-[#4ABFBF] transition-colors" style="color: #1B2A4A;">
+              <h2 class="text-lg font-semibold mb-1 group-hover:text-[#0D9488] transition-colors" style="color: #0F1F54;">
                 {cat.title}
               </h2>
               <p class="text-sm text-gray-500 mb-4">{cat.desc}</p>
-              <span class="inline-flex items-center gap-1 text-sm font-medium text-[#4ABFBF]">
+              <span class="inline-flex items-center gap-1 text-sm font-medium text-[#0D9488]">
                 View products
                 <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -75,12 +75,12 @@ const categories = [
 
   <!-- CTA -->
   <section class="bg-white py-12 px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-2xl font-bold mb-3" style="color: #1B2A4A;">Need a custom quote or full catalogue?</h2>
+    <h2 class="text-2xl font-bold mb-3" style="color: #0F1F54;">Need a custom quote or full catalogue?</h2>
     <p class="text-gray-600 mb-6">Contact us for pricing, MOQ details, and export documentation.</p>
     <a
       href={`${base}contact/`}
       class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
-      style="background-color: #1B2A4A;"
+      style="background-color: #0F1F54;"
     >
       Get in Touch
     </a>

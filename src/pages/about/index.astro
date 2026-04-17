@@ -14,10 +14,10 @@ const certifications = [
 <BaseLayout title="About Us" description="Learn about Ikvion Group of Companies — a leading exporter of orthopedic soft goods and rehabilitation aids from Pune, India.">
 
   <!-- Header -->
-  <div style="background-color: #1B2A4A;" class="py-12 px-4 sm:px-6 lg:px-8">
+  <div style="background-color: #0F1F54;" class="py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <nav class="text-sm text-gray-400 mb-3">
-        <a href={`${base}`} class="hover:text-[#4ABFBF]">Home</a>
+        <a href={`${base}`} class="hover:text-[#0D9488]">Home</a>
         <span class="mx-2">/</span>
         <span class="text-white">About Us</span>
       </nav>
@@ -32,7 +32,7 @@ const certifications = [
   <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
-        <h2 class="text-3xl font-bold mb-6" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+        <h2 class="text-3xl font-bold mb-6" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
           Our Mission
         </h2>
         <p class="text-gray-600 leading-relaxed mb-4">
@@ -52,8 +52,8 @@ const certifications = [
           { value: '20+', label: 'Countries Served' },
           { value: '4', label: 'Certifications' },
         ].map(stat => (
-          <div class="rounded-xl p-6 text-center" style="background-color: #F5F0EB;">
-            <div class="text-3xl font-bold mb-1" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+          <div class="rounded-xl p-6 text-center" style="background-color: #FFFFFF;">
+            <div class="text-3xl font-bold mb-1" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
               {stat.value}
             </div>
             <div class="text-sm text-gray-500">{stat.label}</div>
@@ -64,10 +64,10 @@ const certifications = [
   </section>
 
   <!-- Certifications -->
-  <section class="py-16 px-4 sm:px-6 lg:px-8" style="background-color: #F5F0EB;">
+  <section class="py-16 px-4 sm:px-6 lg:px-8" style="background-color: #FFFFFF;">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-4" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+        <h2 class="text-3xl font-bold mb-4" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
           Certifications & Compliance
         </h2>
         <p class="text-gray-600 max-w-xl mx-auto">
@@ -77,12 +77,12 @@ const certifications = [
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {certifications.map(cert => (
           <div class="bg-white rounded-xl p-6 text-center shadow-sm">
-            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #4ABFBF;">
+            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #0D9488;">
               <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
               </svg>
             </div>
-            <h3 class="font-semibold mb-2" style="color: #1B2A4A;">{cert.name}</h3>
+            <h3 class="font-semibold mb-2" style="color: #0F1F54;">{cert.name}</h3>
             <p class="text-sm text-gray-500">{cert.desc}</p>
           </div>
         ))}
@@ -94,7 +94,7 @@ const certifications = [
   <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-4" style="color: #1B2A4A; font-family: 'Playfair Display', serif;">
+        <h2 class="text-3xl font-bold mb-4" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
           Our Values
         </h2>
       </div>
@@ -104,8 +104,8 @@ const certifications = [
           { title: 'Patient Centred', desc: 'Designed with the patient in mind — for comfort, efficacy, and long-term use.' },
           { title: 'Reliable Partner', desc: 'We support our global partners with prompt delivery, documentation, and after-sales service.' },
         ].map(val => (
-          <div class="border-l-4 pl-6" style="border-color: #4ABFBF;">
-            <h3 class="font-semibold text-lg mb-2" style="color: #1B2A4A;">{val.title}</h3>
+          <div class="border-l-4 pl-6" style="border-color: #0D9488;">
+            <h3 class="font-semibold text-lg mb-2" style="color: #0F1F54;">{val.title}</h3>
             <p class="text-gray-600 text-sm leading-relaxed">{val.desc}</p>
           </div>
         ))}
@@ -114,14 +114,14 @@ const certifications = [
   </section>
 
   <!-- CTA -->
-  <section style="background-color: #C9A08A;" class="py-12 px-4 sm:px-6 lg:px-8 text-center">
+  <section style="background-color: #D7AA9F;" class="py-12 px-4 sm:px-6 lg:px-8 text-center">
     <h2 class="text-2xl font-bold text-white mb-4" style="font-family: 'Playfair Display', serif;">
       Ready to partner with Ikvion?
     </h2>
     <a
       href={`${base}contact/`}
       class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
-      style="background-color: #1B2A4A;"
+      style="background-color: #0F1F54;"
     >
       Contact Us
     </a>
