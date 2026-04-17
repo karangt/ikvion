@@ -3,68 +3,30 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const base = import.meta.env.BASE_URL;
 
-export async function getStaticPaths() {
-  const modules = await Promise.all([
-    import('../../content/products/neck-aids.json'),
-    import('../../content/products/shoulder-aids.json'),
-    import('../../content/products/forearm-wrist-aids.json'),
-    import('../../content/products/finger-aids.json'),
-    import('../../content/products/chest-rib-back-aids.json'),
-    import('../../content/products/abdomen-pelvic-aids.json'),
-    import('../../content/products/knee-calf-aids.json'),
-    import('../../content/products/ankle-aids.json'),
-    import('../../content/products/foot-aids.json'),
-    import('../../content/products/traction-comfort.json'),
-    import('../../content/products/walking-aids.json'),
-  ]);
+const modules = await Promise.all([
+  import('../../content/products/neck-aids.json'),
+  import('../../content/products/shoulder-aids.json'),
+  import('../../content/products/forearm-wrist-aids.json'),
+  import('../../content/products/finger-aids.json'),
+  import('../../content/products/chest-rib-back-aids.json'),
+  import('../../content/products/abdomen-pelvic-aids.json'),
+  import('../../content/products/knee-calf-aids.json'),
+  import('../../content/products/ankle-aids.json'),
+  import('../../content/products/foot-aids.json'),
+  import('../../content/products/traction-comfort.json'),
+  import('../../content/products/walking-aids.json'),
+]);
 
-  return modules.map(mod => {
-    const cat = mod.default;
-    return {
-      params: { category: cat.slug },
-      props: { data: cat },
-    };
-  });
-}
+const categories = modules.map(m => m.default);
 
-const { data } = Astro.props;
-
-// Force 3-column grid for specific categories
-const forceThreeCols = ['chest-rib-back-aids', 'traction-comfort', 'forearm-wrist-aids'].includes(data.slug);
-
-// SKUs where the product sits at the bottom of the image frame
+const threeColSlugs = new Set(['chest-rib-back-aids', 'traction-comfort', 'forearm-wrist-aids']);
 const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-01', 'IK-AA-02', 'IK-AA-03']);
-
-const itemListSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'ItemList',
-  name: `${data.title} — Ikvion`,
-  description: data.description,
-  itemListElement: data.products.map((product: { sku: string; name: string; sizes: string }, index: number) => ({
-    '@type': 'ListItem',
-    position: index + 1,
-    item: {
-      '@type': 'Product',
-      name: product.name,
-      sku: product.sku,
-      description: `${product.name} — Available in sizes: ${product.sizes}`,
-      brand: { '@type': 'Brand', name: 'Ikvion' },
-      offers: {
-        '@type': 'Offer',
-        availability: 'https://schema.org/InStock',
-        priceCurrency: 'USD',
-        seller: { '@type': 'Organization', name: 'Ikvion Group of Companies' },
-      },
-    },
-  })),
-};
 ---
 
 <BaseLayout
-  title={`${data.title} — Orthopedic Aids`}
-  description={`${data.description} Manufactured by Ikvion, Pune — ISO 9001:2008 & WHO GMP certified exporter.`}
+  title="All Products — Ikvion Orthopedic Aids"
+  description="Browse all 60+ Ikvion orthopedic soft goods in one place — grouped by category including neck, shoulder, knee, ankle, traction, and walking aids."
 >
-  <script slot="head" type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
 
   <!-- Page Header -->
   <div style="background-color: #0F1F54;" class="py-12 px-4 sm:px-6 lg:px-8">
@@ -74,77 +36,104 @@ const itemListSchema = {
         <span class="mx-2">/</span>
         <a href={`${base}products/`} class="hover:text-[#0D9488]">Products</a>
         <span class="mx-2">/</span>
-        <span class="text-white">{data.title}</span>
+        <span class="text-white">All Products</span>
       </nav>
       <h1 class="text-3xl md:text-4xl font-bold text-white" style="font-family: 'Playfair Display', serif;">
-        {data.title}
+        All Products
       </h1>
-      <p class="text-gray-300 mt-2 max-w-2xl">{data.description}</p>
-    </div>
-  </div>
-
-  <!-- Products Grid -->
-  <section class="py-12 px-4 sm:px-6 lg:px-8" style="background-color: #FFFFFF;">
-    <div class="max-w-7xl mx-auto">
-      <div class={`grid gap-5 ${forceThreeCols ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'}`}>
-        {data.products.map((product: { sku: string; name: string; sizes: string; features?: string[]; benefits?: string[] }) => (
-          <button
-            type="button"
-            class="product-card group bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow text-left w-full cursor-pointer"
-            data-product={JSON.stringify(product)}
-            data-slug={data.slug}
-            data-base={base}
+      <p class="text-gray-300 mt-2">60+ products across 11 categories — click any product to see features and benefits.</p>
+      <!-- Category jump links -->
+      <div class="flex flex-wrap gap-2 mt-5">
+        {categories.map(cat => (
+          <a
+            href={`#${cat.slug}`}
+            class="text-xs px-3 py-1.5 rounded-full font-medium text-white border border-white/30 hover:bg-white/20 transition-colors"
           >
-            <!-- Product image -->
-            <div class="h-56 flex items-center justify-center overflow-hidden" style="background-color: #FFFFFF;">
-              <img
-                src={`${base}images/products/${data.slug}/${product.sku}.png`}
-                alt={product.name}
-                class="h-full w-full object-cover"
-                style={`mix-blend-mode: multiply; object-position: ${bottomPositionSkus.has(product.sku) ? 'bottom' : 'center'};`}
-                loading="lazy"
-              />
-            </div>
-            <div class="p-4">
-              <h3 class="font-semibold mb-1 text-sm group-hover:text-[#0D9488] transition-colors" style="color: #0F1F54;">{product.name}</h3>
-              <p class="text-xs text-gray-500 mb-2">Sizes: {product.sizes}</p>
-              <div class="flex items-center justify-between">
-                <span class="inline-block text-xs font-mono px-2 py-0.5 rounded" style="background-color: #FFFFFF; color: #0F1F54;">
-                  {product.sku}
-                </span>
-                <span class="text-xs text-[#0D9488] font-medium">View details →</span>
-              </div>
-            </div>
-          </button>
+            {cat.title}
+          </a>
         ))}
       </div>
-
-      <!-- Enquire CTA -->
-      <div class="mt-10 p-6 bg-white rounded-xl text-center shadow-sm">
-        <p class="text-gray-600 mb-4">Interested in {data.title}? Get pricing and availability.</p>
-        <a
-          href={`${base}contact/`}
-          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
-          style="background-color: #0F1F54;"
-        >
-          Enquire
-        </a>
-      </div>
     </div>
-  </section>
-
-  <!-- Back to Products -->
-  <div class="bg-white py-6 px-4 sm:px-6 lg:px-8 text-center">
-    <a
-      href={`${base}products/`}
-      class="inline-flex items-center gap-2 text-sm font-medium text-[#0D9488] hover:underline"
-    >
-      <svg class="w-4 h-4 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-      </svg>
-      Back to All Products
-    </a>
   </div>
+
+  <!-- All Categories -->
+  <div class="bg-white">
+    {categories.map((cat, i) => (
+      <section
+        id={cat.slug}
+        class={`py-12 px-4 sm:px-6 lg:px-8 ${i % 2 === 1 ? 'bg-gray-50' : 'bg-white'}`}
+      >
+        <div class="max-w-7xl mx-auto">
+          <!-- Category header -->
+          <div class="flex items-end justify-between mb-6 pb-3 border-b-2" style="border-color: #0D9488;">
+            <div>
+              <h2 class="text-2xl font-bold" style="color: #0F1F54; font-family: 'Playfair Display', serif;">
+                {cat.title}
+              </h2>
+              <p class="text-sm text-gray-500 mt-0.5">{cat.description}</p>
+            </div>
+            <a
+              href={`${base}products/${cat.slug}/`}
+              class="shrink-0 text-sm font-medium text-[#0D9488] hover:underline flex items-center gap-1"
+            >
+              View category
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Products grid -->
+          <div class={`grid gap-5 ${threeColSlugs.has(cat.slug) ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'}`}>
+            {cat.products.map((product: { sku: string; name: string; sizes: string; features?: string[]; benefits?: string[] }) => (
+              <button
+                type="button"
+                class="product-card group bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow text-left w-full cursor-pointer"
+                data-product={JSON.stringify(product)}
+                data-slug={cat.slug}
+                data-base={base}
+              >
+                <div class="h-56 flex items-center justify-center overflow-hidden" style="background-color: #FFFFFF;">
+                  <img
+                    src={`${base}images/products/${cat.slug}/${product.sku}.png`}
+                    alt={product.name}
+                    class="h-full w-full object-cover"
+                    style={`mix-blend-mode: multiply; object-position: ${bottomPositionSkus.has(product.sku) ? 'bottom' : 'center'};`}
+                    loading="lazy"
+                  />
+                </div>
+                <div class="p-4">
+                  <h3 class="font-semibold mb-1 text-sm group-hover:text-[#0D9488] transition-colors" style="color: #0F1F54;">{product.name}</h3>
+                  <p class="text-xs text-gray-500 mb-2">Sizes: {product.sizes}</p>
+                  <div class="flex items-center justify-between">
+                    <span class="inline-block text-xs font-mono px-2 py-0.5 rounded" style="background-color: #F0FDFA; color: #0F1F54;">
+                      {product.sku}
+                    </span>
+                    <span class="text-xs text-[#0D9488] font-medium">View details →</span>
+                  </div>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <!-- Enquire CTA -->
+  <section class="py-12 px-4 sm:px-6 lg:px-8 text-center" style="background-color: #0F1F54;">
+    <h2 class="text-2xl font-bold text-white mb-3" style="font-family: 'Playfair Display', serif;">
+      Interested in any of our products?
+    </h2>
+    <p class="text-gray-300 mb-6">Contact us for pricing, MOQ details, and export documentation.</p>
+    <a
+      href={`${base}contact/`}
+      class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
+      style="background-color: #0D9488;"
+    >
+      Get in Touch
+    </a>
+  </section>
 
   <!-- Product Detail Modal -->
   <div
@@ -153,7 +142,6 @@ const itemListSchema = {
     style="background-color: rgba(15,31,84,0.6); backdrop-filter: blur(4px);"
   >
     <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
-      <!-- Close -->
       <button
         id="modal-close"
         class="absolute top-4 right-4 text-gray-400 hover:text-[#0F1F54] transition-colors z-10"
@@ -164,32 +152,27 @@ const itemListSchema = {
         </svg>
       </button>
 
-      <!-- Image -->
       <div class="h-64 flex items-center justify-center rounded-t-2xl" style="background-color: #FFFFFF;">
         <img id="modal-image" src="" alt="" class="h-full w-full object-contain p-6" style="mix-blend-mode: multiply;" />
       </div>
 
-      <!-- Content -->
       <div class="p-6">
         <div class="flex items-start justify-between gap-4 mb-1">
           <h2 id="modal-name" class="text-xl font-bold" style="color: #0F1F54; font-family: 'Playfair Display', serif;"></h2>
-          <span id="modal-sku" class="shrink-0 text-xs font-mono px-2 py-1 rounded mt-1" style="background-color: #FFFFFF; color: #0F1F54;"></span>
+          <span id="modal-sku" class="shrink-0 text-xs font-mono px-2 py-1 rounded mt-1" style="background-color: #F0FDFA; color: #0F1F54;"></span>
         </div>
         <p id="modal-sizes" class="text-sm text-gray-500 mb-5"></p>
 
-        <!-- Features -->
         <div id="modal-features-section" class="mb-5">
           <h3 class="text-sm font-semibold uppercase tracking-wider mb-2" style="color: #0D9488;">Features</h3>
           <ul id="modal-features" class="space-y-1.5"></ul>
         </div>
 
-        <!-- Benefits -->
         <div id="modal-benefits-section" class="mb-6">
           <h3 class="text-sm font-semibold uppercase tracking-wider mb-2" style="color: #0D9488;">Benefits</h3>
           <ul id="modal-benefits" class="space-y-1.5"></ul>
         </div>
 
-        <!-- Actions -->
         <a
           id="modal-enquire"
           href={`${base}contact/`}

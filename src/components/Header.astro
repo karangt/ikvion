@@ -8,6 +8,13 @@ const navLinks = [
   { label: 'Contact', href: `${base}contact/` },
 ];
 
+const productLinks = [
+  { label: 'Browse by Category', href: `${base}products/` },
+  { label: 'All Products', href: `${base}products/all/` },
+];
+
+const isProductsActive = currentPath.startsWith(`${base}products`);
+
 const aboutLinks = [
   { label: 'About Us', href: `${base}about/` },
   { label: 'Why Ikvion', href: `${base}about/why-ikvion/` },
@@ -47,18 +54,33 @@ const isAboutActive = currentPath.startsWith(`${base}about`);
 
       <!-- Desktop nav -->
       <nav class="hidden md:flex items-center gap-8 shrink-0">
-        {navLinks.slice(0, 2).map(link => (
-          <a
-            href={link.href}
-            class={`text-sm font-medium transition-colors hover:text-[#0D9488] ${
-              currentPath === link.href || (link.href !== base && currentPath.startsWith(link.href))
-                ? 'text-[#0D9488] border-b-2 border-[#0D9488] pb-0.5'
-                : 'text-[#0F1F54]'
-            }`}
-          >
-            {link.label}
-          </a>
-        ))}
+        <!-- Home -->
+        <a
+          href={navLinks[0].href}
+          class={`text-sm font-medium transition-colors hover:text-[#0D9488] ${currentPath === navLinks[0].href ? 'text-[#0D9488] border-b-2 border-[#0D9488] pb-0.5' : 'text-[#0F1F54]'}`}
+        >
+          Home
+        </a>
+
+        <!-- Products dropdown -->
+        <div class="relative group">
+          <button class={`flex items-center gap-1 text-sm font-medium transition-colors hover:text-[#0D9488] ${isProductsActive ? 'text-[#0D9488] border-b-2 border-[#0D9488] pb-0.5' : 'text-[#0F1F54]'}`}>
+            Products
+            <svg class="w-3.5 h-3.5 mt-0.5 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute top-full left-0 mt-2 w-52 bg-white rounded-xl shadow-lg border border-gray-100 py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50">
+            {productLinks.map(link => (
+              <a
+                href={link.href}
+                class={`block px-4 py-2.5 text-sm transition-colors hover:bg-[#F0FDFA] hover:text-[#0D9488] ${currentPath === link.href ? 'text-[#0D9488] font-medium' : 'text-[#0F1F54]'}`}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
 
         <!-- About dropdown -->
         <div class="relative group">
@@ -139,7 +161,10 @@ const isAboutActive = currentPath.startsWith(`${base}about`);
   <!-- Mobile menu -->
   <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 pb-4">
     <nav class="flex flex-col gap-1 pt-2">
-      {navLinks.slice(0, 2).map(link => (
+      <a href={navLinks[0].href} class="text-sm font-medium py-2 px-3 rounded-lg text-[#0F1F54] hover:bg-[#F0FDFA] hover:text-[#0D9488] transition-colors">
+        Home
+      </a>
+      {productLinks.map(link => (
         <a
           href={link.href}
           class="text-sm font-medium py-2 px-3 rounded-lg text-[#0F1F54] hover:bg-[#F0FDFA] hover:text-[#0D9488] transition-colors"
