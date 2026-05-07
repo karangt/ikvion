@@ -1,31 +1,22 @@
 # Website Feedback
 
-## 🔴 Pending Implementation (next session)
+## 🔴 Pending (next session)
 
-### Image consistency + face hiding (all 60 products)
+### Replacement product images (24 face SKUs)
 
-**1. Size consistency**
-All cards use `object-cover` — this fills every card uniformly. Already applied in `[category].astro` and `all.astro`.
+User will provide new images — drop-in replacements, no code changes needed.
+Place files in `public/images/products/<category-slug>/<SKU>.png` — they load automatically.
 
-**2. Face hiding — implementation plan**
+**SKUs awaiting new images:**
+- `IK-NA-01`, `IK-NA-02`, `IK-NA-03`, `IK-NA-04` → `public/images/products/neck-aids/`
+- `IK-SA-01`, `IK-SA-02`, `IK-SA-04`, `IK-SA-05`, `IK-SA-06`, `IK-SA-07` → `public/images/products/shoulder-aids/`
+- `IK-AP-01`, `IK-AP-02`, `IK-AP-03`, `IK-AP-04` → `public/images/products/abdomen-pelvic-aids/`
+- `IK-BA-02`, `IK-BA-03` → `public/images/products/chest-rib-back-aids/`
+- `IK-CR-01`, `IK-CR-02`, `IK-CR-03` → `public/images/products/chest-rib-back-aids/`
+- `IK-FW-02`, `IK-FW-03`, `IK-FW-04`, `IK-FW-05` → `public/images/products/forearm-wrist-aids/`
+- `IK-CA-01` → `public/images/products/traction-comfort/`
 
-Two CSS techniques based on image orientation (audited all 60 images):
-
-**Portrait face images** (5 SKUs) → `object-position: center bottom`
-Shifts the view down so face is cropped off the top. Works because portrait images overflow vertically in the square card container.
-- `IK-NA-01`, `IK-NA-02`, `IK-NA-03`, `IK-NA-04` (neck aids)
-- `IK-SA-05` (shoulder immobilizer)
-
-**Landscape face images** (19 SKUs) → white gradient overlay on top 60% of card
-A `position: absolute` white-to-transparent gradient div sits over the top of the card, fading out the face. Product in lower portion remains fully visible.
-- `IK-AP-01`, `IK-AP-02`, `IK-AP-03`, `IK-AP-04` (abdomen)
-- `IK-BA-02`, `IK-BA-03` (back aids)
-- `IK-CR-01`, `IK-CR-02`, `IK-CR-03` (chest/rib)
-- `IK-FW-02`, `IK-FW-03`, `IK-FW-04`, `IK-FW-05` (forearm/wrist)
-- `IK-SA-01`, `IK-SA-02`, `IK-SA-04`, `IK-SA-06`, `IK-SA-07` (shoulder)
-- `IK-CA-01` (cervical pillow)
-
-**Files to update:** `src/pages/products/[category].astro` and `src/pages/products/all.astro`
+**Note:** CSS face-hiding (gradient overlay + object-position) was tried and reverted. Images will be used as-is.
 
 ---
 
