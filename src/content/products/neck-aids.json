@@ -5,19 +5,42 @@
   "products": [
     {
       "sku": "IK-NA-01",
-      "name": "Cervical Collar with Support",
+      "name": "Cervical Collar With Support",
       "sizes": "S, M, L, XL",
+      "shortDescription": "Buy the best cervical collar for neck pain relief. Soft, dermophilic neck support brace designed for cervical spondylosis, posture correction, and recovery.",
+      "description": "The Cervical Collar Neck Support Brace is a high-quality cervical collar brace designed to provide effective neck support and controlled immobilization for pain relief and recovery.\n\nMade with high-density soft foam and high GSM dermophilic stockinette fabric, this neck support belt ensures superior comfort, breathability, and skin-friendliness—even during extended wear. It helps maintain proper cervical alignment while reducing pressure on neck muscles.\n\nIts ergonomic and lightweight design makes it ideal for daily use at home, office, or during travel. Trusted by healthcare professionals, this cervical collar supports posture correction, reduces strain, and promotes faster recovery.",
       "features": [
-        "Firm yet comfortable foam construction with adjustable velcro closure",
-        "Breathable fabric cover that reduces heat build-up",
-        "Contoured chin and neck support for anatomical fit",
-        "Washable outer cover for hygiene maintenance"
+        "High-density foam for firm yet comfortable neck support",
+        "High GSM dermophilic stockinette for enhanced skin comfort",
+        "Loop contact closure for easy application and secure fit",
+        "Breathable fabric reduces heat and sweating",
+        "Anatomical design supports chin and proper neck alignment",
+        "Removable and washable cover for better hygiene"
       ],
       "benefits": [
-        "Limits cervical spine movement to promote healing",
-        "Reduces neck muscle strain and fatigue during recovery",
-        "Suitable for post-operative immobilisation and cervical spondylosis",
-        "Lightweight design allows all-day comfortable wear"
+        "Relieves neck pain, stiffness, and muscle fatigue",
+        "Provides cervical spine support for faster healing",
+        "Skin-friendly material prevents irritation during long use",
+        "Reduces strain from long screen time and poor posture",
+        "Comfortable for all-day wear"
+      ],
+      "recommendedUse": [
+        "Cervical spondylosis",
+        "Neck sprain and strain",
+        "Post-surgical recovery",
+        "Neck pain due to prolonged sitting, travel, or poor posture"
+      ],
+      "specifications": [
+        { "key": "Model", "value": "IK-NA-01" },
+        { "key": "Material", "value": "High-density foam with dermophilic stockinette cover" },
+        { "key": "Closure Type", "value": "Loop contact (Velcro)" },
+        { "key": "Sizes Available", "value": "S, M, L, XL" }
+      ],
+      "faqs": [
+        { "q": "Can I wear a cervical collar all day?", "a": "Yes, it can be worn for extended hours, but it is best to follow your doctor's recommendation for duration." },
+        { "q": "Is this cervical collar useful for cervical spondylosis?", "a": "Yes, this cervical collar brace provides support and helps reduce pain and stiffness associated with cervical spondylosis." },
+        { "q": "What is dermophilic fabric and why is it important?", "a": "Dermophilic fabric is skin-friendly and breathable, helping prevent irritation and discomfort during long hours of use." },
+        { "q": "How do I choose the right size?", "a": "Measure your neck circumference and select from S, M, L, or XL for the best fit." }
       ]
     },
     {
@@ -41,17 +64,42 @@
       "sku": "IK-NA-03",
       "name": "Hard Cervical Collar",
       "sizes": "S, M, L, XL",
+      "shortDescription": "Buy the best hard cervical collar for neck pain relief and rigid support. Designed for cervical injuries, spondylosis, and post-surgical immobilization.",
+      "description": "The Hard Cervical Collar Neck Support Brace is designed to provide rigid immobilization and maximum cervical support for individuals recovering from neck injuries, cervical spondylosis, or post-surgical procedures.\n\nConstructed using a two-part ventilated polyethylene structure, this cervical collar ensures superior strength, durability, and consistent support. It effectively limits neck movement, helping reduce strain on the cervical spine and promoting faster recovery.\n\nThe collar features padded borders with vinyl leather covering, enhancing comfort while preventing skin irritation during prolonged use. Its ergonomic design ensures proper neck alignment, making it suitable for both clinical and home use.\n\nTrusted by healthcare professionals, this rigid cervical collar is ideal for conditions requiring strict immobilization and support.",
       "features": [
-        "Rigid thermoplastic shell for maximum cervical control",
-        "Padded inner liner for patient comfort",
-        "Adjustable height mechanism to fit various neck profiles",
-        "Easy-clean outer surface"
+        "Two-part ventilated polyethylene design for rigid support and durability",
+        "Provides strong immobilization for cervical spine stability",
+        "Padded borders with vinyl leather covering for enhanced comfort",
+        "Ergonomic anatomical shape for proper neck alignment",
+        "Lightweight yet sturdy construction for long-term use",
+        "Easy-to-use adjustable fastening for secure fit"
       ],
       "benefits": [
-        "Delivers maximum cervical immobilisation for fractures and dislocations",
-        "Reduces risk of secondary spinal injury during transport and rehabilitation",
-        "Supports post-surgical fusion sites to ensure proper healing",
-        "Widely used in orthopaedic and neurosurgical aftercare"
+        "Provides firm neck immobilization for faster healing",
+        "Reduces pain, stiffness, and cervical strain",
+        "Supports recovery from injuries and post-surgery conditions",
+        "Durable design ensures long-lasting performance",
+        "Comfortable edges prevent skin irritation during extended wear"
+      ],
+      "recommendedUse": [
+        "Cervical spondylosis (moderate to severe)",
+        "Neck injuries and trauma",
+        "Post-surgical immobilization",
+        "Cervical disc issues",
+        "Whiplash or acute neck pain"
+      ],
+      "specifications": [
+        { "key": "Product Type", "value": "Hard Cervical Collar" },
+        { "key": "Material", "value": "Ventilated polyethylene with padded vinyl leather edges" },
+        { "key": "Design", "value": "Two-piece rigid structure" },
+        { "key": "Closure Type", "value": "Adjustable fastening" },
+        { "key": "Sizes Available", "value": "S, M, L, XL" }
+      ],
+      "faqs": [
+        { "q": "What is a hard cervical collar used for?", "a": "A hard cervical collar is used to provide rigid neck support and limit movement during injury recovery or post-surgery." },
+        { "q": "Is this collar suitable for severe neck pain?", "a": "Yes, it is ideal for moderate to severe conditions requiring strong immobilization." },
+        { "q": "Can I wear this collar all day?", "a": "It can be worn for extended periods, but usage duration should follow medical advice." },
+        { "q": "Is the collar comfortable for long use?", "a": "Yes, padded edges with vinyl leather covering help reduce discomfort and skin irritation." }
       ]
     },
     {
