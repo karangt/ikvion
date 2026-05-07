@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# preview and backup files
+preview-*.html
+public/images/products/**/originals/
+*.pdf
