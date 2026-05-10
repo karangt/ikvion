@@ -3,6 +3,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const base = import.meta.env.BASE_URL;
 
+const productCatalogue = [
+  { category: 'Neck Aids', products: ['Cervical Collar With Support', 'Philadelphia Collar', 'Hard Cervical Collar', 'Soft Cervical Collar'] },
+  { category: 'Shoulder Aids', products: ['Arm Sling', 'Arm Sling Tropical', 'Arm Sling Strap', 'Shoulder Support', 'Shoulder Immobilizer', 'Elastic Shoulder Immobilizer', 'Clavical Brace Stockinette'] },
+  { category: 'Forearm & Wrist Aids', products: ['Elbow Support', 'Tennis Elbow Support', 'Wrist Splint', 'Wrist Brace', 'Wrist Brace with Thumb'] },
+  { category: 'Finger Aids', products: ['Finger Cot', 'Frog Splint', 'Finger Mallet', 'Splint Finger', 'Thumb Spica Splint'] },
+  { category: 'Chest, Rib & Back Aids', products: ['Ash Brace', 'Rib Belt', 'Chest Binder', 'Contoured L S Belt', 'Lumbar Sacral Belt', 'Dorso Lumbar Brace'] },
+  { category: 'Abdomen & Pelvic Aids', products: ['Abdomen Belt', 'Maternity Belt', 'Pelvic Belt', 'Hernia Belt'] },
+  { category: 'Knee & Calf Aids', products: ['Knee Cap', 'Hinge Knee Cap', 'Polycentric Hinge Knee Cap', 'Elastic Knee Support', 'Knee Cap with Open Patella', 'ROM Knee Brace', 'Knee Immobilizer', 'Varicose Stocking Below Knee', 'Varicose Stocking Above Knee'] },
+  { category: 'Ankle Aids', products: ['Ankle Support', 'Anklet With Binder', 'Ankle Brace', 'Foot Drop Splint', 'Cast Shoes', 'DRB'] },
+  { category: 'Foot Aids', products: ['Silicon Gel Insole', 'Silicon Gel Heel Cushion', 'Arch Support', 'Toe Separator'] },
+  { category: 'Traction Kit & Comfort Aids', products: ['Skin Traction Kit', 'Leg Traction Brace', 'Ankle Traction', 'Cervical Pillow', 'Coccyx Seat Cushion', 'Back Rest Cushion'] },
+  { category: 'Walking Aids', products: ['Walking Stick Single Leg', 'Walking Stick Four Leg', 'Walker', 'Walker Folding'] },
+];
+
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
@@ -128,6 +142,48 @@ const localBusinessSchema = {
             <input type="hidden" name="from_name" value="Ikvion Website" />
             <!-- Honeypot spam protection -->
             <input type="checkbox" name="botcheck" class="hidden" style="display:none" />
+            <!-- Product of Interest multi-select -->
+            <div class="relative" id="product-select-wrapper">
+              <label class="block text-sm font-medium text-gray-700 mb-1">Product of Interest</label>
+              <!-- Trigger button -->
+              <button
+                type="button"
+                id="product-dropdown-btn"
+                class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm text-left flex items-center justify-between focus:outline-none"
+                onfocus="this.style.boxShadow='0 0 0 2px #0D948840'; this.style.borderColor='#0D9488';"
+                onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+              >
+                <span id="product-dropdown-label" class="text-gray-400">Select products…</span>
+                <svg class="w-4 h-4 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+              <!-- Dropdown panel -->
+              <div
+                id="product-dropdown-panel"
+                class="hidden absolute z-20 mt-1 w-full bg-white border border-gray-200 rounded-lg shadow-lg max-h-72 overflow-y-auto"
+              >
+                {productCatalogue.map(group => (
+                  <div>
+                    <div class="px-3 py-2 text-xs font-bold uppercase tracking-wider text-gray-400 sticky top-0 bg-gray-50 border-b border-gray-100">
+                      {group.category}
+                    </div>
+                    {group.products.map(product => (
+                      <label class="flex items-center gap-3 px-4 py-2 hover:bg-teal-50 cursor-pointer text-sm text-gray-700">
+                        <input
+                          type="checkbox"
+                          class="product-checkbox accent-[#0D9488] w-4 h-4 shrink-0"
+                          value={product}
+                        />
+                        {product}
+                      </label>
+                    ))}
+                  </div>
+                ))}
+              </div>
+              <!-- Hidden input carries the comma-separated value to Web3Forms -->
+              <input type="hidden" id="product" name="product" />
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
@@ -170,6 +226,20 @@ const localBusinessSchema = {
                   onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
                 />
               </div>
+              <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Contact Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+1 555 000 0000"
+                  class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
+                  onfocus="this.style.boxShadow='0 0 0 2px #0D948840'; this.style.borderColor='#0D9488';"
+                  onblur="this.style.boxShadow=''; this.style.borderColor='#e5e7eb';"
+                />
+              </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <label for="country" class="block text-sm font-medium text-gray-700 mb-1">Country</label>
                 <input
@@ -224,5 +294,42 @@ const localBusinessSchema = {
 
     </div>
   </section>
+
+<script>
+  const btn = document.getElementById('product-dropdown-btn') as HTMLButtonElement;
+  const panel = document.getElementById('product-dropdown-panel') as HTMLElement;
+  const label = document.getElementById('product-dropdown-label') as HTMLElement;
+  const hidden = document.getElementById('product') as HTMLInputElement;
+  const checkboxes = document.querySelectorAll<HTMLInputElement>('.product-checkbox');
+
+  function updateHidden() {
+    const selected = Array.from(checkboxes).filter(c => c.checked).map(c => c.value);
+    hidden.value = selected.join(', ');
+    label.textContent = selected.length ? selected.join(', ') : 'Select products…';
+    label.classList.toggle('text-gray-400', selected.length === 0);
+    label.classList.toggle('text-gray-800', selected.length > 0);
+  }
+
+  checkboxes.forEach(cb => cb.addEventListener('change', updateHidden));
+
+  btn.addEventListener('click', () => {
+    panel.classList.toggle('hidden');
+  });
+
+  document.addEventListener('click', e => {
+    if (!btn.contains(e.target as Node) && !panel.contains(e.target as Node)) {
+      panel.classList.add('hidden');
+    }
+  });
+
+  // Pre-select from URL param
+  const preselect = new URLSearchParams(window.location.search).get('product');
+  if (preselect) {
+    checkboxes.forEach(cb => {
+      if (cb.value === preselect) cb.checked = true;
+    });
+    updateHidden();
+  }
+</script>
 
 </BaseLayout>

@@ -197,6 +197,7 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
     (document.getElementById('modal-name') as HTMLElement).textContent = product.name;
     (document.getElementById('modal-sku') as HTMLElement).textContent = product.sku;
     (document.getElementById('modal-sizes') as HTMLElement).textContent = `Available sizes: ${product.sizes}`;
+    (document.getElementById('modal-enquire') as HTMLAnchorElement).href = `${base}contact/?product=${encodeURIComponent(product.name)}`;
 
     const featuresSection = document.getElementById('modal-features-section') as HTMLElement;
     const featuresList = document.getElementById('modal-features') as HTMLElement;
