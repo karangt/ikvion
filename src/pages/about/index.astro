@@ -4,10 +4,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const base = import.meta.env.BASE_URL;
 
 const certifications = [
-  { name: 'ISO 9001:2008', desc: 'International quality management standard ensuring consistent product quality.' },
-  { name: 'MSME Registered', desc: 'Recognised by the Government of India as a Micro, Small & Medium Enterprise.' },
-  { name: 'WHO GMP Certified', desc: 'Compliant with World Health Organization Good Manufacturing Practices.' },
-  { name: 'CE Marked', desc: 'Products meet EU safety, health, and environmental protection requirements.' },
+  { name: 'ISO 9001:2008', desc: 'International quality management standard ensuring consistent product quality.', img: 'cert-iso.png' },
+  { name: 'MSME Registered', desc: 'Recognised by the Government of India as a Micro, Small & Medium Enterprise.', img: 'cert-msme.png' },
+  { name: 'WHO GMP Certified', desc: 'Compliant with World Health Organization Good Manufacturing Practices.', img: 'cert-whogmp.png' },
+  { name: 'CE Marked', desc: 'Products meet EU safety, health, and environmental protection requirements.', img: 'cert-ce.png' },
 ];
 ---
 
@@ -77,10 +77,8 @@ const certifications = [
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {certifications.map(cert => (
           <div class="bg-white rounded-xl p-6 text-center shadow-sm">
-            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #0D9488;">
-              <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-              </svg>
+            <div class="h-24 flex items-center justify-center mx-auto mb-4">
+              <img src={`${base}images/${cert.img}`} alt={cert.name} class="max-h-24 w-auto object-contain" />
             </div>
             <h3 class="font-semibold mb-2" style="color: #0F1F54;">{cert.name}</h3>
             <p class="text-sm text-gray-500">{cert.desc}</p>
