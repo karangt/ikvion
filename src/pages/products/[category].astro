@@ -372,7 +372,10 @@ const itemListSchema = {
   if (hashSku) {
     const target = document.querySelector(`[data-sku="${hashSku}"]`) as HTMLElement | null;
     if (target) {
-      setTimeout(() => target.click(), 100);
+      const product = JSON.parse((target as HTMLElement).dataset.product || '{}');
+      const slug = (target as HTMLElement).dataset.slug || '';
+      const base = (target as HTMLElement).dataset.base || '/';
+      openModal(product, slug, base);
     }
   }
 </script>
