@@ -312,7 +312,7 @@ const isAboutActive = currentPath.startsWith(`${base}about`);
       dropdown.innerHTML = `<div class="px-4 py-3 text-sm text-gray-500">No products found</div>`;
     } else {
       dropdown.innerHTML = matches.map(p => `
-        <a href="${base}products/${p.category}/" class="flex items-start gap-3 px-4 py-3 hover:bg-[#F0FDFA] transition-colors border-b border-gray-50 last:border-0">
+        <a href="${base}products/${p.category}/#${p.sku}" class="flex items-start gap-3 px-4 py-3 hover:bg-[#F0FDFA] transition-colors border-b border-gray-50 last:border-0">
           <div>
             <div class="text-sm font-medium text-[#0F1F54]">${p.name}</div>
             <div class="text-xs text-gray-400">${p.categoryLabel} · ${p.sku}</div>
