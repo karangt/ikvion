@@ -367,15 +367,23 @@ const itemListSchema = {
   modal?.addEventListener('click', e => { if (e.target === modal) closeModal(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-  // Auto-open product from URL hash (e.g. #IK-NA-01)
-  const hashSku = location.hash.slice(1).toUpperCase();
-  if (hashSku) {
-    const target = document.querySelector(`[data-sku="${hashSku}"]`) as HTMLElement | null;
+  // Auto-open product from search — check sessionStorage first, fall back to URL hash
+  function tryOpenProduct(sku: string) {
+    const target = document.querySelector(`[data-sku="${sku.toUpperCase()}"]`) as HTMLElement | null;
     if (target) {
       const product = JSON.parse((target as HTMLElement).dataset.product || '{}');
       const slug = (target as HTMLElement).dataset.slug || '';
       const base = (target as HTMLElement).dataset.base || '/';
       openModal(product, slug, base);
     }
+  }
+
+  const storedSku = sessionStorage.getItem('openProductSku');
+  if (storedSku) {
+    sessionStorage.removeItem('openProductSku');
+    tryOpenProduct(storedSku);
+  } else {
+    const hashSku = location.hash.slice(1);
+    if (hashSku) tryOpenProduct(hashSku);
   }
 </script>
