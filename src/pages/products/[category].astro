@@ -378,12 +378,6 @@ const itemListSchema = {
     }
   }
 
-  const storedSku = sessionStorage.getItem('openProductSku');
-  if (storedSku) {
-    sessionStorage.removeItem('openProductSku');
-    tryOpenProduct(storedSku);
-  } else {
-    const hashSku = location.hash.slice(1);
-    if (hashSku) tryOpenProduct(hashSku);
-  }
+  const urlSku = new URLSearchParams(location.search).get('sku');
+  if (urlSku) tryOpenProduct(urlSku);
 </script>
