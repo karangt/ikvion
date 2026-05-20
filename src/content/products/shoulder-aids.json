@@ -5,53 +5,230 @@
   "products": [
     {
       "sku": "IK-SA-01",
-      "name": "Arm Sling",
       "sizes": "S, M, L, XL, XXL, Child",
+      "name": "Arm Sling",
+      "metaDescription": "Buy arm sling for comfortable arm support and immobilization. Easy touch-and-close fastening, thumb loop & Ethafoam pad. Ideal for injury recovery.",
+      "shortDescription": "Buy the best arm sling for effective arm support and immobilization. Ideal for fractures, sprains, post-surgery care, and shoulder injury recovery.",
+      "description": "The Arm Sling Shoulder Support Brace is designed to provide reliable support and immobilization for the arm, shoulder, elbow, and wrist during injury recovery, fractures, sprains, or post-surgical rehabilitation.\n\nThis sling features an easy touch-and-close fastening system that allows quick application and comfortable adjustment for patients and caregivers. Its integrated thumb loop helps limit wrist drop while improving patient comfort and maintaining proper arm positioning.\n\nEquipped with a soft Ethafoam shoulder pad, the sling helps reduce shoulder pressure during prolonged wear. Lightweight, durable, and comfortable, it is widely used in hospitals, clinics, rehabilitation centers, and home care settings.",
       "features": [
-        "Durable cotton-poly blend fabric with padded neck strap",
-        "Adjustable length to position forearm at 90° elbow flexion",
-        "Wide body panel distributes weight evenly across the shoulder",
-        "Available in adult and paediatric sizes"
+        "Easy to apply with touch-and-close fastening",
+        "Thumb loop limits wrist drop and adds patient comfort",
+        "Soft Ethafoam shoulder pad for reduced shoulder strain",
+        "Provides effective arm and shoulder immobilization",
+        "Lightweight construction for improved comfort",
+        "Durable and suitable for clinical and home use"
       ],
       "benefits": [
-        "Offloads the weight of the arm to reduce shoulder and elbow strain",
-        "Promotes healing after fractures, dislocations, and soft tissue injuries",
-        "Keeps the arm protected and elevated to minimise swelling",
-        "Easy to apply with one hand, suitable for use at home"
+        "Supports injured arm and promotes healing",
+        "Helps reduce pain and strain during recovery",
+        "Prevents wrist drop with thumb loop support",
+        "Comfortable for extended daily wear",
+        "Easy to wear and remove",
+        "Durable and hygienic for long-term use"
+      ],
+      "recommendedUse": [
+        "Arm fractures and injuries Shoulder dislocation recovery Post-surgical arm support Elbow and wrist immobilization Sprains and soft tissue injuries Rehabilitation and emergency support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Arm Sling"
+        },
+        {
+          "key": "Closure Type",
+          "value": "Touch-and-close fastening"
+        },
+        {
+          "key": "Special Feature",
+          "value": "Thumb loop support"
+        },
+        {
+          "key": "Shoulder Pad",
+          "value": "Ethafoam cushioned pad"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL, Child"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an arm sling used for?",
+          "a": "It is used to support and immobilize the arm, shoulder, elbow, or wrist during injury recovery or after surgery."
+        },
+        {
+          "q": "Is the arm sling easy to wear?",
+          "a": "Yes, the touch-and-close fastening makes it easy to apply, adjust, and remove."
+        },
+        {
+          "q": "What is the use of the thumb loop?",
+          "a": "The thumb loop helps limit wrist drop and improves patient comfort."
+        },
+        {
+          "q": "Is it comfortable for long-term use?",
+          "a": "Yes, the Ethafoam shoulder pad reduces pressure and improves comfort during prolonged wear."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, XXL, and Child sizes"
+        }
       ]
     },
     {
       "sku": "IK-SA-02",
-      "name": "Arm Sling Tropical",
       "sizes": "S, M, L, XL, XXL, Child",
+      "name": "Arm Sling Tropical",
+      "metaDescription": "Buy tropical arm sling for comfortable arm support and immobilization. Slide buckle closure, thumb cradle & Ethafoam pad. Easy to wear and remove.",
+      "shortDescription": "Buy the best tropical arm sling for effective arm support and immobilization. Ideal for fractures, sprains, post-surgery care, and shoulder injury recovery.",
+      "description": "The Arm Sling Tropical Shoulder Support Brace is designed to provide dependable support and immobilization for the arm, shoulder, elbow, and wrist during injury recovery, fractures, sprains, or post-surgical rehabilitation.\n\nThis sling features a slide buckle with single-touch opening and closing, making application and removal quick, simple, and convenient for both patients and caregivers. Its ergonomic design ensures proper arm positioning while minimizing unnecessary movement for faster recovery.\n\nEquipped with an Ethafoam shoulder pad and thumb cradle, the sling improves patient comfort, reduces fatigue, and provides enhanced support during prolonged use. Lightweight, durable, and comfortable, it is widely used in hospitals, clinics, rehabilitation centers, and home care settings.",
       "features": [
-        "Open-weave breathable mesh fabric ideal for warm climates",
-        "Padded, ventilated neck strap prevents skin irritation",
-        "Adjustable forearm cradle with reinforced stitching",
-        "Lightweight construction minimises heat retention"
+        "Slide buckle with single-touch opening and closing",
+        "Very easy application and removal",
+        "Ethafoam shoulder pad for reduced shoulder pressure",
+        "Thumb cradle for added comfort and support",
+        "Helps reduce fatigue during extended wear",
+        "Provides reliable arm and shoulder immobilization",
+        "Lightweight and durable construction",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Keeps the arm cool and comfortable in humid or hot environments",
-        "Reduces perspiration and skin maceration under the sling",
-        "Suitable for post-fracture and post-surgical immobilisation in summer conditions",
-        "Ideal for patients in tropical regions who wear slings for extended periods"
+        "Supports injured arm and promotes healing",
+        "Helps reduce pain and strain during recovery",
+        "Easy to wear and remove independently",
+        "Improves comfort with padded shoulder support",
+        "Reduces fatigue during prolonged use",
+        "Durable and hygienic for long-term use"
+      ],
+      "recommendedUse": [
+        "Arm fractures and injuries Shoulder dislocation recovery Post-surgical arm support Elbow and wrist immobilization Sprains and soft tissue injuries Rehabilitation and emergency support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Arm Sling Tropical"
+        },
+        {
+          "key": "Closure Type",
+          "value": "Slide buckle with single-touch fastening"
+        },
+        {
+          "key": "Special Features",
+          "value": "Thumb cradle & Ethafoam shoulder pad"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Use",
+          "value": "Arm immobilization and support"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL, Child"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an Arm Sling Tropical used for?",
+          "a": "It is used to support and immobilize the arm, shoulder, elbow, or wrist during injury recovery or after surgery."
+        },
+        {
+          "q": "Is the sling easy to wear?",
+          "a": "Yes, the slide buckle with single-touch opening and closing makes it very easy to apply and remove."
+        },
+        {
+          "q": "What is the use of the thumb cradle?",
+          "a": "The thumb cradle provides additional support, improves comfort, and helps reduce fatigue."
+        },
+        {
+          "q": "Is it comfortable for long-term use?",
+          "a": "Yes, the Ethafoam shoulder pad helps reduce pressure and improves comfort during prolonged wear."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, XXL, and Child sizes."
+        }
       ]
     },
     {
       "sku": "IK-SA-03",
-      "name": "Arm Sling Strap",
       "sizes": "Universal",
+      "name": "Arm Sling Strap",
+      "metaDescription": "Buy arm sling strap for comfortable arm support and immobilization. Two-way buckles for easy adjustment with soft shoulder pad. Universal size available.",
+      "shortDescription": "Buy the best arm sling strap for effective arm support and immobilization. Ideal for injuries, fractures, post-surgery care, and rehabilitation recovery.",
+      "description": "The Arm Sling Strap Support Brace is designed to provide reliable support and\n\nimmobilization for the arm, shoulder, elbow, and wrist during injury recovery, fractures, sprains, or post-surgical rehabilitation. It helps stabilize the arm while reducing strain and unwanted movement for faster healing.\n\nThis sling strap features two-way buckles that provide easy application, quick adjustment, and convenient removal, making it suitable for both patients and caregivers. The adjustable design ensures a secure and comfortable fit for effective daily support.\n\nEquipped with a soft shoulder pad, the strap minimizes pressure on the neck and shoulder while in use, improving comfort during prolonged wear. Lightweight, durable, and practical, it is widely used in hospitals, clinics, rehabilitation centers, and home care settings.",
       "features": [
-        "Simple over-the-shoulder strap design for quick application",
-        "Padded contact zones to prevent pressure marks",
-        "Universal fit accommodates most adult arm sizes",
-        "Adjustable buckle for precise arm height control"
+        "Two-way buckles for easy application and removal",
+        "Quick adjustment for secure and comfortable fit",
+        "Soft shoulder pad minimizes neck pressure",
+        "Provides effective arm and shoulder support",
+        "Helps immobilize injured arm during recovery",
+        "Lightweight and comfortable for daily wear",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Provides basic arm support for minor sprains and post-injury care",
-        "Quick and easy alternative to traditional cradle slings",
-        "Reduces downward traction on the shoulder joint",
-        "Suitable for short-term immobilisation during daily activities"
+        "Supports healing after injury or surgery",
+        "Helps reduce arm strain and discomfort",
+        "Easy to wear, adjust, and remove",
+        "Improves comfort during extended use",
+        "Reduces neck pressure with padded support",
+        "Durable and dependable for long-term use"
+      ],
+      "recommendedUse": [
+        "Arm fractures and injuries Shoulder support during recovery Post-surgical arm immobilization Elbow and wrist support Sprains and soft tissue injuries Rehabilitation and emergency support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Arm Sling Strap"
+        },
+        {
+          "key": "Closure Type",
+          "value": "Two-way buckle system"
+        },
+        {
+          "key": "Special Feature",
+          "value": "Soft shoulder pad"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Use",
+          "value": "Arm support and immobilization"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an arm sling strap used for?",
+          "a": "It is used to support and immobilize the arm, shoulder, elbow, or wrist during injury recovery or after surgery."
+        },
+        {
+          "q": "Is it easy to adjust?",
+          "a": "Yes, the two-way buckles allow easy application, quick adjustment, and removal."
+        },
+        {
+          "q": "Does it reduce neck pressure?",
+          "a": "Yes, the soft shoulder pad helps minimize pressure on the neck while in use."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, it is lightweight and designed for prolonged comfortable use."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size. Wrist"
+        }
       ]
     },
     {
@@ -73,53 +250,230 @@
     },
     {
       "sku": "IK-SA-05",
-      "name": "Shoulder Immobilizer",
       "sizes": "Universal, Spl., Child",
+      "name": "Shoulder Immobilizer",
+      "metaDescription": "Buy shoulder immobilizer for arm and shoulder support. Two-piece easy-to-apply design with body strap for rotation control. Available in universal sizes.",
+      "shortDescription": "Buy the best shoulder immobilizer for secure arm and shoulder immobilization. Ideal for injuries, post-surgery care, fractures, and rehabilitation recovery.",
+      "description": "The Shoulder Immobilizer Arm Support Brace is designed to effectively immobilize the arm and shoulder during injury recovery, fractures, dislocations, or post-surgical\n\nrehabilitation. It helps stabilize the shoulder joint while restricting unnecessary movement for faster healing.\n\nThis immobilizer features a practical two-piece design that makes application simple, quick, and comfortable for both patients and caregivers. Its ergonomic construction ensures proper arm positioning while providing dependable support throughout recovery.\n\nThe integrated body strap helps control arm rotation and adds extra stability, making it ideal for shoulder injuries requiring controlled immobilization. Lightweight, durable, and comfortable, it is widely used in hospitals, clinics, rehabilitation centers, and home care settings.",
       "features": [
-        "Combines arm sling with body brace to restrict shoulder abduction",
-        "Foam-padded straps prevent pressure points at axilla and waist",
-        "Waist belt secures the arm close to the body",
-        "Paediatric and adult sizes available"
+        "Designed to immobilize the arm and shoulder",
+        "Two-piece design for easy application",
+        "Body strap helps control rotation",
+        "Provides secure shoulder stabilization",
+        "Comfortable and lightweight construction",
+        "Durable for extended daily use",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Immobilises the shoulder after dislocation, fracture, or rotator cuff repair",
-        "Prevents accidental abduction that could disrupt surgical repair",
-        "Reduces post-operative pain by eliminating involuntary arm movement",
-        "Used routinely in shoulder surgery aftercare protocols"
+        "Supports healing after shoulder injury or surgery",
+        "Helps reduce pain and strain",
+        "Limits unnecessary movement for faster recovery",
+        "Controls arm rotation for added protection",
+        "Easy to wear and remove",
+        "Comfortable for prolonged use"
+      ],
+      "recommendedUse": [
+        "Shoulder dislocation recovery Rotator cuff injuries Post-surgical shoulder support Arm fractures and trauma Soft tissue injuries Rehabilitation and emergency support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Shoulder Immobilizer"
+        },
+        {
+          "key": "Design",
+          "value": "Two-piece structure"
+        },
+        {
+          "key": "Support Area",
+          "value": "Arm and shoulder"
+        },
+        {
+          "key": "Special Feature",
+          "value": "Body strap for rotation control"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal, Spl., Child"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a shoulder immobilizer used for?",
+          "a": "It is used to immobilize and support the arm and shoulder after injury, surgery, or dislocation."
+        },
+        {
+          "q": "Is it easy to wear?",
+          "a": "Yes, the two-piece design allows quick and easy application."
+        },
+        {
+          "q": "What is the use of the body strap?",
+          "a": "The body strap helps control arm rotation and provides added shoulder stability."
+        },
+        {
+          "q": "Is it suitable for daily wear during recovery?",
+          "a": "Yes, it is lightweight and comfortable for prolonged use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in Universal, Spl., and Child sizes"
+        }
       ]
     },
     {
       "sku": "IK-SA-06",
-      "name": "Elastic Shoulder Immobilizer",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Elastic Shoulder Immobilizer",
+      "metaDescription": "Buy elastic shoulder immobilizer for arm and shoulder support. Ventilated sleek design with shoulder cap compression. Comfortable fit for recovery care.",
+      "shortDescription": "Buy the best elastic shoulder immobilizer for secure arm and shoulder support. Ideal for injuries, post-surgery care, pain relief, and rehabilitation recovery.",
+      "description": "The Elastic Shoulder Immobilizer Support Brace is designed to provide reliable immobilization and compression support for the shoulder and arm during injury recovery, post-surgical rehabilitation, sprains, and muscle strain. It helps stabilize the shoulder joint while reducing unnecessary movement for faster healing.\n\nThis immobilizer features a well-ventilated fabric construction that improves airflow and comfort during extended wear. Its smart and sleek design ensures a snug fit under clothing while maintaining effective support throughout daily activities.\n\nThe integrated shoulder cap delivers extra compression to the shoulder area, helping reduce swelling, improve stability, and provide enhanced therapeutic support. Lightweight, durable, and comfortable, it is widely used in hospitals, clinics, rehabilitation centers, and home care settings.",
       "features": [
-        "Elastic fabric body brace with integrated arm pouch",
-        "Stretch construction adapts to varied body shapes",
-        "Breathable material minimises moisture build-up",
-        "Hook-and-loop closure for simple single-hand application"
+        "Well-ventilated fabric for better airflow and comfort",
+        "Smart and sleek design for improved fit and appearance",
+        "Shoulder cap provides extra compression support",
+        "Helps immobilize and stabilize shoulder joint",
+        "Lightweight and comfortable for prolonged wear",
+        "Durable elastic construction for dependable support",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Provides comfortable shoulder immobilisation post-dislocation or surgery",
-        "Elastic design accommodates post-operative swelling",
-        "Suitable for use during sleep to prevent inadvertent shoulder movement",
-        "Lightweight and less bulky than rigid shoulder immobilisers"
+        "Supports healing after shoulder injury or surgery",
+        "Helps reduce pain, strain, and discomfort",
+        "Provides extra compression to reduce swelling",
+        "Improves shoulder stability during recovery",
+        "Comfortable for extended daily wear",
+        "Easy to wear under regular clothing"
+      ],
+      "recommendedUse": [
+        "Shoulder dislocation recovery Rotator cuff injuries Post-surgical shoulder support Muscle strain and sprains Shoulder instability management Rehabilitation and pain relief support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Elastic Shoulder Immobilizer"
+        },
+        {
+          "key": "Design",
+          "value": "Smart and sleek elastic structure"
+        },
+        {
+          "key": "Support Area",
+          "value": "Shoulder and arm"
+        },
+        {
+          "key": "Special Feature",
+          "value": "Shoulder cap for extra compression"
+        },
+        {
+          "key": "Material",
+          "value": "Well-ventilated elastic fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an elastic shoulder immobilizer used for?",
+          "a": "It is used to support and stabilize the shoulder and arm during injury recovery, strain, or after surgery."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, the ventilated fabric design improves airflow and comfort during prolonged use."
+        },
+        {
+          "q": "What is the use of the shoulder cap?",
+          "a": "The shoulder cap provides extra compression to help reduce swelling and improve support."
+        },
+        {
+          "q": "Can it be worn under clothing?",
+          "a": "Yes, its smart and sleek design allows discreet wear under clothing."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {
       "sku": "IK-SA-07",
-      "name": "Clavical Brace Stockinette",
-      "sizes": "S, M, L, XL, XXL",
+      "sizes": "S, M, L, XL, XXL, Universal, Child",
+      "name": "Clavicle Brace",
+      "metaDescription": "Buy clavicle brace for posture correction and clavicle support. Comfortable figure-8 design for fracture recovery and shoulder alignment. Multiple sizes available.",
+      "shortDescription": "Buy the best clavicle brace for effective clavicle support and posture correction. Ideal for fracture recovery, shoulder alignment, and rehabilitation care.",
+      "description": "The Clavicle Brace Shoulder Support Belt is designed to provide reliable support and alignment for the clavicle and shoulders during fracture recovery, posture correction, and rehabilitation care. It helps maintain proper shoulder positioning while reducing strain on the collarbone area.\n\nThis brace features an ergonomic figure-8 style design that gently pulls the shoulders back to encourage correct posture and clavicle alignment. It helps stabilize the clavicle region while allowing comfortable daily movement during healing.\n\nLightweight, durable, and comfortable, the brace is suitable for prolonged wear and is widely used in hospitals, clinics, rehabilitation centers, and home care settings.",
       "features": [
-        "Figure-of-eight design corrects clavicle alignment",
-        "Stockinette padding prevents axillary skin irritation",
-        "Adjustable posterior tension for customised correction force",
-        "Breathable cotton-mix construction"
+        "Provides effective clavicle and shoulder support",
+        "Helps maintain proper posture and shoulder alignment",
+        "Figure-8 design for comfortable fit and stability",
+        "Assists in clavicle fracture recovery",
+        "Lightweight and comfortable for daily wear",
+        "Durable construction for long-term use",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Reduces clavicle fracture displacement to encourage anatomical healing",
-        "Retracts the shoulders to correct rounded posture following clavicle injury",
-        "Minimises pain by stabilising fracture fragments during early healing",
-        "Standard of care for conservative management of mid-shaft clavicle fractures"
+        "Supports healing after clavicle injury or fracture",
+        "Helps improve posture and shoulder position",
+        "Reduces collarbone strain and discomfort",
+        "Comfortable for extended wear",
+        "Easy to wear and adjust",
+        "Suitable for rehabilitation support"
+      ],
+      "recommendedUse": [
+        "Clavicle fracture recovery Postural correction support Shoulder rounding correction Collarbone strain management Post-surgical rehabilitation Daily orthopedic support care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Clavicle Brace"
+        },
+        {
+          "key": "Design",
+          "value": "Figure-8 support belt"
+        },
+        {
+          "key": "Support Area",
+          "value": "Clavicle and shoulders"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Use",
+          "value": "Support, alignment, and recovery"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL, Universal, Child"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a clavicle brace used for?",
+          "a": "It is used to support the clavicle, improve posture, and assist recovery after collarbone injuries or fractures."
+        },
+        {
+          "q": "Can it help with posture correction?",
+          "a": "Yes, the brace gently pulls the shoulders back to encourage better posture."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, it is lightweight and designed for prolonged comfortable use."
+        },
+        {
+          "q": "Is it suitable after a clavicle fracture?",
+          "a": "Yes, it is commonly used during clavicle fracture rehabilitation and healing."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, XXL, Universal, and Child sizes."
+        }
       ]
     }
   ]

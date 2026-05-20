@@ -5,104 +5,380 @@
   "products": [
     {
       "sku": "IK-TK-01",
-      "name": "Skin Traction Kit",
       "sizes": "Universal",
+      "name": "Skin Traction Kit",
+      "metaDescription": "Buy skin traction kit for effective orthopedic traction support and stabilization. Comfortable non-adhesive design for rehabilitation care. Universal size.",
+      "shortDescription": "Buy the best skin traction kit for reliable orthopedic traction support, stabilization, and rehabilitation care. Ideal for injury recovery, fracture management, and clinical use.",
+      "description": "The Skin Traction Kit is designed to provide effective traction support, stabilization, and controlled alignment during orthopedic recovery and rehabilitation care. It is commonly used in fracture management, muscle relaxation support, post-trauma care, and pre-operative orthopedic treatment.\n\nIts comfortable support design helps maintain controlled traction while minimizing discomfort during prolonged use. The kit assists in supporting proper limb positioning and stabilization as recommended during rehabilitation and recovery procedures.\n\nMade from skin-friendly and durable materials, the skin traction kit offers comfortable application and dependable performance for clinical and home care environments. The non-adhesive support design helps reduce the chances of skin irritation and improves user comfort during treatment.\n\nLightweight, easy to apply, and durable, the skin traction kit is suitable for hospitals, clinics, rehabilitation centers, and home care support applications.",
       "features": [
-        "Complete kit includes foam-backed adhesive traction strips, spreader bar, and traction cord",
-        "Hypoallergenic adhesive minimises skin reaction during extended application",
-        "Spreader bar prevents pressure on the malleoli",
-        "Suitable for paediatric and adult lower limb traction"
+        "Provides effective orthopedic traction support",
+        "Helps maintain controlled limb stabilization",
+        "Comfortable and skin-friendly construction",
+        "Non-adhesive design for improved comfort",
+        "Helps reduce chances of skin irritation",
+        "Durable and lightweight materials",
+        "Easy to apply and adjust",
+        "Suitable for clinical and rehabilitation use"
       ],
       "benefits": [
-        "Applies longitudinal traction to the lower limb for fracture management and pre-operative positioning",
-        "Reduces muscle spasm and pain in femoral and tibial fractures before surgical fixation",
-        "Used in paediatric orthopaedics for developmental hip conditions",
-        "Allows nursing staff to manage traction without specialist equipment"
+        "Supports orthopedic recovery and rehabilitation",
+        "Helps improve limb positioning during traction care",
+        "Provides comfortable prolonged support",
+        "Helps reduce discomfort during treatment",
+        "Easy to use and secure fitting",
+        "Durable for regular medical use",
+        "Suitable for hospital and home care support"
+      ],
+      "recommendedUse": [
+        "Orthopedic traction support",
+        "Fracture management care",
+        "Post-trauma rehabilitation",
+        "Limb stabilization support",
+        "Pre-operative orthopedic care",
+        "Clinical and home rehabilitation use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Skin Traction Kit Design Orthopedic traction support system Support Area Limb stabilization and traction support Material Skin-friendly and durable support fabric Special Features Non-adhesive comfortable support Application Orthopedic rehabilitation and recovery Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a skin traction kit used for?",
+          "a": "A skin traction kit is used to provide orthopedic traction support, stabilization, and controlled limb positioning during recovery and rehabilitation."
+        },
+        {
+          "q": "Is the kit comfortable for prolonged use?",
+          "a": "Yes, it is designed using skin-friendly materials for comfortable support during extended use."
+        },
+        {
+          "q": "Does the non-adhesive design help reduce irritation?",
+          "a": "Yes, the non-adhesive design helps minimize skin irritation and improves comfort during treatment."
+        },
+        {
+          "q": "Is it suitable for rehabilitation care?",
+          "a": "Yes, it is commonly used in orthopedic rehabilitation, fracture management, and post-trauma support."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The skin traction kit is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-TK-02",
-      "name": "Leg Traction Brace",
       "sizes": "S, M, L, XL",
+      "name": "Leg Traction Brace",
+      "metaDescription": "Buy leg traction brace for comfortable leg support and stabilization. Non-adhesive design with adjustable fasteners. Available in S, M, L & XL.",
+      "shortDescription": "Buy the best leg traction brace for effective leg stabilization, support, and rehabilitation care. Ideal for orthopedic recovery, traction support, and injury management.",
+      "description": "The Leg Traction Brace is designed to provide dependable leg support, stabilization, and traction assistance during orthopedic recovery and rehabilitation care. It is suitable for injury management, post-trauma support, muscle strain care, and rehabilitation applications where controlled leg support is required.\n\nIts non-adhesive design makes the brace easy to use while minimizing the chances of skin irritation or allergic reactions, ensuring greater comfort during prolonged use. The brace is designed for convenient application and comfortable wear in both clinical and home care environments.\n\nEquipped with multiple adjustable fasteners, the leg traction brace allows users and healthcare providers to frequently tighten or loosen the support as needed for customized comfort and stabilization. This adjustable system helps maintain secure fitting and controlled support throughout recovery.\n\nLightweight, durable, and comfortable, the leg traction brace is suitable for hospitals, clinics, rehabilitation centers, and home care use.",
       "features": [
-        "Adjustable frame with integrated traction mechanism for the lower limb",
-        "Foam-padded thigh and calf contact zones for patient comfort",
-        "Ratchet tensioning system allows precise force application",
-        "Lightweight aluminium construction for use in bed or during transport"
+        "Provides effective leg stabilization and traction support",
+        "Non-adhesive design for easy application and removal",
+        "Helps reduce chances of skin irritation and allergy",
+        "Multiple fasteners for adjustable fitting and support",
+        "Allows frequent tightening or loosening as required",
+        "Comfortable and durable construction",
+        "Lightweight design for prolonged use",
+        "Suitable for clinical and home care use"
       ],
       "benefits": [
-        "Maintains traction on the leg for fracture alignment and muscle spasm relief",
-        "Reduces the need for skeletal traction in suitable fracture patterns",
-        "Allows nursing care to continue without disrupting traction force",
-        "Suitable for use during inter-hospital patient transfer"
+        "Supports orthopedic recovery and rehabilitation",
+        "Helps improve comfort during traction support",
+        "Reduces discomfort caused by adhesive materials",
+        "Provides adjustable and secure stabilization",
+        "Comfortable for extended wear",
+        "Easy to apply and remove",
+        "Durable for regular medical use"
+      ],
+      "recommendedUse": [
+        "Orthopedic traction support",
+        "Post-trauma leg stabilization",
+        "Rehabilitation care",
+        "Muscle strain support",
+        "Controlled leg immobilization",
+        "Hospital and home recovery use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Leg Traction Brace Design Adjustable leg traction support brace Support Area Leg Special Features Non-adhesive support with multiple fasteners Material Comfortable and durable support fabric Fastening System Adjustable multiple fasteners Sizes Available  S, M, L, XL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a leg traction brace used for?",
+          "a": "A leg traction brace is used to provide stabilization, traction support, and controlled support during orthopedic recovery and rehabilitation."
+        },
+        {
+          "q": "What is the benefit of the non-adhesive design?",
+          "a": "The non-adhesive design helps reduce the chances of skin irritation and allergic reactions while making application easier."
+        },
+        {
+          "q": "Are the fasteners adjustable?",
+          "a": "Yes, the multiple fasteners allow frequent tightening or loosening for customized support and comfort."
+        },
+        {
+          "q": "Is it suitable for long-term use?",
+          "a": "Yes, the comfortable and lightweight construction makes it suitable for prolonged use during recovery care."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "The leg traction brace is available in S, M, L, and XL sizes."
+        }
       ]
     },
     {
       "sku": "IK-TK-03",
-      "name": "Ankle Traction",
       "sizes": "Universal",
+      "name": "Ankle Traction Support",
+      "metaDescription": "Buy ankle traction support for effective ankle stabilization and rehabilitation care. Comfortable adjustable design for recovery support. Universal size available.",
+      "shortDescription": "Buy the best ankle traction support for reliable ankle stabilization, controlled support, and rehabilitation care. Ideal for injury recovery, orthopedic support, and daily ankle protection.",
+      "description": "The Ankle Traction Support is designed to provide effective ankle stabilization, controlled traction support, and improved comfort during recovery and rehabilitation. It is suitable for ankle injuries, ligament strain, post-trauma care, and orthopedic rehabilitation support.\n\nIts supportive design helps maintain proper ankle positioning while reducing unnecessary movement during recovery. The brace provides dependable support to the ankle joint, helping improve stability and confidence during walking, standing, or rehabilitation exercises.\n\nMade with comfortable and durable materials, the ankle traction support is lightweight, easy to wear, and suitable for prolonged daily use. The adjustable support system allows secure fitting and convenient application for both clinical and home care environments.\n\nDesigned for versatile use, the ankle traction support is suitable for rehabilitation centers, hospitals, sports recovery programs, and daily orthopedic support needs.",
       "features": [
-        "Ankle harness with padded malleolar protection and traction attachment point",
-        "Adjustable straps distribute traction force evenly around the ankle",
-        "Compatible with standard traction frames and bed setups",
-        "Durable construction suitable for sustained clinical use"
+        "Provides effective ankle stabilization and traction support",
+        "Helps maintain proper ankle positioning",
+        "Supports recovery from ankle injuries and strain",
+        "Comfortable and lightweight construction",
+        "Adjustable design for secure fitting",
+        "Easy to apply and remove",
+        "Durable for regular rehabilitation use",
+        "Suitable for clinical, sports, and home care use"
       ],
       "benefits": [
-        "Applies controlled traction to the ankle for subtalar joint mobilisation",
-        "Used in manual therapy and physiotherapy for ankle joint distraction",
-        "Reduces compressive joint forces to relieve ankle osteoarthritis pain",
-        "Supports rehabilitation protocols requiring joint distraction techniques"
+        "Helps reduce ankle discomfort and instability",
+        "Supports recovery after injury or trauma",
+        " Improves ankle support during movement",
+        "Helps minimize unnecessary ankle motion",
+        "Comfortable for prolonged daily wear",
+        "Easy to use and adjust",
+        "Durable for regular support applications"
+      ],
+      "recommendedUse": [
+        "Ankle injury recovery",
+        "Ligament strain support",
+        "Orthopedic rehabilitation care",
+        "Post-trauma ankle stabilization",
+        "Daily ankle support use",
+        "Walking and mobility assistance"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Ankle Traction Support Design Adjustable ankle traction brace Support Area Ankle joint Material Comfortable and durable support fabric Application Rehabilitation and orthopedic support Special Features Lightweight and adjustable support Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is ankle traction support used for?",
+          "a": "Ankle traction support is used to stabilize and support the ankle joint during recovery from injuries, strain, or rehabilitation care."
+        },
+        {
+          "q": "Does it help improve ankle stability?",
+          "a": "Yes, it helps maintain proper ankle positioning and supports improved joint stability during movement."
+        },
+        {
+          "q": "Is it comfortable for daily use?",
+          "a": "Yes, the lightweight and comfortable design makes it suitable for prolonged daily wear."
+        },
+        {
+          "q": "Can it be used for rehabilitation support?",
+          "a": "Yes, it is commonly used for orthopedic rehabilitation and post-injury recovery support."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The ankle traction support is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-CA-01",
-      "name": "Cervical Pillow",
       "sizes": "Universal",
+      "name": "Cervical Pillow",
+      "metaDescription": "Buy cervical pillow for effective neck support and comfort. Anatomically designed with high-density PU foam. Universal size available.",
+      "shortDescription": "Buy the best cervical pillow for effective neck support, improved posture, and comfortable sleep. Ideal for neck pain relief, cervical support, and daily relaxation.",
+      "description": "The Cervical Pillow is anatomically designed to provide effective neck support, improved spinal alignment, and enhanced comfort during rest and sleep. It helps support the natural curvature of the neck while promoting a comfortable sleeping posture.\n\nIts ergonomic design keeps the neck in a slight hyperextension position, helping maintain proper cervical alignment and reducing strain on the neck muscles and surrounding areas. This supportive structure may help improve comfort during sleep and relaxation.\n\nMade from high-density PU foam, the pillow offers a soft and cushiony feel while ensuring excellent durability and longer functional life. The foam construction provides dependable support with consistent shape retention for prolonged daily use.\n\nLightweight, comfortable, and easy to maintain, the cervical pillow is suitable for home, rehabilitation, and daily wellness support use. Its universal size design ensures comfortable use for a wide range of users.",
       "features": [
-        "Contoured memory foam or fibre-fill core supports the natural cervical curve",
-        "Butterfly-shaped design cradles the head in both supine and side-lying positions",
-        "Removable washable pillow cover for hygiene maintenance",
-        "Medium-firm density balances support and comfort"
+        "Anatomically designed for effective neck support",
+        "Helps maintain proper cervical alignment",
+        "Keeps the neck in slight hyperextension position",
+        "High-density PU foam for soft and cushiony comfort",
+        "Durable construction for longer functional life",
+        "Ergonomic shape for improved sleeping posture",
+        "Lightweight and comfortable design",
+        "Suitable for daily home and rehabilitation use"
       ],
       "benefits": [
-        "Maintains the cervical spine in a neutral position during sleep",
-        "Reduces morning neck stiffness and headaches from poor sleep posture",
-        "Prescribed for cervical spondylosis, disc herniation, and post-whiplash management",
-        "Helps prevent neck muscle strain in patients who work long hours at a desk"
+        "Helps reduce neck strain and discomfort",
+        "Supports comfortable sleeping posture",
+        "Promotes better cervical support during rest",
+        "Provides soft and cushioned comfort",
+        "Helps improve relaxation during sleep",
+        "Comfortable for prolonged daily use",
+        "Durable and easy to maintain"
+      ],
+      "recommendedUse": [
+        "Cervical neck support",
+        "Daily sleeping comfort",
+        "Neck strain and stiffness support",
+        "Rehabilitation and relaxation care",
+        "Posture support during rest",
+        "Home wellness and comfort use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Cervical Pillow Design Anatomically shaped cervical support pillow Support Area Neck and cervical region Material High-density PU foam Special Features Soft cushiony feel with ergonomic support Application Sleeping, relaxation, and cervical support Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a cervical pillow used for?",
+          "a": "A cervical pillow is used to support the neck, maintain proper cervical alignment, and improve comfort during sleep and rest."
+        },
+        {
+          "q": "How does the pillow support the neck?",
+          "a": "Its anatomical design keeps the neck in a slight hyperextension position to help maintain natural alignment."
+        },
+        {
+          "q": "What material is used in the pillow?",
+          "a": "The pillow is made from high-density PU foam for soft cushioning and long-lasting support."
+        },
+        {
+          "q": "Is it comfortable for daily use?",
+          "a": "Yes, the soft and ergonomic design makes it comfortable for regular daily sleeping and relaxation use."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The cervical pillow is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-CA-02",
-      "name": "Coccyx Seat Cushion",
       "sizes": "Universal",
+      "name": "Coccyx Seat Cushion",
+      "metaDescription": "Buy coccyx seat cushion for tailbone support and sitting comfort. Ergonomic cushioned design helps reduce pressure. Universal size available.",
+      "shortDescription": "Buy the best coccyx seat cushion for superior tailbone support, pressure relief, and sitting comfort. Ideal for office chairs, travel, home use, and prolonged sitting support.",
+      "description": "The Coccyx Seat Cushion is designed to provide effective tailbone support, pressure relief, and enhanced sitting comfort during prolonged sitting periods. It helps reduce pressure on the coccyx area while promoting better posture and seating comfort throughout the day.\n\nIts ergonomic contour design supports proper weight distribution and helps minimize stress on the tailbone and lower back area. The specially designed cut-out section helps relieve direct pressure from the coccyx region, improving comfort during sitting.\n\nMade from soft and durable cushioning material, the cushion offers a comfortable seating experience while maintaining shape and support during regular use. Lightweight and portable, it can be used on office chairs, wheelchairs, car seats, dining chairs, and home seating surfaces.\n\nComfortable, durable, and easy to maintain, the coccyx seat cushion is suitable for home, office, travel, rehabilitation, and daily wellness support use.",
       "features": [
-        "U-shaped cutout eliminates direct pressure on the coccyx",
-        "Memory foam or gel-infused fill distributes sitting load across the ischial tuberosities",
-        "Non-slip base keeps the cushion stable on all seating surfaces",
-        "Removable zipped cover for easy washing"
+        "Provides effective coccyx and tailbone support",
+        "Helps reduce pressure during prolonged sitting",
+        "Ergonomic contour design for improved comfort",
+        "Cut-out design helps relieve tailbone pressure",
+        "Soft and durable cushioning material",
+        "Lightweight and portable construction",
+        "Suitable for office, home, travel, and wheelchair use",
+        "Comfortable and easy-to-maintain design"
       ],
       "benefits": [
-        "Relieves coccydynia pain during prolonged sitting",
-        "Reduces pressure on the tailbone after coccyx fracture or bruising",
-        "Suitable for post-partum patients with coccygeal pain following childbirth",
-        "Improves sitting comfort for patients with haemorrhoids and post-surgical perianal wounds"
+        "Helps improve sitting comfort",
+        "Reduces pressure on the tailbone area",
+        "Supports better posture during sitting",
+        "Helps minimize discomfort from prolonged sitting",
+        "Comfortable for daily use",
+        "Easy to carry and use on multiple seating surfaces",
+        "Durable for regular long-term use"
+      ],
+      "recommendedUse": [
+        "Tailbone and coccyx support",
+        "Office and work chair comfort",
+        "Prolonged sitting support",
+        "Travel seating comfort",
+        "Wheelchair seating support",
+        "Daily posture and comfort care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Coccyx Seat Cushion Design Ergonomic tailbone relief cushion Support Area Coccyx and lower back seating area Material Soft and durable cushioning foam Special Features Pressure relief cut-out design Application Sitting comfort and posture support Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a coccyx seat cushion used for?",
+          "a": "A coccyx seat cushion is used to provide tailbone support, reduce pressure during sitting, and improve overall seating comfort."
+        },
+        {
+          "q": "How does the cushion help relieve pressure?",
+          "a": "Its ergonomic cut-out design helps reduce direct pressure on the coccyx and tailbone area."
+        },
+        {
+          "q": "Can it be used on office chairs?",
+          "a": "Yes, it is suitable for office chairs, car seats, wheelchairs, and home seating."
+        },
+        {
+          "q": "Is it comfortable for prolonged sitting?",
+          "a": "Yes, the soft cushioning and ergonomic design make it comfortable for extended sitting periods."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The coccyx seat cushion is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-CA-03",
-      "name": "Back Rest Cushion",
       "sizes": "Universal",
+      "name": "Back Rest Cushion",
+      "metaDescription": "Buy back rest cushion for superior back support and sitting comfort. Ergonomic cushioned design helps improve posture. Universal size available.",
+      "shortDescription": "Buy the best back rest cushion for effective back support, posture improvement, and sitting comfort. Ideal for office chairs, car seats, home use, and prolonged sitting support.",
+      "description": "The Back Rest Cushion is designed to provide effective back support, enhanced comfort, and improved posture during prolonged sitting. It helps support the natural curvature of the spine while reducing strain on the back during daily activities.\n\nIts ergonomic contour design helps maintain proper sitting posture by supporting the lower and middle back areas. The cushioned support helps distribute pressure evenly, improving comfort during office work, driving, travel, or relaxation.\n\nMade from soft and durable cushioning material, the back rest cushion offers long-lasting comfort and dependable support for regular use. Lightweight and portable, it can be conveniently used on office chairs, car seats, wheelchairs, dining chairs, and home seating surfaces.\n\nComfortable, durable, and easy to maintain, the back rest cushion is suitable for home, office, travel, rehabilitation, and daily wellness support use.",
       "features": [
-        "Lumbar roll or wedge design supports the natural lumbar lordosis",
-        "Firm supportive foam retains its shape through extended daily use",
-        "Adjustable strap attaches to most office chairs, car seats, and wheelchairs",
-        "Compact design for use at home, in the office, and during travel"
+        "Provides effective back and posture support",
+        "Helps maintain proper spinal alignment during sitting",
+        "Ergonomic contour design for enhanced comfort",
+        "Cushioned support for prolonged sitting use",
+        "Lightweight and portable construction",
+        "Soft and durable cushioning material",
+        "Suitable for office, car, home, and wheelchair use",
+        "Comfortable and easy-to-maintain design"
       ],
       "benefits": [
-        "Maintains correct lumbar posture during prolonged sitting to prevent low back pain",
-        "Reduces lumbar disc pressure by restoring the natural inward curve of the lower spine",
-        "Relieves chronic low back pain triggered by poor seating ergonomics",
-        "Suitable for patients recovering from lumbar surgery who must sit for extended periods"
+        "Helps reduce back strain and discomfort Improves posture during prolonged sitting",
+        "",
+        "Enhances seating comfort throughout the day",
+        "Supports better spinal alignment",
+        "Comfortable for daily office and travel use",
+        "Easy to carry and use on multiple seating surfaces",
+        "Durable for regular long-term use"
+      ],
+      "recommendedUse": [
+        "Back support during sitting",
+        "Office and workstation comfort",
+        "Car and travel seating support",
+        "Home relaxation support",
+        "Posture improvement care",
+        "Daily wellness and rehabilitation use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Back Rest Cushion Design Ergonomic back support cushion Support Area Back and spinal support area Material Soft and durable cushioning foam Special Features Contoured posture support design Application Sitting comfort and back support Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a back rest cushion used for?",
+          "a": "A back rest cushion is used to provide back support, improve posture, and enhance comfort during prolonged sitting."
+        },
+        {
+          "q": "Can it help improve sitting posture?",
+          "a": "Yes, the ergonomic design helps maintain proper spinal alignment and supports better posture."
+        },
+        {
+          "q": "Is it suitable for office chairs?",
+          "a": "Yes, it can be used on office chairs, car seats, wheelchairs, and home seating."
+        },
+        {
+          "q": "Is it comfortable for long sitting hours?",
+          "a": "Yes, the cushioned ergonomic design provides comfort during extended sitting periods."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The back rest cushion is available in Universal size."
+        }
       ]
     }
   ]

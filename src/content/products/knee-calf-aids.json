@@ -5,155 +5,686 @@
   "products": [
     {
       "sku": "IK-KC-01",
-      "name": "Knee Cap",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Knee Cap Support Compression Sleeve",
+      "metaDescription": "Buy knee cap for knee support and compression. Anatomical fit with double-layer long design for warmth and healing. Sizes S to XXL available.",
+      "shortDescription": "Buy the best knee cap for reliable knee support, compression, and comfort. Ideal for pain relief, sports use, strain recovery, and rehabilitation care.",
+      "description": "The Knee Cap Support Compression Sleeve is crafted to provide dependable knee stabilization, gentle compression, and everyday comfort for weakness, strain, sprains, joint discomfort, or rehabilitation support. It helps improve knee confidence during movement while reducing stress on the joint.\n\nIts anatomically contoured construction is designed to follow the natural shape of the knee for a secure and comfortable fit. The double-layer long type design delivers enhanced therapeutic warmth, which may help improve circulation and support quicker recovery.\n\nManufactured using heat-resistant rubber and premium quality yarn, this knee cap offers durability and maintains performance even after prolonged regular use. Soft, flexible, and comfortable, it is suitable for home, sports, clinic, and daily wear.",
       "features": [
-        "Elasticated neoprene sleeve with 360° compression",
-        "Anatomically shaped for a close, non-slip fit",
-        "Smooth inner surface prevents skin abrasion",
-        "Slim profile wears comfortably under trousers or sports clothing"
+        "Anatomically designed for better fitting",
+        "Double-layer long type construction for added support",
+        "Helps provide therapeutic warmth",
+        "May assist quicker healing and recovery",
+        "Heat-resistant rubber for long-lasting performance",
+        "Premium quality yarn enhances durability",
+        "Suitable for sports, clinical, and home use"
       ],
       "benefits": [
-        "Compresses and warms the knee joint to reduce pain and stiffness",
-        "Supports the knee during mild ligament strains and early osteoarthritis",
-        "Improves proprioceptive feedback to enhance joint stability",
-        "Suitable for daily wear and light sporting activity"
+        "Helps relieve knee pain and discomfort",
+        "Supports weak or strained knees",
+        "Improves comfort during walking and activity",
+        "Retains warmth for joint support",
+        "Durable for prolonged regular use",
+        "Comfortable for extended daily wear"
+      ],
+      "recommendedUse": [
+        "Knee strain and sprain support Joint weakness management Sports activity protection Mild arthritis support care Post-injury rehabilitation Daily knee stabilization use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Knee Cap"
+        },
+        {
+          "key": "Design",
+          "value": "Anatomical double-layer long sleeve"
+        },
+        {
+          "key": "Support Area",
+          "value": "Knee joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Therapeutic warmth, durable knit construction"
+        },
+        {
+          "key": "Material",
+          "value": "Heat-resistant rubber and quality yarn"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a knee cap used for?",
+          "a": "It is used to provide knee support, compression, and comfort during activity or recovery."
+        },
+        {
+          "q": "What is the benefit of double-layer construction?",
+          "a": "It helps provide added support, warmth, and may assist faster recovery."
+        },
+        {
+          "q": "Is it suitable for daily wear?",
+          "a": "Yes, it is comfortable and designed for regular prolonged use."
+        },
+        {
+          "q": "Is it durable?",
+          "a": "Yes, it is made with heat-resistant rubber and quality yarn for longer life."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {
       "sku": "IK-KC-02",
-      "name": "Hinge Knee Cap",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Hinge Knee Cap Support Brace",
+      "metaDescription": "Buy hinge knee cap for knee support and stability. Compression fabric with polycentric hinges and Velcro straps. Sizes S to XXL available.",
+      "shortDescription": "Buy the best hinge knee cap for advanced knee support, compression, and joint stabilization. Ideal for ligament injuries, pain relief, sports recovery, and rehabilitation care.",
+      "description": "The Hinge Knee Cap Support Brace is designed to deliver firm knee stabilization,\n\ncontrolled compression, and dependable joint support during ligament strain, instability, injury recovery, or rehabilitation care. It helps improve confidence in movement while protecting the knee joint.\n\nIts supportive fabric construction provides therapeutic warmth and gentle compression that may help reduce discomfort, stiffness, and swelling during daily activity. The ergonomic sleeve design ensures a comfortable fit for extended wear.\n\nEquipped with polycentric hinges on both sides, the brace offers medial and lateral knee support for enhanced stability while allowing natural bending movement. Adjustable Velcro straps above and below the knee ensure a secure personalized fit. Durable, comfortable, and practical, it is suitable for sports, clinic, and home use.",
       "features": [
-        "Neoprene sleeve with bilateral polycentric hinges",
-        "Open-patella design reduces pressure on the kneecap",
-        "Hinges guide the knee through a controlled range of motion",
-        "Anti-migration straps above and below the knee prevent slipping"
+        "Compression fabric provides warmth and support",
+        "Polycentric hinges for medial and lateral stability",
+        "Helps support natural knee movement",
+        "Velcro straps above and below knee for secure fit",
+        "Improves knee alignment and joint control",
+        "Comfortable for prolonged daily wear",
+        "Suitable for sports, clinical, and home use"
       ],
       "benefits": [
-        "Provides mediolateral joint stability for ligament injuries and instability",
-        "Reduces pain during weight-bearing in moderate osteoarthritis",
-        "Controls knee movement during rehabilitation post-ligament sprain",
-        "Suitable for return-to-activity after knee injury"
+        "Helps reduce knee pain and instability",
+        "Supports weak or injured ligaments",
+        "Provides confidence during walking and activity",
+        "Assists recovery after knee strain or injury",
+        "Secure adjustable fit for better comfort",
+        "Durable for regular long-term use"
+      ],
+      "recommendedUse": [
+        "Ligament injury support Knee instability management Sports recovery care Post-injury rehabilitation Mild osteoarthritis support Daily knee stabilization use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Hinge Knee Cap"
+        },
+        {
+          "key": "Design",
+          "value": "Hinged compression knee brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Knee joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Polycentric hinges, adjustable Velcro straps"
+        },
+        {
+          "key": "Material",
+          "value": "Supportive compression fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a hinge knee cap used for?",
+          "a": "It is used to stabilize the knee, provide compression, and support recovery from injury or instability."
+        },
+        {
+          "q": "What do polycentric hinges do?",
+          "a": "They provide side support while allowing smoother natural knee bending movement."
+        },
+        {
+          "q": "Are the straps adjustable?",
+          "a": "Yes, Velcro straps above and below the knee allow a secure customized fit."
+        },
+        {
+          "q": "Is it suitable for sports use?",
+          "a": "Yes, it is commonly used during sports, exercise, and rehabilitation activities."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {
       "sku": "IK-KC-03",
-      "name": "Polycentric Hinge Knee Cap",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Polycentric Hinge Knee Cap Support Brace",
+      "metaDescription": "Buy polycentric hinge knee cap for knee support and stability. Patella foam padding, side metal hinges & Velcro fit. Sizes S to XXL available.",
+      "shortDescription": "Buy the best polycentric hinge knee cap for advanced knee stabilization, compression, and comfort. Ideal for ligament injuries, pain relief, recovery, and rehabilitation care.",
+      "description": "The Polycentric Hinge Knee Cap Support Brace is designed to provide strong knee stabilization, controlled compression, and dependable joint support during ligament strain, weakness, post-injury recovery, or rehabilitation care. It helps improve confidence in movement while protecting the knee joint.\n\nSoft foam padding around the patella offers added comfort and cushioning while helping support the kneecap area. This design reduces pressure during movement and enhances overall wearing comfort for prolonged daily use.\n\nMetal hinges positioned on both sides of the knee provide reliable medial and lateral support during movement and weight bearing activities. The adjustable Velcro closure allows customized compression and secure fitting according to user needs. Durable, comfortable, and practical, it is suitable for sports, clinic, and home use.",
       "features": [
-        "Dual-axis polycentric hinges replicate the natural knee joint motion",
-        "Rigid frame with padded straps for firm support",
-        "Adjustable hinge stops to limit or control range of motion",
-        "Breathable neoprene shell with moisture-wicking lining"
+        "Foam padding around patella for extra comfort",
+        "Supports and cushions the kneecap area",
+        "Metal hinges on both sides for knee stability",
+        "Assists movement and weight bearing support",
+        "Velcro closure for customized compression",
+        "Secure adjustable fit for better comfort",
+        "Suitable for sports, clinical, and home use"
       ],
       "benefits": [
-        "Delivers superior joint control for moderate-to-severe ligament instability",
-        "Protects the knee post-ACL, PCL, or collateral ligament repair",
-        "Polycentric hinge reduces shear forces at the joint during walking",
-        "Prescribed in post-surgical rehabilitation protocols for faster, safer return to activity"
+        "Helps reduce knee pain and discomfort",
+        "Supports weak or unstable knees",
+        "Improves confidence during walking and activity",
+        "Helps protect the knee during recovery",
+        "Comfortable for prolonged daily wear",
+        "Durable for regular long-term use"
+      ],
+      "recommendedUse": [
+        "Ligament injury support Knee instability management Post-surgical rehabilitation Sports recovery care Patella discomfort support Daily knee stabilization use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Polycentric Hinge Knee Cap"
+        },
+        {
+          "key": "Design",
+          "value": "Hinged compression knee brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Knee joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Patella foam padding, bilateral metal hinges, Velcro closure"
+        },
+        {
+          "key": "Material",
+          "value": "Supportive fabric with metal hinges"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a polycentric hinge knee cap used for?",
+          "a": "It is used to stabilize the knee, support movement, and assist recovery from injury or weakness."
+        },
+        {
+          "q": "What is the benefit of patella foam padding?",
+          "a": "It provides extra comfort, cushioning, and support around the kneecap."
+        },
+        {
+          "q": "How do the metal hinges help?",
+          "a": "They offer side support and stability during movement and weight bearing."
+        },
+        {
+          "q": "Can compression be adjusted?",
+          "a": "Yes, the Velcro closure allows customized compression and fitting."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {
       "sku": "IK-KC-04",
-      "name": "Elastic Knee Support",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Elastic Knee Cap Support Brace",
+      "metaDescription": "Buy elastic knee cap for knee support and comfort. Patella foam padding, side springs & Velcro fit. Slim under-clothes design. Sizes S to XXL.",
+      "shortDescription": "Buy the best elastic knee cap for comfortable knee support, compression, and stability. Ideal for pain relief, movement support, sports use, and rehabilitation care.",
+      "description": "The Elastic Knee Cap Support Brace is designed to provide dependable knee compression, joint stability, and everyday comfort during strain, weakness, mild instability, or rehabilitation care. It helps support smooth movement while reducing stress on the knee joint.\n\nIts lightweight and slim construction makes it easy to wear discreetly under clothing, allowing convenient use during work, travel, or daily activities. The breathable design enhances comfort for prolonged wear.\n\nSoft foam padding around the patella offers extra cushioning and targeted support to the kneecap area. Spiral springs on both sides of the knee provide added assistance during movement, while the Velcro closure allows quick application, proper alignment, and a secure personalized fit. Durable and comfortable, it is ideal for sports, clinic, and home use.",
       "features": [
-        "Graduated compression elastic knit construction",
-        "Seamless tube design for uniform pressure distribution",
-        "Thin profile allows use inside most footwear",
-        "Easy to pull on without fasteners or straps"
+        "Lightweight thin profile fits comfortably under clothes",
+        "Foam padding around patella for added comfort",
+        "Supports and cushions the kneecap area",
+        "Spiral springs on both sides for movement support",
+        "Velcro closure for fast application and secure fit",
+        "Helps maintain proper alignment",
+        "Suitable for sports, clinical, and home use"
       ],
       "benefits": [
-        "Reduces mild knee swelling and joint effusion through compression",
-        "Provides gentle proprioceptive support during daily activities",
-        "Suitable for chronic knee pain, mild tendinopathy, and general joint protection",
-        "Comfortable for long hours of wear in occupational and everyday settings"
+        "Helps relieve knee pain and discomfort",
+        "Supports weak or strained knees",
+        "Improves confidence during walking and activity",
+        "Comfortable for prolonged daily wear",
+        "Easy to wear and remove quickly",
+        "Durable for regular long-term use"
+      ],
+      "recommendedUse": [
+        "Mild knee instability support Sports activity protection Knee strain and sprain care Patella support during movement Post-injury rehabilitation Daily knee stabilization use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Elastic Knee Cap"
+        },
+        {
+          "key": "Design",
+          "value": "Slim elastic support brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Knee joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Patella foam padding, spiral side springs, Velcro closure"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight elastic fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an elastic knee cap used for?",
+          "a": "It is used to provide knee support, compression, and comfort during movement or recovery."
+        },
+        {
+          "q": "Can it be worn under clothes?",
+          "a": "Yes, the slim lightweight design allows comfortable use under clothing."
+        },
+        {
+          "q": "What is the benefit of spiral springs?",
+          "a": "They provide added side support and assist smoother movement."
+        },
+        {
+          "q": "Is it easy to wear?",
+          "a": "Yes, the Velcro closure enables quick application and secure fitting."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {
       "sku": "IK-KC-05",
-      "name": "Knee Cap with Open Patella",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Knee Cap with Open Patella Support Brace",
+      "metaDescription": "Buy knee cap with open patella for knee support and pain relief. Four-way elastic fabric with patella opening. Skin friendly. Sizes S to XXL.",
+      "shortDescription": "Buy the best knee cap with open patella for targeted knee support, compression, and comfort. Ideal for patella pain relief, sports use, and rehabilitation care.",
+      "description": "The Knee Cap with Open Patella Support Brace is designed to provide dependable knee stabilization, gentle compression, and enhanced comfort during strain, weakness, mild instability, or rehabilitation care. It helps support daily movement while reducing stress on the knee joint.\n\nIts anterior patellar opening is specially designed to relieve direct pressure from the kneecap area while helping maintain proper patella alignment. This makes it ideal for users seeking targeted support around the front of the knee.\n\nConstructed from sturdy tapered four-way elasticized fabric, the brace offers flexibility, durability, and uniform compression for a secure fit. The skin-friendly material enhances wearing comfort during prolonged use. Lightweight and practical, it is suitable for sports, clinic, and home care settings.",
       "features": [
-        "Circular aperture offloads direct pressure from the patella",
-        "Silicone patellar ring guides the kneecap into the correct tracking groove",
-        "Neoprene body retains warmth and delivers lateral compression",
-        "Anti-slip inner surface keeps the brace in position during activity"
+        "Anterior patellar opening helps relieve pressure on kneecap",
+        "Supports proper patella positioning during movement",
+        "Made from sturdy tapered four-way elasticized fabric",
+        "Provides flexible compression and secure fit",
+        "Skin-friendly material for improved comfort",
+        "Durable and comfortable for daily wear",
+        "Suitable for sports, clinical, and home use"
       ],
       "benefits": [
-        "Relieves anterior knee pain from patellofemoral syndrome and patellar tendinopathy",
-        "Corrects patellar maltracking to reduce pain during stair climbing and squatting",
-        "Protects the knee after patellar dislocation during rehabilitation",
-        "Suitable for patients with chondromalacia patella seeking non-surgical symptom relief"
+        "Helps reduce patella discomfort and knee pain",
+        "Supports weak or strained knees",
+        "Improves confidence during walking and activity",
+        "Comfortable for prolonged daily wear",
+        "Breathable and gentle on skin",
+        "Durable for regular long-term use"
+      ],
+      "recommendedUse": [
+        "Patella pain support Mild knee instability care Sports activity protection Knee strain and sprain recovery Post-injury rehabilitation Daily knee stabilization use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Knee Cap with Open Patella"
+        },
+        {
+          "key": "Design",
+          "value": "Open patella compression knee brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Knee joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Patellar opening, four-way elastic fabric"
+        },
+        {
+          "key": "Material",
+          "value": "Skin-friendly elasticized fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a knee cap with open patella used for?",
+          "a": "It is used to support the knee while reducing pressure on the kneecap area."
+        },
+        {
+          "q": "What is the benefit of the patellar opening?",
+          "a": "It helps relieve direct pressure from the patella and improves comfort."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, the skin-friendly fabric is designed for prolonged comfortable use."
+        },
+        {
+          "q": "Can it be used during sports?",
+          "a": "Yes, it is suitable for sports, exercise, and daily activity support."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {
       "sku": "IK-KC-06",
-      "name": "ROM Knee Brace",
       "sizes": "Universal",
+      "name": "ROM Knee Brace Range of Motion Support",
+      "metaDescription": "Buy ROM knee brace for controlled knee support and motion management. Adjustable hinge design for recovery and rehabilitation. Universal size available.",
+      "shortDescription": "Buy the best ROM knee brace for advanced knee stabilization and controlled movement. Ideal for ligament injuries, post-surgery recovery, and rehabilitation care.",
+      "description": "The ROM Knee Brace Range of Motion Support is designed to provide dependable knee stabilization while allowing controlled flexion and extension during recovery. It is commonly used after injury, surgery, or rehabilitation programs where movement needs to be gradually managed.\n\nThis brace features an adjustable hinged design that helps control the knee’s range of motion according to medical or recovery requirements. It supports the joint while protecting healing structures during walking and exercise progression.\n\nIts ergonomic frame offers secure fitting, reliable support, and comfortable wear for prolonged use. Lightweight, durable, and practical, the ROM knee brace is suitable for hospitals, clinics, rehabilitation centers, and home care use.",
       "features": [
-        "Adjustable range-of-motion hinges with marked degree settings",
-        "Rigid lightweight frame with breathable padded straps",
-        "Extension and flexion stops independently adjustable",
-        "Universal sizing fits most adult knee circumferences"
+        "Adjustable range of motion control system",
+        "Helps manage knee flexion and extension",
+        "Provides strong knee stabilization during recovery",
+        "Hinged design supports natural alignment",
+        "Secure adjustable straps for personalized fit",
+        "Lightweight and durable construction",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Controls range of motion precisely during post-operative rehabilitation",
-        "Protects surgical repairs by preventing unwanted joint positions",
-        "Allows incremental increases in movement as healing progresses",
-        "Standard prescription brace following knee ligament reconstruction and meniscal repair"
+        "Supports recovery after knee surgery or injury",
+        "Helps protect ligaments during healing",
+        "Allows gradual movement progression",
+        "Improves confidence during walking and therapy",
+        "Comfortable for prolonged daily wear",
+        "Easy to wear and adjust"
+      ],
+      "recommendedUse": [
+        "Post-surgical knee rehabilitation Ligament injury recovery ACL / PCL support care Controlled movement therapy Knee instability management Orthopedic rehabilitation support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "ROM Knee Brace"
+        },
+        {
+          "key": "Design",
+          "value": "Hinged range of motion brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Knee joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Adjustable motion control hinges"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable frame"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a ROM knee brace used for?",
+          "a": "It is used to stabilize the knee while controlling movement during recovery or rehabilitation."
+        },
+        {
+          "q": "What does ROM mean?",
+          "a": "ROM stands for Range of Motion, referring to controlled knee bending and straightening."
+        },
+        {
+          "q": "Is it suitable after surgery?",
+          "a": "Yes, it is commonly used after knee surgery and ligament repair rehabilitation."
+        },
+        {
+          "q": "Can the movement be adjusted?",
+          "a": "Yes, the brace is designed to allow adjustable motion settings."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-KC-07",
-      "name": "Knee Immobilizer",
       "sizes": "S, M, L, XL, XXL, XXXL (14/19/22 inch)",
+      "name": "Knee Immobilizer Support Brace",
+      "metaDescription": "Buy knee immobilizer for rigid knee support and stabilization. Available in 14\", 19\", 22\" lengths for injury recovery. Sizes S to 3XL.",
+      "shortDescription": "Buy the best knee immobilizer for firm knee stabilization and movement restriction. Ideal for injuries, post-surgery care, fractures, and rehabilitation recovery.",
+      "description": "The Knee Immobilizer Support Brace is designed to provide rigid stabilization and controlled immobilization to the knee joint during injury recovery, post-operative care, ligament damage, fractures, or rehabilitation support. It helps restrict knee movement while maintaining proper joint alignment.\n\nIts structured panel design offers dependable support to the front and sides of the knee, helping protect the joint during walking, standing, or recovery. The brace is ideal when temporary knee motion restriction is recommended.\n\nAvailable in multiple lengths of 14\", 19\", and 22\", it allows selection based on support needs and leg length. Comfortable, durable, and easy to apply, the knee immobilizer is suitable for hospitals, clinics, rehabilitation centers, and home care use.",
       "features": [
-        "Full-length rigid posterior shell with multiple velcro closures",
-        "Foam padding at the popliteal fossa and bony prominences",
-        "Available in three length options to match thigh-to-calf measurements",
-        "Ventilated design reduces heat build-up during immobilisation"
+        "Provides firm knee immobilization and stabilization",
+        "Helps restrict unwanted knee movement",
+        "Supports proper joint alignment during recovery",
+        "Structured panel design for dependable support",
+        "Available in 14\", 19\", and 22\" lengths",
+        "Easy to wear and secure fit",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Completely immobilises the knee for fractures, dislocations, and acute ligament tears",
-        "Maintains the knee in extension during transport and early post-injury management",
-        "Used post-operatively when full knee immobilisation is prescribed",
-        "Reduces pain by preventing any inadvertent knee movement"
+        "Supports healing after knee injury or surgery",
+        "Helps protect ligaments and soft tissues",
+        "Reduces strain during movement",
+        "Comfortable for temporary recovery wear",
+        "Easy to apply and remove",
+        "Durable for regular medical use"
+      ],
+      "recommendedUse": [
+        "Post-surgical knee support Ligament injury management Patella and soft tissue injuries Knee fracture recovery Temporary motion restriction Orthopedic rehabilitation care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Knee Immobilizer"
+        },
+        {
+          "key": "Design",
+          "value": "Rigid knee stabilization brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Knee joint"
+        },
+        {
+          "key": "Available Lengths",
+          "value": "14\", 19\", 22\""
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable support panels"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL, 3XL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a knee immobilizer used for?",
+          "a": "It is used to stabilize the knee and restrict movement during recovery from injury or surgery."
+        },
+        {
+          "q": "What lengths are available?",
+          "a": "It is available in 14\", 19\", and 22\" lengths."
+        },
+        {
+          "q": "Is it suitable after surgery?",
+          "a": "Yes, it is commonly used after knee surgery or trauma care."
+        },
+        {
+          "q": "Is it easy to wear?",
+          "a": "Yes, it is designed for convenient application and secure fitting."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, XXL, and 3XL sizes."
+        }
       ]
     },
     {
       "sku": "IK-KC-08",
-      "name": "Varicose Stocking Below Knee",
       "sizes": "S, M, L, XL",
+      "name": "Varicose Stockings Below Knee Compression Support",
+      "metaDescription": "Buy varicose stockings below knee for graduated compression and leg comfort. Helps support circulation and reduce fatigue. Sizes S, M, L, XL.",
+      "shortDescription": "Buy the best below knee varicose stockings for comfortable leg compression and circulation support. Ideal for swelling, tired legs, and daily wear support.",
+      "description": "The Varicose Stockings Below Knee Compression Support is designed to provide graduated compression to the lower legs for improved blood circulation, reduced fatigue, and everyday comfort. It helps support the veins while relieving heaviness and discomfort in the legs.\n\nThese below-knee stockings apply gentle pressure from the ankle upward, encouraging healthy circulation and helping reduce swelling caused by prolonged standing, sitting, travel, or daily strain. The ergonomic fit ensures effective support without compromising comfort.\n\nMade from soft, stretchable, and breathable material, the stockings are suitable for prolonged wear and everyday use. Lightweight and durable, they are ideal for home, work, travel, clinics, and recovery care.",
       "features": [
-        "Graduated compression highest at the ankle, decreasing towards the knee",
-        "Medical-grade elastic knit fabric maintains compression over extended wear",
-        "Reinforced heel and toe zones for durability",
-        "Smooth exterior suitable for wear with formal and casual footwear"
+        "Below-knee graduated compression support",
+        "Helps improve blood circulation in legs",
+        "Assists in reducing swelling and heaviness",
+        "Comfortable stretchable fit for daily wear",
+        "Breathable material for prolonged use",
+        "Lightweight and durable construction",
+        "Suitable for home, travel, and clinical use"
       ],
       "benefits": [
-        "Improves venous return from the lower leg to reduce varicose vein symptoms",
-        "Reduces ankle and calf swelling from venous insufficiency and prolonged standing",
-        "Prevents deep vein thrombosis during long-haul travel or bed rest",
-        "Supports post-sclerotherapy and post-varicose vein surgery recovery"
+        "Helps relieve tired and aching legs",
+        "Supports vein health and circulation",
+        "Reduces discomfort from prolonged standing",
+        "Comfortable for extended daily wear",
+        "Useful during travel and work routines",
+        "Easy to wear and maintain"
+      ],
+      "recommendedUse": [
+        "Varicose vein support Leg swelling management Tired and heavy legs relief Travel compression support Standing job leg care Daily circulation support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Varicose Stockings Below Knee"
+        },
+        {
+          "key": "Design",
+          "value": "Graduated compression stockings"
+        },
+        {
+          "key": "Support Area",
+          "value": "Lower leg below knee"
+        },
+        {
+          "key": "Material",
+          "value": "Soft stretchable breathable fabric"
+        },
+        {
+          "key": "Use",
+          "value": "Circulation and leg support"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What are below knee varicose stockings used for?",
+          "a": "They are used to improve circulation, support veins, and reduce leg swelling or fatigue."
+        },
+        {
+          "q": "Can they be worn daily?",
+          "a": "Yes, they are designed for comfortable daily and prolonged wear."
+        },
+        {
+          "q": "Are they useful during travel?",
+          "a": "Yes, they help support circulation during long travel or sitting periods."
+        },
+        {
+          "q": "Do they help tired legs?",
+          "a": "Yes, they can help reduce heaviness and discomfort in tired legs."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "They are available in S, M, L, and XL sizes."
+        }
       ]
     },
     {
       "sku": "IK-KC-09",
-      "name": "Varicose Stocking Above Knee",
       "sizes": "S, M, L, XL",
+      "name": "Varicose Stockings Above Knee Compression Support",
+      "metaDescription": "Buy varicose stockings above knee for graduated compression and leg support. Helps improve circulation and reduce fatigue. Sizes S, M, L, XL.",
+      "shortDescription": "Buy the best above knee varicose stockings for comfortable leg compression and circulation support. Ideal for swelling, tired legs, and daily wear care.",
+      "description": "The Varicose Stockings Above Knee Compression Support is designed to provide graduated compression to the legs for improved blood circulation, reduced fatigue, and dependable everyday comfort. It helps support vein health while relieving heaviness and discomfort in the legs.\n\nThese above-knee stockings deliver gentle pressure from the ankle upward, extending support beyond the knee for enhanced circulation assistance and improved leg comfort. They are useful for prolonged standing, sitting, travel, and daily activity support.\n\nMade from soft, stretchable, and breathable material, the stockings are comfortable for prolonged wear while maintaining effective compression support. Lightweight and durable, they are ideal for home, work, travel, clinics, and recovery care.",
       "features": [
-        "Full-leg graduated compression from foot to thigh",
-        "Silicone stay-up band at the thigh prevents rolling or slipping",
-        "Breathable, moisture-wicking fabric for all-day comfort",
-        "Reinforced foot panel for durability"
+        "Above-knee graduated compression support",
+        "Helps improve blood circulation in legs",
+        "Extends support above the knee area",
+        "Assists in reducing swelling and heaviness",
+        "Comfortable stretchable fit for daily wear",
+        "Breathable material for prolonged use",
+        "Suitable for home, travel, and clinical use"
       ],
       "benefits": [
-        "Manages thigh-level varicosities and extensive venous insufficiency",
-        "Reduces whole-leg oedema and heaviness caused by poor venous circulation",
-        "Prescribed post-deep vein thrombosis to prevent post-thrombotic syndrome",
-        "Suitable for patients with lymphoedema requiring full lower limb compression"
+        "Helps relieve tired and aching legs",
+        "Supports healthy vein circulation",
+        "Reduces discomfort from prolonged standing",
+        "Comfortable for extended daily wear",
+        "Useful during travel and work routines",
+        "Easy to wear and maintain"
+      ],
+      "recommendedUse": [
+        "Varicose vein support Leg swelling management Tired and heavy legs relief Travel compression support Standing job leg care Daily circulation support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Varicose Stockings Above Knee"
+        },
+        {
+          "key": "Design",
+          "value": "Graduated compression stockings"
+        },
+        {
+          "key": "Support Area",
+          "value": "Full leg above knee"
+        },
+        {
+          "key": "Material",
+          "value": "Soft stretchable breathable fabric"
+        },
+        {
+          "key": "Use",
+          "value": "Circulation and leg support"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What are above knee varicose stockings used for?",
+          "a": "They are used to improve circulation, support veins, and reduce swelling or fatigue in the legs."
+        },
+        {
+          "q": "Can they be worn daily?",
+          "a": "Yes, they are designed for comfortable daily and prolonged wear."
+        },
+        {
+          "q": "Are they useful during travel?",
+          "a": "Yes, they help support circulation during long travel or sitting periods."
+        },
+        {
+          "q": "Do they cover above the knee?",
+          "a": "Yes, they extend above the knee for additional leg support."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "They are available in S, M, L, and XL sizes."
+        }
       ]
     }
   ]

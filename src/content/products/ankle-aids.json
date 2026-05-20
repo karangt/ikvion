@@ -1,108 +1,400 @@
 {
   "slug": "ankle-aids",
   "title": "Ankle Aids",
-  "description": "Ankle supports, braces, foot drop splints, cast shoes, and DRB for ankle sprains, ligament injuries, and post-fracture rehabilitation.",
+  "description": "Ankle supports, braces, foot drop splints, cast shoes, and traction aids for ankle sprains, ligament injuries, and post-fracture rehabilitation.",
   "products": [
     {
       "sku": "IK-AA-01",
-      "name": "Ankle Support",
       "sizes": "S, M, L, XL",
+      "name": "Ankle Binder Support Brace",
+      "metaDescription": "Buy ankle binder for ankle support and compression. Figure of 8 design for stability with high-strength elastic. Universal size available.",
+      "shortDescription": "Buy the best ankle binder for dependable ankle support, compression, and stability. Ideal for sprains, strain recovery, sports use, and rehabilitation care.",
+      "description": "The Ankle Binder Support Brace is designed to provide firm ankle stabilization, controlled compression, and improved confidence during movement. It is ideal for sprains, ligament strain, weakness, sports activity, and rehabilitation support.\n\nIts figure of 8 wrap pattern offers enhanced ankle stability by securing the joint in a supportive position while allowing comfortable mobility. This structured design helps minimize unnecessary ankle movement and improves balance during walking or activity.\n\nMade with high-strength elastic material, the binder delivers reliable compression to help reduce discomfort, swelling, and fatigue. Lightweight, durable, and easy to wear, it is suitable for home, clinic, sports, and daily use.",
       "features": [
-        "Elasticated neoprene sleeve for uniform ankle compression",
-        "Figure-of-eight stirrup straps add mediolateral stability",
-        "Low-profile design fits inside standard footwear",
-        "Non-slip inner surface keeps the support correctly positioned"
+        "Figure of 8 pattern for improved ankle stability",
+        "Helps support natural ankle alignment",
+        "High-strength elastic for effective compression",
+        "Comfortable fit for daily movement",
+        "Lightweight and durable construction",
+        "Easy to wear and adjust",
+        "Suitable for sports, clinical, and home use"
       ],
       "benefits": [
-        "Reduces ankle swelling and pain after ligament sprains",
-        "Provides proprioceptive feedback to improve balance and reduce re-sprain risk",
-        "Suitable for return to sport and daily activity after ankle injury",
-        "Retains warmth to relax ankle musculature and ease chronic stiffness"
+        "Helps reduce ankle pain and discomfort",
+        "Supports weak or strained ankles",
+        "Improves confidence during walking and activity",
+        "Helps manage swelling and fatigue",
+        "Comfortable for prolonged daily wear",
+        "Durable for regular use"
+      ],
+      "recommendedUse": [
+        "Ankle sprains and strains Ligament support care Sports activity protection Post-injury rehabilitation Daily ankle stabilization Walking support use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Ankle Binder"
+        },
+        {
+          "key": "Design",
+          "value": "Figure of 8 wrap support brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Ankle joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "High-strength elastic compression"
+        },
+        {
+          "key": "Material",
+          "value": "Stretchable durable elastic"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an ankle binder used for?",
+          "a": "It is used to support the ankle, provide compression, and improve stability during recovery or activity."
+        },
+        {
+          "q": "What is the benefit of the figure of 8 design?",
+          "a": "It helps improve ankle stability by securing the joint in a supportive wrap pattern."
+        },
+        {
+          "q": "Can it help with swelling?",
+          "a": "Yes, the compression support may help reduce swelling and discomfort."
+        },
+        {
+          "q": "Is it suitable for sports use?",
+          "a": "Yes, it is commonly used during sports, exercise, and rehabilitation activities."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-AA-02",
-      "name": "Anklet With Binder",
       "sizes": "S, M, L, XL",
+      "name": "Ankle Support Brace",
+      "metaDescription": "Buy ankle support brace for compression, stability, and pain relief. Four-way stretch design with seamless fit. Available in S, M, L & XL sizes.",
+      "shortDescription": "Buy the best ankle support brace for reliable compression, stability, and daily comfort. Ideal for ankle sprains, weakness, sports activity, rehabilitation, and recovery support.",
+      "description": "The Ankle Support Brace is designed to provide firm ankle support, uniform compression, and improved stability during daily movement, sports activity, injury recovery, and rehabilitation care. It helps support weak, strained, or injured ankles while maintaining comfortable mobility throughout the day.\n\nMade with seamless tubular knitted construction, the brace offers a smooth and comfortable fit without bulkiness. Its four-way stretch fabric ensures better fitting, flexibility, and consistent compression around the ankle joint for enhanced comfort and support.\n\nThe simple pull-on application makes it easy to wear and remove, making it suitable for regular daily use, sports activities, rehabilitation programs, and preventive support. Lightweight, breathable, and durable, the ankle support brace is ideal for home, clinic, gym, and sports use.",
       "features": [
-        "Elasticated anklet combined with a wrap-around figure-of-eight binder",
-        "Provides both circumferential and cross-joint compression",
-        "Adjustable binder allows varying levels of support",
-        "Breathable construction suitable for extended daily wear"
+        "Provides firm ankle support and stabilization",
+        "Four-way stretch fabric for better fitting and flexibility",
+        "Uniform compression for improved comfort and support",
+        "Seamless tubular knitted construction",
+        "Simple pull-on application for easy use",
+        "Lightweight, breathable, and durable design",
+        "Suitable for sports, rehabilitation, and daily wear"
       ],
       "benefits": [
-        "Delivers enhanced ankle stability for moderate sprains and chronic instability",
-        "Reduces swelling more effectively than a standard compression sleeve alone",
-        "Supports the ankle during rehabilitation exercises",
-        "Easy to apply and remove for patients with limited hand strength"
+        "Helps reduce ankle pain and discomfort",
+        "Supports weak or strained ankles",
+        "",
+        "Helps manage swelling and fatigue Improves stability during walking and activity",
+        "Comfortable for prolonged daily wear",
+        "Easy to wear under shoes and socks",
+        "Durable for regular use"
+      ],
+      "recommendedUse": [
+        "Ankle sprains and strains",
+        "Ligament support and recovery",
+        "Sports and fitness activities",
+        "Post-injury rehabilitation",
+        "Daily ankle stabilization",
+        "Walking and movement support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Ankle Support Brace Design Seamless tubular knitted support Support Area Ankle joint Compression Type Material Uniform compression Four-way stretch elastic fabric Application Simple pull-on design Sizes Available S, M, L, XL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an ankle support brace used for?",
+          "a": "An ankle support brace helps provide compression, stability, and support for weak, strained, or injured ankles during recovery and daily activities."
+        },
+        {
+          "q": "What is the benefit of four-way stretch fabric?",
+          "a": "The four-way stretch material provides better fitting, flexibility, and comfortable support during movement."
+        },
+        {
+          "q": "Does it provide compression support?",
+          "a": "Yes, the brace delivers uniform compression that may help reduce discomfort, swelling, and fatigue."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, the seamless tubular knitted design offers a comfortable fit suitable for prolonged daily use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "The ankle support brace is available in S, M, L, and XL sizes"
+        }
       ]
     },
     {
       "sku": "IK-AA-03",
-      "name": "Ankle Brace",
-      "sizes": "Universal",
+      "sizes": "S, M, L, XL",
+      "name": "Anklet with Binder Support Brace",
+      "metaDescription": "Buy anklet with binder for ankle support, compression, and stability. Provides secure fitting and comfortable support. Available in S, M, L & XL.",
+      "shortDescription": "Buy the best anklet with binder for firm ankle support, compression, and enhanced stability. Ideal for sprains, sports activity, rehabilitation, and daily ankle protection.",
+      "description": "The Anklet with Binder Support Brace is designed to provide effective ankle stabilization, controlled compression, and enhanced support during movement and recovery. It is ideal for ankle sprains, ligament strain, sports injuries, weakness, and rehabilitation care.\n\nIts combined anklet and binder design delivers improved ankle stability by offering targeted compression along with adjustable supportive wrapping. This helps support the ankle joint, reduce unnecessary movement, and improve confidence during walking, exercise, or daily activities.\n\nMade from stretchable and durable fabric, the brace provides comfortable compression while maintaining flexibility for regular movement. The binder wrap allows adjustable fitting and added support based on individual comfort and support needs.\n\nLightweight, breathable, and easy to wear, the anklet with binder is suitable for sports use, rehabilitation programs, clinical support, and everyday ankle care.",
       "features": [
-        "Rigid stirrup side panels with cushioned bladder lining",
-        "Adjustable lace-up or velcro closure for a customised fit",
-        "Fits inside most lace-up footwear for use during activity",
-        "Contoured shell prevents inversion and eversion beyond safe ranges"
+        "Provides firm ankle support and stabilization",
+        "Combined anklet with adjustable binder support",
+        "Helps reduce unwanted ankle movement",
+        "Comfortable compression for daily wear",
+        "Stretchable and breathable material",
+        "Lightweight and durable construction",
+        "Easy to wear and secure fit",
+        "Suitable for sports, rehabilitation, and regular use"
       ],
       "benefits": [
-        "Provides strong mediolateral ankle stability for moderate-to-severe sprains",
-        "Protects against ankle inversion injuries during sport and uneven-ground walking",
-        "Allows dorsiflexion and plantarflexion for functional walking",
-        "Reduces fear of re-injury, supporting confident return to activity"
+        "Helps reduce ankle pain and discomfort",
+        "Supports weak, strained, or injured ankles",
+        " Improves ankle stability during activity",
+        "Helps manage swelling and fatigue",
+        "Provides adjustable compression and support",
+        "Comfortable for prolonged daily wear",
+        "Durable for regular use"
+      ],
+      "recommendedUse": [
+        "Ankle sprains and strains",
+        "Ligament support care",
+        "Sports and fitness activities",
+        "Post-injury rehabilitation",
+        "Daily ankle stabilization",
+        "Walking and mobility support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Anklet with Binder Design Anklet with adjustable support binder Support Area Ankle joint Compression Type Adjustable compression support Material Stretchable and durable fabric Application Easy wrap and secure fitting Sizes Available S, M, L, XL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an anklet with binder used for?",
+          "a": "It is used to provide ankle support, compression, and stability during injury recovery, sports activities, and daily movement."
+        },
+        {
+          "q": "How does the binder help?",
+          "a": "The adjustable binder provides additional ankle stabilization and customized compression support."
+        },
+        {
+          "q": "Can it be used during sports activities?",
+          "a": "Yes, it is suitable for sports, exercise, walking, and rehabilitation support."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, the lightweight and breathable design makes it comfortable for regular daily use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "The anklet with binder is available in S, M, L, and XL sizes."
+        }
       ]
     },
     {
       "sku": "IK-AA-04",
-      "name": "Foot Drop Splint",
-      "sizes": "S, M, L",
+      "sizes": "Universal",
+      "name": "Ankle Brace Support",
+      "metaDescription": "Buy ankle brace for strong ankle immobilization and support. Features semi-rigid splints, Velcro closure, and foam comfort design. Universal size.",
+      "shortDescription": "Buy the best ankle brace for strong ankle stabilization, immobilization, and support. Ideal for sprains, ligament injuries, sports recovery, and rehabilitation care.",
+      "description": "The Ankle Brace Support is designed to provide firm ankle stabilization, controlled immobilization, and enhanced joint protection during injury recovery and rehabilitation. It is ideal for ankle sprains, ligament injuries, weakness, post-trauma care, and sports rehabilitation support.\n\nEquipped with semi-rigid splints, the brace ensures strong yet comfortable immobilization of the ankle joint while helping maintain proper alignment during movement and recovery. The supportive structure helps reduce unnecessary ankle motion and improves stability during walking or activity.\n\nIts foam laminated fabric construction offers superior comfort, cushioning, and skin-friendly support for prolonged wear. The Velcro closure system allows fast application, easy adjustment, and convenient removal while ensuring a secure and customized fit.\n\nDesigned with a universal left/right foot configuration, the ankle brace can be comfortably used on either foot, making it practical for daily, clinical, and rehabilitation use. Lightweight, durable, and easy to wear, it is suitable for home care, clinics, hospitals, and sports support applications.",
       "features": [
-        "Lightweight thermoplastic posterior shell holds the ankle at 90°",
-        "Padded inner lining prevents pressure sores over bony prominences",
-        "Velcro straps secure the splint to the calf and foot",
-        "Low-profile heel allows use inside wide-fitting footwear"
+        "Semi-rigid splints for strong ankle immobilization",
+        "Helps stabilize and support the ankle joint",
+        "Velcro closure for fast application and removal",
+        "Foam laminated fabric for enhanced comfort",
+        "Secure and adjustable fitting design",
+        "Universal design for left and right foot use",
+        "Lightweight and durable construction",
+        "Suitable for rehabilitation, sports, and daily support"
       ],
       "benefits": [
-        "Maintains the foot in neutral dorsiflexion to prevent foot drop during walking",
-        "Prevents equinus contracture in patients with peroneal nerve palsy or stroke",
-        "Enables safer ambulation by reducing trip and fall risk",
-        "Used in neurological rehabilitation to support gait re-training"
+        "Helps reduce ankle pain and discomfort",
+        "Supports injured or weak ankles during recovery",
+        " Improves ankle stability and joint protection",
+        "Helps minimize unnecessary ankle movement",
+        "Comfortable for prolonged daily wear",
+        "Easy to apply and remove",
+        "Durable for regular medical and sports use"
+      ],
+      "recommendedUse": [
+        "Ankle sprains and ligament injuries",
+        "Post-trauma ankle stabilization",
+        "Sports injury rehabilitation",
+        "Weak ankle support care",
+        "Post-injury recovery support",
+        "Daily ankle protection and immobilization"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Ankle Brace Design Semi-rigid ankle immobilization brace Support Area Ankle joint Special Features  Semi-rigid splints with Velcro closure Material Foam laminated fabric Foot Compatibility Universal for left and right foot Sizes Available Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an ankle brace used for?",
+          "a": "An ankle brace is used to provide ankle stabilization, immobilization, and support during recovery from injuries or sports strain."
+        },
+        {
+          "q": "What is the benefit of semi-rigid splints?",
+          "a": "Semi-rigid splints provide strong ankle support and controlled immobilization while maintaining comfort during use."
+        },
+        {
+          "q": "Is the brace easy to wear?",
+          "a": "Yes, the Velcro closure system allows fast application, secure fitting, and easy removal."
+        },
+        {
+          "q": "Can it be used on both feet?",
+          "a": "Yes, the universal design allows use on both the left and right foot."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The ankle brace is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-AA-05",
-      "name": "Cast Shoes",
       "sizes": "S, M, L, XL",
+      "name": "Cast Shoes",
+      "metaDescription": "Buy cast shoes for comfortable walking support and protection over casts or bandages. Lightweight, durable, and adjustable design for recovery care.",
+      "shortDescription": "Buy the best cast shoes for safe walking support and protection during foot or ankle recovery. Ideal for use over casts, bandages, and post-surgical dressings.",
+      "description": "The Cast Shoes are designed to provide protective support, walking stability, and improved comfort for individuals wearing foot or ankle casts, bandages, or post-surgical dressings. They help protect the injured area while allowing safer and more confident mobility during recovery.\n\nIts supportive open design comfortably accommodates bulky casts and dressings while reducing pressure on the affected foot. The durable sole helps provide better grip and walking stability, helping reduce discomfort during movement.\n\nMade with lightweight and durable materials, the cast shoe is comfortable for regular use and easy to wear over medical casts or bandages. The adjustable closure system ensures a secure fit and convenient application for different support needs.\n\nSuitable for hospitals, clinics, rehabilitation centers, and home care use, the cast shoe offers dependable protection and mobility support throughout the recovery process.",
       "features": [
-        "Rigid rocker sole protects the cast or boot during weight-bearing",
-        "Velcro instep strap accommodates the bulky circumference of a plaster cast",
-        "Non-slip sole surface improves grip on indoor and outdoor surfaces",
-        "Lightweight construction does not add significant weight to the limb"
+        "Provides protection for casts and bandaged feet",
+        "Helps improve walking stability during recovery",
+        "Open design accommodates bulky dressings and casts",
+        "Durable sole for better grip and support",
+        "Lightweight and comfortable construction",
+        "Adjustable closure for secure fitting",
+        "Easy to wear and remove",
+        "Suitable for rehabilitation and post-surgical care"
       ],
       "benefits": [
-        "Protects plaster casts and post-operative dressings from wear and soiling",
-        "Allows weight-bearing ambulation during lower limb fracture recovery",
-        "Reduces cast breakdown at the heel and sole from walking",
-        "Improves patient independence and mobility during the casting period"
+        "Helps improve mobility during recovery",
+        "Protects casts and dressings from damage",
+        "Reduces discomfort while walking",
+        "Supports safer movement and balance",
+        "Comfortable for prolonged daily use",
+        "Easy to apply and adjust",
+        "Durable for regular recovery support"
+      ],
+      "recommendedUse": [
+        "Foot or ankle cast protection",
+        "Post-surgical recovery support",
+        "Bandaged foot care",
+        "",
+        "Walking assistance during recovery",
+        "Orthopedic and clinical care use Injury rehabilitation support"
+      ],
+      "specifications": [
+        {
+          "key": "Specificatio",
+          "value": "n Product Type Design"
+        },
+        {
+          "key": "Cast Shoes",
+          "value": "Open protective recovery shoe Support Area Sole Type Material Closure Type Foot and ankle Durable anti-slip support sole Lightweight and durable fabric Adjustable fastening straps Application  Cast and bandage protection"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What are cast shoes used for?",
+          "a": "Cast shoes are used to protect casts or bandages while providing safer walking support during recovery."
+        },
+        {
+          "q": "Can cast shoes be worn over bulky dressings?",
+          "a": "Yes, the open design is made to comfortably accommodate casts and bulky dressings."
+        },
+        {
+          "q": "Do cast shoes help with walking stability?",
+          "a": "Yes, the durable sole helps improve grip, balance, and walking comfort during recovery."
+        },
+        {
+          "q": "Are they easy to wear?",
+          "a": "Yes, the adjustable closure system allows easy application and secure fitting."
+        },
+        {
+          "q": "Are cast shoes suitable after surgery?",
+          "a": "Yes, they are commonly used during post-surgical recovery and orthopedic rehabilitation care."
+        }
       ]
     },
     {
       "sku": "IK-AA-06",
-      "name": "DRB",
       "sizes": "Universal",
+      "name": "Derotation Brace",
+      "metaDescription": "Buy derotation brace for controlled leg alignment and rotational support. Comfortable adjustable orthopedic brace in universal size for rehabilitation care.",
+      "shortDescription": "Buy the best derotation brace for effective rotational control, leg alignment, and rehabilitation support. Ideal for orthopedic recovery, post-injury care, and mobility support.",
+      "description": "The Derotation Brace is designed to provide controlled rotational support, proper leg alignment, and enhanced stabilization during orthopedic rehabilitation and recovery care. It is commonly used to help manage abnormal leg rotation, post-operative positioning, and rehabilitation support following lower limb injuries or corrective procedures.\n\nIts functional support design helps maintain proper limb positioning while assisting in controlled movement and improved posture during walking or therapy. The brace helps reduce unwanted rotational movement, providing dependable support and stability throughout the recovery process.\n\nMade from lightweight and durable materials, the derotation brace offers comfortable support for prolonged wear. The adjustable strap system allows secure fitting and customized support according to individual rehabilitation requirements.\n\nEasy to apply and comfortable for regular use, the brace is suitable for hospitals, clinics, rehabilitation centers, and home care environments. The universal size design ensures convenient fitting for a wide range of users.",
       "features": [
-        "Dynamic response design absorbs ground reaction forces",
-        "Adjustable dorsiflexion assist mechanism supports toe clearance during swing",
-        "Rigid uprights provide mediolateral ankle control",
-        "Compatible with standard footwear"
+        "Provides controlled rotational support and stabilization",
+        "Helps maintain proper leg alignment",
+        "Supports orthopedic rehabilitation and recovery care",
+        "Helps reduce unwanted rotational movement",
+        "Adjustable straps for secure and customized fitting",
+        "Lightweight and comfortable construction",
+        "Durable design for regular rehabilitation use",
+        "Universal size for convenient fitting"
       ],
       "benefits": [
-        "Assists dynamic ankle function in patients with lower limb weakness",
-        "Reduces compensatory gait patterns that cause hip and knee pain",
-        "Supports safe ambulation during neurological and orthopaedic rehabilitation",
-        "Improves walking efficiency and reduces energy expenditure for the patient"
+        "Helps improve lower limb positioning",
+        "Supports recovery after orthopedic procedures",
+        "Assists in controlled movement during rehabilitation",
+        "",
+        "Comfortable for prolonged daily wear",
+        "Easy to apply and adjust",
+        "Durable for regular support use Improves stability and walking confidence"
+      ],
+      "recommendedUse": [
+        "Orthopedic rehabilitation care",
+        "Post-operative rotational control",
+        "Lower limb alignment support",
+        "Post-injury recovery management",
+        "Walking and mobility support",
+        "Clinical and home rehabilitation use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Derotation Brace Design Rotational control support brace Support Area Lower limb and leg alignment Special Features Adjustable rotational stabilization support Material Lightweight and durable support fabric Application Orthopedic rehabilitation and recovery Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a derotation brace used for?",
+          "a": "A derotation brace is used to help control rotational movement, maintain proper leg alignment, and support orthopedic rehabilitation."
+        },
+        {
+          "q": "Does it help improve limb positioning?",
+          "a": "Yes, the brace helps maintain proper lower limb positioning during recovery and rehabilitation care."
+        },
+        {
+          "q": "Is the brace adjustable?",
+          "a": "Yes, it includes adjustable straps for secure fitting and customized support."
+        },
+        {
+          "q": "Can it be used after surgery?",
+          "a": "Yes, it is commonly used for post-operative support and rehabilitation management."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The derotation brace is available in Universal size."
+        }
       ]
     }
   ]

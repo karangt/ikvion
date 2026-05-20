@@ -5,53 +5,230 @@
   "products": [
     {
       "sku": "IK-AP-01",
-      "name": "Abdomen Belt",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Abdominal Belt Support Binder",
+      "metaDescription": "Buy abdominal belt for tummy support and compression. Curved flap supports hanging abdomen with adjustable hook & loop closure. Sizes S to XXL.",
+      "shortDescription": "Buy the best abdominal belt for firm abdominal support and comfortable compression. Ideal for post-surgery care, tummy support, and daily rehabilitation use.",
+      "description": "The Abdominal Belt Support Binder is designed to provide dependable abdominal support, gentle compression, and improved comfort for daily use, post-operative care, and recovery support. It helps stabilize the abdominal area while assisting movement with confidence.\n\nIts specially contoured curved front flap is created to offer proper support to a hanging or heavy abdomen, helping lift and hold the area comfortably. This design improves fit while delivering uniform pressure and support.\n\nA broad hook and loop fastening system provides stronger grip, secure closure, and flexible size adjustment for a customized fit. Lightweight, breathable, and comfortable, the belt is suitable for home, clinic, hospital, and rehabilitation use.",
       "features": [
-        "Wide elastic panel provides firm abdominal compression",
-        "Hook-and-loop closure allows adjustable tension throughout the day",
-        "Breathable fabric reduces skin irritation during prolonged wear",
-        "Low-profile design sits flat under clothing"
+        "Curved flap provides proper support to hanging abdomen",
+        "Broad hook and loop tape for secure holding",
+        "Easy size adjustability for personalized fit",
+        "Delivers gentle abdominal compression",
+        "Comfortable and lightweight construction",
+        "Breathable material for daily wear",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Supports the abdominal wall after surgery to reduce incisional tension",
-        "Minimises post-operative pain during movement, coughing, and ambulation",
-        "Helps manage abdominal muscle weakness and mild hernia discomfort",
-        "Reduces post-surgical swelling by maintaining gentle compression"
+        "Helps support weak abdominal muscles",
+        "Improves comfort during standing and walking",
+        "Assists recovery after abdominal procedures",
+        "Provides better fit for heavy abdomen support",
+        "Comfortable for prolonged daily wear",
+        "Easy to wear and adjust"
+      ],
+      "recommendedUse": [
+        "Post-operative abdominal support Hanging abdomen support Mild abdominal weakness Daily compression support Post-pregnancy abdominal care Rehabilitation and recovery support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Abdominal Belt"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable abdominal support binder"
+        },
+        {
+          "key": "Support Area",
+          "value": "Abdomen and waist"
+        },
+        {
+          "key": "Special Features",
+          "value": "Curved support flap, broad hook and loop closure"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & breathable fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an abdominal belt used for?",
+          "a": "It is used to provide abdominal support, gentle compression, and improved comfort during recovery or daily use."
+        },
+        {
+          "q": "What is the benefit of the curved flap design?",
+          "a": "The curved flap helps support a hanging abdomen comfortably and improves fit."
+        },
+        {
+          "q": "Is it adjustable?",
+          "a": "Yes, the broad hook and loop closure allows secure fastening and easy size adjustment."
+        },
+        {
+          "q": "Can it be worn for long hours?",
+          "a": "Yes, it is lightweight and comfortable for extended daily wear."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {
       "sku": "IK-AP-02",
-      "name": "Maternity Belt",
       "sizes": "Universal",
+      "name": "Maternity Belt Pregnancy Support Brace",
+      "metaDescription": "Buy maternity belt for abdominal support and back comfort during pregnancy. Foam-based fabric for enhanced comfort and weight distribution. Universal size.",
+      "shortDescription": "Buy the best maternity belt for gentle abdominal support and lower back comfort during pregnancy. Ideal for daily wear, posture support, and maternity care.",
+      "description": "The Maternity Belt Pregnancy Support Brace is specially designed to provide effective abdominal support and improved lower back comfort during pregnancy. It helps distribute abdominal weight evenly, reducing pressure on the spine and easing daily movement.\n\nThis belt supports the growing belly while helping maintain better posture and minimizing strain on the back. It is ideal for expecting mothers who experience discomfort due to increasing abdominal weight during routine activities.\n\nMade with soft foam-based fabric, the belt offers enhanced cushioning and superior comfort for extended wear. Lightweight, breathable, and easy to use, it is suitable for home, work, and everyday maternity support.",
       "features": [
-        "Ergonomic design supports the growing uterus from below",
-        "Breathable stretch fabric accommodates changing body shape throughout pregnancy",
-        "Adjustable velcro panel for a personalised fit across trimesters",
-        "Soft seamless construction prevents dig-in points at the abdomen"
+        "Provides gentle abdominal support during pregnancy",
+        "Helps shift excess weight load away from the spine",
+        "Assists in reducing lower back strain",
+        "Foam-based fabric for enhanced comfort",
+        "Soft cushioning for prolonged wear",
+        "Lightweight and easy to adjust",
+        "Suitable for daily maternity use"
       ],
       "benefits": [
-        "Relieves lower back and pelvic girdle pain during pregnancy",
-        "Reduces downward pressure on the pelvic floor from the growing baby",
-        "Supports round ligaments to ease associated pelvic discomfort",
-        "Enables pregnant women to remain active with greater comfort"
+        "Helps relieve pregnancy-related back discomfort",
+        "Supports growing abdomen comfortably",
+        "Improves posture during movement",
+        "Reduces pressure on lower back and spine",
+        "Comfortable for extended daily wear",
+        "Easy to wear and remove"
+      ],
+      "recommendedUse": [
+        "Pregnancy abdominal support Lower back discomfort during pregnancy Daily posture support Walking and standing comfort Routine maternity care Weight distribution support during pregnancy"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Maternity Belt"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable pregnancy support belt"
+        },
+        {
+          "key": "Support Area",
+          "value": "Abdomen and lower back"
+        },
+        {
+          "key": "Special Features",
+          "value": "Weight distribution support, foam comfort lining"
+        },
+        {
+          "key": "Material",
+          "value": "Soft foam-based fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a maternity belt used for?",
+          "a": "It is used to support the abdomen during pregnancy and reduce pressure on the lower back."
+        },
+        {
+          "q": "Can it help with back pain during pregnancy?",
+          "a": "Yes, it helps distribute abdominal weight and reduce spinal strain."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, the foam-based fabric provides cushioning and comfort for prolonged use."
+        },
+        {
+          "q": "Can I wear it while walking or working?",
+          "a": "Yes, it is suitable for routine daily activities and movement support."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-AP-03",
-      "name": "Pelvic Belt",
       "sizes": "S, M, L, XL, XXL",
+      "name": "Pelvic Binder Stabilization Support Belt",
+      "metaDescription": "Buy pelvic binder for pelvic support and stabilization. Ideal for pelvic fractures, trauma care, and emergency immobilization. Sizes S to XXL available.",
+      "shortDescription": "Buy the best pelvic binder for secure pelvic support and stabilization. Ideal for pelvic fractures, trauma management, emergency care, and rehabilitation support.",
+      "description": "The Pelvic Binder Stabilization Support Belt is designed to provide firm compression, stabilization, and support to the pelvic region during fractures, trauma cases, or emergency medical care. It helps reduce pelvic movement and assists in maintaining proper alignment during recovery.\n\nThis binder is commonly used to secure the pelvic region in conditions such as pelvic fractures, instability, or trauma-related injuries where immediate support is required. Its wrap-around design ensures dependable compression and controlled immobilization.\n\nLightweight, durable, and easy to apply, the pelvic binder is suitable for use in hospitals, emergency care settings, clinics, ambulances, and rehabilitation environments.",
       "features": [
-        "Narrow targeted belt applies compression directly over the sacroiliac joints",
-        "Non-stretch centre panel focuses force at the posterior pelvis",
-        "Adjustable elastic side wings for a stable, secure fit",
-        "Can be worn over or under clothing"
+        "Designed for pelvic region stabilization",
+        "Helps support pelvic fractures and trauma care",
+        "Provides firm compression and immobilization",
+        "Helps reduce unnecessary pelvic movement",
+        "Easy to apply and secure fit",
+        "Lightweight and durable construction",
+        "Suitable for emergency and clinical use"
       ],
       "benefits": [
-        "Stabilises the sacroiliac joint to relieve SI joint dysfunction and pelvic girdle pain",
-        "Reduces symphysis pubis dysfunction discomfort during walking and stair climbing",
-        "Supports the pelvis post-partum as ligaments regain their pre-pregnancy tension",
-        "Used in conservative management of pelvic fractures and instability"
+        "Supports pelvic alignment during recovery",
+        "Helps manage trauma-related pelvic instability",
+        "Provides dependable stabilization in emergencies",
+        "Comfortable for temporary wear during care",
+        "Easy to wear and remove",
+        "Practical support for rehabilitation use"
+      ],
+      "recommendedUse": [
+        "Pelvic fracture management Trauma and emergency care Pelvic instability support Post-injury rehabilitation Hospital and ambulance use Temporary pelvic immobilization"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Pelvic Binder"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable stabilization support belt"
+        },
+        {
+          "key": "Support Area",
+          "value": "Pelvic region"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable fabric"
+        },
+        {
+          "key": "Use",
+          "value": "Pelvic support and immobilization"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL, XXL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a pelvic binder used for?",
+          "a": "It is used to stabilize and support the pelvic region during fractures, trauma, or emergency care."
+        },
+        {
+          "q": "Can it be used in trauma cases?",
+          "a": "Yes, it is commonly used in trauma and emergency settings for pelvic stabilization."
+        },
+        {
+          "q": "Is it easy to apply?",
+          "a": "Yes, it is designed for quick application and secure fitting."
+        },
+        {
+          "q": "Is it suitable for hospital use?",
+          "a": "Yes, it is suitable for hospitals, ambulances, clinics, and rehabilitation centers."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, L, XL, and XXL sizes."
+        }
       ]
     },
     {

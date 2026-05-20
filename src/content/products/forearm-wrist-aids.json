@@ -5,87 +5,457 @@
   "products": [
     {
       "sku": "IK-FW-01",
-      "name": "Elbow Support",
       "sizes": "S, M, L",
+      "name": "Elbow Support Compression Brace",
+      "metaDescription": "Buy elbow support for pain relief and compression. Four-way stretch fabric with cotton inner layer for comfort and sweat absorption. Sizes S, M, L.",
+      "shortDescription": "Buy the best elbow support for effective compression and comfortable joint stability. Ideal for pain relief, strain recovery, sports support, and rehabilitation care.",
+      "description": "The Elbow Support Compression Brace is designed to provide reliable support, controlled compression, and stability for the elbow joint during strain, sprains, tendon discomfort, sports activity, or rehabilitation care. It helps reduce stress on the elbow while supporting movement and recovery.\n\nMade with four-way stretchable fabric, this support ensures effective compression along with excellent flexibility and comfort. It conforms to the natural shape of the elbow, providing uniform support during daily use or physical activity.\n\nIts bi-layered construction features soft cotton on the inside with a dermophillic interface that improves sweat absorption, enhances comfort, and increases user compliance during prolonged wear. Lightweight, breathable, and durable, it is suitable for home, clinic, sports, and hospital use.",
       "features": [
-        "Neoprene sleeve with targeted compression zone over the elbow",
-        "Non-slip inner silicone lining keeps support in position",
-        "Thin-profile fits under clothing without bulk",
-        "Breathable fabric for extended daytime wear"
+        "Four-way stretchable fabric for effective compression",
+        "Flexible design ensures comfort during movement",
+        "Bi-layered construction for enhanced durability",
+        "Soft cotton inner layer for skin comfort",
+        "Dermophillic interface improves sweat absorption",
+        "Helps improve comfort and user compliance",
+        "Suitable for clinical, sports, and home use"
       ],
       "benefits": [
-        "Provides warmth and compression to reduce elbow joint pain and swelling",
-        "Supports the elbow after contusions, sprains, and minor ligament injuries",
-        "Retains therapeutic heat to relax the surrounding musculature",
-        "Suitable for daily wear during work and light physical activity"
+        "Helps relieve elbow pain and discomfort",
+        "Supports weak or strained elbow joints",
+        "Provides stable compression during activity",
+        "Comfortable for prolonged daily wear",
+        "Helps keep skin dry and fresh",
+        "Easy to wear and remove"
+      ],
+      "recommendedUse": [
+        "Elbow sprains and strains Tendon discomfort and overuse injuries Sports support and protection Joint weakness management Post-injury rehabilitation Daily elbow stabilization care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Elbow Support"
+        },
+        {
+          "key": "Design",
+          "value": "Compression sleeve brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Elbow joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Four-way stretch fabric, bi-layered cotton inner lining"
+        },
+        {
+          "key": "Material",
+          "value": "Stretchable breathable fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is elbow support used for?",
+          "a": "It is used to provide compression, stability, and pain relief for the elbow during activity or recovery."
+        },
+        {
+          "q": "What is the benefit of four-way stretchable fabric?",
+          "a": "It ensures effective compression while maintaining flexibility and comfort."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, the cotton inner layer and sweat-absorbing interface improve comfort during prolonged use."
+        },
+        {
+          "q": "Can it be used during sports?",
+          "a": "Yes, it is ideal for sports, gym, work, and daily activities requiring elbow support."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, and L sizes. Finger"
+        }
       ]
     },
     {
       "sku": "IK-FW-02",
-      "name": "Tennis Elbow Support",
       "sizes": "Universal",
+      "name": "Tennis Elbow Support Brace",
+      "metaDescription": "Buy tennis elbow support for pain relief and firm compression. Reverse buckle targeted pressure with breathable PUF padded fabric. Universal size.",
+      "shortDescription": "Buy the best tennis elbow support for effective pain relief and compression. Ideal for tennis elbow, strain, sports injuries, and rehabilitation care.",
+      "description": "The Tennis Elbow Support Brace is designed to provide reliable support, targeted pressure, and firm compression for relief from tennis elbow, forearm strain, tendon discomfort, and repetitive stress injuries. It helps reduce stress on the elbow joint while supporting faster recovery.\n\nThis support features a reverse buckle mechanism that ensures targeted pressure and customized, firm compression according to the user’s comfort and support needs. It helps stabilize the forearm muscles and tendons during movement and activity.\n\nMade from PUF padded breathable fabric, the brace improves user comfort, reduces irritation, and allows prolonged wear during sports, work, or rehabilitation. Lightweight, durable, and comfortable, it is suitable for home, clinic, and hospital use.",
       "features": [
-        "Targeted pressure pad directly over the common extensor origin",
-        "Adjustable velcro strap allows fine-tuning of compression level",
-        "Breathable neoprene band minimises skin irritation",
-        "Low-profile design does not restrict wrist or elbow movement"
+        "Reverse buckle mechanism for targeted pressure",
+        "Customized, firm compression support",
+        "Helps relieve tennis elbow discomfort",
+        "Made from PUF padded breathable fabric",
+        "Improves comfort during prolonged wear",
+        "Lightweight and durable construction",
+        "Suitable for sports, clinical, and home use"
       ],
       "benefits": [
-        "Disperses tensile forces away from the inflamed lateral epicondyle",
-        "Reduces forearm extensor muscle activity to relieve pain during gripping",
-        "Effective for both tennis elbow and golfer's elbow",
-        "Allows continued activity while the tendon heals"
+        "Helps reduce elbow pain and strain",
+        "Supports tendons during repetitive activity",
+        "Provides firm compression for recovery",
+        "Comfortable for extended daily wear",
+        "Easy to wear and adjust",
+        "Ideal for sports and work-related strain relief"
+      ],
+      "recommendedUse": [
+        "Tennis elbow pain relief Golfer’s elbow support Forearm strain and overuse injuries Sports activity support Repetitive stress discomfort Post-injury rehabilitation care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Tennis Elbow Support"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable compression brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Elbow and forearm"
+        },
+        {
+          "key": "Special Features",
+          "value": "Reverse buckle mechanism, targeted pressure"
+        },
+        {
+          "key": "Material",
+          "value": "PUF padded breathable fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is tennis elbow support used for?",
+          "a": "It is used to relieve pain and provide compression support for tennis elbow, tendon strain, and repetitive stress injuries."
+        },
+        {
+          "q": "What is the benefit of the reverse buckle mechanism?",
+          "a": "It ensures targeted pressure and allows customized, firm compression for better support."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, the PUF padded breathable fabric improves comfort during prolonged use."
+        },
+        {
+          "q": "Can it be used during sports activities?",
+          "a": "Yes, it is ideal for sports, gym, work, and daily activities requiring elbow support."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-FW-03",
-      "name": "Wrist Splint",
       "sizes": "Universal",
+      "name": "Wrist Splint Support Brace",
+      "metaDescription": "Buy wrist splint for wrist support, pain relief, and immobilization. Comfortable adjustable design for sprains, strain recovery, and daily support. Universal size.",
+      "shortDescription": "Buy the best wrist splint for effective wrist support and immobilization. Ideal for sprains, strains, pain relief, injury recovery, and rehabilitation care.",
+      "description": "The Wrist Splint Support Brace is designed to provide reliable support and immobilization for the wrist during injury recovery, sprains, strains, tendon discomfort, or post-surgical rehabilitation. It helps stabilize the wrist joint while limiting unnecessary movement for faster healing.\n\nThis splint features an ergonomic adjustable design that ensures a secure and comfortable fit for daily wear. It supports the wrist in a functional position, helping reduce pain, strain, and stress during recovery.\n\nLightweight, durable, and comfortable, the wrist splint is suitable for use at home, work, clinics, rehabilitation centers, and hospital care settings.",
       "features": [
-        "Removable palmar aluminium stay maintains the wrist in neutral position",
-        "Perforated fabric for ventilation and moisture management",
-        "Adjustable velcro straps accommodate swelling and different wrist sizes",
-        "Thumb hole keeps the splint correctly positioned"
+        "Provides firm wrist support and immobilization",
+        "Helps stabilize the wrist joint during recovery",
+        "Adjustable design for secure and comfortable fit",
+        "Lightweight construction for daily comfort",
+        "Durable material for long-term use",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Immobilises the wrist to relieve pain from carpal tunnel syndrome and tendinitis",
-        "Prevents inadvertent wrist flexion and extension that aggravates symptoms",
-        "Can be worn overnight to manage nocturnal paraesthesia in carpal tunnel syndrome",
-        "Used post-fracture to maintain alignment during conservative management"
+        "Helps reduce wrist pain and discomfort",
+        "Supports healing after sprains or strain injuries",
+        "Limits unnecessary movement for faster recovery",
+        "Comfortable for extended daily wear",
+        "Easy to wear and remove",
+        "Provides dependable support during activities"
+      ],
+      "recommendedUse": [
+        "Wrist sprains and strains Tendon and ligament support Post-surgical wrist care Minor fractures and injury recovery Daily wrist stabilization Rehabilitation support care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Wrist Splint"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable support brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Wrist joint"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Use",
+          "value": "Wrist support and immobilization"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a wrist splint used for?",
+          "a": "It is used to support and immobilize the wrist during injury recovery, pain relief, or rehabilitation."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, it is lightweight and designed for prolonged comfortable use."
+        },
+        {
+          "q": "Can it help with wrist pain?",
+          "a": "Yes, it helps stabilize the wrist and reduce strain-related discomfort."
+        },
+        {
+          "q": "Is it easy to wear and remove?",
+          "a": "Yes, the adjustable design allows convenient application and removal."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-FW-04",
-      "name": "Wrist Brace",
       "sizes": "Universal",
+      "name": "Wrist Binder Support Brace",
+      "metaDescription": "Buy wrist binder for wrist support and pain relief. Breathable elastic with free hand movement and hook & loop closure. Easy to wear. Universal size.",
+      "shortDescription": "Buy the best wrist binder for effective wrist support and comfortable compression. Ideal for sprains, strain, pain relief, daily use, and rehabilitation care.",
+      "description": "The Wrist Binder Support Brace is designed to provide reliable wrist support, mild compression, and comfort during sprains, strains, tendon discomfort, weakness, or daily activity support. It helps stabilize the wrist joint while allowing functional hand movement.\n\nMade with breathable elastic material, this wrist binder ensures improved airflow and lasting comfort during prolonged wear. Its flexible construction supports the wrist without restricting the natural movement of the hand and fingers.\n\nThe hook and loop closure system allows easy application, secure fitting, and convenient removal, making it suitable for both patients and caregivers. Lightweight, durable, and comfortable, it is ideal for home, work, clinic, and hospital use.",
       "features": [
-        "Semi-rigid structure with flexible stays for controlled wrist support",
-        "Wraparound design with multiple velcro closures for a custom fit",
-        "Breathable material suitable for extended daytime wear",
-        "Allows finger movement while restricting excessive wrist motion"
+        "Breathable elastic fabric for airflow and comfort",
+        "Provides effective wrist support and mild compression",
+        "Allows free movement of hand and fingers",
+        "Hook and loop closure for easy application",
+        "Adjustable fit for secure support",
+        "Lightweight and comfortable for daily wear",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Stabilises the wrist joint during rehabilitation from sprains and strains",
-        "Reduces the risk of re-injury during return to work or sport",
-        "Limits painful wrist deviation without fully immobilising the hand",
-        "Suitable for occupational use in repetitive-motion jobs"
+        "Helps relieve wrist pain and discomfort",
+        "Supports weak or strained wrist joints",
+        "Maintains hand mobility during use",
+        "Comfortable for prolonged daily wear",
+        "Easy to wear and remove",
+        "Durable and dependable for regular use"
+      ],
+      "recommendedUse": [
+        "Wrist sprains and strains Mild tendon discomfort Weak wrist support Daily activity stabilization Post-injury rehabilitation Preventive support during work or sports"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Wrist Binder"
+        },
+        {
+          "key": "Design",
+          "value": "Elastic adjustable support brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Wrist joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Free hand movement, hook and loop closure"
+        },
+        {
+          "key": "Material",
+          "value": "Breathable elastic fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a wrist binder used for?",
+          "a": "It is used to support the wrist, provide compression, and help relieve pain during daily activities or recovery."
+        },
+        {
+          "q": "Can I move my hand while wearing it?",
+          "a": "Yes, the design allows free movement of the hand and fingers."
+        },
+        {
+          "q": "Is it easy to wear?",
+          "a": "Yes, the hook and loop closure allows quick application and removal."
+        },
+        {
+          "q": "Is it comfortable for long-term use?",
+          "a": "Yes, the breathable elastic fabric improves comfort during extended wear."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-FW-05",
-      "name": "Wrist Brace with Thumb",
       "sizes": "Universal",
+      "name": "Wrist Brace with Thumb Support",
+      "metaDescription": "Buy wrist brace with thumb support for pain relief and stability. Breathable elastic with controlled compression and anatomical thumb placement. Universal size.",
+      "shortDescription": "Buy the best wrist brace with thumb support for effective wrist stabilization and thumb comfort. Ideal for sprains, strain, pain relief, and rehabilitation care.",
+      "description": "The Wrist Brace with Thumb Support is designed to provide reliable stabilization, controlled compression, and comfortable support for the wrist and thumb during injury recovery, strain, sprains, tendon discomfort, or daily activity support. It helps reduce stress on the wrist joint while maintaining proper thumb positioning.\n\nMade with breathable elastic material, this brace ensures better airflow and lasting comfort during prolonged wear. Its controlled compression design helps improve support, reduce swelling, and provide therapeutic relief without restricting comfort.\n\nThe anatomical thumb placement offers a natural fit and enhanced stability, making it suitable for patients requiring wrist and thumb support during work, recovery, or rehabilitation. Lightweight, durable, and comfortable, it is ideal for home, clinic, and hospital use.",
       "features": [
-        "Integrated thumb spica extension immobilises the thumb CMC joint",
-        "Removable stays allow customisable rigidity",
-        "Open finger design preserves grip function",
-        "Dual-layer fabric for comfort and durability"
+        "Breathable elastic fabric for airflow and comfort",
+        "Controlled compression for improved support",
+        "Anatomical thumb placement for natural fit",
+        "Supports wrist and thumb during recovery",
+        "Helps reduce strain and discomfort",
+        "Lightweight and comfortable for daily wear",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Supports De Quervain's tenosynovitis and gamekeeper's thumb injuries",
-        "Restricts thumb and wrist movement simultaneously to protect healing structures",
-        "Reduces pain during pinch and grip activities",
-        "Suitable for post-cast removal rehabilitation and chronic thumb instability"
+        "Helps relieve wrist and thumb pain",
+        "Provides stable support during movement",
+        "Helps reduce swelling and fatigue",
+        "Comfortable for prolonged daily use",
+        "Supports healing after minor injuries",
+        "Easy to wear and remove"
+      ],
+      "recommendedUse": [
+        "Wrist sprains and strains Thumb support during activity Tendon discomfort and overuse strain Mild arthritis support Post-injury rehabilitation Daily wrist stabilization care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Wrist Brace with Thumb"
+        },
+        {
+          "key": "Design",
+          "value": "Breathable elastic support brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Wrist and thumb"
+        },
+        {
+          "key": "Special Features",
+          "value": "Controlled compression, anatomical thumb placement"
+        },
+        {
+          "key": "Material",
+          "value": "Breathable elastic fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a wrist brace with thumb used for?",
+          "a": "It is used to support the wrist and thumb during pain, strain, injury recovery, or rehabilitation."
+        },
+        {
+          "q": "Is the brace comfortable for long-term wear?",
+          "a": "Yes, the breathable elastic fabric improves airflow and comfort during extended use."
+        },
+        {
+          "q": "What is the benefit of controlled compression?",
+          "a": "Controlled compression helps improve support, reduce swelling, and relieve discomfort."
+        },
+        {
+          "q": "Why is anatomical thumb placement important?",
+          "a": "It helps maintain a natural thumb position for better comfort and stability."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
+      ]
+    },
+    {
+      "sku": "IK-FW-06",
+      "sizes": "Universal",
+      "name": "Thumb Spica Support Brace",
+      "metaDescription": "Buy thumb spica for thumb and wrist support. Ethafoam lining, removable malleable splint, padded comfort & warmth. Universal size available.",
+      "shortDescription": "Buy the best thumb spica for effective thumb and wrist immobilization. Ideal for sprains, tendon injuries, pain relief, and rehabilitation care.",
+      "description": "The Thumb Spica Support Brace is designed to provide reliable immobilization, stability, and therapeutic support for the thumb and wrist during sprains, tendon injuries, ligament strain, pain management, or post-injury rehabilitation. It helps maintain proper thumb positioning while reducing unnecessary movement for faster recovery.\n\nThis brace features an Ethafoam lining that enhances comfort, cushioning, and skin-friendly support during prolonged wear. The removable malleable splint allows\n\ncustomized positioning and adjustable stabilization according to the user’s support needs.\n\nPadded construction provides increased comfort and therapeutic warmth, helping soothe discomfort while supporting recovery. Lightweight, durable, and comfortable, it is suitable for home, clinic, hospital, and rehabilitation use.",
+      "features": [
+        "Ethafoam lining for enhanced comfort and cushioning",
+        "Removable malleable splint for customized support",
+        "Provides effective thumb and wrist immobilization",
+        "Padded design for increased comfort",
+        "Therapeutic warmth helps soothe discomfort",
+        "Lightweight and durable construction",
+        "Suitable for clinical and home use"
+      ],
+      "benefits": [
+        "Helps relieve thumb and wrist pain",
+        "Supports healing after sprains or strain injuries",
+        "Stabilizes thumb during movement restriction",
+        "Comfortable for prolonged daily wear",
+        "Provides soothing warmth during recovery",
+        "Easy to wear and remove"
+      ],
+      "recommendedUse": [
+        "Thumb sprains and strains Ligament and tendon injuries De Quervain’s support care Post-injury rehabilitation Wrist and thumb stabilization Daily therapeutic support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Thumb Spica"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable support brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Thumb and wrist"
+        },
+        {
+          "key": "Special Features",
+          "value": "Ethafoam lining, removable malleable splint"
+        },
+        {
+          "key": "Material",
+          "value": "Padded therapeutic support fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a thumb spica used for?",
+          "a": "It is used to support and immobilize the thumb and wrist during pain, injury recovery, or rehabilitation."
+        },
+        {
+          "q": "What is the benefit of the removable malleable splint?",
+          "a": "It allows customized positioning and adjustable support based on comfort and medical needs."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, the Ethafoam lining and padded design improve comfort during prolonged use."
+        },
+        {
+          "q": "Does it provide warmth?",
+          "a": "Yes, the padded construction offers therapeutic warmth to help soothe discomfort."
+        },
+        {
+          "q": "What size is available?",
+          "a": "It is available in Universal size."
+        }
       ]
     }
   ]

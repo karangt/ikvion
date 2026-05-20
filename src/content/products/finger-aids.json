@@ -5,70 +5,306 @@
   "products": [
     {
       "sku": "IK-FA-01",
-      "name": "Finger Cot",
       "sizes": "S, M, L",
+      "name": "Finger Cot Support Splint",
+      "metaDescription": "Buy finger cot for finger support and protection. Hook & loop closure for customized fit with soft foam comfort. Ideal for injury care. Sizes S, M, L.",
+      "shortDescription": "Buy the best finger cot for effective finger support, protection, and immobilization. Ideal for injuries, sprains, fractures, and rehabilitation care.",
+      "description": "The Finger Cot Support Splint is designed to provide reliable protection, support, and immobilization for injured or sensitive fingers during sprains, fractures, tendon strain, or post-injury rehabilitation. It helps stabilize the finger while reducing unnecessary movement for faster healing.\n\nThis finger cot features a hook and loop closure system that allows a customized fit for secure support and easy adjustment according to user comfort. It ensures stable positioning while remaining convenient to wear and remove.\n\nMade with soft foam padding, the splint improves patient comfort, cushions the finger, and helps reduce pressure during prolonged wear. Lightweight, durable, and comfortable, it is suitable for home, clinic, hospital, and rehabilitation use.",
       "features": [
-        "Soft silicone or fabric sleeve that encloses the finger",
-        "Seamless construction prevents pressure marks",
-        "Available in three sizes to fit different finger diameters",
-        "Reusable and easy to clean"
+        "Hook and loop closure for customized fit",
+        "Provides effective finger support and immobilization",
+        "Soft foam padding for patient comfort",
+        "Helps stabilize injured finger joints",
+        "Lightweight and comfortable construction",
+        "Easy to wear and remove",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Protects injured or post-operative fingers from further trauma",
-        "Provides gentle compression to minimise localised swelling",
-        "Keeps dressings secure without restricting adjacent finger movement",
-        "Suitable for use during daily activities and light work"
+        "Helps protect injured or sensitive fingers",
+        "Supports healing after sprains or fractures",
+        "Reduces pain and unnecessary movement",
+        "Comfortable for prolonged daily wear",
+        "Secure fit with easy adjustment",
+        "Durable and dependable for regular use"
+      ],
+      "recommendedUse": [
+        "Finger sprains and strains Minor finger fractures Tendon and ligament injuries Finger joint protection Post-injury rehabilitation Daily support and recovery care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Finger Cot"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable finger support splint"
+        },
+        {
+          "key": "Support Area",
+          "value": "Finger joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Hook and loop closure, soft foam padding"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a finger cot used for?",
+          "a": "It is used to support, protect, and immobilize the finger during injury recovery or rehabilitation."
+        },
+        {
+          "q": "Is it easy to adjust?",
+          "a": "Yes, the hook and loop closure allows a customized fit and easy adjustment."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, the soft foam padding improves comfort during prolonged use."
+        },
+        {
+          "q": "Can it help with finger injuries?",
+          "a": "Yes, it is commonly used for sprains, fractures, and finger protection."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, and L sizes."
+        }
       ]
     },
     {
       "sku": "IK-FA-02",
-      "name": "Frog Splint",
       "sizes": "S, M, L",
+      "name": "Frog Splint Finger Support Brace",
+      "metaDescription": "Buy frog splint for finger support and immobilization. Durable malleable aluminum with aluminum wings for perfect fitting. Sizes S, M, L available.",
+      "shortDescription": "Buy the best frog splint for effective finger support and immobilization. Ideal for fractures, injuries, sprains, and rehabilitation care.",
+      "description": "The Frog Splint Finger Support Brace is designed to provide reliable immobilization, protection, and support for injured fingers during fractures, sprains, tendon injuries, or post-injury rehabilitation. It helps stabilize the finger joint while reducing unnecessary movement for faster healing.\n\nMade of durable and malleable aluminum material, this splint offers strong support while allowing easy shaping for a customized fit. Its lightweight design ensures comfort during prolonged wear without compromising stability.\n\nThe aluminum wing design provides perfect fitting by securely holding the finger in proper alignment. Suitable for home, clinic, hospital, and rehabilitation use, it is a dependable solution for finger injury management.",
       "features": [
-        "Dorsal aluminium stay with foam padding holds the PIP joint in extension",
-        "Perforated design allows skin to breathe",
-        "Velcro strap secures the splint without excessive pressure",
-        "Low profile sits flat against the finger"
+        "Made of durable and malleable aluminum material",
+        "Provides effective finger immobilization and support",
+        "Aluminum wings for perfect fitting",
+        "Easy to shape for customized alignment",
+        "Lightweight and comfortable construction",
+        "Durable for regular use",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Maintains PIP joint extension for boutonniere deformity management",
-        "Prevents further volar plate stretching during healing",
-        "Allows DIP joint movement to prevent stiffness",
-        "Commonly prescribed by hand therapists for finger joint injuries"
+        "Helps stabilize injured finger joints",
+        "Supports healing after fractures or sprains",
+        "Reduces pain and unnecessary movement",
+        "Comfortable for prolonged daily wear",
+        "Customized fit for better support",
+        "Easy to apply and remove"
+      ],
+      "recommendedUse": [
+        "Finger fractures and injuries Sprains and strains Tendon and ligament injuries Finger joint stabilization Post-injury rehabilitation Daily protective support care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Frog Splint"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable finger support splint"
+        },
+        {
+          "key": "Support Area",
+          "value": "Finger joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Malleable aluminum body, aluminum wings"
+        },
+        {
+          "key": "Material",
+          "value": "Durable aluminum"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a frog splint used for?",
+          "a": "It is used to support, protect, and immobilize injured fingers during recovery or rehabilitation."
+        },
+        {
+          "q": "Is the splint adjustable?",
+          "a": "Yes, the malleable aluminum material allows shaping for a customized fit."
+        },
+        {
+          "q": "What is the benefit of aluminum wings?",
+          "a": "The aluminum wings help provide perfect fitting and proper finger alignment."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, it is lightweight and designed for comfortable prolonged use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, and L sizes."
+        }
       ]
     },
     {
       "sku": "IK-FA-03",
-      "name": "Finger Mallet",
       "sizes": "S, M, L",
+      "name": "Finger Mallet Splint Support Brace",
+      "metaDescription": "Buy finger mallet splint for finger support and immobilization. Comfortable cushioning with easy application and removal. Sizes S, M, L available.",
+      "shortDescription": "Buy the best finger mallet splint for effective finger support and immobilization. Ideal for mallet finger injuries, sprains, fractures, and rehabilitation care.",
+      "description": "The Finger Mallet Splint Support Brace is designed to provide reliable immobilization, protection, and support for injured fingers during mallet finger injuries, sprains, fractures, tendon strain, or post-injury rehabilitation. It helps stabilize the finger joint while reducing unnecessary movement for faster healing.\n\nThis splint features comfortable cushioning that improves patient comfort, reduces pressure points, and allows prolonged wear during recovery. Its ergonomic design helps maintain proper finger alignment while ensuring dependable support.\n\nEasy to apply and remove, the splint is convenient for both patients and caregivers. Lightweight, durable, and comfortable, it is suitable for home, clinic, hospital, and rehabilitation use.",
       "features": [
-        "Rigid dorsal shell holds the DIP joint in full extension",
-        "Contoured to prevent skin maceration under the splint",
-        "Vented surface for airflow to the fingertip",
-        "Secure velcro strap with easy one-hand application"
+        "Provides effective finger support and immobilization",
+        "Comfortable cushioning for enhanced patient comfort",
+        "Easy to apply and remove",
+        "Helps maintain proper finger alignment",
+        "Lightweight and durable construction",
+        "Comfortable for prolonged wear",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Immobilises the DIP joint to allow mallet finger tendon repair",
-        "Prevents DIP joint flexion that would rupture the healing extensor tendon",
-        "Enables full PIP joint movement so adjacent joints remain mobile",
-        "Essential for conservative management of mallet finger injuries"
+        "Helps support recovery from mallet finger injuries",
+        "Reduces pain and unnecessary finger movement",
+        "Cushioned comfort during daily wear",
+        "Easy to use and convenient handling",
+        "Supports healing after sprains or fractures",
+        "Durable and dependable for regular use"
+      ],
+      "recommendedUse": [
+        "Mallet finger injuries Finger sprains and strains Minor finger fractures Tendon and ligament injuries Post-injury rehabilitation Daily protective support care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Finger Mallet Splint"
+        },
+        {
+          "key": "Design",
+          "value": "Finger immobilization splint"
+        },
+        {
+          "key": "Support Area",
+          "value": "Finger joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Comfortable cushioning, easy application"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight & durable"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a finger mallet splint used for?",
+          "a": "It is used to support and immobilize the finger during mallet finger injuries, recovery, or rehabilitation."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, the comfortable cushioning improves support during prolonged use."
+        },
+        {
+          "q": "Is it easy to wear?",
+          "a": "Yes, it is designed for easy application and removal."
+        },
+        {
+          "q": "Can it help with finger injuries?",
+          "a": "Yes, it is commonly used for mallet finger, sprains, fractures, and tendon injuries."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, and L sizes."
+        }
       ]
     },
     {
       "sku": "IK-FA-04",
-      "name": "Splint Finger",
       "sizes": "S, M, L",
+      "name": "Baseball Splint Finger Support Brace",
+      "metaDescription": "Buy baseball splint for finger support and immobilization. Malleable aluminum splint keeps finger in exact position. Sizes S, M, L available.",
+      "shortDescription": "Buy the best baseball splint for effective finger support and immobilization. Ideal for fractures, injuries, sprains, and rehabilitation care.",
+      "description": "The Baseball Splint Finger Support Brace is designed to provide reliable immobilization, protection, and support for injured fingers during fractures, sprains, tendon injuries, or post-injury rehabilitation. It helps stabilize the finger joint while reducing unnecessary movement for faster healing.\n\nThis splint is made with malleable aluminum material that offers strong support while allowing easy shaping for a customized fit. It helps keep the finger in the exact required position for effective alignment and recovery.\n\nLightweight, durable, and comfortable, the baseball splint is suitable for prolonged wear and is widely used in hospitals, clinics, rehabilitation centers, and home care settings.",
       "features": [
-        "Aluminium stay with foam lining provides rigid support",
-        "Can be shaped to the required angle for joint positioning",
-        "Velcro strap secures without constricting blood flow",
-        "Lightweight and slim for discreet wear"
+        "Malleable aluminum splint for strong support",
+        "Keeps finger in exact required position",
+        "Helps immobilize injured finger joints",
+        "Easy to shape for customized fitting",
+        "Lightweight and comfortable construction",
+        "Durable for regular use",
+        "Suitable for clinical and home use"
       ],
       "benefits": [
-        "Immobilises finger fractures in the correct healing position",
-        "Used post-surgery to protect repaired tendons or ligaments",
-        "Prevents unwanted joint motion that could delay recovery",
-        "Suitable for both acute injury management and longer-term rehabilitation"
+        "Helps stabilize finger during healing",
+        "Supports recovery after fractures or sprains",
+        "Reduces pain and unnecessary movement",
+        "Customized fit for better comfort",
+        "Comfortable for prolonged daily wear",
+        "Easy to apply and remove"
+      ],
+      "recommendedUse": [
+        "Finger fractures and injuries Sprains and strains Tendon and ligament injuries Finger joint stabilization Post-injury rehabilitation Daily protective support care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Baseball Splint"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable finger support splint"
+        },
+        {
+          "key": "Support Area",
+          "value": "Finger joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Malleable aluminum body"
+        },
+        {
+          "key": "Material",
+          "value": "Durable aluminum"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a baseball splint used for?",
+          "a": "It is used to support, protect, and immobilize injured fingers during recovery or rehabilitation."
+        },
+        {
+          "q": "Can the splint be adjusted?",
+          "a": "Yes, the malleable aluminum design allows shaping for a customized fit."
+        },
+        {
+          "q": "What is the benefit of keeping the finger in exact position?",
+          "a": "Proper positioning helps improve alignment and supports faster healing."
+        },
+        {
+          "q": "Is it comfortable for long-term wear?",
+          "a": "Yes, it is lightweight and designed for comfortable prolonged use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "It is available in S, M, and L sizes."
+        }
       ]
     },
     {

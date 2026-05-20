@@ -5,70 +5,320 @@
   "products": [
     {
       "sku": "IK-FT-01",
-      "name": "Silicon Gel Insole",
-      "sizes": "S, M, L",
+      "sizes": "S, M, L, XL",
+      "name": "Foot Drop Splint",
+      "metaDescription": "Buy foot drop splint for ankle stabilization and foot support. Comfortable lightweight design for injury recovery and rehabilitation. Available in S, M & L.",
+      "shortDescription": "Buy the best foot drop splint for effective ankle stabilization, foot positioning, and rehabilitation support. Ideal for foot drop management, ankle injuries, and recovery care.",
+      "description": "The Foot Drop Splint is designed to provide effective foot positioning, ankle stabilization, and improved walking support for individuals experiencing foot drop, ankle weakness, nerve-related conditions, or rehabilitation needs. It helps maintain proper foot alignment while supporting safer and more confident movement.\n\nManufactured using optimum quality materials, the splint offers durability, reliable support, and long-lasting performance for regular use. Its lightweight and ergonomic construction provides immense comfort, making it suitable for prolonged wear during daily activities and rehabilitation programs.\n\nThe splint helps stabilize ankle injuries by supporting the ankle and foot in an optimal functional position, helping reduce unwanted foot dragging and improving mobility during walking. Comfortable, easy to wear, and supportive, it is suitable for rehabilitation centers, hospitals, clinics, and home care use.",
       "features": [
-        "Medical-grade silicone gel absorbs shock with every step",
-        "Full-length coverage from heel to toe for comprehensive cushioning",
-        "Contoured arch zone provides gentle longitudinal arch support",
-        "Anti-odour surface treatment keeps footwear fresh"
+        "Provides effective foot drop support and stabilization",
+        "Helps maintain proper foot and ankle alignment",
+        "Manufactured using optimum quality materials",
+        "Lightweight design for comfortable daily wear",
+        "Provides immense comfort during movement",
+        "Helps stabilize ankle injuries and weakness",
+        "Durable and easy-to-wear construction",
+        "Suitable for rehabilitation and daily support use"
       ],
       "benefits": [
-        "Reduces impact forces transmitted to the heel, knee, and lower back",
-        "Relieves plantar fasciitis pain and general foot fatigue",
-        "Suitable for occupations requiring prolonged standing on hard floors",
-        "Improves comfort in dress and casual footwear without requiring shoe modification"
+        "Helps improve walking stability and confidence",
+        "Supports foot positioning during movement",
+        "Assists in managing foot drop conditions",
+        "Helps reduce strain on the ankle and foot",
+        "Comfortable for prolonged daily use",
+        "Lightweight and durable for regular wear",
+        "Easy to apply and remove"
+      ],
+      "recommendedUse": [
+        "Foot drop management",
+        "Ankle weakness support",
+        "Nerve-related foot conditions",
+        "Post-injury rehabilitation",
+        "Walking assistance support",
+        "Daily ankle stabilization care"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Foot Drop Splint Design Foot and ankle stabilization splint Support Area Foot and ankle Material Optimum quality supportive materials Special Features Application Lightweight and comfortable support Rehabilitation and daily mobility support Sizes Available  S, M, L"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a foot drop splint used for?",
+          "a": "A foot drop splint is used to support the foot and ankle, helping maintain proper foot positioning and improve walking stability."
+        },
+        {
+          "q": "Can it help stabilize ankle injuries?",
+          "a": "Yes, the splint helps stabilize the ankle and foot during injury recovery and rehabilitation support."
+        },
+        {
+          "q": "Is it comfortable for daily use?",
+          "a": "Yes, it is designed using quality materials to provide immense comfort during prolonged wear."
+        },
+        {
+          "q": "Is the splint lightweight?",
+          "a": "Yes, the lightweight design allows comfortable movement and regular daily use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "The foot drop splint is available in S, M, and L sizes."
+        }
       ]
     },
     {
       "sku": "IK-FT-02",
-      "name": "Silicon Gel Heel Cushion",
-      "sizes": "Universal",
+      "sizes": "S, M, L",
+      "name": "Silicone Gel Insole",
+      "metaDescription": "Buy silicone gel insole for cushioned foot support and shock absorption. Soft, comfortable design available in S, M & L sizes for daily comfort.",
+      "shortDescription": "Buy the best silicone gel insole for superior cushioning, shock absorption, and all-day foot comfort. Ideal for daily wear, walking, sports, and foot fatigue relief.",
+      "description": "The Silicone Gel Insole is designed to provide enhanced cushioning, shock absorption, and improved comfort during walking, standing, sports activities, and daily movement. It helps reduce pressure on the feet while improving overall foot support and comfort throughout the day.\n\nMade from soft and flexible silicone gel material, the insole helps absorb impact and distribute pressure evenly across the foot. This supportive cushioning may help reduce foot fatigue, discomfort, and strain caused by prolonged standing or walking.\n\nIts ergonomic and lightweight design fits comfortably inside most footwear, making it suitable for regular daily use, sports shoes, work footwear, and casual shoes. The durable and easy-to-clean construction ensures long-lasting comfort and reliable support.\n\nComfortable, flexible, and easy to use, the silicone gel insole is ideal for home, workplace, sports, and rehabilitation support applications.",
       "features": [
-        "Targeted silicone gel pad covering only the heel region",
-        "Central deep-heel cup cradles and centres the calcaneus",
-        "Self-adhesive base keeps the cushion in position inside the shoe",
-        "Durable gel maintains cushioning properties through extended use"
+        "Provides soft cushioning and foot comfort",
+        "Helps absorb shock and reduce foot pressure",
+        "Silicone gel material for enhanced support",
+        "Lightweight and flexible design",
+        "Helps improve comfort during walking and standing",
+        "Fits comfortably inside most footwear",
+        "Durable and easy-to-clean construction",
+        "Suitable for daily, sports, and work use"
       ],
       "benefits": [
-        "Directly cushions the heel to relieve plantar heel pain and calcaneal spurs",
-        "Reduces impact on the heel during running and walking",
-        "Suitable for fat pad atrophy where natural heel cushioning is reduced",
-        "Compact design fits in most closed-toe footwear without displacing the foot"
+        "Improves comfort during prolonged standing",
+        "Helps reduce foot fatigue and discomfort",
+        "",
+        "Supports better pressure distribution",
+        "Helps minimize impact stress on feet",
+        "Comfortable for all-day wear",
+        "Easy to insert and remove from shoes",
+        "Durable for regular daily use"
+      ],
+      "recommendedUse": [
+        "Daily walking comfort",
+        "Foot fatigue management",
+        "Sports and fitness activities",
+        "Workplace standing support",
+        "Shock absorption during movement",
+        "General foot cushioning support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Silicone Gel Insole Design Cushioned ergonomic foot insole Support Area Full foot Material Soft silicone gel Special Features Shock absorption and pressure cushioning Application Daily comfort and foot support Sizes Available  S, M, L Usage Suitable for most footwear types"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a silicone gel insole used for?",
+          "a": "A silicone gel insole is used to provide cushioning, shock absorption, and improved foot comfort during daily activities."
+        },
+        {
+          "q": "Can it help reduce foot fatigue?",
+          "a": "Yes, the soft gel cushioning helps reduce foot fatigue and discomfort caused by prolonged standing or walking."
+        },
+        {
+          "q": "Is it suitable for sports shoes?",
+          "a": "Yes, it can be used inside sports shoes, work shoes, and regular footwear."
+        },
+        {
+          "q": "Does it absorb shock during walking?",
+          "a": "Yes, the silicone gel material helps absorb impact and reduce pressure on the feet."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "The silicone gel insole is available in S, M, and L sizes."
+        }
       ]
     },
     {
       "sku": "IK-FT-03",
-      "name": "Arch Support",
-      "sizes": "S, M, L",
+      "sizes": "Universal",
+      "name": "Silicone Gel Heel Cushion",
+      "metaDescription": "Buy silicone gel heel cushion for soft heel support and shock absorption. Helps reduce heel pain and walking discomfort. Universal size available.",
+      "shortDescription": "Buy the best silicone gel heel cushion for superior heel comfort, shock absorption, and pressure relief. Ideal for daily walking, prolonged standing, and heel pain support.",
+      "description": "The Silicone Gel Heel Cushion is designed to provide soft heel cushioning, shock absorption, and enhanced comfort during walking, standing, sports activities, and daily movement. It helps reduce pressure on the heel area while improving overall foot comfort and support.\n\nMade from soft and flexible silicone gel material, the heel cushion helps absorb impact and distribute pressure evenly around the heel. This supportive cushioning\n\nmay help reduce heel discomfort, fatigue, and stress caused by prolonged standing, walking, or regular physical activity.\n\nIts ergonomic and lightweight design fits comfortably inside most footwear, making it suitable for daily wear, sports shoes, work footwear, and casual shoes. The durable and skin-friendly construction ensures long-lasting comfort and dependable support throughout the day.\n\nComfortable, lightweight, and easy to use, the silicone gel heel cushion is ideal for home, workplace, sports, and rehabilitation support applications.",
       "features": [
-        "Semi-rigid shell supports the medial longitudinal arch",
-        "Cushioned top cover provides a comfortable contact surface",
-        "Designed to correct mild-to-moderate flat foot and overpronation",
-        "Trim-to-fit edges allow customisation for different shoe shapes"
+        "Provides soft heel cushioning and comfort",
+        "Helps absorb shock and reduce heel pressure",
+        "Silicone gel material for enhanced support",
+        "Lightweight and flexible design",
+        "Helps improve comfort during walking and standing",
+        "Fits comfortably inside most footwear",
+        "Durable and easy-to-clean construction",
+        "Suitable for daily, sports, and work use"
       ],
       "benefits": [
-        "Corrects overpronation to reduce stress on the plantar fascia and Achilles tendon",
-        "Relieves medial arch pain associated with flat foot and posterior tibial tendon dysfunction",
-        "Reduces fatigue-related leg and lower back pain from poor foot mechanics",
-        "Suitable for daily use in sports shoes, work boots, and everyday footwear"
+        "Helps reduce heel pain and discomfort",
+        " Improves comfort during prolonged standing",
+        "Supports better pressure distribution on the heel",
+        "Helps minimize impact stress during walking",
+        "Comfortable for all-day wear",
+        "Easy to insert and remove from shoes",
+        "Durable for regular daily use"
+      ],
+      "recommendedUse": [
+        "Heel pain and discomfort support",
+        "Daily walking comfort",
+        "Prolonged standing support",
+        "Sports and fitness activities",
+        "Shock absorption during movement",
+        "General heel cushioning support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Silicone Gel Heel Cushion Design Cushioned ergonomic heel support Support Area Heel Material Soft silicone gel Special Features Shock absorption and pressure cushioning Application Daily comfort and heel support Sizes Available  Universal Usage Suitable for most footwear types"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a silicone gel heel cushion used for?",
+          "a": "A silicone gel heel cushion is used to provide heel cushioning, shock absorption, and improved comfort during daily activities."
+        },
+        {
+          "q": "Can it help reduce heel pain?",
+          "a": "Yes, the soft gel cushioning helps reduce heel discomfort and pressure during walking or standing."
+        },
+        {
+          "q": "Is it suitable for sports shoes?",
+          "a": "Yes, it can be used inside sports shoes, work shoes, and regular footwear."
+        },
+        {
+          "q": "Does it absorb shock during walking?",
+          "a": "Yes, the silicone gel material helps absorb impact and reduce stress on the heel area."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The silicone gel heel cushion is available in Universal size"
+        }
       ]
     },
     {
       "sku": "IK-FT-04",
-      "name": "Toe Separator",
-      "sizes": "Universal",
+      "sizes": "S, M, L",
+      "name": "Arch Support",
+      "metaDescription": "Buy arch support for enhanced foot stability, cushioning, and comfort. Helps reduce foot strain and fatigue. Available in S, M & L sizes.",
+      "shortDescription": "Buy the best arch support for improved foot alignment, cushioning, and daily comfort. Ideal for walking, prolonged standing, sports activities, and foot fatigue relief.",
+      "description": "The Arch Support is designed to provide effective arch cushioning, foot stability, and enhanced comfort during walking, standing, sports activities, and daily movement. It helps support the natural arch of the foot while reducing strain and pressure on the feet.\n\nIts ergonomic support design helps distribute body weight evenly across the foot, improving balance and reducing discomfort caused by prolonged standing, walking, or physical activity. The arch support helps maintain proper foot alignment and improves overall walking comfort.\n\nMade from soft, lightweight, and durable materials, the support offers comfortable cushioning and long-lasting performance for regular daily use. Its flexible construction fits comfortably inside most footwear, making it suitable for sports shoes, work footwear, casual shoes, and daily wear.\n\nComfortable, durable, and easy to use, the arch support is ideal for home, workplace, sports, and rehabilitation support applications.",
       "features": [
-        "Soft silicone spacers gently hold adjacent toes apart",
-        "Flexible material conforms to the natural shape of the toe web space",
-        "Washable and reusable for hygienic daily use",
-        "Minimal profile fits inside most footwear without discomfort"
+        "Provides effective arch support and cushioning",
+        "Helps maintain proper foot alignment",
+        "Reduces strain and pressure on the feet",
+        "Lightweight and comfortable construction",
+        "Flexible design for improved fitting",
+        "Helps improve walking and standing comfort",
+        "Durable for regular daily use",
+        "Suitable for sports, work, and daily footwear"
       ],
       "benefits": [
-        "Realigns overlapping or drifting toes to reduce bunion and hallux valgus discomfort",
-        "Prevents skin friction and blistering between closely approximated toes",
-        "Manages hammer toe, soft corn, and interdigital callus formation",
-        "Provides gentle passive correction of toe alignment during daily wear"
+        "Improves comfort during prolonged standing",
+        "Helps reduce foot fatigue and discomfort",
+        "",
+        "Supports better balance and foot stability",
+        "Helps distribute pressure evenly across the foot",
+        "Comfortable for all-day wear",
+        "Easy to place inside footwear",
+        "Durable and lightweight for regular use"
+      ],
+      "recommendedUse": [
+        "Arch support and foot comfort",
+        "Daily walking support",
+        "Prolonged standing comfort",
+        "Sports and fitness activities",
+        "Foot fatigue management",
+        "General foot alignment support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Arch Support Design Ergonomic foot arch support Support Area Foot arch Material Soft and durable cushioning material Special Features Lightweight and flexible support Application Daily comfort and foot support Sizes Available  S, M, L Usage Suitable for most footwear types"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is arch support used for?",
+          "a": "Arch support is used to provide cushioning, improve foot alignment, and enhance comfort during walking and daily activities."
+        },
+        {
+          "q": "Can it help reduce foot fatigue?",
+          "a": "Yes, it helps distribute pressure evenly and may reduce foot fatigue caused by prolonged standing or walking."
+        },
+        {
+          "q": "Is it suitable for sports shoes?",
+          "a": "Yes, the arch support can be used inside sports shoes, work shoes, and regular footwear."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, the lightweight and cushioned design makes it comfortable for prolonged daily use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "The arch support is available in S, M, and L sizes."
+        }
+      ]
+    },
+    {
+      "sku": "IK-FT-05",
+      "sizes": "Universal",
+      "name": "Toe Separator",
+      "metaDescription": "Buy toe separator for gentle toe alignment and comfort. Soft, flexible design helps reduce toe friction and discomfort. Universal size available.",
+      "shortDescription": "Buy the best toe separator for improved toe alignment, cushioning, and daily comfort. Ideal for reducing toe friction, pressure, and discomfort during walking or regular use.",
+      "description": "The Toe Separator is designed to provide gentle toe alignment, cushioning, and improved comfort during daily activities, walking, and footwear use. It helps separate overlapping or closely positioned toes, reducing friction and pressure between them.\n\nMade from soft and flexible material, the toe separator offers comfortable support while maintaining natural toe positioning. Its ergonomic design helps improve toe spacing and may assist in reducing irritation, rubbing, and discomfort caused by tight footwear or prolonged walking.\n\nLightweight, skin-friendly, and easy to use, the toe separator fits comfortably between the toes and can be worn inside most footwear for regular daily support. Its durable and reusable construction makes it suitable for home, workplace, and rehabilitation support use.\n\nComfortable and practical, the toe separator is ideal for daily toe care, walking comfort, and foot support applications.",
+      "features": [
+        "Helps maintain proper toe alignment",
+        "Reduces friction and pressure between toes",
+        "Soft and flexible material for comfort",
+        "Lightweight and skin-friendly design",
+        "Comfortable for daily wear",
+        "Helps improve toe spacing",
+        "Durable and reusable construction",
+        "Suitable for regular foot care support"
+      ],
+      "benefits": [
+        "Improves comfort during walking and standing",
+        "Helps reduce toe discomfort and irritation",
+        "",
+        "Supports natural toe positioning",
+        "Helps minimize rubbing caused by footwear",
+        "Comfortable for prolonged use",
+        "Easy to wear and remove",
+        "Suitable for daily foot care routines"
+      ],
+      "recommendedUse": [
+        "Toe alignment support",
+        "Reducing toe friction and pressure",
+        "Daily walking comfort",
+        "Footwear-related toe discomfort",
+        "General foot care support",
+        "Rehabilitation and comfort use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Toe Separator Design Soft toe spacing support Support Area Toes Material Soft and flexible cushioning material Special Features Lightweight and reusable design Application Daily toe comfort and alignment support Sizes Available  Universal Usage Suitable for regular daily wear"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a toe separator used for?",
+          "a": "A toe separator is used to improve toe alignment, reduce friction between toes, and enhance walking comfort."
+        },
+        {
+          "q": "Can it help reduce toe discomfort?",
+          "a": "Yes, it helps reduce rubbing, pressure, and irritation caused by closely positioned toes or tight footwear."
+        },
+        {
+          "q": "Is it comfortable for daily use?",
+          "a": "Yes, the soft and flexible material makes it comfortable for prolonged daily wear."
+        },
+        {
+          "q": "Can it be worn inside shoes?",
+          "a": "Yes, the lightweight design allows it to fit comfortably inside most footwear."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The toe separator is available in Universal size."
+        }
       ]
     }
   ]

@@ -5,70 +5,254 @@
   "products": [
     {
       "sku": "IK-WA-01",
-      "name": "Walking Stick Single Leg",
       "sizes": "Adjustable",
+      "name": "Walking Stick Single Leg",
+      "metaDescription": "Buy single leg walking stick for reliable walking support and balance assistance. Lightweight adjustable design for daily mobility and stability support.",
+      "shortDescription": "Buy the best single leg walking stick for dependable balance support, walking assistance, and improved mobility. Ideal for elderly users, rehabilitation, and daily support needs.",
+      "description": "The Walking Stick Single Leg is designed to provide reliable walking support, improved balance, and enhanced stability during daily movement. It helps individuals maintain better confidence and support while walking, standing, or recovering from injury or weakness.\n\nIts single-leg support design offers stable assistance for daily mobility while remaining lightweight and easy to handle. The ergonomic structure helps reduce strain during walking and provides dependable support for elderly users, rehabilitation care, and general mobility assistance.\n\nMade from durable and lightweight materials, the walking stick is comfortable for regular use and easy to carry. The adjustable height feature allows users to customize\n\nthe stick according to their comfort and support requirements, ensuring improved posture and walking convenience.\n\nSuitable for indoor and outdoor use, the walking stick is ideal for home care, rehabilitation support, elderly assistance, and daily mobility applications.",
       "features": [
-        "Lightweight aluminium shaft with push-button height adjustment",
-        "Ergonomic contoured handle reduces hand and wrist fatigue",
-        "Rubber ferrule tip provides grip on a variety of floor surfaces",
-        "Folds or collapses for convenient storage and transport"
+        "Provides reliable walking and balance support",
+        "Single-leg design for stable mobility assistance",
+        "Adjustable height for customized comfort",
+        "Lightweight and durable construction",
+        "Ergonomic design for comfortable handling",
+        "Helps improve walking confidence and stability",
+        "Easy to use and carry",
+        "Suitable for indoor and outdoor use"
       ],
       "benefits": [
-        "Provides a stable third point of contact for patients with mild balance impairment",
-        "Reduces load on the affected lower limb during post-injury or post-surgical walking",
-        "Promotes safe ambulation in elderly patients at risk of falls",
-        "Lightweight aluminium design minimises upper limb effort during use"
+        "Helps improve balance during walking",
+        "Supports elderly and rehabilitation users",
+        "Reduces strain during movement",
+        "",
+        "Comfortable for prolonged daily use",
+        "Easy to adjust according to user height",
+        "Durable for regular use Improves confidence and mobility support"
+      ],
+      "recommendedUse": [
+        "Daily walking assistance",
+        "Elderly mobility support",
+        "Rehabilitation and recovery care",
+        "Balance and stability support",
+        "",
+        "General mobility assistance Indoor and outdoor walking use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type  Walking Stick Single Leg",
+          "value": "Design Single-leg walking support stick Support Area  Walking and mobility support Material Lightweight and durable metal construction Special Features Adjustable height mechanism Application Daily mobility and balance support Sizes Available  Adjustable"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a single leg walking stick used for?",
+          "a": "A single leg walking stick is used to provide balance, walking support, and mobility assistance during daily movement."
+        },
+        {
+          "q": "Is the walking stick height adjustable?",
+          "a": "Yes, the walking stick comes with an adjustable height feature for customized user comfort."
+        },
+        {
+          "q": "Is it suitable for elderly users?",
+          "a": "Yes, it is ideal for elderly individuals, rehabilitation support, and users requiring additional walking stability."
+        },
+        {
+          "q": "Can it be used outdoors?",
+          "a": "Yes, the walking stick is suitable for both indoor and outdoor use."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The walking stick is available in an adjustable size configuration."
+        }
       ]
     },
     {
       "sku": "IK-WA-02",
-      "name": "Walking Stick Four Leg",
       "sizes": "Adjustable",
+      "name": "Walking Stick Four Leg",
+      "metaDescription": "Buy four leg walking stick for enhanced balance and walking stability. Adjustable lightweight design for elderly and rehabilitation support.",
+      "shortDescription": "Buy the best four leg walking stick for superior balance support, stability, and walking assistance. Ideal for elderly users, rehabilitation care, and daily mobility support.",
+      "description": "The Walking Stick Four Leg is designed to provide enhanced walking stability, balance support, and improved mobility assistance during daily movement. Its four-leg base design offers greater ground support and stability compared to standard walking sticks, making it ideal for users requiring extra confidence while walking or standing.\n\nThe stable quad-base structure helps distribute weight evenly and improves balance during movement, helping reduce the risk of instability during daily activities. It is especially useful for elderly users, rehabilitation patients, and individuals recovering from injury or weakness.\n\nMade from lightweight and durable materials, the walking stick is comfortable for prolonged daily use and easy to handle. The adjustable height feature allows users to customize the walking stick according to their comfort and support needs for improved posture and convenience.\n\nSuitable for indoor and outdoor use, the four leg walking stick is ideal for home care, rehabilitation support, elderly assistance, and general mobility applications.",
       "features": [
-        "Quad-base with four rubber-tipped contact points for a wide, stable footprint",
-        "Adjustable shaft height to suit patients of varying stature",
-        "Offset handle positions the user's weight optimally over the base",
-        "Robust aluminium construction withstands daily clinical and home use"
+        "Four-leg base for enhanced walking stability",
+        "Provides reliable balance and mobility support",
+        "Adjustable height for customized comfort",
+        "Lightweight and durable construction",
+        "Ergonomic design for comfortable handling",
+        "Helps improve confidence during walking",
+        "Stable quad-base design for better support",
+        "Suitable for indoor and outdoor use"
       ],
       "benefits": [
-        "Offers significantly greater lateral stability than a single-tip cane",
-        "Reduces fall risk for patients with hemiplegia, significant weakness, or severe balance deficits",
-        "Supports weight-bearing patients who need more than a standard stick can provide",
-        "Can stand unsupported, keeping it within reach without bending to pick it up"
+        "Helps improve walking balance and stability",
+        "Provides extra support for elderly users",
+        "Supports rehabilitation and recovery care",
+        "Reduces strain during movement",
+        "",
+        "Comfortable for prolonged daily use",
+        "Durable and easy to adjust Improves mobility confidence and safety"
+      ],
+      "recommendedUse": [
+        "Elderly mobility assistance",
+        "Rehabilitation and recovery support",
+        "Daily walking stability",
+        "Balance and posture support",
+        "",
+        "General mobility assistance Indoor and outdoor walking use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type  Walking Stick Four Leg",
+          "value": "Design Four-leg quad-base walking stick Support Area  Walking and balance support Material Lightweight and durable metal construction Special Features Adjustable height with stable quad base Application Daily mobility and rehabilitation support Sizes Available  Adjustable"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a four leg walking stick used for?",
+          "a": "A four leg walking stick is used to provide enhanced balance, stability, and walking support for daily mobility assistance."
+        },
+        {
+          "q": "How is it different from a regular walking stick?",
+          "a": "The four-leg base provides greater stability and support compared to a standard single-leg walking stick."
+        },
+        {
+          "q": "Is the walking stick height adjustable?",
+          "a": "Yes, it features an adjustable height mechanism for customized user comfort."
+        },
+        {
+          "q": "Is it suitable for elderly users?",
+          "a": "Yes, it is ideal for elderly individuals and users requiring additional walking stability and support."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The walking stick is available in an adjustable size configuration."
+        }
       ]
     },
     {
       "sku": "IK-WA-03",
-      "name": "Walker",
       "sizes": "Universal",
+      "name": "Walker",
+      "metaDescription": "Buy walker for reliable mobility support and walking stability. Lightweight durable design for elderly, rehabilitation, and daily movement assistance.",
+      "shortDescription": "Buy the best walker for dependable walking support, balance assistance, and improved mobility. Ideal for elderly users, rehabilitation care, and daily movement support.",
+      "description": "The Walker is designed to provide enhanced walking stability, balance support, and safe mobility assistance during daily movement. It helps users maintain confidence and stability while walking, standing, or recovering from injury, surgery, or physical weakness.\n\nIts sturdy support frame offers dependable balance assistance and helps distribute body weight evenly during movement. The ergonomic design supports safer walking and improved mobility, making it suitable for elderly users, rehabilitation patients, and individuals requiring additional support during daily activities.\n\nMade from lightweight and durable materials, the walker is easy to handle, comfortable to use, and suitable for prolonged daily support. Its stable construction helps improve walking confidence while ensuring reliable support for indoor and outdoor use.\n\nComfortable, durable, and easy to use, the walker is ideal for hospitals, rehabilitation centers, elderly care, home care, and daily mobility assistance applications.",
       "features": [
-        "Lightweight aluminium frame with four rubber-tipped legs",
-        "Width and height adjustable to accommodate different body dimensions",
-        "Open front design facilitates a natural step-through gait pattern",
-        "No wheels — pick-up-and-place use for maximum stability"
+        "Provides reliable walking and balance support",
+        "Sturdy frame for improved stability and safety",
+        "Lightweight and durable construction",
+        "Ergonomic design for comfortable handling",
+        "Helps improve walking confidence and mobility",
+        "Suitable for rehabilitation and elderly care",
+        "Easy to use and maintain",
+        "Suitable for indoor and outdoor use"
       ],
       "benefits": [
-        "Provides comprehensive upper body support for patients with significant lower limb weakness",
-        "Reduces fall risk during early post-operative ambulation after hip and knee replacement",
-        "Distributes weight through the arms to offload painful or healing lower limbs",
-        "Simple pick-up design gives patients confidence on uneven indoor surfaces"
+        "Helps improve balance during walking",
+        "Supports mobility during rehabilitation and recovery",
+        "Provides additional support for elderly users",
+        "Reduces strain during movement",
+        "",
+        "Comfortable for prolonged daily use",
+        "Durable for regular mobility assistance Improves confidence and stability while walking"
+      ],
+      "recommendedUse": [
+        "Elderly mobility assistance",
+        "Rehabilitation and recovery support",
+        "Daily walking support",
+        "Balance and stability assistance Indoor and outdoor mobility use",
+        "",
+        "General walking and movement support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type  Walker",
+          "value": "Design Lightweight mobility support walker Support Area  Walking and balance assistance Material Lightweight and durable metal construction Special Features Stable ergonomic support frame Application Daily mobility and rehabilitation support Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a walker used for?",
+          "a": "A walker is used to provide walking stability, balance support, and mobility assistance during daily movement and rehabilitation."
+        },
+        {
+          "q": "Is the walker suitable for elderly users?",
+          "a": "Yes, it is ideal for elderly individuals and users requiring additional support while walking."
+        },
+        {
+          "q": "Can it be used during rehabilitation?",
+          "a": "Yes, walkers are commonly used during rehabilitation and recovery support programs."
+        },
+        {
+          "q": "Is it suitable for indoor and outdoor use?",
+          "a": "Yes, the walker is designed for both indoor and outdoor mobility assistance."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The walker is available in Universal size."
+        }
       ]
     },
     {
       "sku": "IK-WA-04",
-      "name": "Walker Folding",
       "sizes": "Universal",
+      "name": "Folding Walker",
+      "metaDescription": "Buy folding walker for reliable mobility support and easy portability. Lightweight foldable design for elderly and rehabilitation use. Universal size.",
+      "shortDescription": "Buy the best folding walker for dependable walking support, balance assistance, and convenient portability. Ideal for elderly users, rehabilitation care, and daily mobility support.",
+      "description": "The Folding Walker is designed to provide reliable walking stability, balance support, and safe mobility assistance during daily movement. Its foldable design offers added convenience for storage and transport, making it ideal for users requiring mobility support at home or while traveling.\n\nThe sturdy support frame helps improve balance and walking confidence by providing dependable support during standing and movement. Its ergonomic structure assists in reducing strain while promoting safer and more comfortable mobility for elderly users, rehabilitation patients, and individuals recovering from injury or surgery.\n\nMade from lightweight and durable materials, the folding walker is easy to handle, comfortable to use, and suitable for prolonged daily support. The convenient folding mechanism allows quick folding and compact storage without compromising stability and support.\n\nComfortable, portable, and easy to use, the folding walker is suitable for hospitals, rehabilitation centers, home care, travel, and daily mobility assistance applications.",
       "features": [
-        "Folds flat with a single-action folding mechanism for compact storage",
-        "Same robust aluminium frame and adjustable height as the standard walker",
-        "Rubber-tipped legs maintain grip and floor protection",
-        "Carrying strap or bag attachments available for transport convenience"
+        "Provides reliable walking and balance support",
+        "Foldable design for easy storage and portability",
+        "Lightweight and durable construction",
+        "Sturdy frame for improved stability and safety",
+        "Ergonomic design for comfortable handling",
+        "Helps improve walking confidence and mobility",
+        "Easy folding mechanism for convenience",
+        "Suitable for indoor and outdoor use"
       ],
       "benefits": [
-        "All the stability benefits of a standard walker with the added convenience of folding flat",
-        "Ideal for patients who travel, use public transport, or have limited storage space",
-        "Easy to take in a car boot, store in a cupboard, or carry between rooms",
-        "Encourages patient compliance with prescribed walking aid use by removing storage barriers"
+        "Helps improve balance during walking",
+        "Supports mobility during rehabilitation and recovery",
+        "Provides additional support for elderly users",
+        "Easy to store and transport",
+        "Reduces strain during movement",
+        "Comfortable for prolonged daily use",
+        "Durable for regular mobility assistance"
+      ],
+      "recommendedUse": [
+        "Elderly mobility assistance",
+        "Rehabilitation and recovery support",
+        "Daily walking support",
+        "Travel-friendly mobility assistance",
+        "Balance and stability support",
+        " Indoor and outdoor walking use"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Folding Walker Design Foldable mobility support walker Support Area  Walking and balance assistance Material Lightweight and durable metal construction Special Features Easy folding and portable design Application Daily mobility and rehabilitation support Sizes Available  Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a folding walker used for?",
+          "a": "A folding walker is used to provide walking stability, balance support, and mobility assistance with the added convenience of portability and compact storage."
+        },
+        {
+          "q": "Is the walker easy to fold?",
+          "a": "Yes, it features a simple folding mechanism for easy storage and transportation."
+        },
+        {
+          "q": "Is it suitable for elderly users?",
+          "a": "Yes, it is ideal for elderly individuals and users requiring additional walking support."
+        },
+        {
+          "q": "Can it be used during rehabilitation?",
+          "a": "Yes, folding walkers are commonly used for rehabilitation and recovery support."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The folding walker is available in Universal size."
+        }
       ]
     }
   ]
