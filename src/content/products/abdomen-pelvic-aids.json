@@ -233,19 +233,60 @@
     },
     {
       "sku": "IK-AP-04",
-      "name": "Hernia Belt",
+      "name": "Hernia Belt With Adjustable Support",
       "sizes": "S, M, L, XL",
+      "metaTitle": "Best Hernia Belt for Inguinal Hernia Support | Adjustable Hernia Support Belt India",
+      "metaDescription": "Buy best hernia belt for inguinal hernia support in India. Adjustable, comfortable & breathable hernia support belt for daily pain relief and recovery.",
+      "shortDescription": "Buy the best hernia belt for effective inguinal hernia support and pain relief. Adjustable, breathable, and comfortable design for daily use and recovery support.",
+      "description": "The Hernia Belt With Adjustable Support is designed to provide effective compression and targeted support for reducible inguinal hernia conditions. It helps reduce discomfort, supports weakened abdominal muscles, and assists in maintaining proper support during daily activities.\n\nMade with soft, breathable, and skin-friendly materials, this hernia support belt ensures comfort even during extended wear. The adjustable compression pads provide customized pressure and secure fitting for better support and stability.\n\nIts ergonomic and lightweight design allows easy use under regular clothing, making it suitable for home, work, travel, and daily mobility. Trusted for comfort and functionality, this hernia belt helps improve confidence and supports recovery management.",
       "features": [
-        "Targeted pressure pad positioned directly over the hernia site",
-        "Firm elastic waistband distributes compression evenly",
-        "Anatomically shaped to conform to the groin or abdominal region",
-        "Adjustable strap ensures the pad stays correctly positioned"
+        "Adjustable compression pads for targeted hernia support",
+        "Soft and breathable fabric for enhanced comfort",
+        "Skin-friendly material suitable for prolonged use",
+        "Lightweight and ergonomic design for daily wear",
+        "Elastic straps ensure secure and comfortable fitting",
+        "Easy-to-wear design for convenient application"
       ],
       "benefits": [
-        "Prevents hernia protrusion during standing, walking, and physical activity",
-        "Reduces discomfort associated with inguinal and umbilical hernias",
-        "Supports patients awaiting hernia repair surgery",
-        "Provides post-operative compression to the repair site during early healing"
+        "Provides effective support for inguinal hernia conditions",
+        "Helps reduce discomfort and abdominal strain",
+        "Comfortable for extended daily use",
+        "Supports mobility and routine activities",
+        "Adjustable fit allows personalized compression and stability"
+      ],
+      "recommendedUse": [
+        "Inguinal hernia support",
+        "Mild abdominal weakness",
+        "Post-operative support (as advised by healthcare professionals)",
+        "Daily support during walking, standing, or routine activities"
+      ],
+      "specifications": [
+        { "key": "Model", "value": "IK-HB-01" },
+        { "key": "Material", "value": "Breathable elastic fabric with soft padding" },
+        { "key": "Closure Type", "value": "Adjustable loop contact (Velcro) closure" },
+        { "key": "Sizes Available", "value": "S, M, L, XL" }
+      ],
+      "faqs": [
+        {
+          "q": "What is a hernia belt used for?",
+          "a": "A hernia belt helps provide compression and support for reducible inguinal hernia conditions, helping reduce discomfort during daily activities."
+        },
+        {
+          "q": "Can I wear a hernia belt all day?",
+          "a": "Yes, the hernia belt is designed for comfortable extended wear, but it is advisable to follow medical guidance for usage duration."
+        },
+        {
+          "q": "Is this hernia belt adjustable?",
+          "a": "Yes, it features adjustable straps and compression pads for personalized support and fitting."
+        },
+        {
+          "q": "Can the hernia belt be worn under clothes?",
+          "a": "Yes, its lightweight and slim ergonomic design allows comfortable use under regular clothing."
+        },
+        {
+          "q": "How do I choose the right size?",
+          "a": "Measure your waist or hip circumference and select the appropriate size from S, M, L, or XL for the best fit."
+        }
       ]
     }
   ]
