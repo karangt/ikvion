@@ -288,8 +288,9 @@ const itemListSchema = {
 
     // Features
     const featuresList = document.getElementById('modal-features') as HTMLElement;
-    if (product.features && product.features.length) {
-      featuresList.innerHTML = product.features.map(checkItem).join('');
+    const features = product.features?.filter(item => item.trim()) ?? [];
+    if (features.length) {
+      featuresList.innerHTML = features.map(checkItem).join('');
       show('modal-features-section', true);
     } else {
       show('modal-features-section', false);
@@ -297,8 +298,9 @@ const itemListSchema = {
 
     // Benefits
     const benefitsList = document.getElementById('modal-benefits') as HTMLElement;
-    if (product.benefits && product.benefits.length) {
-      benefitsList.innerHTML = product.benefits.map(checkItem).join('');
+    const benefits = product.benefits?.filter(item => item.trim()) ?? [];
+    if (benefits.length) {
+      benefitsList.innerHTML = benefits.map(checkItem).join('');
       show('modal-benefits-section', true);
     } else {
       show('modal-benefits-section', false);
@@ -306,8 +308,9 @@ const itemListSchema = {
 
     // Recommended Use
     const recEl = document.getElementById('modal-rec') as HTMLElement;
-    if (product.recommendedUse && product.recommendedUse.length) {
-      recEl.innerHTML = product.recommendedUse.map(u =>
+    const recommendedUse = product.recommendedUse?.filter(item => item.trim()) ?? [];
+    if (recommendedUse.length) {
+      recEl.innerHTML = recommendedUse.map(u =>
         `<span style="display:inline-block;background:#f0fafa;border:1px solid #b2dfdb;color:#0D9488;border-radius:20px;padding:3px 12px;font-size:12px;">${u}</span>`
       ).join('');
       show('modal-rec-section', true);

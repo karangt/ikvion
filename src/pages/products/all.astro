@@ -201,8 +201,9 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
 
     const featuresSection = document.getElementById('modal-features-section') as HTMLElement;
     const featuresList = document.getElementById('modal-features') as HTMLElement;
-    if (product.features && product.features.length) {
-      featuresList.innerHTML = product.features.map(f =>
+    const features = product.features?.filter(item => item.trim()) ?? [];
+    if (features.length) {
+      featuresList.innerHTML = features.map(f =>
         `<li class="flex items-start gap-2 text-sm text-gray-600"><span class="mt-1 shrink-0 w-4 h-4 rounded-full flex items-center justify-center" style="background-color:rgba(13,148,136,0.15);color:#0D9488;font-size:10px;">✓</span>${f}</li>`
       ).join('');
       featuresSection.style.display = '';
@@ -212,8 +213,9 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
 
     const benefitsSection = document.getElementById('modal-benefits-section') as HTMLElement;
     const benefitsList = document.getElementById('modal-benefits') as HTMLElement;
-    if (product.benefits && product.benefits.length) {
-      benefitsList.innerHTML = product.benefits.map(b =>
+    const benefits = product.benefits?.filter(item => item.trim()) ?? [];
+    if (benefits.length) {
+      benefitsList.innerHTML = benefits.map(b =>
         `<li class="flex items-start gap-2 text-sm text-gray-600"><span class="mt-1 shrink-0 w-4 h-4 rounded-full flex items-center justify-center" style="background-color:rgba(13,148,136,0.15);color:#0D9488;font-size:10px;">✓</span>${b}</li>`
       ).join('');
       benefitsSection.style.display = '';
