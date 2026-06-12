@@ -5,71 +5,8 @@
   "products": [
     {
       "sku": "IK-FT-01",
-      "sizes": "S, M, L, XL",
-      "name": "Foot Drop Splint",
-      "metaDescription": "Buy foot drop splint for ankle stabilization and foot support. Comfortable lightweight design for injury recovery and rehabilitation. Available in S, M & L.",
-      "shortDescription": "Buy the best foot drop splint for effective ankle stabilization, foot positioning, and rehabilitation support. Ideal for foot drop management, ankle injuries, and recovery care.",
-      "description": "The Foot Drop Splint is designed to provide effective foot positioning, ankle stabilization, and improved walking support for individuals experiencing foot drop, ankle weakness, nerve-related conditions, or rehabilitation needs. It helps maintain proper foot alignment while supporting safer and more confident movement.\n\nManufactured using optimum quality materials, the splint offers durability, reliable support, and long-lasting performance for regular use. Its lightweight and ergonomic construction provides immense comfort, making it suitable for prolonged wear during daily activities and rehabilitation programs.\n\nThe splint helps stabilize ankle injuries by supporting the ankle and foot in an optimal functional position, helping reduce unwanted foot dragging and improving mobility during walking. Comfortable, easy to wear, and supportive, it is suitable for rehabilitation centers, hospitals, clinics, and home care use.",
-      "features": [
-        "Provides effective foot drop support and stabilization",
-        "Helps maintain proper foot and ankle alignment",
-        "Manufactured using optimum quality materials",
-        "Lightweight design for comfortable daily wear",
-        "Provides immense comfort during movement",
-        "Helps stabilize ankle injuries and weakness",
-        "Durable and easy-to-wear construction",
-        "Suitable for rehabilitation and daily support use"
-      ],
-      "benefits": [
-        "Helps improve walking stability and confidence",
-        "Supports foot positioning during movement",
-        "Assists in managing foot drop conditions",
-        "Helps reduce strain on the ankle and foot",
-        "Comfortable for prolonged daily use",
-        "Lightweight and durable for regular wear",
-        "Easy to apply and remove"
-      ],
-      "recommendedUse": [
-        "Foot drop management",
-        "Ankle weakness support",
-        "Nerve-related foot conditions",
-        "Post-injury rehabilitation",
-        "Walking assistance support",
-        "Daily ankle stabilization care"
-      ],
-      "specifications": [
-        {
-          "key": "Product Type",
-          "value": "Foot Drop Splint Design Foot and ankle stabilization splint Support Area Foot and ankle Material Optimum quality supportive materials Special Features Application Lightweight and comfortable support Rehabilitation and daily mobility support Sizes Available  S, M, L"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "What is a foot drop splint used for?",
-          "a": "A foot drop splint is used to support the foot and ankle, helping maintain proper foot positioning and improve walking stability."
-        },
-        {
-          "q": "Can it help stabilize ankle injuries?",
-          "a": "Yes, the splint helps stabilize the ankle and foot during injury recovery and rehabilitation support."
-        },
-        {
-          "q": "Is it comfortable for daily use?",
-          "a": "Yes, it is designed using quality materials to provide immense comfort during prolonged wear."
-        },
-        {
-          "q": "Is the splint lightweight?",
-          "a": "Yes, the lightweight design allows comfortable movement and regular daily use."
-        },
-        {
-          "q": "What sizes are available?",
-          "a": "The foot drop splint is available in S, M, and L sizes."
-        }
-      ]
-    },
-    {
-      "sku": "IK-FT-02",
       "sizes": "S, M, L",
-      "name": "Silicone Gel Insole",
+      "name": "Silicon Gel Insole",
       "metaDescription": "Buy silicone gel insole for cushioned foot support and shock absorption. Soft, comfortable design available in S, M & L sizes for daily comfort.",
       "shortDescription": "Buy the best silicone gel insole for superior cushioning, shock absorption, and all-day foot comfort. Ideal for daily wear, walking, sports, and foot fatigue relief.",
       "description": "The Silicone Gel Insole is designed to provide enhanced cushioning, shock absorption, and improved comfort during walking, standing, sports activities, and daily movement. It helps reduce pressure on the feet while improving overall foot support and comfort throughout the day.\n\nMade from soft and flexible silicone gel material, the insole helps absorb impact and distribute pressure evenly across the foot. This supportive cushioning may help reduce foot fatigue, discomfort, and strain caused by prolonged standing or walking.\n\nIts ergonomic and lightweight design fits comfortably inside most footwear, making it suitable for regular daily use, sports shoes, work footwear, and casual shoes. The durable and easy-to-clean construction ensures long-lasting comfort and reliable support.\n\nComfortable, flexible, and easy to use, the silicone gel insole is ideal for home, workplace, sports, and rehabilitation support applications.",
@@ -130,9 +67,9 @@
       ]
     },
     {
-      "sku": "IK-FT-03",
+      "sku": "IK-FT-02",
       "sizes": "Universal",
-      "name": "Silicone Gel Heel Cushion",
+      "name": "Silicon Gel Heel Cushion",
       "metaDescription": "Buy silicone gel heel cushion for soft heel support and shock absorption. Helps reduce heel pain and walking discomfort. Universal size available.",
       "shortDescription": "Buy the best silicone gel heel cushion for superior heel comfort, shock absorption, and pressure relief. Ideal for daily walking, prolonged standing, and heel pain support.",
       "description": "The Silicone Gel Heel Cushion is designed to provide soft heel cushioning, shock absorption, and enhanced comfort during walking, standing, sports activities, and daily movement. It helps reduce pressure on the heel area while improving overall foot comfort and support.\n\nMade from soft and flexible silicone gel material, the heel cushion helps absorb impact and distribute pressure evenly around the heel. This supportive cushioning\n\nmay help reduce heel discomfort, fatigue, and stress caused by prolonged standing, walking, or regular physical activity.\n\nIts ergonomic and lightweight design fits comfortably inside most footwear, making it suitable for daily wear, sports shoes, work footwear, and casual shoes. The durable and skin-friendly construction ensures long-lasting comfort and dependable support throughout the day.\n\nComfortable, lightweight, and easy to use, the silicone gel heel cushion is ideal for home, workplace, sports, and rehabilitation support applications.",
@@ -193,7 +130,7 @@
       ]
     },
     {
-      "sku": "IK-FT-04",
+      "sku": "IK-FT-03",
       "sizes": "S, M, L",
       "name": "Arch Support",
       "metaDescription": "Buy arch support for enhanced foot stability, cushioning, and comfort. Helps reduce foot strain and fatigue. Available in S, M & L sizes.",
@@ -256,7 +193,7 @@
       ]
     },
     {
-      "sku": "IK-FT-05",
+      "sku": "IK-FT-04",
       "sizes": "Universal",
       "name": "Toe Separator",
       "metaDescription": "Buy toe separator for gentle toe alignment and comfort. Soft, flexible design helps reduce toe friction and discomfort. Universal size available.",
