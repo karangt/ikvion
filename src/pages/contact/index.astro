@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const base = import.meta.env.BASE_URL;
+const web3FormsAccessKey = import.meta.env.PUBLIC_WEB3FORMS_ACCESS_KEY ?? '';
+const isFormConfigured = Boolean(web3FormsAccessKey);
 
 const productCatalogue = [
   { category: 'Neck Aids', products: ['Cervical Collar With Support', 'Philadelphia Collar', 'Hard Cervical Collar', 'Soft Cervical Collar'] },
@@ -132,12 +134,13 @@ const localBusinessSchema = {
         <div class="bg-white rounded-xl p-8 shadow-sm">
           <h2 class="text-xl font-semibold mb-6" style="color: #0F1F54;">Send an Enquiry</h2>
           <form
+            id="contact-form"
             action="https://api.web3forms.com/submit"
             method="POST"
+            data-configured={isFormConfigured ? 'true' : 'false'}
             class="space-y-5"
           >
-            <!-- Web3Forms: get your free access key at web3forms.com -->
-            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+            <input type="hidden" name="access_key" value={web3FormsAccessKey} />
             <input type="hidden" name="subject" value="New Enquiry from Ikvion Website" />
             <input type="hidden" name="from_name" value="Ikvion Website" />
             <!-- Honeypot spam protection -->
@@ -258,7 +261,7 @@ const localBusinessSchema = {
               <input
                 type="text"
                 id="subject"
-                name="subject"
+                name="enquiry_subject"
                 placeholder="Product enquiry / Pricing / Export documentation"
                 class="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none"
                 onfocus="this.style.boxShadow='0 0 0 2px #0D948840'; this.style.borderColor='#0D9488';"
@@ -280,11 +283,23 @@ const localBusinessSchema = {
             </div>
             <button
               type="submit"
+              id="contact-submit"
+              disabled={!isFormConfigured}
+              aria-disabled={!isFormConfigured ? 'true' : 'false'}
               class="w-full py-3 px-6 rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
-              style="background-color: #0F1F54;"
+              style={`background-color: #0F1F54; ${!isFormConfigured ? 'opacity: 0.6; cursor: not-allowed;' : ''}`}
             >
               Send Enquiry
             </button>
+            <p
+              id="contact-form-status"
+              class={`text-sm text-center ${isFormConfigured ? 'hidden text-gray-600' : 'text-amber-700'}`}
+              aria-live="polite"
+            >
+              {isFormConfigured
+                ? 'Sending...'
+                : 'Set PUBLIC_WEB3FORMS_ACCESS_KEY in your environment before this form can send emails.'}
+            </p>
             <p class="text-xs text-gray-400 text-center">
               We typically respond within 1–2 business days.
             </p>
@@ -296,11 +311,15 @@ const localBusinessSchema = {
   </section>
 
 <script>
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const submitButton = document.getElementById('contact-submit') as HTMLButtonElement | null;
+  const status = document.getElementById('contact-form-status') as HTMLParagraphElement | null;
   const btn = document.getElementById('product-dropdown-btn') as HTMLButtonElement;
   const panel = document.getElementById('product-dropdown-panel') as HTMLElement;
   const label = document.getElementById('product-dropdown-label') as HTMLElement;
   const hidden = document.getElementById('product') as HTMLInputElement;
   const checkboxes = document.querySelectorAll<HTMLInputElement>('.product-checkbox');
+  const isConfigured = form?.dataset.configured === 'true';
 
   function updateHidden() {
     const selected = Array.from(checkboxes).filter(c => c.checked).map(c => c.value);
@@ -329,6 +348,56 @@ const localBusinessSchema = {
       if (cb.value === preselect) cb.checked = true;
     });
     updateHidden();
+  }
+
+  if (form && submitButton && status && isConfigured) {
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+
+      submitButton.disabled = true;
+      submitButton.setAttribute('aria-disabled', 'true');
+      submitButton.textContent = 'Sending...';
+      status.textContent = 'Sending your enquiry...';
+      status.classList.remove('hidden', 'text-red-600', 'text-green-700');
+      status.classList.add('text-gray-600');
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: {
+            Accept: 'application/json',
+          },
+        });
+
+        const result = await response.json();
+
+        if (!response.ok || !result.success) {
+          throw new Error(result.message || 'Unable to send your enquiry right now.');
+        }
+
+        form.reset();
+        checkboxes.forEach(cb => {
+          cb.checked = false;
+        });
+        updateHidden();
+        panel.classList.add('hidden');
+
+        status.textContent = 'Thanks. Your enquiry has been sent successfully.';
+        status.classList.remove('text-gray-600', 'text-red-600');
+        status.classList.add('text-green-700');
+      } catch (error) {
+        status.textContent = error instanceof Error
+          ? error.message
+          : 'Something went wrong while sending your enquiry.';
+        status.classList.remove('text-gray-600', 'text-green-700');
+        status.classList.add('text-red-600');
+      } finally {
+        submitButton.disabled = false;
+        submitButton.setAttribute('aria-disabled', 'false');
+        submitButton.textContent = 'Send Enquiry';
+      }
+    });
   }
 </script>
 

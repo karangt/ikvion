@@ -63,6 +63,7 @@ Neck Aids · Shoulder Aids · Forearm & Wrist Aids · Finger Aids · Chest, Rib 
 
 ```sh
 npm install
+cp .env.example .env
 npm run dev        # Start dev server at localhost:4321
 npm run build      # Build to ./dist/
 npm run preview    # Preview production build locally
@@ -77,7 +78,8 @@ The custom domain is published through `public/CNAME`, and Astro builds routes f
 
 A few values need to be set before the site is fully operational:
 
-- **Web3Forms access key** — Replace `YOUR_ACCESS_KEY_HERE` in `src/pages/contact/index.astro` with the key from [web3forms.com](https://web3forms.com) (use `info@ikvion.com`).
+- **Web3Forms access key** — Add `PUBLIC_WEB3FORMS_ACCESS_KEY` to `.env` using the key from [web3forms.com](https://web3forms.com). Configure that key in Web3Forms to deliver to `info@ikvion.com`.
+  For GitHub Pages deploys, also add `PUBLIC_WEB3FORMS_ACCESS_KEY` as a GitHub Actions secret so the production build can inject it without committing the key.
 - **Google Analytics** — Replace `G-XXXXXXXXXX` in `src/layouts/BaseLayout.astro` with the real GA4 Measurement ID.
 - **Google Maps** — Embed pending on the contact page.
 
