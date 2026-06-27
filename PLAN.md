@@ -283,8 +283,8 @@ ikvion/
 - [ ] Activate Web3Forms — get free access key at web3forms.com (enter info@ikvion.com) and replace `YOUR_ACCESS_KEY_HERE` in `src/pages/contact/index.astro`
 - [ ] Add Google Analytics — replace `G-XXXXXXXXXX` in BaseLayout.astro with real GA4 Measurement ID
 - [ ] Google Maps embed on contact page
-- [ ] DNS — point `ikvion.com` to GitHub Pages deployment
-  - After DNS: change `base: '/ikvion/'` → `base: '/'` in `astro.config.mjs` so canonical/sitemap URLs drop the `/ikvion/` prefix
+- [x] Site config — `public/CNAME` publishes `www.ikvion.com`, and `base: '/'` keeps canonical/sitemap URLs at the domain root
+- [ ] DNS — point `ikvion.com` / `www.ikvion.com` to the GitHub Pages deployment in GoDaddy
 - [ ] Submit sitemap to Google Search Console (`https://www.ikvion.com/sitemap-index.xml`)
 - [ ] Add OG image (`public/og-image.png`, 1200×630) and wire `og:image` in BaseLayout
 - [ ] Responsive design audit
@@ -300,4 +300,4 @@ ikvion/
 - **Analytics** — GA4 placeholder in `BaseLayout.astro`; activate by replacing `G-XXXXXXXXXX`
 - **Languages** — English only for now
 - **WhatsApp button** — Deferred (maybe later)
-- **SEO canonical URLs** — Currently include `/ikvion/` prefix (e.g. `https://www.ikvion.com/ikvion/products/`) because `base: '/ikvion/'` is needed for GitHub Pages. Remove `base` when custom domain goes live.
+- **SEO canonical URLs** — Built from the custom domain root (`https://www.ikvion.com/...`) after switching Astro to `base: '/'`.

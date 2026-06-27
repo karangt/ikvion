@@ -71,8 +71,7 @@ npm run preview    # Preview production build locally
 ## Deployment
 
 The site deploys automatically to GitHub Pages on every push to `main` via GitHub Actions.
-
-> **Note:** The Astro config uses `base: '/ikvion/'` for GitHub Pages compatibility. Once the custom domain (`ikvion.com`) is pointed to GitHub Pages, remove the `base` option from `astro.config.mjs` so canonical URLs and the sitemap resolve correctly.
+The custom domain is published through `public/CNAME`, and Astro builds routes from the domain root.
 
 ## Configuration
 
