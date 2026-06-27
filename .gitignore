@@ -27,4 +27,4 @@ pnpm-debug.log*
 preview-*.html
 public/images/products/**/originals/
 *.pdf
-!public/brochure.pdf
+!public/Ikvion_Brochure.pdf
