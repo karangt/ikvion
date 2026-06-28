@@ -30,14 +30,17 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
 
   <!-- Hero -->
   <section style="background-color: #0F1F54;" class="relative overflow-hidden">
-    <img
-      src={`${base}images/hero-supporting-mobility-headroom.png`}
-      alt=""
-      class="absolute inset-0 h-full w-full object-cover object-center"
-      style="object-position: center bottom;"
-      loading="eager"
-      fetchpriority="high"
-    />
+    <picture>
+      <source media="(max-width: 767px)" srcset={`${base}images/hero-supporting-mobility-mobile.png`} />
+      <img
+        src={`${base}images/hero-supporting-mobility-headroom.png`}
+        alt=""
+        class="absolute inset-0 h-full w-full object-cover object-center"
+        style="object-position: center bottom;"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </picture>
     <div
       class="absolute inset-0"
       style="background: linear-gradient(90deg, rgba(15,31,84,0.94) 0%, rgba(15,31,84,0.88) 34%, rgba(15,31,84,0.46) 64%, rgba(15,31,84,0.16) 100%);"
@@ -46,22 +49,22 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
       class="absolute inset-0 opacity-20"
       style="background: linear-gradient(180deg, rgba(15,31,84,0.24), rgba(15,31,84,0.62));"
     ></div>
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-24 sm:pb-24 md:py-32">
       <div class="max-w-2xl">
-        <p class="text-sm font-semibold uppercase tracking-widest mb-4" style="color: #0D9488;">
+        <p class="text-xs sm:text-sm font-semibold uppercase tracking-widest mb-4" style="color: #0D9488;">
           Ikvion Group of Companies
         </p>
-        <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-6" style="font-family: 'Playfair Display', serif;">
+        <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-5 sm:mb-6" style="font-family: 'Playfair Display', serif;">
           Supporting<br />
           <span style="color: #D7AA9F;">Better Mobility</span>
         </h1>
-        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 leading-relaxed">
           Premium Orthopedic Soft Goods &amp; Rehabilitation Aids — manufactured and exported from Pune, India. Trusted by healthcare providers worldwide.
         </p>
-        <div class="flex flex-wrap gap-4">
+        <div class="grid grid-cols-1 gap-3 sm:flex sm:flex-wrap sm:gap-4">
           <a
             href={`${base}products/`}
-            class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-[#0F1F54] hover:opacity-90 transition-opacity"
+            class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-6 rounded-lg font-semibold text-[#0F1F54] hover:opacity-90 transition-opacity"
             style="background-color: #0D9488;"
           >
             View Products
@@ -71,14 +74,14 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
           </a>
           <a
             href={`${base}contact/`}
-            class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/30 hover:border-white/60 transition-colors"
+            class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-6 rounded-lg font-semibold text-white border border-white/30 hover:border-white/60 transition-colors"
           >
             Enquire Now
           </a>
           <a
             href={`${base}Ikvion_Brochure.pdf`}
             download="Ikvion_Brochure.pdf"
-            class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/30 hover:border-white/60 transition-colors"
+            class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-6 rounded-lg font-semibold text-white border border-white/30 hover:border-white/60 transition-colors"
           >
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 16v-8m0 8l-3-3m3 3l3-3M4 20h16" />
