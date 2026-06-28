@@ -30,12 +30,22 @@ const certifications = ['ISO 9001:2008', 'MSME Registered', 'WHO GMP Certified',
 
   <!-- Hero -->
   <section style="background-color: #0F1F54;" class="relative overflow-hidden">
-    <div class="absolute inset-0 opacity-10">
-      <svg viewBox="0 0 800 600" class="w-full h-full" preserveAspectRatio="xMidYMid slice">
-        <circle cx="700" cy="100" r="300" fill="#0D9488" />
-        <circle cx="100" cy="500" r="200" fill="#D7AA9F" />
-      </svg>
-    </div>
+    <img
+      src={`${base}images/hero-supporting-mobility-headroom.png`}
+      alt=""
+      class="absolute inset-0 h-full w-full object-cover object-center"
+      style="object-position: center bottom;"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <div
+      class="absolute inset-0"
+      style="background: linear-gradient(90deg, rgba(15,31,84,0.94) 0%, rgba(15,31,84,0.88) 34%, rgba(15,31,84,0.46) 64%, rgba(15,31,84,0.16) 100%);"
+    ></div>
+    <div
+      class="absolute inset-0 opacity-20"
+      style="background: linear-gradient(180deg, rgba(15,31,84,0.24), rgba(15,31,84,0.62));"
+    ></div>
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
       <div class="max-w-2xl">
         <p class="text-sm font-semibold uppercase tracking-widest mb-4" style="color: #0D9488;">
