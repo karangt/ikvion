@@ -141,7 +141,7 @@ const localBusinessSchema = {
             class="space-y-5"
           >
             <input type="hidden" name="access_key" value={web3FormsAccessKey} />
-            <input type="hidden" name="subject" value="New Enquiry from Ikvion Website" />
+            <input type="hidden" id="email-subject" name="subject" value="New Enquiry from Ikvion Website" />
             <input type="hidden" name="from_name" value="Ikvion Website" />
             <!-- Honeypot spam protection -->
             <input type="checkbox" name="botcheck" class="hidden" style="display:none" />
@@ -314,12 +314,34 @@ const localBusinessSchema = {
   const form = document.getElementById('contact-form') as HTMLFormElement | null;
   const submitButton = document.getElementById('contact-submit') as HTMLButtonElement | null;
   const status = document.getElementById('contact-form-status') as HTMLParagraphElement | null;
+  const nameInput = document.getElementById('name') as HTMLInputElement | null;
+  const enquirySubjectInput = document.getElementById('subject') as HTMLInputElement | null;
+  const emailSubjectInput = document.getElementById('email-subject') as HTMLInputElement | null;
   const btn = document.getElementById('product-dropdown-btn') as HTMLButtonElement;
   const panel = document.getElementById('product-dropdown-panel') as HTMLElement;
   const label = document.getElementById('product-dropdown-label') as HTMLElement;
   const hidden = document.getElementById('product') as HTMLInputElement;
   const checkboxes = document.querySelectorAll<HTMLInputElement>('.product-checkbox');
   const isConfigured = form?.dataset.configured === 'true';
+
+  function updateEmailSubject() {
+    if (!emailSubjectInput) return;
+
+    const name = nameInput?.value.trim();
+    const enquiryTopic = enquirySubjectInput?.value.trim();
+
+    if (name && enquiryTopic) {
+      emailSubjectInput.value = `New Enquiry from ${name} - ${enquiryTopic}`;
+      return;
+    }
+
+    if (name) {
+      emailSubjectInput.value = `New Enquiry from ${name}`;
+      return;
+    }
+
+    emailSubjectInput.value = 'New Enquiry from Ikvion Website';
+  }
 
   function updateHidden() {
     const selected = Array.from(checkboxes).filter(c => c.checked).map(c => c.value);
@@ -330,6 +352,8 @@ const localBusinessSchema = {
   }
 
   checkboxes.forEach(cb => cb.addEventListener('change', updateHidden));
+  nameInput?.addEventListener('input', updateEmailSubject);
+  enquirySubjectInput?.addEventListener('input', updateEmailSubject);
 
   btn.addEventListener('click', () => {
     panel.classList.toggle('hidden');
@@ -350,9 +374,12 @@ const localBusinessSchema = {
     updateHidden();
   }
 
+  updateEmailSubject();
+
   if (form && submitButton && status && isConfigured) {
     form.addEventListener('submit', async event => {
       event.preventDefault();
+      updateEmailSubject();
 
       submitButton.disabled = true;
       submitButton.setAttribute('aria-disabled', 'true');
@@ -381,6 +408,7 @@ const localBusinessSchema = {
           cb.checked = false;
         });
         updateHidden();
+        updateEmailSubject();
         panel.classList.add('hidden');
 
         status.textContent = 'Thanks. Your enquiry has been sent successfully.';
