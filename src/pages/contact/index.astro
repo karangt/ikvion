@@ -324,23 +324,25 @@ const localBusinessSchema = {
   const checkboxes = document.querySelectorAll<HTMLInputElement>('.product-checkbox');
   const isConfigured = form?.dataset.configured === 'true';
 
-  function updateEmailSubject() {
-    if (!emailSubjectInput) return;
-
+  function getEmailSubject() {
     const name = nameInput?.value.trim();
     const enquiryTopic = enquirySubjectInput?.value.trim();
 
     if (name && enquiryTopic) {
-      emailSubjectInput.value = `New Enquiry from ${name} - ${enquiryTopic}`;
-      return;
+      return `New Enquiry from ${name} - ${enquiryTopic}`;
     }
 
     if (name) {
-      emailSubjectInput.value = `New Enquiry from ${name}`;
-      return;
+      return `New Enquiry from ${name}`;
     }
 
-    emailSubjectInput.value = 'New Enquiry from Ikvion Website';
+    return 'New Enquiry from Ikvion Website';
+  }
+
+  function updateEmailSubject() {
+    if (!emailSubjectInput) return;
+
+    emailSubjectInput.value = getEmailSubject();
   }
 
   function updateHidden() {
@@ -389,9 +391,12 @@ const localBusinessSchema = {
       status.classList.add('text-gray-600');
 
       try {
+        const payload = new FormData(form);
+        payload.set('subject', getEmailSubject());
+
         const response = await fetch(form.action, {
           method: 'POST',
-          body: new FormData(form),
+          body: payload,
           headers: {
             Accept: 'application/json',
           },
