@@ -53,8 +53,10 @@ const steps = [
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {benefits.map(b => (
           <div class="p-5 rounded-xl border border-gray-100 hover:border-[#0D9488]/40 hover:shadow-sm transition-all">
-            <div class="w-2 h-2 rounded-full mb-3" style="background-color: #0D9488;"></div>
-            <h3 class="font-semibold mb-1.5 text-sm" style="color: #0F1F54;">{b.title}</h3>
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-2 h-2 rounded-full shrink-0" style="background-color: #0D9488;"></span>
+              <h3 class="font-semibold text-sm" style="color: #0F1F54;">{b.title}</h3>
+            </div>
             <p class="text-sm text-gray-500 leading-relaxed">{b.desc}</p>
           </div>
         ))}
