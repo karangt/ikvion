@@ -21,6 +21,7 @@ const categories = modules.map(m => m.default);
 
 const threeColSlugs = new Set(['chest-rib-back-aids', 'traction-comfort', 'forearm-wrist-aids']);
 const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-01', 'IK-AA-02', 'IK-AA-03']);
+const missingImageSkus = new Set(['IK-FW-06']);
 ---
 
 <BaseLayout
@@ -93,15 +94,17 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
                 data-slug={cat.slug}
                 data-base={base}
               >
-                <div class="h-56 flex items-center justify-center overflow-hidden" style="background-color: #FFFFFF;">
-                  <img
-                    src={`${base}images/products/${cat.slug}/${product.sku}.png`}
-                    alt={product.name}
-                    class="h-full w-full object-cover"
-                    style={`mix-blend-mode: multiply; object-position: ${bottomPositionSkus.has(product.sku) ? 'bottom' : 'center'};`}
-                    loading="lazy"
-                  />
-                </div>
+                {!missingImageSkus.has(product.sku) && (
+                  <div class="h-56 flex items-center justify-center overflow-hidden" style="background-color: #FFFFFF;">
+                    <img
+                      src={`${base}images/products/${cat.slug}/${product.sku}.png`}
+                      alt={product.name}
+                      class="h-full w-full object-cover"
+                      style={`mix-blend-mode: multiply; object-position: ${bottomPositionSkus.has(product.sku) ? 'bottom' : 'center'};`}
+                      loading="lazy"
+                    />
+                  </div>
+                )}
                 <div class="p-4">
                   <h3 class="font-semibold mb-1 text-sm group-hover:text-[#0D9488] transition-colors" style="color: #0F1F54;">{product.name}</h3>
                   <p class="text-xs text-gray-500 mb-2">Sizes: {product.sizes}</p>
@@ -152,7 +155,7 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
         </svg>
       </button>
 
-      <div class="h-64 flex items-center justify-center rounded-t-2xl" style="background-color: #FFFFFF;">
+      <div id="modal-image-wrap" class="h-64 flex items-center justify-center rounded-t-2xl" style="background-color: #FFFFFF;">
         <img id="modal-image" src="" alt="" class="h-full w-full object-contain p-6" style="mix-blend-mode: multiply;" />
       </div>
 
@@ -190,10 +193,20 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
 <script>
   const modal = document.getElementById('product-modal') as HTMLElement;
   const modalClose = document.getElementById('modal-close');
+  const missingImageSkus = new Set(['IK-FW-06']);
 
   function openModal(product: { sku: string; name: string; sizes: string; features?: string[]; benefits?: string[] }, slug: string, base: string) {
-    (document.getElementById('modal-image') as HTMLImageElement).src = `${base}images/products/${slug}/${product.sku}.png`;
-    (document.getElementById('modal-image') as HTMLImageElement).alt = product.name;
+    const imageWrap = document.getElementById('modal-image-wrap') as HTMLElement;
+    const image = document.getElementById('modal-image') as HTMLImageElement;
+    if (missingImageSkus.has(product.sku)) {
+      imageWrap.style.display = 'none';
+      image.removeAttribute('src');
+      image.alt = '';
+    } else {
+      imageWrap.style.display = '';
+      image.src = `${base}images/products/${slug}/${product.sku}.png`;
+      image.alt = product.name;
+    }
     (document.getElementById('modal-name') as HTMLElement).textContent = product.name;
     (document.getElementById('modal-sku') as HTMLElement).textContent = product.sku;
     (document.getElementById('modal-sizes') as HTMLElement).textContent = `Available sizes: ${product.sizes}`;
