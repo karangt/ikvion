@@ -234,10 +234,10 @@
     {
       "sku": "IK-CR-01",
       "sizes": "Universal",
-      "name": "ASG Brace Spinal Support Orthosis",
-      "metaDescription": "Buy ASG brace for spinal support and posture correction. Custom-shape aluminum stays with padded chest & pelvic pads. Sizes S to XXL available.",
-      "shortDescription": "Buy the best ASG brace for strong spinal support, posture control, and immobilization. Ideal for spinal conditions, recovery care, and rehabilitation support.",
-      "description": "The ASG Brace Spinal Support Orthosis is engineered to provide structured support, posture correction, and controlled stabilization for the spine during recovery, rehabilitation, or orthopedic care. It helps maintain proper alignment while reducing stress on the back.\n\nIts sturdy malleable aluminum stays offer dependable support along with excellent flexibility. These stays can be contoured according to the patient’s body structure, allowing a personalized fit for improved comfort and effective stabilization.\n\nThe brace is equipped with well-padded Ethafoam chest and lower pads that are anatomically shaped to distribute pressure evenly and enhance user comfort. Lightweight, durable, and practical, it is suitable for hospitals, clinics, rehabilitation centers, and home care use.",
+      "name": "ASH Brace Spinal Support Orthosis",
+      "metaDescription": "Buy ASH brace for spinal support and posture correction. Custom-shape aluminum stays with padded chest & pelvic pads. Sizes S to XXL available.",
+      "shortDescription": "Buy the best ASH brace for strong spinal support, posture control, and immobilization. Ideal for spinal conditions, recovery care, and rehabilitation support.",
+      "description": "The ASH Brace Spinal Support Orthosis is engineered to provide structured support, posture correction, and controlled stabilization for the spine during recovery, rehabilitation, or orthopedic care. It helps maintain proper alignment while reducing stress on the back.\n\nIts sturdy malleable aluminum stays offer dependable support along with excellent flexibility. These stays can be contoured according to the patient’s body structure, allowing a personalized fit for improved comfort and effective stabilization.\n\nThe brace is equipped with well-padded Ethafoam chest and lower pads that are anatomically shaped to distribute pressure evenly and enhance user comfort. Lightweight, durable, and practical, it is suitable for hospitals, clinics, rehabilitation centers, and home care use.",
       "features": [
         "Malleable aluminum stays for structured support",
         "Can be shaped to suit individual body contours",
@@ -261,7 +261,7 @@
       "specifications": [
         {
           "key": "Product Type",
-          "value": "ASG Brace"
+          "value": "ASH Brace"
         },
         {
           "key": "Design",
@@ -286,7 +286,7 @@
       ],
       "faqs": [
         {
-          "q": "What is an ASG brace used for?",
+          "q": "What is an ASH brace used for?",
           "a": "It is used to support the spine, improve posture, and assist rehabilitation or recovery care."
         },
         {

@@ -39,13 +39,16 @@ const isAboutActive = currentPath.startsWith(`${base}about`);
           type="text"
           placeholder="Search products…"
           autocomplete="off"
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-controls="search-dropdown"
           class="w-full text-sm border border-gray-200 rounded-lg px-4 py-2 pr-9 focus:outline-none focus:border-[#0D9488] transition-colors"
         />
         <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
         </svg>
         <!-- Dropdown -->
-        <div id="search-dropdown" class="hidden absolute top-full left-0 right-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 max-h-72 overflow-y-auto z-50">
+        <div id="search-dropdown" role="listbox" class="hidden absolute top-full left-0 right-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 max-h-72 overflow-y-auto z-50">
         </div>
       </div>
 
@@ -137,12 +140,15 @@ const isAboutActive = currentPath.startsWith(`${base}about`);
       type="text"
       placeholder="Search products…"
       autocomplete="off"
+      aria-autocomplete="list"
+      aria-expanded="false"
+      aria-controls="mobile-search-dropdown"
       class="w-full text-sm border border-gray-200 rounded-lg px-4 py-2 pr-9 focus:outline-none focus:border-[#0D9488] transition-colors"
     />
     <svg class="absolute right-7 top-1/2 -translate-y-0.5 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
     </svg>
-    <div id="mobile-search-dropdown" class="hidden absolute left-4 right-4 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 max-h-72 overflow-y-auto z-50">
+    <div id="mobile-search-dropdown" role="listbox" class="hidden absolute left-4 right-4 mt-1 bg-white rounded-xl shadow-lg border border-gray-100 max-h-72 overflow-y-auto z-50">
     </div>
   </div>
 
@@ -285,17 +291,42 @@ const isAboutActive = currentPath.startsWith(`${base}about`);
 
   const base = document.querySelector('meta[name="base-url"]')?.getAttribute('content') || '/ikvion/';
 
-  function renderResults(query: string, dropdown: HTMLElement) {
+  function setSearchExpanded(input: HTMLInputElement, isExpanded: boolean) {
+    input.setAttribute('aria-expanded', String(isExpanded));
+    if (!isExpanded) input.removeAttribute('aria-activedescendant');
+  }
+
+  function setActiveSearchResult(input: HTMLInputElement, dropdown: HTMLElement, activeIndex: number) {
+    const results = Array.from(dropdown.querySelectorAll<HTMLAnchorElement>('.search-result'));
+    results.forEach((result, index) => {
+      const isActive = index === activeIndex;
+      result.classList.toggle('bg-[#F0FDFA]', isActive);
+      result.classList.toggle('outline-none', isActive);
+      result.setAttribute('aria-selected', String(isActive));
+      if (isActive) {
+        input.setAttribute('aria-activedescendant', result.id);
+        result.scrollIntoView({ block: 'nearest' });
+      }
+    });
+    if (activeIndex < 0) input.removeAttribute('aria-activedescendant');
+  }
+
+  function renderResults(query: string, input: HTMLInputElement, dropdown: HTMLElement) {
     const q = query.toLowerCase().trim();
-    if (!q) { dropdown.classList.add('hidden'); return; }
+    if (!q) {
+      dropdown.classList.add('hidden');
+      dropdown.innerHTML = '';
+      setSearchExpanded(input, false);
+      return;
+    }
     const matches = products.filter(p =>
       p.name.toLowerCase().includes(q) || p.sku.toLowerCase().includes(q) || p.categoryLabel.toLowerCase().includes(q)
     ).slice(0, 8);
     if (!matches.length) {
       dropdown.innerHTML = `<div class="px-4 py-3 text-sm text-gray-500">No products found</div>`;
     } else {
-      dropdown.innerHTML = matches.map(p => `
-        <a href="${base}products/${p.category}/?sku=${p.sku}" class="search-result flex items-start gap-3 px-4 py-3 hover:bg-[#F0FDFA] transition-colors border-b border-gray-50 last:border-0">
+      dropdown.innerHTML = matches.map((p, index) => `
+        <a id="${dropdown.id}-result-${index}" role="option" aria-selected="false" href="${base}products/${p.category}/?sku=${p.sku}" class="search-result flex items-start gap-3 px-4 py-3 hover:bg-[#F0FDFA] transition-colors border-b border-gray-50 last:border-0">
           <div>
             <div class="text-sm font-medium text-[#0F1F54]">${p.name}</div>
             <div class="text-xs text-gray-400">${p.categoryLabel} · ${p.sku}</div>
@@ -304,25 +335,81 @@ const isAboutActive = currentPath.startsWith(`${base}about`);
       `).join('');
     }
     dropdown.classList.remove('hidden');
+    setSearchExpanded(input, true);
+  }
+
+  function bindSearch(input: HTMLInputElement | null, dropdown: HTMLElement | null) {
+    if (!input || !dropdown) return;
+    let activeIndex = -1;
+
+    input.addEventListener('input', () => {
+      activeIndex = -1;
+      renderResults(input.value, input, dropdown);
+    });
+
+    input.addEventListener('focus', () => {
+      if (input.value.trim()) renderResults(input.value, input, dropdown);
+    });
+
+    input.addEventListener('keydown', e => {
+      const results = Array.from(dropdown.querySelectorAll<HTMLAnchorElement>('.search-result'));
+      const isOpen = !dropdown.classList.contains('hidden');
+
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        if (!isOpen) renderResults(input.value, input, dropdown);
+        const nextResults = Array.from(dropdown.querySelectorAll<HTMLAnchorElement>('.search-result'));
+        if (!nextResults.length) return;
+
+        e.preventDefault();
+        activeIndex = e.key === 'ArrowDown'
+          ? (activeIndex + 1) % nextResults.length
+          : (activeIndex - 1 + nextResults.length) % nextResults.length;
+        setActiveSearchResult(input, dropdown, activeIndex);
+        return;
+      }
+
+      if (e.key === 'Enter' && isOpen && activeIndex >= 0 && results[activeIndex]) {
+        e.preventDefault();
+        results[activeIndex].click();
+        return;
+      }
+
+      if (e.key === 'Escape' && isOpen) {
+        e.preventDefault();
+        dropdown.classList.add('hidden');
+        activeIndex = -1;
+        setSearchExpanded(input, false);
+      }
+    });
+
+    dropdown.addEventListener('mousemove', e => {
+      const result = (e.target as HTMLElement).closest<HTMLAnchorElement>('.search-result');
+      if (!result) return;
+      const results = Array.from(dropdown.querySelectorAll<HTMLAnchorElement>('.search-result'));
+      activeIndex = results.indexOf(result);
+      setActiveSearchResult(input, dropdown, activeIndex);
+    });
   }
 
   // Desktop search
   const searchInput = document.getElementById('search-input') as HTMLInputElement;
   const searchDropdown = document.getElementById('search-dropdown') as HTMLElement;
-  searchInput?.addEventListener('input', () => renderResults(searchInput.value, searchDropdown));
+  bindSearch(searchInput, searchDropdown);
   document.addEventListener('click', e => {
     if (!document.getElementById('search-wrapper')?.contains(e.target as Node)) {
       searchDropdown?.classList.add('hidden');
+      if (searchInput) setSearchExpanded(searchInput, false);
     }
   });
 
   // Mobile search
   const mobileSearchInput = document.getElementById('mobile-search-input') as HTMLInputElement;
   const mobileDropdown = document.getElementById('mobile-search-dropdown') as HTMLElement;
-  mobileSearchInput?.addEventListener('input', () => renderResults(mobileSearchInput.value, mobileDropdown));
+  bindSearch(mobileSearchInput, mobileDropdown);
   document.addEventListener('click', e => {
     if (!document.getElementById('mobile-search-bar')?.contains(e.target as Node)) {
       mobileDropdown?.classList.add('hidden');
+      if (mobileSearchInput) setSearchExpanded(mobileSearchInput, false);
     }
   });
 </script>
