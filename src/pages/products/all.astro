@@ -92,6 +92,7 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
                 data-product={JSON.stringify(product)}
                 data-slug={cat.slug}
                 data-base={base}
+                data-sku={product.sku}
               >
                 <div class="h-56 flex items-center justify-center overflow-hidden" style="background-color: #FFFFFF;">
                   <img
@@ -141,7 +142,9 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
     class="fixed inset-0 z-50 hidden items-center justify-center p-4"
     style="background-color: rgba(15,31,84,0.6); backdrop-filter: blur(4px);"
   >
-    <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
+    <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full relative flex flex-col" style="height: 90vh;">
+
+      <!-- Close -->
       <button
         id="modal-close"
         class="absolute top-4 right-4 text-gray-400 hover:text-[#0F1F54] transition-colors z-10"
@@ -152,27 +155,66 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
         </svg>
       </button>
 
-      <div class="h-64 flex items-center justify-center rounded-t-2xl" style="background-color: #FFFFFF;">
+      <!-- FIXED: Image -->
+      <div class="shrink-0 h-56 flex items-center justify-center rounded-t-2xl" style="background-color: #FFFFFF;">
         <img id="modal-image" src="" alt="" class="h-full w-full object-contain p-6" style="mix-blend-mode: multiply;" />
       </div>
 
-      <div class="p-6">
-        <div class="flex items-start justify-between gap-4 mb-1">
+      <!-- FIXED: Title / SKU / Sizes -->
+      <div class="shrink-0 px-6 py-4" style="border-bottom: 1px solid #f0f0f0;">
+        <div class="flex items-start justify-between gap-4">
           <h2 id="modal-name" class="text-xl font-bold" style="color: #0F1F54; font-family: 'Playfair Display', serif;"></h2>
-          <span id="modal-sku" class="shrink-0 text-xs font-mono px-2 py-1 rounded mt-1" style="background-color: #F0FDFA; color: #0F1F54;"></span>
+          <span id="modal-sku" class="shrink-0 text-xs font-mono px-2 py-1 rounded mt-1" style="background-color: #f1f5f9; color: #0F1F54;"></span>
         </div>
-        <p id="modal-sizes" class="text-sm text-gray-500 mb-5"></p>
+        <p id="modal-sizes" class="text-sm text-gray-500 mt-1"></p>
+      </div>
 
+      <!-- SCROLLABLE: Content -->
+      <div class="flex-1 overflow-y-auto px-6 py-5">
+
+        <!-- Short description -->
+        <p id="modal-short-desc" class="text-sm text-gray-600 mb-5" style="line-height: 1.65;"></p>
+
+        <!-- Full description -->
+        <div id="modal-desc-section" class="mb-5">
+          <h3 class="text-xs font-bold uppercase tracking-widest mb-3" style="color: #0D9488;">About This Product</h3>
+          <div id="modal-desc" class="text-sm text-gray-600 space-y-2" style="line-height: 1.65;"></div>
+        </div>
+
+        <!-- Features -->
         <div id="modal-features-section" class="mb-5">
-          <h3 class="text-sm font-semibold uppercase tracking-wider mb-2" style="color: #0D9488;">Features</h3>
+          <h3 class="text-xs font-bold uppercase tracking-widest mb-3" style="color: #0D9488;">Key Features</h3>
           <ul id="modal-features" class="space-y-1.5"></ul>
         </div>
 
-        <div id="modal-benefits-section" class="mb-6">
-          <h3 class="text-sm font-semibold uppercase tracking-wider mb-2" style="color: #0D9488;">Benefits</h3>
+        <!-- Benefits -->
+        <div id="modal-benefits-section" class="mb-5">
+          <h3 class="text-xs font-bold uppercase tracking-widest mb-3" style="color: #0D9488;">Benefits</h3>
           <ul id="modal-benefits" class="space-y-1.5"></ul>
         </div>
 
+        <!-- Recommended Use -->
+        <div id="modal-rec-section" class="mb-5">
+          <h3 class="text-xs font-bold uppercase tracking-widest mb-3" style="color: #0D9488;">Recommended Use</h3>
+          <div id="modal-rec" class="flex flex-wrap gap-2"></div>
+        </div>
+
+        <!-- Specifications -->
+        <div id="modal-specs-section" class="mb-5">
+          <h3 class="text-xs font-bold uppercase tracking-widest mb-3" style="color: #0D9488;">Specifications</h3>
+          <div id="modal-specs"></div>
+        </div>
+
+        <!-- FAQs -->
+        <div id="modal-faqs-section" class="mb-2">
+          <h3 class="text-xs font-bold uppercase tracking-widest mb-3" style="color: #0D9488;">FAQs</h3>
+          <div id="modal-faqs" class="space-y-4"></div>
+        </div>
+
+      </div>
+
+      <!-- FIXED: Enquire footer -->
+      <div class="shrink-0 px-6 py-4" style="border-top: 1px solid #f0f0f0;">
         <a
           id="modal-enquire"
           href={`${base}contact/`}
@@ -182,6 +224,7 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
           Enquire About This Product
         </a>
       </div>
+
     </div>
   </div>
 
@@ -191,7 +234,23 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
   const modal = document.getElementById('product-modal') as HTMLElement;
   const modalClose = document.getElementById('modal-close');
 
-  function openModal(product: { sku: string; name: string; sizes: string; features?: string[]; benefits?: string[] }, slug: string, base: string) {
+  function show(id: string, condition: boolean) {
+    (document.getElementById(id) as HTMLElement).style.display = condition ? '' : 'none';
+  }
+
+  function checkItem(text: string) {
+    return `<li class="flex items-start gap-2 text-sm text-gray-600"><span class="mt-1 shrink-0 w-4 h-4 rounded-full flex items-center justify-center" style="background-color:rgba(13,148,136,0.15);color:#0D9488;font-size:10px;">✓</span>${text}</li>`;
+  }
+
+  function openModal(product: {
+    sku: string; name: string; sizes: string;
+    shortDescription?: string; description?: string;
+    features?: string[]; benefits?: string[];
+    recommendedUse?: string[];
+    specifications?: { key: string; value: string }[];
+    faqs?: { q: string; a: string }[];
+  }, slug: string, base: string) {
+
     (document.getElementById('modal-image') as HTMLImageElement).src = `${base}images/products/${slug}/${product.sku}.png`;
     (document.getElementById('modal-image') as HTMLImageElement).alt = product.name;
     (document.getElementById('modal-name') as HTMLElement).textContent = product.name;
@@ -199,28 +258,79 @@ const bottomPositionSkus = new Set(['IK-FW-02', 'IK-FW-03', 'IK-FW-05', 'IK-AA-0
     (document.getElementById('modal-sizes') as HTMLElement).textContent = `Available sizes: ${product.sizes}`;
     (document.getElementById('modal-enquire') as HTMLAnchorElement).href = `${base}contact/?product=${encodeURIComponent(product.name)}`;
 
-    const featuresSection = document.getElementById('modal-features-section') as HTMLElement;
+    // Short description
+    const shortDesc = document.getElementById('modal-short-desc') as HTMLElement;
+    shortDesc.textContent = product.shortDescription || '';
+    show('modal-short-desc', !!product.shortDescription);
+
+    // Full description (split on \n\n into paragraphs)
+    const descSection = document.getElementById('modal-desc-section') as HTMLElement;
+    const descEl = document.getElementById('modal-desc') as HTMLElement;
+    if (product.description) {
+      descEl.innerHTML = product.description.split('\n\n').map(p => `<p>${p}</p>`).join('');
+      descSection.style.display = '';
+    } else {
+      descSection.style.display = 'none';
+    }
+
+    // Features
     const featuresList = document.getElementById('modal-features') as HTMLElement;
     const features = product.features?.filter(item => item.trim()) ?? [];
     if (features.length) {
-      featuresList.innerHTML = features.map(f =>
-        `<li class="flex items-start gap-2 text-sm text-gray-600"><span class="mt-1 shrink-0 w-4 h-4 rounded-full flex items-center justify-center" style="background-color:rgba(13,148,136,0.15);color:#0D9488;font-size:10px;">✓</span>${f}</li>`
-      ).join('');
-      featuresSection.style.display = '';
+      featuresList.innerHTML = features.map(checkItem).join('');
+      show('modal-features-section', true);
     } else {
-      featuresSection.style.display = 'none';
+      show('modal-features-section', false);
     }
 
-    const benefitsSection = document.getElementById('modal-benefits-section') as HTMLElement;
+    // Benefits
     const benefitsList = document.getElementById('modal-benefits') as HTMLElement;
     const benefits = product.benefits?.filter(item => item.trim()) ?? [];
     if (benefits.length) {
-      benefitsList.innerHTML = benefits.map(b =>
-        `<li class="flex items-start gap-2 text-sm text-gray-600"><span class="mt-1 shrink-0 w-4 h-4 rounded-full flex items-center justify-center" style="background-color:rgba(13,148,136,0.15);color:#0D9488;font-size:10px;">✓</span>${b}</li>`
-      ).join('');
-      benefitsSection.style.display = '';
+      benefitsList.innerHTML = benefits.map(checkItem).join('');
+      show('modal-benefits-section', true);
     } else {
-      benefitsSection.style.display = 'none';
+      show('modal-benefits-section', false);
+    }
+
+    // Recommended Use
+    const recEl = document.getElementById('modal-rec') as HTMLElement;
+    const recommendedUse = product.recommendedUse?.filter(item => item.trim()) ?? [];
+    if (recommendedUse.length) {
+      recEl.innerHTML = recommendedUse.map(u =>
+        `<span style="display:inline-block;background:#f0fafa;border:1px solid #b2dfdb;color:#0D9488;border-radius:20px;padding:3px 12px;font-size:12px;">${u}</span>`
+      ).join('');
+      show('modal-rec-section', true);
+    } else {
+      show('modal-rec-section', false);
+    }
+
+    // Specifications
+    const specsEl = document.getElementById('modal-specs') as HTMLElement;
+    if (product.specifications && product.specifications.length) {
+      specsEl.innerHTML = product.specifications.map(s =>
+        `<div style="display:flex;gap:12px;font-size:13px;padding:6px 0;border-bottom:1px solid #f0f0f0;">
+          <span style="color:#6b7280;width:130px;flex-shrink:0;">${s.key}</span>
+          <span style="color:#111827;font-weight:500;">${s.value}</span>
+        </div>`
+      ).join('');
+      show('modal-specs-section', true);
+    } else {
+      show('modal-specs-section', false);
+    }
+
+    // FAQs
+    const faqsEl = document.getElementById('modal-faqs') as HTMLElement;
+    if (product.faqs && product.faqs.length) {
+      faqsEl.innerHTML = product.faqs.map(f =>
+        `<div>
+          <p style="font-weight:600;color:#0F1F54;margin-bottom:4px;">Q. ${f.q}</p>
+          <p style="color:#4b5563;font-size:14px;">${f.a}</p>
+        </div>`
+      ).join('');
+      show('modal-faqs-section', true);
+    } else {
+      show('modal-faqs-section', false);
     }
 
     modal.classList.remove('hidden');
