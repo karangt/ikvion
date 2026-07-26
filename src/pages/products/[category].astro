@@ -254,6 +254,105 @@ const itemListSchema = {
     return `<li class="flex items-start gap-2 text-sm text-gray-600"><span class="mt-1 shrink-0 w-4 h-4 rounded-full flex items-center justify-center" style="background-color:rgba(13,148,136,0.15);color:#0D9488;font-size:10px;">✓</span>${text}</li>`;
   }
 
+  function getOrderedSpecs(product: {
+    name: string;
+    sizes: string;
+    description?: string;
+    features?: string[];
+    specifications?: { key: string; value: string }[];
+  }) {
+    const order = ['Product Type', 'Design', 'Support Area', 'Special Features', 'Material', 'Sizes Available'];
+    const sourceSpecs = product.specifications ?? [];
+    const allLabels = [...order, 'Application', 'Usage', 'Closure', 'Compression', 'Fastening System', 'Sole Type', 'Use'];
+    const sourceText = sourceSpecs
+      .map(spec => `${spec.key} ${spec.value}`)
+      .join(' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const ordered = new Map<string, string>();
+
+    const escapePattern = (text: string) => text.replace(/\s+/g, '\\s+');
+    const hasEmbeddedLabels = (text: string) =>
+      allLabels.some(label => new RegExp(`\\b${escapePattern(label)}\\b`, 'i').test(text));
+
+    function extract(label: string) {
+      if (!sourceText) return '';
+      const nextLabels = allLabels.filter(item => item !== label).map(escapePattern).join('|');
+      const match = sourceText.match(new RegExp(`\\b${escapePattern(label)}\\b\\s+(.+?)(?=\\s+(?:${nextLabels})\\b|$)`, 'i'));
+      return match?.[1]?.trim().replace(/[.;,]\s*$/, '') ?? '';
+    }
+
+    function inferSupportArea() {
+      const text = `${product.name} ${product.description ?? ''}`.toLowerCase();
+      if (text.includes('cervical') || text.includes('neck')) return 'Neck and cervical region';
+      if (text.includes('shoulder') || text.includes('clavicle') || text.includes('arm sling')) return 'Shoulder and arm region';
+      if (text.includes('elbow')) return 'Elbow joint';
+      if (text.includes('wrist') || text.includes('forearm') || text.includes('thumb')) return 'Wrist, forearm, and thumb region';
+      if (text.includes('finger')) return 'Finger joint';
+      if (text.includes('chest') || text.includes('rib')) return 'Chest and rib cage';
+      if (text.includes('lumbar') || text.includes('back') || text.includes('spine') || text.includes('sacral')) return 'Back and lumbosacral region';
+      if (text.includes('abdomen') || text.includes('abdominal')) return 'Abdominal region';
+      if (text.includes('pelvic') || text.includes('pelvis')) return 'Pelvic region';
+      if (text.includes('knee') || text.includes('patella')) return 'Knee joint';
+      if (text.includes('calf') || text.includes('stocking')) return 'Calf and leg region';
+      if (text.includes('ankle') || text.includes('foot drop')) return 'Ankle joint';
+      if (text.includes('foot') || text.includes('heel') || text.includes('arch') || text.includes('toe')) return 'Foot region';
+      return 'Targeted orthopedic support area';
+    }
+
+    function inferMaterial() {
+      const description = product.description ?? '';
+      const materialMatch = description.match(/\b(?:made|manufactured|built)\s+(?:from|with|using)\s+(.+?)(?:,|\.\s| for | to )/i);
+      if (materialMatch?.[1]) return materialMatch[1].trim();
+      const featureMatch = product.features?.find(item => /material|fabric|foam|elastic|silicone|aluminum|metal|cotton|breathable|durable/i.test(item));
+      return featureMatch ?? 'Comfortable and durable orthopedic support material';
+    }
+
+    function toSentenceCase(text: string) {
+      const trimmed = text.trim();
+      return trimmed ? `${trimmed.charAt(0).toUpperCase()}${trimmed.slice(1)}` : trimmed;
+    }
+
+    function inferDesign() {
+      const text = `${product.name} ${product.description ?? ''}`;
+      const designMatch = text.match(/(?:features|with|designed with|has)\s+(?:an?\s+)?(.+?(?:design|construction|wrap pattern|support system|closure|brace|belt|splint|cushion|insole|walker|stick))/i);
+      if (designMatch?.[1]) return designMatch[1].trim().replace(/[.;,]\s*$/, '');
+      return `${product.name} support design`;
+    }
+
+    function inferSpec(label: string) {
+      if (label === 'Product Type') return product.name;
+      if (label === 'Design') return inferDesign();
+      if (label === 'Support Area') return inferSupportArea();
+      if (label === 'Special Features') return product.features?.slice(0, 3).join(', ') || 'Supportive orthopedic design for daily and rehabilitation use';
+      if (label === 'Material') return toSentenceCase(inferMaterial());
+      if (label === 'Sizes Available') return product.sizes;
+      return '';
+    }
+
+    for (const spec of sourceSpecs) {
+      const key = spec.key.trim();
+      const value = spec.value.trim();
+      if (!order.includes(key) || !value || hasEmbeddedLabels(value)) continue;
+      ordered.set(key, value);
+    }
+
+    for (const label of order) {
+      if (label === 'Sizes Available') {
+        ordered.set(label, product.sizes);
+        continue;
+      }
+
+      if (!ordered.has(label)) {
+        const extracted = extract(label);
+        ordered.set(label, extracted || inferSpec(label));
+      }
+    }
+
+    return order
+      .map(label => ({ key: label, value: ordered.get(label) as string }));
+  }
+
   function openModal(product: {
     sku: string; name: string; sizes: string;
     shortDescription?: string; description?: string;
@@ -319,8 +418,9 @@ const itemListSchema = {
 
     // Specifications
     const specsEl = document.getElementById('modal-specs') as HTMLElement;
-    if (product.specifications && product.specifications.length) {
-      specsEl.innerHTML = product.specifications.map(s =>
+    const orderedSpecs = getOrderedSpecs(product);
+    if (orderedSpecs.length) {
+      specsEl.innerHTML = orderedSpecs.map(s =>
         `<div style="display:flex;gap:12px;font-size:13px;padding:6px 0;border-bottom:1px solid #f0f0f0;">
           <span style="color:#6b7280;width:130px;flex-shrink:0;">${s.key}</span>
           <span style="color:#111827;font-weight:500;">${s.value}</span>
