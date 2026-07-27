@@ -1,7 +1,7 @@
 {
   "slug": "ankle-aids",
   "title": "Ankle Aids",
-  "description": "Ankle supports, braces, foot drop splints, cast shoes, and traction aids for ankle sprains, ligament injuries, and post-fracture rehabilitation.",
+  "description": "Ankle supports, binders, braces, foot drop splints, cast shoes, and derotation supports for ankle sprains, ligament injuries, and post-fracture rehabilitation.",
   "products": [
     {
       "sku": "IK-AA-01",
@@ -38,7 +38,7 @@
       "specifications": [
         {
           "key": "Product Type",
-          "value": "Ankle Support"
+          "value": "Ankle support"
         },
         {
           "key": "Design",
@@ -50,7 +50,7 @@
         },
         {
           "key": "Special Features",
-          "value": "Uniform compression"
+          "value": "Uniform compression and pull-on application"
         },
         {
           "key": "Material",
@@ -86,67 +86,6 @@
     },
     {
       "sku": "IK-AA-02",
-      "sizes": "S, M, L, XL",
-      "name": "Anklet With Binder",
-      "metaDescription": "Buy anklet with binder for adjustable ankle compression and stability. Figure-of-eight wrapping support available in S, M, L, and XL sizes.",
-      "shortDescription": "Buy the best anklet with binder for dependable ankle support, adjustable compression, and stability during sports, recovery, and daily activity.",
-      "description": "The Anklet With Binder combines a comfortable ankle sleeve with an adjustable binder to provide controlled compression and improved stability during movement. It is suitable for ankle sprains, ligament strain, weakness, sports activity, and rehabilitation support.\n\nIts figure-of-eight wrap pattern helps secure the ankle joint in a supportive position while allowing comfortable mobility. The adjustable binder lets the wearer customize compression and helps reduce unnecessary ankle movement during walking or activity.\n\nMade with strong, stretchable material, the anklet with binder is lightweight, durable, and easy to wear for home, clinic, sports, and daily use.",
-      "features": [
-        "Combined anklet with adjustable binder support",
-        "Figure-of-eight wrapping for improved ankle stability",
-        "Adjustable compression for a secure fit",
-        "Helps support natural ankle alignment",
-        "Stretchable and breathable material",
-        "Lightweight and durable construction",
-        "Suitable for sports, rehabilitation, and daily wear"
-      ],
-      "benefits": [
-        "Helps reduce ankle pain and discomfort",
-        "Supports weak or strained ankles",
-        "Helps manage swelling and fatigue Improves stability during walking and activity",
-        "Comfortable for prolonged daily wear",
-        "Easy to wear under shoes and socks",
-        "Durable for regular use"
-      ],
-      "recommendedUse": [
-        "Ankle sprains and strains",
-        "Ligament support and recovery",
-        "Sports and fitness activities",
-        "Post-injury rehabilitation",
-        "Daily ankle stabilization",
-        "Walking and movement support"
-      ],
-      "specifications": [
-        {
-          "key": "Product Type",
-          "value": "Anklet With Binder; figure-of-eight adjustable wrap; ankle joint support; stretchable elastic fabric; sizes S, M, L, XL"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "What is an anklet with binder used for?",
-          "a": "It provides adjustable ankle compression and stability during injury recovery, sports activities, and daily movement."
-        },
-        {
-          "q": "How does the binder help?",
-          "a": "The binder adds adjustable compression and a supportive figure-of-eight wrap around the ankle."
-        },
-        {
-          "q": "Can it be used during sports activities?",
-          "a": "Yes, it is suitable for sports, exercise, walking, and rehabilitation support."
-        },
-        {
-          "q": "Is it comfortable for daily wear?",
-          "a": "Yes, its lightweight and breathable construction is suitable for regular daily use."
-        },
-        {
-          "q": "What sizes are available?",
-          "a": "The anklet with binder is available in S, M, L, and XL sizes."
-        }
-      ]
-    },
-    {
-      "sku": "IK-AA-03",
       "sizes": "Universal",
       "name": "Ankle Binder",
       "metaTitle": "Ankle Binder | Figure of 8 Compression Support Brace | IKVION",
@@ -183,35 +122,27 @@
       ],
       "specifications": [
         {
-          "key": "Product Name",
-          "value": "Ankle Binder"
-        },
-        {
           "key": "Product Type",
-          "value": "Adjustable Ankle Binder"
+          "value": "Ankle binder"
         },
         {
           "key": "Design",
-          "value": "Figure of 8 Wrap Pattern"
+          "value": "Figure of 8 wrap pattern"
         },
         {
           "key": "Support Area",
-          "value": "Ankle Joint"
+          "value": "Ankle joint"
         },
         {
-          "key": "Compression",
-          "value": "Adjustable Compression"
+          "key": "Special Features",
+          "value": "Adjustable compression with hook-and-loop closure"
         },
         {
           "key": "Material",
-          "value": "High-Strength Stretchable Elastic"
+          "value": "High-strength stretchable elastic"
         },
         {
-          "key": "Closure",
-          "value": "Hook-and-Loop Fastener"
-        },
-        {
-          "key": "Available Size",
+          "key": "Sizes Available",
           "value": "Universal"
         }
       ],
@@ -238,15 +169,178 @@
         },
         {
           "q": "What size is available?",
-          "a": "The IKVION Ankle Binder is available in a Universal Size, designed to comfortably fit most adult users."
+          "a": "The IKVION Ankle Binder is available in a universal size, designed to comfortably fit most adult users."
+        }
+      ]
+    },
+    {
+      "sku": "IK-AA-03",
+      "sizes": "S, M, L, XL",
+      "name": "Anklet With Binder",
+      "metaDescription": "Buy anklet with binder for adjustable ankle compression and stability. Figure-of-eight wrapping support available in S, M, L, and XL sizes.",
+      "shortDescription": "Buy the best anklet with binder for dependable ankle support, adjustable compression, and stability during sports, recovery, and daily activity.",
+      "description": "The Anklet With Binder combines a comfortable ankle sleeve with an adjustable binder to provide controlled compression and improved stability during movement. It is suitable for ankle sprains, ligament strain, weakness, sports activity, and rehabilitation support.\n\nIts figure-of-eight wrap pattern helps secure the ankle joint in a supportive position while allowing comfortable mobility. The adjustable binder lets the wearer customize compression and helps reduce unnecessary ankle movement during walking or activity.\n\nMade with strong, stretchable material, the anklet with binder is lightweight, durable, and easy to wear for home, clinic, sports, and daily use.",
+      "features": [
+        "Combined anklet with adjustable binder support",
+        "Figure-of-eight wrapping for improved ankle stability",
+        "Adjustable compression for a secure fit",
+        "Helps support natural ankle alignment",
+        "Stretchable and breathable material",
+        "Lightweight and durable construction",
+        "Suitable for sports, rehabilitation, and daily wear"
+      ],
+      "benefits": [
+        "Helps reduce ankle pain and discomfort",
+        "Supports weak or strained ankles",
+        "Helps manage swelling and fatigue",
+        "Improves stability during walking and activity",
+        "Comfortable for prolonged daily wear",
+        "Easy to wear under shoes and socks",
+        "Durable for regular use"
+      ],
+      "recommendedUse": [
+        "Ankle sprains and strains",
+        "Ligament support and recovery",
+        "Sports and fitness activities",
+        "Post-injury rehabilitation",
+        "Daily ankle stabilization",
+        "Walking and movement support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Anklet with binder"
+        },
+        {
+          "key": "Design",
+          "value": "Ankle sleeve with figure-of-eight binder"
+        },
+        {
+          "key": "Support Area",
+          "value": "Ankle joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Adjustable wrap compression for added stability"
+        },
+        {
+          "key": "Material",
+          "value": "Stretchable elastic fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an anklet with binder used for?",
+          "a": "It provides adjustable ankle compression and stability during injury recovery, sports activities, and daily movement."
+        },
+        {
+          "q": "How does the binder help?",
+          "a": "The binder adds adjustable compression and a supportive figure-of-eight wrap around the ankle."
+        },
+        {
+          "q": "Can it be used during sports activities?",
+          "a": "Yes, it is suitable for sports, exercise, walking, and rehabilitation support."
+        },
+        {
+          "q": "Is it comfortable for daily wear?",
+          "a": "Yes, its lightweight and breathable construction is suitable for regular daily use."
+        },
+        {
+          "q": "What sizes are available?",
+          "a": "The anklet with binder is available in S, M, L, and XL sizes."
         }
       ]
     },
     {
       "sku": "IK-AA-04",
-      "sizes": "S, M, L",
+      "sizes": "Universal",
+      "name": "Ankle Brace",
+      "metaTitle": "Ankle Brace | Semi-Rigid Ankle Immobilization Brace | IKVION",
+      "metaDescription": "Buy ankle brace for firm stabilization and controlled ankle support. Comfortable adjustable design in universal size for recovery and rehabilitation.",
+      "shortDescription": "Buy the best ankle brace for firm stabilization, controlled support, and improved confidence during injury recovery, rehabilitation, and daily movement.",
+      "description": "The Ankle Brace is designed to provide effective ankle stabilization, controlled compression, and enhanced support during movement and recovery. It is suitable for ankle sprains, ligament strain, sports injuries, weakness, and rehabilitation care.\n\nIts supportive wrap design helps secure the ankle joint, reduce unnecessary movement, and improve confidence during walking, exercise, or daily activities. Adjustable fastening allows a secure fit and customized support according to individual comfort needs.\n\nMade from stretchable and durable fabric, the brace is lightweight, breathable, and easy to wear for sports, rehabilitation, clinical support, and everyday ankle care.",
+      "features": [
+        "Provides firm ankle stabilization and support",
+        "Adjustable wrap design for a customized fit",
+        "Helps control unwanted ankle movement",
+        "Supports sprains, ligament strain, and weakness",
+        "Lightweight and breathable construction",
+        "Easy to wear during recovery and daily activity"
+      ],
+      "benefits": [
+        "Helps reduce ankle pain and discomfort",
+        "Improves confidence during walking and movement",
+        "Supports safer rehabilitation and recovery",
+        "Provides controlled compression around the ankle",
+        "Comfortable for regular daily use",
+        "Suitable for sports and orthopedic support"
+      ],
+      "recommendedUse": [
+        "Ankle sprains and strains",
+        "Ligament injury support",
+        "Sports injury recovery",
+        "Post-injury rehabilitation",
+        "Daily ankle stabilization",
+        "Walking and movement support"
+      ],
+      "specifications": [
+        {
+          "key": "Product Type",
+          "value": "Ankle brace"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable semi-rigid ankle support"
+        },
+        {
+          "key": "Support Area",
+          "value": "Ankle joint"
+        },
+        {
+          "key": "Special Features",
+          "value": "Controlled compression and adjustable immobilization"
+        },
+        {
+          "key": "Material",
+          "value": "Stretchable durable fabric with reinforced support"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is an ankle brace used for?",
+          "a": "An ankle brace supports and stabilizes weak, strained, or injured ankles during recovery, rehabilitation, sports, and daily movement."
+        },
+        {
+          "q": "Is the ankle brace adjustable?",
+          "a": "Yes, the adjustable fastening allows users to customize the fit and support level."
+        },
+        {
+          "q": "Can it be used for ankle sprains?",
+          "a": "Yes, it is suitable for ankle sprains, ligament strain, weakness, and post-injury rehabilitation."
+        },
+        {
+          "q": "Is it comfortable for daily use?",
+          "a": "Yes, the lightweight and breathable construction is designed for comfortable regular wear."
+        },
+        {
+          "q": "What size is available?",
+          "a": "The ankle brace is available in universal size."
+        }
+      ]
+    },
+    {
+      "sku": "IK-AA-05",
+      "sizes": "Universal, Spl., Child",
       "name": "Foot Drop Splint",
-      "metaDescription": "Buy foot drop splint for ankle stabilization and foot support. Comfortable lightweight design for injury recovery and rehabilitation. Available in S, M, and L.",
+      "metaDescription": "Buy foot drop splint for ankle stabilization and foot support. Comfortable lightweight design for injury recovery and rehabilitation in universal, special, and child sizes.",
       "shortDescription": "Buy the best foot drop splint for effective ankle stabilization, foot positioning, and rehabilitation support. Ideal for foot drop management and recovery care.",
       "description": "The Foot Drop Splint is designed to provide effective foot positioning, ankle stabilization, and improved walking support for individuals experiencing foot drop, ankle weakness, nerve-related conditions, or rehabilitation needs. It helps maintain proper foot alignment while supporting safer and more confident movement.\n\nManufactured using optimum quality materials, the splint offers durability, reliable support, and long-lasting performance for regular use. Its lightweight and ergonomic construction provides comfort during daily activities and rehabilitation programs.\n\nThe splint supports the ankle and foot in an optimal functional position, helping reduce unwanted foot dragging and improve mobility during walking. It is suitable for rehabilitation centers, hospitals, clinics, and home care use.",
       "features": [
@@ -278,7 +372,27 @@
       "specifications": [
         {
           "key": "Product Type",
-          "value": "Foot Drop Splint; foot and ankle stabilization; lightweight supportive materials; rehabilitation and daily mobility support; sizes S, M, L"
+          "value": "Foot drop splint"
+        },
+        {
+          "key": "Design",
+          "value": "Foot and ankle positioning splint"
+        },
+        {
+          "key": "Support Area",
+          "value": "Foot and ankle"
+        },
+        {
+          "key": "Special Features",
+          "value": "Helps maintain proper foot alignment during walking"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight supportive materials"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal, Spl., Child"
         }
       ],
       "faqs": [
@@ -299,13 +413,13 @@
           "a": "Yes, it helps reduce foot dragging and supports safer, more confident walking."
         },
         {
-          "q": "What size is available?",
-          "a": "The foot drop splint is available in S, M, and L sizes."
+          "q": "What sizes are available?",
+          "a": "The foot drop splint is available in universal, special, and child sizes."
         }
       ]
     },
     {
-      "sku": "IK-AA-05",
+      "sku": "IK-AA-06",
       "sizes": "S, M, L, XL",
       "name": "Cast Shoes",
       "metaDescription": "Buy cast shoes for comfortable walking support and protection over casts or bandages. Lightweight, durable, and adjustable design for recovery care.",
@@ -335,16 +449,33 @@
         "Post-surgical recovery support",
         "Bandaged foot care",
         "Walking assistance during recovery",
-        "Orthopedic and clinical care use Injury rehabilitation support"
+        "Orthopedic and clinical care use",
+        "Injury rehabilitation support"
       ],
       "specifications": [
         {
-          "key": "Specificatio",
-          "value": "n Product Type Design"
+          "key": "Product Type",
+          "value": "Cast shoes"
         },
         {
-          "key": "Cast Shoes",
-          "value": "Open protective recovery shoe Support Area Sole Type Material Closure Type Foot and ankle Durable anti-slip support sole Lightweight and durable fabric Adjustable fastening straps Application  Cast and bandage protection"
+          "key": "Design",
+          "value": "Open protective recovery shoe"
+        },
+        {
+          "key": "Support Area",
+          "value": "Foot and ankle"
+        },
+        {
+          "key": "Special Features",
+          "value": "Adjustable straps and durable anti-slip support sole"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight and durable fabric"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "S, M, L, XL"
         }
       ],
       "faqs": [
@@ -371,12 +502,12 @@
       ]
     },
     {
-      "sku": "IK-AA-06",
+      "sku": "IK-AA-07",
       "sizes": "Universal",
-      "name": "Derotation Brace",
-      "metaDescription": "Buy DRB derotation brace for controlled leg alignment and rotational support. Comfortable adjustable orthopedic support in universal size.",
+      "name": "DRB",
+      "metaDescription": "Buy DRB for controlled leg alignment and rotational support. Comfortable adjustable orthopedic support in universal size for rehabilitation care.",
       "shortDescription": "Buy the best DRB for effective rotational control, leg alignment, and rehabilitation support during orthopedic recovery and post-injury care.",
-      "description": "The DRB (Derotation Brace) is designed to provide controlled rotational support, proper leg alignment, and enhanced stabilization during orthopedic rehabilitation and recovery care. It is commonly used to help manage abnormal leg rotation, post-operative positioning, and rehabilitation following lower-limb injuries or corrective procedures.\n\nIts functional support design helps maintain proper limb positioning while assisting controlled movement during therapy. The brace helps reduce unwanted rotational movement, providing dependable support throughout recovery.\n\nMade from lightweight and durable materials, the DRB offers comfortable support for prolonged wear. Its adjustable strap system allows secure fitting and customized support. The universal size is suitable for hospitals, clinics, rehabilitation centers, and home care environments.",
+      "description": "The DRB is designed to provide controlled rotational support, proper leg alignment, and enhanced stabilization during orthopedic rehabilitation and recovery care. It is commonly used to help manage abnormal leg rotation, post-operative positioning, and rehabilitation following lower-limb injuries or corrective procedures.\n\nIts functional support design helps maintain proper limb positioning while assisting controlled movement during therapy. The brace helps reduce unwanted rotational movement, providing dependable support throughout recovery.\n\nMade from lightweight and durable materials, the DRB offers comfortable support for prolonged wear. Its adjustable strap system allows secure fitting and customized support. The universal size is suitable for hospitals, clinics, rehabilitation centers, and home care environments.",
       "features": [
         "Provides controlled rotational support and stabilization",
         "Helps maintain proper leg alignment",
@@ -393,7 +524,8 @@
         "Assists in controlled movement during rehabilitation",
         "Comfortable for prolonged daily wear",
         "Easy to apply and adjust",
-        "Durable for regular support use Improves stability and walking confidence"
+        "Durable for regular support use",
+        "Improves stability and walking confidence"
       ],
       "recommendedUse": [
         "Orthopedic rehabilitation care",
@@ -406,13 +538,33 @@
       "specifications": [
         {
           "key": "Product Type",
-          "value": "DRB (Derotation Brace); rotational control support; lower-limb alignment; adjustable stabilization; universal size"
+          "value": "DRB"
+        },
+        {
+          "key": "Design",
+          "value": "Adjustable derotation support brace"
+        },
+        {
+          "key": "Support Area",
+          "value": "Lower limb and ankle"
+        },
+        {
+          "key": "Special Features",
+          "value": "Rotational control and lower-limb alignment support"
+        },
+        {
+          "key": "Material",
+          "value": "Lightweight durable orthopedic materials"
+        },
+        {
+          "key": "Sizes Available",
+          "value": "Universal"
         }
       ],
       "faqs": [
         {
           "q": "What is a DRB used for?",
-          "a": "A DRB, or derotation brace, helps control rotational movement, maintain proper leg alignment, and support orthopedic rehabilitation."
+          "a": "A DRB helps control rotational movement, maintain proper leg alignment, and support orthopedic rehabilitation."
         },
         {
           "q": "Does it help improve limb positioning?",
@@ -428,7 +580,7 @@
         },
         {
           "q": "What size is available?",
-          "a": "The DRB is available in Universal size."
+          "a": "The DRB is available in universal size."
         }
       ]
     }
